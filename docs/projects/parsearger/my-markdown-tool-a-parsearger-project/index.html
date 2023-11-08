@@ -1,0 +1,613 @@
+<!doctype html><html lang=en-us><head><title>My markdown tool, a parsearger project // DBuild</title><link rel="shortcut icon" href=/favicon.ico><meta charset=utf-8><meta name=generator content="Hugo 0.111.3"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="D"><meta name=description content><link rel=stylesheet href=/css/main.min.4fc7bc0f39e3483acdb9be996c098e2b83543b04c3a507c149deb042deb18350.css><meta name=twitter:card content="summary"><meta name=twitter:title content="My markdown tool, a parsearger project"><meta name=twitter:description content="Let&rsquo;s create a project together ! I&rsquo;m one of those learn by doing guys (mostly), I&rsquo;m assuming your kind of are too, so let&rsquo;s build something together.
+A bit of context and basic requirements For this blog, I&rsquo;m using hugo as a static site generator, and I&rsquo;m writing my articles in markdown. hugo new does the job, but I want something a bit different, with a folder that contains everything I need for the article (asset, code, etc&mldr;)."><meta property="og:title" content="My markdown tool, a parsearger project"><meta property="og:description" content="Let&rsquo;s create a project together ! I&rsquo;m one of those learn by doing guys (mostly), I&rsquo;m assuming your kind of are too, so let&rsquo;s build something together.
+A bit of context and basic requirements For this blog, I&rsquo;m using hugo as a static site generator, and I&rsquo;m writing my articles in markdown. hugo new does the job, but I want something a bit different, with a folder that contains everything I need for the article (asset, code, etc&mldr;)."><meta property="og:type" content="article"><meta property="og:url" content="https://dbuild.io/projects/parsearger/my-markdown-tool-a-parsearger-project/"><meta property="article:section" content="Projects"><meta property="article:published_time" content="2023-10-27T00:00:00+02:00"><meta property="article:modified_time" content="2023-10-27T00:00:00+02:00"></head><body><header class=app-header><a href=https://dbuild.io/><img class=app-header-avatar src=/logo.png alt=D></a>
+<a href=https://dbuild.io/ class=app-header-title>DBuild</a><p>I am D, I build things</p><nav class=app-header-menu><div><a class=app-header-menu-item href=/projects/>Projects</a></div>-<div><a class=app-header-menu-item href=/tags/tutorial>Tutorials</a></div>-<div><a class=app-header-menu-item href=/tags/devlog>DeVlog</a></div>-<div><a class=app-header-menu-item href=/black-hole>Black Hole</a></div></nav></header><main class=app-container><article class=post><header class=post-header><h1 class=post-title>My markdown tool, a parsearger project</h1><div class=post-meta><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Oct 27, 2023</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock"><title>clock</title><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>14 min read</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg><a class=tag href=https://dbuild.io/tags/bash/>bash</a>
+<a class=tag href=https://dbuild.io/tags/terminal/>terminal</a>
+<a class=tag href=https://dbuild.io/tags/scripting/>scripting</a>
+<a class=tag href=https://dbuild.io/tags/parsearger/>parsearger</a>
+<a class=tag href=https://dbuild.io/tags/tutorial/>tutorial</a>
+<a class=tag href=https://dbuild.io/tags/devlog/>devlog</a></div></div></header><div class=post-content><div class=post-cnt><h2 id=lets-create-a-project-together->Let&rsquo;s create a project together !</h2><p>I&rsquo;m one of those <code>learn by doing</code> guys (mostly), I&rsquo;m assuming your kind of are too, so let&rsquo;s build something together.</p><h3 id=a-bit-of-context-and-basic-requirements>A bit of context and basic requirements</h3><p>For this blog, I&rsquo;m using <a href=https://gohugo.io>hugo</a> as a static site generator, and I&rsquo;m writing my articles in markdown.
+<code>hugo new</code> does the job, but I want something a bit different, with a folder that contains everything I need for the article (asset, code, etc&mldr;).
+I would like my new post to be prefilled as much as possible so the tool should be able to set any meta.
+Also, I tend to craft my article squeletton before writting (#trauma #school XD), so I should at least be able to add main headings from the CLI.
+Because I do not know where this is goping, I won&rsquo;t just <code>generate</code> a script, I am going to start a new <code>project</code> so I can add more stuff later on.</p><h2 id=leeeeeets-goooooo->Leeeeeet&rsquo;s goooooo !</h2><h3 id=generate-the-project>Generate the project</h3><p>We are using the <code>project</code> command, more information can be found in the <a href>previous article</a> if you need help.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># create a new project called mdd (MarkDown for Didi. Much creativity, such accronym, #wow)</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># one subcommand &#39;article&#39; for now.</span>
+</span></span><span style=display:flex><span>parseArger project mdd <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --description <span style=color:#e6db74>&#34;markdown tools for my blog&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --git-repo <span style=color:#e6db74>&#34;DimitriGilbert/mdd&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --project-subcommand article
+</span></span></code></pre></div><p>This command will create a new folder <code>mdd</code> with the following structure:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>|_ mdd
+</span></span><span style=display:flex><span>|_ documentation.md
+</span></span><span style=display:flex><span>|_ form.html
+</span></span><span style=display:flex><span>|_ Makefile
+</span></span><span style=display:flex><span>|_ readme.md
+</span></span><span style=display:flex><span>|_ bin
+</span></span><span style=display:flex><span>  |_ article
+</span></span><span style=display:flex><span>|_ utils
+</span></span><span style=display:flex><span>  |_ get_mdd
+</span></span><span style=display:flex><span>  |_ install
+</span></span><span style=display:flex><span>  |_ webserver 
+</span></span></code></pre></div><p>Our entry point <code>mdd</code> should handle the command routing on its own, no work needed so we go along to <code>article</code>.</p><h3 id=parse-the-article-command>Parse the article command</h3><p>After some careful thoughts, I have refined my requirements which are now the following:</p><ul><li>create a new folder with the article name<ul><li>if $(pwd) contains a <code>content</code> folder, create the article in it</li><li>article can have hierarchical categories. (if more than one, the previous is the parent)<ul><li>categories make the path to the article</li></ul></li></ul></li><li>create index.md from template you can specify</li><li>tags, series, title, draft (on), date (now), summary metas handled by CLI<ul><li>add any other meta you want</li></ul></li><li>add headings<ul><li>headings level can be specified</li></ul></li></ul><p>From all that, we know that we&rsquo;ll need the folowing :</p><ul><li>arguments :<ul><li>title (the only thing mandatory, so it&rsquo;s an argument)</li></ul></li><li>options :<ul><li>categories (repeatable)</li><li>folder name (not strictly necessary, but i can forsee a need soooo&mldr;)</li><li>tags (repeatable)</li><li>series (repeatable)</li><li>date</li><li>summary</li><li>template</li><li>headings (repeatable)</li><li>headings level (default 2)</li></ul></li><li>flags :<ul><li>draft (on by default)</li></ul></li><li>nested options :<ul><li>meta<ul><li>due to bash limitation, no repeatable nested options, so only the last value for a key will be kept</li></ul></li></ul></li></ul><p>With that in mind, let&rsquo;s build our <code>parse</code> command to update our <code>bin/article</code> file. Don&rsquo;t forget to remove comment before executing, they don&rsquo;t play well with backslashes ^^.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># parse the bin/article file</span>
+</span></span><span style=display:flex><span>parseArger parse bin/article <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the title argument, nothing special here</span>
+</span></span><span style=display:flex><span>  --pos <span style=color:#e6db74>&#39;title &#34;article title&#34;&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the folder name option, using title if none provided. I also declare aliases for this option, namely &#39;dir&#39; and &#39;directory&#39;</span>
+</span></span><span style=display:flex><span>  --opt <span style=color:#e6db74>&#39;folder &#34;article folder name&#34; --alias directory --alias dir&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the categories option, repeatable, with aliases &#39;cat&#39; and &#39;parent&#39;, a short version of the option is given, namely &#39;c&#39;</span>
+</span></span><span style=display:flex><span>  --opt <span style=color:#e6db74>&#39;categories &#34;article parent categories&#34; --short c --alias cat --alias parent --repeat&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the tags option, repeatable, with alias &#39;tag&#39; and short option &#39;t&#39;</span>
+</span></span><span style=display:flex><span>  --opt <span style=color:#e6db74>&#39;tags &#34;article tags&#34; --repeat --short t --alias tag&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the series option, with alias &#39;group&#39; and short option &#39;g&#39;</span>
+</span></span><span style=display:flex><span>  --opt <span style=color:#e6db74>&#39;series &#34;article belongs to this series&#34; --alias group --short g&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the date option with short option &#39;d&#39; and aliases &#39;publication&#39;, &#39;publish-at&#39;</span>
+</span></span><span style=display:flex><span>  --opt <span style=color:#e6db74>&#39;date &#34;publication date meta&#34; --alias publication --alias publish-at --short d&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the summary option with short option &#39;s&#39; and aliases &#39;description&#39;, &#39;desc&#39;</span>
+</span></span><span style=display:flex><span>  --opt <span style=color:#e6db74>&#39;summary &#34;summary meta&#34; --short s --alias description --alias desc&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the template option with short option &#39;tpl&#39; and alias &#39;template&#39;</span>
+</span></span><span style=display:flex><span>  --opt <span style=color:#e6db74>&#39;template &#34;template file to use&#34; --alias tpl&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the headings option, repeatable, with short option &#39;h&#39; and aliases &#39;part&#39;, &#39;h2&#39;</span>
+</span></span><span style=display:flex><span>  --opt <span style=color:#e6db74>&#39;headings &#34;add headings to your file&#34; --repeat --alias part --alias h2&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the headings level option with short option &#39;hl&#39; and alias &#39;headings-level&#39;</span>
+</span></span><span style=display:flex><span>  --opt <span style=color:#e6db74>&#39;headings-level &#34;heading level&#34; --default-value 2 --alias hl&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the draft flag on by default and with a no-alias as publish </span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>#   meaning if you want it off, you can either use --no-draft or --publish</span>
+</span></span><span style=display:flex><span>  --flag <span style=color:#e6db74>&#39;draft &#34;is it a draft&#34; --on --no-alias publish&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># add the meta nested option</span>
+</span></span><span style=display:flex><span>  --nested-options <span style=color:#e6db74>&#39;meta &#34;add any meta you want&#34;&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># parse in place, -i is the short option</span>
+</span></span><span style=display:flex><span>  --in-place
+</span></span></code></pre></div><p>This will give us the following <code>bin/article</code> file :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/bash
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#75715e># @parseArger-begin</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger-help &#34;mdd article command&#34; --option &#34;help&#34; --short-option &#34;h&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger-verbose --option &#34;verbose&#34; --level &#34;0&#34; --quiet-option &#34;quiet&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger-declarations</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger pos title &#34;article title&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger opt folder &#34;article folder name&#34; --alias directory --alias dir</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger opt categories &#34;article parent categories&#34; --short c --repeat --alias cat --alias parent</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger opt tags &#34;article tags&#34; --short t --repeat --alias tag</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger opt series &#34;article belongs to this series&#34; --short g --alias group</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger opt date &#34;publication date meta&#34; --short d --alias publication --alias publish-at</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger opt summary &#34;summary meta&#34; --short s --alias description --alias desc</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger opt template &#34;template file to use&#34; --alias tpl</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger opt headings &#34;add headings to your file&#34; --repeat --alias part --alias h2</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger opt headings-level &#34;heading level&#34; --default-value &#34;2&#34; --alias hl</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger flag draft &#34;is it a draft&#34; --on --no-alias publish</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger nested meta &#34;add any meta you want&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger-declarations-end</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger-utils</span>
+</span></span><span style=display:flex><span>_helpHasBeenPrinted<span style=color:#f92672>=</span>1;
+</span></span><span style=display:flex><span>_SCRIPT_DIR<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#66d9ef>$(</span>cd <span style=color:#e6db74>&#34;</span><span style=color:#66d9ef>$(</span>dirname <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>BASH_SOURCE[0]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#66d9ef>)</span><span style=color:#e6db74>&#34;</span> <span style=color:#f92672>&amp;&amp;</span> pwd -P<span style=color:#66d9ef>)</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger-utils-end</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger-parsing</span>
+</span></span><span style=display:flex><span>die<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>	local _ret<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>2<span style=color:#66d9ef>:-</span>1<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>	test <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_PRINT_HELP<span style=color:#66d9ef>:-</span>no<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> <span style=color:#f92672>=</span> yes <span style=color:#f92672>&amp;&amp;</span> print_help &gt;&amp;<span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span> -3 &gt;&amp;<span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>	exit <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_ret<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>begins_with_short_option<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>	local first_option all_short_options<span style=color:#f92672>=</span><span style=color:#e6db74>&#39;&#39;</span>
+</span></span><span style=display:flex><span>	first_option<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>1:0:1<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>	test <span style=color:#e6db74>&#34;</span>$all_short_options<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>all_short_options/$first_option/<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>1</span> <span style=color:#f92672>||</span> <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># POSITIONALS ARGUMENTS</span>
+</span></span><span style=display:flex><span>_positionals<span style=color:#f92672>=()</span>;
+</span></span><span style=display:flex><span>_optional_positionals<span style=color:#f92672>=()</span>;
+</span></span><span style=display:flex><span>_arg_title<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#75715e># OPTIONALS ARGUMENTS</span>
+</span></span><span style=display:flex><span>_arg_folder<span style=color:#f92672>=</span>
+</span></span><span style=display:flex><span>_arg_categories<span style=color:#f92672>=()</span>
+</span></span><span style=display:flex><span>_arg_tags<span style=color:#f92672>=()</span>
+</span></span><span style=display:flex><span>_arg_series<span style=color:#f92672>=</span>
+</span></span><span style=display:flex><span>_arg_date<span style=color:#f92672>=</span>
+</span></span><span style=display:flex><span>_arg_summary<span style=color:#f92672>=</span>
+</span></span><span style=display:flex><span>_arg_template<span style=color:#f92672>=</span>
+</span></span><span style=display:flex><span>_arg_headings<span style=color:#f92672>=()</span>
+</span></span><span style=display:flex><span>_arg_headings_level<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;2&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># FLAGS</span>
+</span></span><span style=display:flex><span>_arg_draft<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;on&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># NESTED</span>
+</span></span><span style=display:flex><span>_arg_meta<span style=color:#f92672>=</span>
+</span></span><span style=display:flex><span>declare -A _arg_ns_meta;
+</span></span><span style=display:flex><span>_verbose_level<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0&#34;</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>print_help<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>	_triggerSCHelp<span style=color:#f92672>=</span>1;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> <span style=color:#e6db74>&#34;</span>$_helpHasBeenPrinted<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;1&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>		_helpHasBeenPrinted<span style=color:#f92672>=</span>0;
+</span></span><span style=display:flex><span>		echo -e <span style=color:#e6db74>&#34;mdd article command:&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	title: article title&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	--folder|--directory|--dir &lt;folder&gt;: article folder name&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	-c, --categories|--cat|--parent &lt;categories&gt;: article parent categories, repeatable&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	-t, --tags|--tag &lt;tags&gt;: article tags, repeatable&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	-g, --series|--group &lt;series&gt;: article belongs to this series&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	-d, --date|--publication|--publish-at &lt;date&gt;: publication date meta&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	-s, --summary|--description|--desc &lt;summary&gt;: summary meta&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	--template|--tpl &lt;template&gt;: template file to use&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	--headings|--part|--h2 &lt;headings&gt;: add headings to your file, repeatable&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	--headings-level|--hl &lt;headings-level&gt;: heading level [default: &#39; 2 &#39;]&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	--draft|--no-draft: is it a draft, on by default (use --no-draft to turn it off)
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>		no-aliases: --publish,&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	--meta[-&lt;key&gt;] &lt;meta-key-value&gt;: nested, add any meta you want&#34;</span>
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;Usage :
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>	</span>$0<span style=color:#e6db74> &lt;title&gt; [--folder &lt;value&gt;] [--categories &lt;value&gt;] [--tags &lt;value&gt;] [--series &lt;value&gt;] [--date &lt;value&gt;] [--summary &lt;value&gt;] [--template &lt;value&gt;] [--headings &lt;value&gt;] [--headings-level &lt;value&gt;] [--[no-]draft] [--[no-]meta]&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>log<span style=color:#f92672>()</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>	local _arg_msg<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>1<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	local _arg_level<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>2<span style=color:#66d9ef>:-</span><span style=color:#e6db74>&#34;0&#34;</span><span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_arg_level<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> -le <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_verbose_level<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;</span>$_arg_level<span style=color:#e6db74>&#34;</span> in
+</span></span><span style=display:flex><span>			-3<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_COLOR<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;\033[0;31m&#34;</span>;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			-2<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_COLOR<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;\033[0;33m&#34;</span>;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			-1<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_COLOR<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;\033[1;33m&#34;</span>;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			1<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_COLOR<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;\033[0;32m&#34;</span>;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			2<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_COLOR<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;\033[1;36m&#34;</span>;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			3<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_COLOR<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;\033[0;36m&#34;</span>;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_COLOR<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;\033[0m&#34;</span>;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>esac</span>
+</span></span><span style=display:flex><span>		echo -e <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_arg_COLOR<span style=color:#e6db74>}${</span>_arg_msg<span style=color:#e6db74>}</span><span style=color:#e6db74>\033[0m&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>parse_commandline<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>	_positionals_count<span style=color:#f92672>=</span><span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>while</span> test $# -gt <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>do</span>
+</span></span><span style=display:flex><span>		_key<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;</span>$_key<span style=color:#e6db74>&#34;</span> in
+</span></span><span style=display:flex><span>			--dir|--directory|--folder<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>&#39;&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>				_arg_folder<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				shift
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--folder<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_folder<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--folder=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--directory<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_folder<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--directory=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--dir<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_folder<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--dir=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			
+</span></span><span style=display:flex><span>			-c|--parent|--cat|--categories<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>&#39;&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>				_arg_categories<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				shift
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--categories<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_categories<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--categories=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--cat<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_categories<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--cat=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--parent<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_categories<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--parent=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			-c*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_categories<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##-c<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			
+</span></span><span style=display:flex><span>			-t|--tag|--tags<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>&#39;&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>				_arg_tags<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				shift
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--tags<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_tags<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--tags=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--tag<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_tags<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--tag=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			-t*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_tags<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##-t<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			
+</span></span><span style=display:flex><span>			-g|--group|--series<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>&#39;&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>				_arg_series<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				shift
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--series<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_series<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--series=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--group<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_series<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--group=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			-g*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_series<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##-g<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			
+</span></span><span style=display:flex><span>			-d|--publish-at|--publication|--date<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>&#39;&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>				_arg_date<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				shift
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--date<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_date<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--date=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--publication<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_date<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--publication=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--publish-at<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_date<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--publish-at=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			-d*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_date<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##-d<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			
+</span></span><span style=display:flex><span>			-s|--desc|--description|--summary<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>&#39;&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>				_arg_summary<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				shift
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--summary<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_summary<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--summary=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--description<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_summary<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--description=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--desc<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_summary<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--desc=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			-s*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_summary<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##-s<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			
+</span></span><span style=display:flex><span>			--tpl|--template<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>&#39;&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>				_arg_template<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				shift
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--template<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_template<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--template=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--tpl<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_template<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--tpl=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			
+</span></span><span style=display:flex><span>			--h2|--part|--headings<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>&#39;&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>				_arg_headings<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				shift
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--headings<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_headings<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--headings=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--part<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_headings<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--part=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--h2<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_headings<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--h2=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			
+</span></span><span style=display:flex><span>			--hl|--headings-level<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>&#39;&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>				_arg_headings_level<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				shift
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--headings-level<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_headings_level<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--headings-level=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--hl<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_headings_level<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--hl=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			
+</span></span><span style=display:flex><span>			--draft<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_draft<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;on&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--no-draft|--publish<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_draft<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;off&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--meta<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>&#39;&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>				_arg_meta<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				shift
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--meta<span style=color:#f92672>=</span>*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_arg_meta<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--meta=<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--meta-*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_ns_key<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_key##--meta-<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>				test $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> die <span style=color:#e6db74>&#34;Missing value for the option: &#39;</span>$_key<span style=color:#e6db74>-</span>$_ns_key<span style=color:#e6db74>&#39;&#34;</span> 1;
+</span></span><span style=display:flex><span>				_arg_ns_meta<span style=color:#f92672>[</span>$_ns_key<span style=color:#f92672>]=</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>				shift;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			
+</span></span><span style=display:flex><span>			-h|--help<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				print_help;
+</span></span><span style=display:flex><span>				exit 0;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			-h*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				print_help;
+</span></span><span style=display:flex><span>				exit 0;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			-v|--version<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				print_version;
+</span></span><span style=display:flex><span>				exit 0;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			-v*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				print_version;
+</span></span><span style=display:flex><span>				exit 0;
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>			--verbose<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>					<span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>]</span>;<span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>						_verbose_level<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#66d9ef>$((</span>_verbose_level <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span><span style=color:#66d9ef>))</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>					<span style=color:#66d9ef>else</span>
+</span></span><span style=display:flex><span>						_verbose_level<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$2<span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>						shift;
+</span></span><span style=display:flex><span>					<span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>					;;
+</span></span><span style=display:flex><span>				--quiet<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>					<span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> $# -lt <span style=color:#ae81ff>2</span> <span style=color:#f92672>]</span>;<span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>						_verbose_level<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#66d9ef>$((</span>_verbose_level <span style=color:#f92672>-</span> <span style=color:#ae81ff>1</span><span style=color:#66d9ef>))</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>					<span style=color:#66d9ef>else</span>
+</span></span><span style=display:flex><span>						_verbose_level<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;-</span>$2<span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>						shift;
+</span></span><span style=display:flex><span>					<span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>					;;
+</span></span><span style=display:flex><span>				
+</span></span><span style=display:flex><span>				*<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_last_positional<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>				_positionals<span style=color:#f92672>+=(</span><span style=color:#e6db74>&#34;</span>$_last_positional<span style=color:#e6db74>&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>				_positionals_count<span style=color:#f92672>=</span><span style=color:#66d9ef>$((</span>_positionals_count <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span><span style=color:#66d9ef>))</span>
+</span></span><span style=display:flex><span>				;;
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>esac</span>
+</span></span><span style=display:flex><span>		shift
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>done</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>handle_passed_args_count<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>	local _required_args_string<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;title&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_positionals_count<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> -gt <span style=color:#ae81ff>1</span> <span style=color:#f92672>]</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_helpHasBeenPrinted<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;1&#34;</span> <span style=color:#f92672>]</span>;<span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>		_PRINT_HELP<span style=color:#f92672>=</span>yes die <span style=color:#e6db74>&#34;FATAL ERROR: There were spurious positional arguments --- we expect at most 1 (namely: </span>$_required_args_string<span style=color:#e6db74>), but got </span><span style=color:#e6db74>${</span>_positionals_count<span style=color:#e6db74>}</span><span style=color:#e6db74> (the last one was: &#39;</span><span style=color:#e6db74>${</span>_last_positional<span style=color:#e6db74>}</span><span style=color:#e6db74>&#39;).\n\t</span><span style=color:#e6db74>${</span>_positionals[*]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_positionals_count<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> -lt <span style=color:#ae81ff>1</span> <span style=color:#f92672>]</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_helpHasBeenPrinted<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;1&#34;</span> <span style=color:#f92672>]</span>;<span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>		_PRINT_HELP<span style=color:#f92672>=</span>yes die <span style=color:#e6db74>&#34;FATAL ERROR: Not enough positional arguments - we require at least 1 (namely: </span>$_required_args_string<span style=color:#e6db74>), but got only </span><span style=color:#e6db74>${</span>_positionals_count<span style=color:#e6db74>}</span><span style=color:#e6db74>.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>	</span><span style=color:#e6db74>${</span>_positionals[*]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> 1;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>assign_positional_args<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>	local _positional_name _shift_for<span style=color:#f92672>=</span>$1;
+</span></span><span style=display:flex><span>	_positional_names<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;_arg_title &#34;</span>;
+</span></span><span style=display:flex><span>	shift <span style=color:#e6db74>&#34;</span>$_shift_for<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> _positional_name in <span style=color:#e6db74>${</span>_positional_names<span style=color:#e6db74>}</span>;<span style=color:#66d9ef>do</span>
+</span></span><span style=display:flex><span>		test $# -gt <span style=color:#ae81ff>0</span> <span style=color:#f92672>||</span> break;
+</span></span><span style=display:flex><span>		eval <span style=color:#e6db74>&#34;if [ \&#34;\$_one_of</span><span style=color:#e6db74>${</span>_positional_name<span style=color:#e6db74>}</span><span style=color:#e6db74>\&#34; != \&#34;\&#34; ];then [[ \&#34;\${_one_of</span><span style=color:#e6db74>${</span>_positional_name<span style=color:#e6db74>}</span><span style=color:#e6db74>[*]}\&#34; =~ \&#34;\${1}\&#34; ]];fi&#34;</span> <span style=color:#f92672>||</span> die <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_positional_name<span style=color:#e6db74>}</span><span style=color:#e6db74> must be one of: </span><span style=color:#66d9ef>$(</span>eval <span style=color:#e6db74>&#34;echo \&#34;\${_one_of</span><span style=color:#e6db74>${</span>_positional_name<span style=color:#e6db74>}</span><span style=color:#e6db74>[*]}\&#34;&#34;</span><span style=color:#66d9ef>)</span><span style=color:#e6db74>&#34;</span> 1;
+</span></span><span style=display:flex><span>		eval <span style=color:#e6db74>&#34;</span>$_positional_name<span style=color:#e6db74>=\${1}&#34;</span> <span style=color:#f92672>||</span> die <span style=color:#e6db74>&#34;Error during argument parsing, possibly an ParseArger bug.&#34;</span> 1;
+</span></span><span style=display:flex><span>		shift;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>done</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>print_debug<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>	print_help
+</span></span><span style=display:flex><span>	<span style=color:#75715e># shellcheck disable=SC2145</span>
+</span></span><span style=display:flex><span>	echo <span style=color:#e6db74>&#34;DEBUG: </span>$0<span style=color:#e6db74> </span>$@<span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	title: </span><span style=color:#e6db74>${</span>_arg_title<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	folder: </span><span style=color:#e6db74>${</span>_arg_folder<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	categories: </span><span style=color:#e6db74>${</span>_arg_categories[*]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	tags: </span><span style=color:#e6db74>${</span>_arg_tags[*]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	series: </span><span style=color:#e6db74>${</span>_arg_series<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	date: </span><span style=color:#e6db74>${</span>_arg_date<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	summary: </span><span style=color:#e6db74>${</span>_arg_summary<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	template: </span><span style=color:#e6db74>${</span>_arg_template<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	headings: </span><span style=color:#e6db74>${</span>_arg_headings[*]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	headings-level: </span><span style=color:#e6db74>${</span>_arg_headings_level<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	draft: </span><span style=color:#e6db74>${</span>_arg_draft<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	echo -e <span style=color:#e6db74>&#34;	meta: </span><span style=color:#e6db74>${</span>_arg_meta<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> _tmp_k_meta in <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>!_arg_ns_meta[@]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>; <span style=color:#66d9ef>do</span>
+</span></span><span style=display:flex><span>		echo -e <span style=color:#e6db74>&#34;	meta-</span>$_tmp_k_meta<span style=color:#e6db74>: </span><span style=color:#e6db74>${</span>_arg_ns_meta[$_tmp_k_meta]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>done</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>print_version<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>	echo <span style=color:#e6db74>&#34;&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>on_interrupt<span style=color:#f92672>()</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>	die Process aborted! 130;
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>parse_commandline <span style=color:#e6db74>&#34;</span>$@<span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>handle_passed_args_count;
+</span></span><span style=display:flex><span>assign_positional_args <span style=color:#ae81ff>1</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_positionals[@]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>trap on_interrupt INT;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger-parsing-end</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># print_debug &#34;$@&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># @parseArger-end</span>
+</span></span></code></pre></div><p>It&rsquo;s a whole bunch of code, but mercyfully you do not have to pay attention to it \o/ (I mean, you can if you want, but it&rsquo;s not necessary).</p><p>Instead we are going to focus on the code that is going to use those parsed arguments and stuff !</p><h3 id=the-real-code>The (real) code</h3><p>Well, let&rsquo;s start fullfilling our requirements !</p><h4 id=folder-stuff>Folder stuff</h4><p>I use the log function with a level of 4 for comments ;)</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># if nothing else, the title</span>
+</span></span><span style=display:flex><span>_container_dir<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$_arg_title<span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_arg_folder<span style=color:#e6db74>&#34;</span> !<span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;folder specified: </span>$_arg_folder<span style=color:#e6db74>&#34;</span> 4;
+</span></span><span style=display:flex><span>	_container_dir<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$_arg_folder<span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># there is categories at least 1</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${#</span>_arg_categories[@]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> -gt <span style=color:#ae81ff>0</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;categories specified:&#34;</span> 4;
+</span></span><span style=display:flex><span>	_cat_dir<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> _cat in <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_arg_categories[@]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>; <span style=color:#66d9ef>do</span>
+</span></span><span style=display:flex><span>		_cat_dir<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;</span>$_cat<span style=color:#e6db74>/&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>done</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;	categories path : </span>$_cat_dir<span style=color:#e6db74>&#34;</span> 4;
+</span></span><span style=display:flex><span>	_container_dir<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$_cat_dir$_container_dir<span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># hugo directory, it&#39;s a poor check , I don&#39;t care ^^</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> -d <span style=color:#e6db74>&#34;content&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;using content directory&#34;</span> 4;
+</span></span><span style=display:flex><span>	_container_dir<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;content/</span>$_container_dir<span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># create the directory if it does not exist</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> ! -d <span style=color:#e6db74>&#34;</span>$_container_dir<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;creating container directory: </span>$_container_dir<span style=color:#e6db74>&#34;</span> 2;
+</span></span><span style=display:flex><span>	mkdir -p <span style=color:#e6db74>&#34;</span>$_container_dir<span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span></code></pre></div><h4 id=meta-stuff>Meta stuff</h4><p>Here we&rsquo;ll handle all the metas so that we can put that to rest.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># start with the title, it&#39;s always here</span>
+</span></span><span style=display:flex><span>_metas_str<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;title: </span>$_arg_title<span style=color:#e6db74>\n&#34;</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_arg_date<span style=color:#e6db74>&#34;</span> !<span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;date specified: </span>$_arg_date<span style=color:#e6db74>&#34;</span> 4;
+</span></span><span style=display:flex><span>	_metas_str<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;date: </span>$_arg_date<span style=color:#e6db74>\n&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_arg_summary<span style=color:#e6db74>&#34;</span> !<span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;summary specified: </span>$_arg_summary<span style=color:#e6db74>&#34;</span> 4;
+</span></span><span style=display:flex><span>	_metas_str<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;summary: </span>$_arg_summary<span style=color:#e6db74>\n&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${#</span>_arg_tags[@]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> -gt <span style=color:#ae81ff>0</span>  <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${#</span>_arg_tags[@]<span style=color:#e6db74>}</span><span style=color:#e6db74> tags specified:&#34;</span> 4;
+</span></span><span style=display:flex><span>	_metas_str<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;tags: \n&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> _tg in <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_arg_tags[@]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>; <span style=color:#66d9ef>do</span>
+</span></span><span style=display:flex><span>		log <span style=color:#e6db74>&#34;\t</span>$_tg<span style=color:#e6db74>&#34;</span> 4;
+</span></span><span style=display:flex><span>		_metas_str<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;\t- </span>$_tg<span style=color:#e6db74>\n&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>done</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_arg_series<span style=color:#e6db74>&#34;</span> !<span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;series specified: </span>$_arg_series<span style=color:#e6db74>&#34;</span> 4;
+</span></span><span style=display:flex><span>	_metas_str<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;series: </span>$_arg_series<span style=color:#e6db74>\n&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_arg_draft<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;on&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;draft on&#34;</span> 4;
+</span></span><span style=display:flex><span>	_metas_str<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;draft: true\n&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${#</span>_arg_ns_meta[@]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> -gt <span style=color:#ae81ff>0</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;other metas specified:&#34;</span> 4;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> _tmp_k_meta in <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>!_arg_ns_meta[@]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>; <span style=color:#66d9ef>do</span>
+</span></span><span style=display:flex><span>		log <span style=color:#e6db74>&#34;\t</span>$_tmp_k_meta<span style=color:#e6db74>: </span><span style=color:#e6db74>${</span>_arg_ns_meta[$_tmp_k_meta]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> 4;
+</span></span><span style=display:flex><span>		_metas_str<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;</span>$_tmp_k_meta<span style=color:#e6db74>: </span><span style=color:#e6db74>${</span>_arg_ns_meta[$_tmp_k_meta]<span style=color:#e6db74>}</span><span style=color:#e6db74>\n&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>done</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span></code></pre></div><h4 id=creating-the-headings>Creating the headings</h4><p>My article squeletton straight from the CLI</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># empty content by default</span>
+</span></span><span style=display:flex><span>_content_str<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${#</span>_arg_headings[@]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> -gt <span style=color:#ae81ff>0</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	_hd_level_str<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> <span style=color:#f92672>((</span> i<span style=color:#f92672>=</span>0; i&lt;_arg_headings_level; i++ <span style=color:#f92672>))</span>; <span style=color:#66d9ef>do</span>
+</span></span><span style=display:flex><span>		_hd_level_str<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;#&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>done</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	log <span style=color:#e6db74>&#34;headings specified:&#34;</span> 4;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> _hd in <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_arg_headings[@]<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>; <span style=color:#66d9ef>do</span>
+</span></span><span style=display:flex><span>		log <span style=color:#e6db74>&#34;\t</span>$_hd<span style=color:#e6db74>&#34;</span> 4;
+</span></span><span style=display:flex><span>		_contents_str<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;\n</span>$_hd_level_str<span style=color:#e6db74> </span>$_hd<span style=color:#e6db74>\n\n\n&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>done</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span></code></pre></div><h4 id=creating-the-indexmd-file>Creating the index.md file</h4><p>Creating the file itself, but, damn, even after <em>careful thoughts</em> it looks like I&rsquo;m missing something&mldr;.</p><p>We&rsquo;ll have to come back to that later i guess&mldr;</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># dont erase stuff willy nilly, but, hum, looks like I&#39;m missing something here...</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> ! -f <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_container_dir<span style=color:#e6db74>}</span><span style=color:#e6db74>/index.md&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_arg_template<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;&#34;</span> <span style=color:#f92672>]</span> <span style=color:#f92672>||</span> <span style=color:#f92672>[</span> ! -f <span style=color:#e6db74>&#34;</span>$_arg_template<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_arg_template<span style=color:#e6db74>&#34;</span> !<span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>			log <span style=color:#e6db74>&#34;template </span>$_arg_template<span style=color:#e6db74> not found&#34;</span> -1;
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>		log <span style=color:#e6db74>&#34;using default template&#34;</span> 4;
+</span></span><span style=display:flex><span>		_arg_template<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_SCRIPT_DIR<span style=color:#e6db74>}</span><span style=color:#e6db74>/../templates/article.md&#34;</span>;
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>	sed <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>		-e <span style=color:#e6db74>&#34;s/{{metas}}/</span>$_metas_str<span style=color:#e6db74>/g&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>		-e <span style=color:#e6db74>&#34;s/{{content}}/</span>$_contents_str<span style=color:#e6db74>/g&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>		<span style=color:#e6db74>&#34;</span>$_arg_template<span style=color:#e6db74>&#34;</span> &gt; <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_container_dir<span style=color:#e6db74>}</span><span style=color:#e6db74>/index.md&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>else</span>
+</span></span><span style=display:flex><span>	die <span style=color:#e6db74>&#34;file already exists: </span><span style=color:#e6db74>${</span>_container_dir<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span></code></pre></div><p>befor going any further, let&rsquo;s test what we have so far :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>./mdd article <span style=color:#e6db74>&#34;A test article&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --cat my-cat <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --cat <span style=color:#e6db74>&#34;sub category&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  -s <span style=color:#e6db74>&#34;this is just a test&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --folder <span style=color:#e6db74>&#34;My test article&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --h2 <span style=color:#e6db74>&#34;A title for my test&#34;</span> --h2 <span style=color:#e6db74>&#34;a second part to the test&#34;</span> --h2 <span style=color:#e6db74>&#34;Conclusion&#34;</span>
+</span></span></code></pre></div><p>Executing this command gives us the following structure :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>|_ my-cat
+</span></span><span style=display:flex><span>  |_ sub category
+</span></span><span style=display:flex><span>    |_ My test article
+</span></span><span style=display:flex><span>      |_ index.md
+</span></span></code></pre></div><p>and <code>cat "my-cat/sub category/My test article/index.md"</code> :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style=display:flex><span>---
+</span></span><span style=display:flex><span>title: A test article
+</span></span><span style=display:flex><span>summary: this is just a test
+</span></span><span style=display:flex><span>draft: true
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>## A title for my test
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>## a second part to the test
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>## Conclusion
+</span></span></span></code></pre></div><p>Well, looks like success to me !
+Now let&rsquo;s get back to what we missed earlier !</p><h4 id=allow-ovverride-of-indexmd>Allow ovverride of index.md</h4><p>Yeah, that&rsquo;s what we forgot, we need to be able to override the index.md file, so let&rsquo;s add a flag for that.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>parseArger parse bin/article -i --flag <span style=color:#e6db74>&#39;force &#34;erase if exists&#34;&#39;</span>
+</span></span></code></pre></div><p>This modify the parsing code so we just need to update the code accordingly :</p><p>this :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> ! -f <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_container_dir<span style=color:#e6db74>}</span><span style=color:#e6db74>/index.md&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	...
+</span></span></code></pre></div><p>becomes that :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_arg_force<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;on&#34;</span> <span style=color:#f92672>]</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#f92672>[</span> -f <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_container_dir<span style=color:#e6db74>}</span><span style=color:#e6db74>/index.md&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span> 
+</span></span><span style=display:flex><span>  rm <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_container_dir<span style=color:#e6db74>}</span><span style=color:#e6db74>/index.md&#34;</span> -f; 
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> ! -f <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>_container_dir<span style=color:#e6db74>}</span><span style=color:#e6db74>/index.md&#34;</span> <span style=color:#f92672>]</span> <span style=color:#f92672>||</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span>$_arg_force<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;on&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>	...
+</span></span></code></pre></div><p>I do it this way if (when ?) we add a backup system ;)</p><h3 id=nice-to-haves>Nice to haves</h3><p>Let"s take care of our QoL as developers and help our future selves, let&rsquo;s start with documentation.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>parseArger document --file ./mdd  --directory ./bin --title <span style=color:#e6db74>&#34;MarkDown for Didi&#34;</span> &gt; documentation.md
+</span></span></code></pre></div><p>I just pipe the result too the file, je suis un geudin, faut pas me chercher !</p><p>Completion is next, and as usual for me, something crashes, the &ldquo;normal&rdquo; command is as follow :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>parseArger completely <span style=color:#e6db74>&#34;mdd&#34;</span> ./mdd --subcommand-directory ./bin
+</span></span></code></pre></div><p>which fails for me, but I use this workaround :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>parseArger completely <span style=color:#e6db74>&#34;mdd&#34;</span> ./mdd --subcommand-directory ./bin --no-run-completely &gt; completely.yaml
+</span></span><span style=display:flex><span>completely preview &gt; completely.bash
+</span></span></code></pre></div><p>Why does this work when otherwise fail ? <code>\_(ツ)_/</code></p><p>That done, the rc file require creation, this is the content :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>MDD_DIR<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span> !<span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>  alias mdd<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>MDD_DIR<span style=color:#e6db74>}</span><span style=color:#e6db74>/mdd&#34;</span>;
+</span></span><span style=display:flex><span>  <span style=color:#f92672>[</span> -f <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>MDD_DIR<span style=color:#e6db74>}</span><span style=color:#e6db74>/completely.bash&#34;</span> <span style=color:#f92672>]</span> <span style=color:#f92672>&amp;&amp;</span> source <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>MDD_DIR<span style=color:#e6db74>}</span><span style=color:#e6db74>/completely.bash&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span></code></pre></div><p>A small detour by the readme file to fill a bit of information :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style=display:flex><span># Markdown for Didi
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Markdown tools for my blog.
+</span></span><span style=display:flex><span>This is a tutorial project for [<span style=color:#f92672>parseArger</span>](<span style=color:#a6e22e>https://github.com/DimitriGilbert/parseArger</span>).
+</span></span></code></pre></div><h3 id=tidy-up->Tidy up !</h3><p>I&rsquo;ll remove the form and the makefile, I don&rsquo;t need them for this project.
+And if I end up doing, their just a command away ^^</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>rm -f form.html Makefile
+</span></span></code></pre></div><p>If you followed along you might have extra directory from your test, don&rsquo;t forget to clean them !
+And we&rsquo;re just left with a commit to be done for now !</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>git add .
+</span></span><span style=display:flex><span>git commit -m <span style=color:#e6db74>&#34;first commit&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># hub create &lt;repo&gt;</span>
+</span></span><span style=display:flex><span>git push origin main
+</span></span></code></pre></div><h2 id=what-now->What now ?</h2><p>I won&rsquo;t re write a heroic fantasy introduction in lieu of conclusion this time, but for real, I kinda have nothing more to teach you on parseArger for now.</p><p>As for <code>mdd</code>, I&rsquo;ll probably add some stuff to it, but I don&rsquo;t know what yet, so I&rsquo;ll just leave it there for now. <a href=https://github.com/DimitriGilbert/mdd>bug report, feature request and PR</a> are welcome though, I don&rsquo;t promise quick support but I&rsquo;ll sure have a look ;)</p><p>I&rsquo;ll probably go over a few other stuff I created before writting again about parseArger, but it&rsquo;ll be back, I promise !</p><p>As always, you can report <a href="https://github.com/DimitriGilbert/parseArger/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=bug_report.md&amp;title=">issues</a> or <a href="https://github.com/DimitriGilbert/parseArger/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=feature_request.md&amp;title=">suggest ideas</a> on <a href=https://github.com/DimitriGilbert/parseArger/>parseArger github repository</a>. Or even better, you can submit <a href=https://github.com/DimitriGilbert/parseArger/compare>a pull request</a> if you added something you find meaningful.</p><p>Thanks for the read and I hope you found it useful (or at least entertaining :D )</p><p>See you around and happy coding !</p></div><div class=post-toc><nav id=TableOfContents><ul><li><a href=#lets-create-a-project-together->Let&rsquo;s create a project together !</a><ul><li><a href=#a-bit-of-context-and-basic-requirements>A bit of context and basic requirements</a></li></ul></li><li><a href=#leeeeeets-goooooo->Leeeeeet&rsquo;s goooooo !</a><ul><li><a href=#generate-the-project>Generate the project</a></li><li><a href=#parse-the-article-command>Parse the article command</a></li><li><a href=#the-real-code>The (real) code</a></li><li><a href=#nice-to-haves>Nice to haves</a></li><li><a href=#tidy-up->Tidy up !</a></li></ul></li><li><a href=#what-now->What now ?</a></li></ul></nav></div></div><div class=post-footer></div></article></main></body></html>
