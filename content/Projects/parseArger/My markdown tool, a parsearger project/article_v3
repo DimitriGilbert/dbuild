@@ -1,0 +1,509 @@
+#!/bin/bash
+# @parseArger-begin
+# @parseArger-help "mdd article command" --option "help" --short-option "h"
+# @parseArger-verbose --option "verbose" --level "0" --quiet-option "quiet"
+# @parseArger-declarations
+# @parseArger pos title "article title"
+# @parseArger opt folder "article folder name" --alias directory --alias dir
+# @parseArger opt categories "article parent categories" --short c --repeat --alias cat --alias parent
+# @parseArger opt tags "article tags" --short t --repeat --alias tag
+# @parseArger opt series "article belongs to this series" --short g --alias group
+# @parseArger opt date "publication date meta" --short d --alias publication --alias publish-at
+# @parseArger opt summary "summary meta" --short s --alias description --alias desc
+# @parseArger opt template "template file to use" --alias tpl
+# @parseArger opt headings "add headings to your file" --repeat --alias part --alias h2
+# @parseArger opt headings-level "heading level" --default-value "2" --alias hl
+# @parseArger flag draft "is it a draft" --on --no-alias publish
+# @parseArger flag force "erase if exists"
+# @parseArger nested meta "add any meta you want"
+# @parseArger-declarations-end
+
+# @parseArger-utils
+_helpHasBeenPrinted=1;
+_SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)";
+# @parseArger-utils-end
+
+# @parseArger-parsing
+die()
+{
+	local _ret="${2:-1}"
+	test "${_PRINT_HELP:-no}" = yes && print_help >&2
+	log "$1" -3 >&2
+	exit "${_ret}"
+}
+
+
+begins_with_short_option()
+{
+	local first_option all_short_options=''
+	first_option="${1:0:1}"
+	test "$all_short_options" = "${all_short_options/$first_option/}" && return 1 || return 0
+}
+
+# POSITIONALS ARGUMENTS
+_positionals=();
+_optional_positionals=();
+_arg_title="";
+# OPTIONALS ARGUMENTS
+_arg_folder=
+_arg_categories=()
+_arg_tags=()
+_arg_series=
+_arg_date=
+_arg_summary=
+_arg_template=
+_arg_headings=()
+_arg_headings_level="2"
+# FLAGS
+_arg_draft="on"
+_arg_force="off"
+# NESTED
+_arg_meta=
+declare -A _arg_ns_meta;
+_verbose_level="0";
+
+
+
+print_help()
+{
+	_triggerSCHelp=1;
+
+	if [[ "$_helpHasBeenPrinted" == "1" ]]; then
+		_helpHasBeenPrinted=0;
+		echo -e "mdd article command:"
+	echo -e "	title: article title"
+	echo -e "	--folder|--directory|--dir <folder>: article folder name"
+	echo -e "	-c, --categories|--cat|--parent <categories>: article parent categories, repeatable"
+	echo -e "	-t, --tags|--tag <tags>: article tags, repeatable"
+	echo -e "	-g, --series|--group <series>: article belongs to this series"
+	echo -e "	-d, --date|--publication|--publish-at <date>: publication date meta"
+	echo -e "	-s, --summary|--description|--desc <summary>: summary meta"
+	echo -e "	--template|--tpl <template>: template file to use"
+	echo -e "	--headings|--part|--h2 <headings>: add headings to your file, repeatable"
+	echo -e "	--headings-level|--hl <headings-level>: heading level [default: ' 2 ']"
+	echo -e "	--draft|--no-draft: is it a draft, on by default (use --no-draft to turn it off)
+		no-aliases: --publish,"
+	echo -e "	--force|--no-force: erase if exists"
+	echo -e "	--meta[-<key>] <meta-key-value>: nested, add any meta you want"
+	echo -e "Usage :
+	$0 <title> [--folder <value>] [--categories <value>] [--tags <value>] [--series <value>] [--date <value>] [--summary <value>] [--template <value>] [--headings <value>] [--headings-level <value>] [--[no-]draft] [--[no-]force] [--[no-]meta]";
+	fi
+
+}
+
+log() {
+	local _arg_msg="${1}";
+	local _arg_level="${2:-"0"}";
+	if [ "${_arg_level}" -le "${_verbose_level}" ]; then
+		case "$_arg_level" in
+			-3)
+				_arg_COLOR="\033[0;31m";
+				;;
+			-2)
+				_arg_COLOR="\033[0;33m";
+				;;
+			-1)
+				_arg_COLOR="\033[1;33m";
+				;;
+			1)
+				_arg_COLOR="\033[0;32m";
+				;;
+			2)
+				_arg_COLOR="\033[1;36m";
+				;;
+			3)
+				_arg_COLOR="\033[0;36m";
+				;;
+			*)
+				_arg_COLOR="\033[0m";
+				;;
+		esac
+		echo -e "${_arg_COLOR}${_arg_msg}\033[0m";
+	fi
+}
+
+parse_commandline()
+{
+	_positionals_count=0
+	while test $# -gt 0
+	do
+		_key="$1"
+		case "$_key" in
+			--dir|--directory|--folder)
+				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
+				_arg_folder="$2"
+				shift
+				;;
+			--folder=*)
+				_arg_folder="${_key##--folder=}"
+				;;
+			--directory=*)
+				_arg_folder="${_key##--directory=}"
+				;;
+			--dir=*)
+				_arg_folder="${_key##--dir=}"
+				;;
+			
+			-c|--parent|--cat|--categories)
+				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
+				_arg_categories+=("$2")
+				shift
+				;;
+			--categories=*)
+				_arg_categories+=("${_key##--categories=}")
+				;;
+			--cat=*)
+				_arg_categories+=("${_key##--cat=}")
+				;;
+			--parent=*)
+				_arg_categories+=("${_key##--parent=}")
+				;;
+			-c*)
+				_arg_categories+=("${_key##-c}")
+				;;
+			
+			-t|--tag|--tags)
+				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
+				_arg_tags+=("$2")
+				shift
+				;;
+			--tags=*)
+				_arg_tags+=("${_key##--tags=}")
+				;;
+			--tag=*)
+				_arg_tags+=("${_key##--tag=}")
+				;;
+			-t*)
+				_arg_tags+=("${_key##-t}")
+				;;
+			
+			-g|--group|--series)
+				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
+				_arg_series="$2"
+				shift
+				;;
+			--series=*)
+				_arg_series="${_key##--series=}"
+				;;
+			--group=*)
+				_arg_series="${_key##--group=}"
+				;;
+			-g*)
+				_arg_series="${_key##-g}"
+				;;
+			
+			-d|--publish-at|--publication|--date)
+				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
+				_arg_date="$2"
+				shift
+				;;
+			--date=*)
+				_arg_date="${_key##--date=}"
+				;;
+			--publication=*)
+				_arg_date="${_key##--publication=}"
+				;;
+			--publish-at=*)
+				_arg_date="${_key##--publish-at=}"
+				;;
+			-d*)
+				_arg_date="${_key##-d}"
+				;;
+			
+			-s|--desc|--description|--summary)
+				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
+				_arg_summary="$2"
+				shift
+				;;
+			--summary=*)
+				_arg_summary="${_key##--summary=}"
+				;;
+			--description=*)
+				_arg_summary="${_key##--description=}"
+				;;
+			--desc=*)
+				_arg_summary="${_key##--desc=}"
+				;;
+			-s*)
+				_arg_summary="${_key##-s}"
+				;;
+			
+			--tpl|--template)
+				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
+				_arg_template="$2"
+				shift
+				;;
+			--template=*)
+				_arg_template="${_key##--template=}"
+				;;
+			--tpl=*)
+				_arg_template="${_key##--tpl=}"
+				;;
+			
+			--h2|--part|--headings)
+				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
+				_arg_headings+=("$2")
+				shift
+				;;
+			--headings=*)
+				_arg_headings+=("${_key##--headings=}")
+				;;
+			--part=*)
+				_arg_headings+=("${_key##--part=}")
+				;;
+			--h2=*)
+				_arg_headings+=("${_key##--h2=}")
+				;;
+			
+			--hl|--headings-level)
+				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
+				_arg_headings_level="$2"
+				shift
+				;;
+			--headings-level=*)
+				_arg_headings_level="${_key##--headings-level=}"
+				;;
+			--hl=*)
+				_arg_headings_level="${_key##--hl=}"
+				;;
+			
+			--draft)
+				_arg_draft="on"
+				;;
+			--no-draft|--publish)
+				_arg_draft="off"
+				;;
+			--force)
+				_arg_force="on"
+				;;
+			--no-force)
+				_arg_force="off"
+				;;
+			--meta)
+				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
+				_arg_meta="$2"
+				shift
+				;;
+			--meta=*)
+				_arg_meta="${_key##--meta=}"
+				;;
+			--meta-*)
+				_ns_key="${_key##--meta-}";
+				test $# -lt 2 && die "Missing value for the option: '$_key-$_ns_key'" 1;
+				_arg_ns_meta[$_ns_key]="$2";
+				shift;
+				;;
+			
+			-h|--help)
+				print_help;
+				exit 0;
+				;;
+			-h*)
+				print_help;
+				exit 0;
+				;;
+			-v|--version)
+				print_version;
+				exit 0;
+				;;
+			-v*)
+				print_version;
+				exit 0;
+				;;
+			--verbose)
+					if [ $# -lt 2 ];then
+						_verbose_level="$((_verbose_level + 1))";
+					else
+						_verbose_level="$2";
+						shift;
+					fi
+					;;
+				--quiet)
+					if [ $# -lt 2 ];then
+						_verbose_level="$((_verbose_level - 1))";
+					else
+						_verbose_level="-$2";
+						shift;
+					fi
+					;;
+				
+				*)
+				_last_positional="$1"
+				_positionals+=("$_last_positional")
+				_positionals_count=$((_positionals_count + 1))
+				;;
+		esac
+		shift
+	done
+}
+
+
+handle_passed_args_count()
+{
+	local _required_args_string="title"
+	if [ "${_positionals_count}" -gt 1 ] && [ "$_helpHasBeenPrinted" == "1" ];then
+		_PRINT_HELP=yes die "FATAL ERROR: There were spurious positional arguments --- we expect at most 1 (namely: $_required_args_string), but got ${_positionals_count} (the last one was: '${_last_positional}').\n\t${_positionals[*]}" 1
+	fi
+	if [ "${_positionals_count}" -lt 1 ] && [ "$_helpHasBeenPrinted" == "1" ];then
+		_PRINT_HELP=yes die "FATAL ERROR: Not enough positional arguments - we require at least 1 (namely: $_required_args_string), but got only ${_positionals_count}.
+	${_positionals[*]}" 1;
+	fi
+}
+
+
+assign_positional_args()
+{
+	local _positional_name _shift_for=$1;
+	_positional_names="_arg_title ";
+	shift "$_shift_for"
+	for _positional_name in ${_positional_names};do
+		test $# -gt 0 || break;
+		eval "if [ \"\$_one_of${_positional_name}\" != \"\" ];then [[ \"\${_one_of${_positional_name}[*]}\" =~ \"\${1}\" ]];fi" || die "${_positional_name} must be one of: $(eval "echo \"\${_one_of${_positional_name}[*]}\"")" 1;
+		eval "$_positional_name=\${1}" || die "Error during argument parsing, possibly an ParseArger bug." 1;
+		shift;
+	done
+}
+
+print_debug()
+{
+	print_help
+	# shellcheck disable=SC2145
+	echo "DEBUG: $0 $@";
+	
+	echo -e "	title: ${_arg_title}";
+	echo -e "	folder: ${_arg_folder}";
+	echo -e "	categories: ${_arg_categories[*]}";
+	echo -e "	tags: ${_arg_tags[*]}";
+	echo -e "	series: ${_arg_series}";
+	echo -e "	date: ${_arg_date}";
+	echo -e "	summary: ${_arg_summary}";
+	echo -e "	template: ${_arg_template}";
+	echo -e "	headings: ${_arg_headings[*]}";
+	echo -e "	headings-level: ${_arg_headings_level}";
+	echo -e "	draft: ${_arg_draft}";
+	echo -e "	force: ${_arg_force}";
+	echo -e "	meta: ${_arg_meta}";
+	for _tmp_k_meta in "${!_arg_ns_meta[@]}"; do
+		echo -e "	meta-$_tmp_k_meta: ${_arg_ns_meta[$_tmp_k_meta]}";
+	done
+
+}
+
+print_version()
+{
+	echo "";
+}
+
+on_interrupt() {
+	die Process aborted! 130;
+}
+
+parse_commandline "$@";
+handle_passed_args_count;
+assign_positional_args 1 "${_positionals[@]}";
+trap on_interrupt INT;
+
+
+
+# @parseArger-parsing-end
+# print_debug "$@"
+# @parseArger-end
+
+_container_dir="$_arg_title";
+
+if [ "$_arg_folder" != "" ]; then
+	log "folder specified: $_arg_folder" 4;
+	_container_dir="$_arg_folder";
+fi
+
+if [ "${#_arg_categories[@]}" -gt 0 ]; then
+	log "categories specified:" 4;
+	_cat_dir="";
+	for _cat in "${_arg_categories[@]}"; do
+		_cat_dir+="$_cat/";
+	done
+	log "	categories path : $_cat_dir" 4;
+	_container_dir="$_cat_dir$_container_dir";
+fi
+
+if [ -d "content" ]; then
+	log "using content directory" 4;
+	_container_dir="content/$_container_dir";
+fi
+
+if [ ! -d "$_container_dir" ]; then
+	log "creating container directory: $_container_dir" 2;
+	mkdir -p "$_container_dir";
+fi
+
+_metas_str="title: $_arg_title\n";
+
+if [ "$_arg_date" != "" ]; then
+	log "date specified: $_arg_date" 4;
+	_metas_str+="date: $_arg_date\n";
+fi
+
+if [ "$_arg_summary" != "" ]; then
+	log "summary specified: $_arg_summary" 4;
+	_metas_str+="summary: $_arg_summary\n";
+fi
+
+if [ "${#_arg_tags[@]}" -gt 0  ]; then
+	log "${#_arg_tags[@]} tags specified:" 4;
+	_metas_str+="tags: \n";
+	for _tg in "${_arg_tags[@]}"; do
+		log "\t$_tg" 4;
+		_metas_str+="\t- $_tg\n";
+	done
+fi
+
+if [ "$_arg_series" != "" ]; then
+	log "series specified: $_arg_series" 4;
+	_metas_str+="series: $_arg_series\n";
+fi
+
+if [ "$_arg_draft" == "on" ]; then
+	log "draft on" 4;
+	_metas_str+="draft: true\n";
+fi
+
+if [ "${#_arg_ns_meta[@]}" -gt 0 ]; then
+	log "other metas specified:" 4;
+	for _tmp_k_meta in "${!_arg_ns_meta[@]}"; do
+		log "\t$_tmp_k_meta: ${_arg_ns_meta[$_tmp_k_meta]}" 4;
+		_metas_str+="$_tmp_k_meta: ${_arg_ns_meta[$_tmp_k_meta]}\n";
+	done
+fi
+
+_content_str="";
+if [ "${#_arg_headings[@]}" -gt 0 ]; then
+	_hd_level_str="";
+	for (( i=0; i<_arg_headings_level; i++ )); do
+		_hd_level_str+="#";
+	done
+
+	log "headings specified:" 4;
+	for _hd in "${_arg_headings[@]}"; do
+		log "\t$_hd" 4;
+		_contents_str+="\n$_hd_level_str $_hd\n\n\n";
+	done
+fi
+
+if [ "$_arg_force" == "on" ] && [ -f "${_container_dir}/index.md" ]; then 
+  rm "${_container_dir}/index.md" -f; 
+fi
+if [ ! -f "${_container_dir}/index.md" ]; then
+	if [ "$_arg_template" == "" ] || [ ! -f "$_arg_template" ]; then
+		if [ "$_arg_template" != "" ]; then
+			log "template $_arg_template not found" -1;
+		fi
+		log "using default template" 4;
+		_arg_template="${_SCRIPT_DIR}/../templates/article.md";
+	fi
+	sed \
+		-e "s/{{metas}}/$_metas_str/g" \
+		-e "s/{{content}}/$_contents_str/g" \
+		"$_arg_template" > "${_container_dir}/index.md";
+else
+	die "file already exists: ${_container_dir}";
+fi
