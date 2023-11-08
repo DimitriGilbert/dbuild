@@ -1,0 +1,93 @@
+<!doctype html><html lang=en-us><head><title>ParseArger, create bash scripts you'll want to use // DBuild</title><link rel="shortcut icon" href=/favicon.ico><meta charset=utf-8><meta name=generator content="Hugo 0.111.3"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="D"><meta name=description content><link rel=stylesheet href=/css/main.min.e9381aa8417dff852fca3b7e15fa6c21d4bc2edbde1eb90bcca106716be511b4.css><meta name=twitter:card content="summary"><meta name=twitter:title content="ParseArger, create bash scripts you'll want to use"><meta name=twitter:description content="Generate standalone bash scripts with argument, option and flag parsing, documentation, completion and more !"><meta property="og:title" content="ParseArger, create bash scripts you'll want to use"><meta property="og:description" content="Generate standalone bash scripts with argument, option and flag parsing, documentation, completion and more !"><meta property="og:type" content="article"><meta property="og:url" content="https://dbuild.io/projects/parsearger/create-bash-scripts-youll-want-to-use/"><meta property="article:section" content="Projects"><meta property="article:published_time" content="2023-10-08T14:51:25+02:00"><meta property="article:modified_time" content="2023-10-08T14:51:25+02:00"></head><body><header class=app-header><a href=https://dbuild.io/><img class=app-header-avatar src=/logo.png alt=D></a>
+<a href=https://dbuild.io/ class=app-header-title>DBuild</a><p>I am D, I build things</p><nav class=app-header-menu><div><a class=app-header-menu-item href=/projects/>Projects</a></div>-<div><a class=app-header-menu-item href=/tags/tutorial>Tutorials</a></div>-<div><a class=app-header-menu-item href=/tags/devlog>DeVlog</a></div>-<div><a class=app-header-menu-item href=/black-hole>Black Hole</a></div></nav></header><main class=app-container><article class=post><header class=post-header><h1 class=post-title>ParseArger, create bash scripts you'll want to use</h1><div class=post-meta><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Oct 8, 2023</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock"><title>clock</title><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>6 min read</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg><a class=tag href=https://dbuild.io/tags/bash/>bash</a>
+<a class=tag href=https://dbuild.io/tags/terminal/>terminal</a>
+<a class=tag href=https://dbuild.io/tags/scripting/>scripting</a>
+<a class=tag href=https://dbuild.io/tags/parsearger/>parsearger</a>
+<a class=tag href=https://dbuild.io/tags/tutorial/>tutorial</a></div></div></header><div class=post-content><div class=post-cnt><p>So, who here writes <strong>bash</strong> scripts ? And among these scripts, some take arguments, right ?
+Ok ok, so, get me any kind of documentation, usage hint or anything, like, right NOW !</p><p>Yeah&mldr;it&rsquo;s ok, we&rsquo;ve all been there, and if you didn&rsquo;t, you might (not) have had a look at <a href=https://stackoverflow.com/a/14203146>parsing</a>{:target="_blank"} arguments and (AND!) <a href=https://sookocheff.com/post/bash/parsing-bash-script-arguments-with-shopts/>options</a>{:target="_blank"} in a bash script&mldr;it&rsquo;s a whole kerfuffle ! Well, &ldquo;NO MORE !&rdquo; I say !</p><h2 id=meet-parsearger>Meet parseArger</h2><p><a href=https://dimitrigilbert.github.io/parseArger/>ParseArger</a> is a bash program to generate standalone bash programs, at least :</p><ul><li>the argument and option parsing (hey, I&rsquo;m not gonna take your job !),</li><li>and a basic documentation (just the boring part),</li><li>and an install script (&mldr;),</li><li>and a bash completion script (&mldr;right ?),</li><li>and an html form (whut ..?!)</li><li><em>aaaaand</em> a web server in bash (OH COOOOME ON !)(not really to be used apart from the time you can&rsquo;t do without&mldr; I&rsquo;m just flexing ^^')</li></ul><h2 id=tldr>TLDR</h2><p>Oh, I know ya&rsquo;ll abunch of impatient nerds (at least I am&mldr;) so here is a quick run down to get going !</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># download the install script</span>
+</span></span><span style=display:flex><span>curl -s https://raw.githubusercontent.com/DimitriGilbert/parseArger/main/utils/get_parseArger -O;
+</span></span><span style=display:flex><span><span style=color:#75715e># make it executable</span>
+</span></span><span style=display:flex><span>chmod +x get_parseArger;
+</span></span><span style=display:flex><span><span style=color:#75715e># install, use --help for... help...</span>
+</span></span><span style=display:flex><span>./get_parseArger --install;
+</span></span><span style=display:flex><span><span style=color:#75715e># source bashrc, only needed once, modify according to your shell (if you don&#39;t know, it&#39;s the good one :D)</span>
+</span></span><span style=display:flex><span>source <span style=color:#e6db74>&#34;</span>$HOME<span style=color:#e6db74>/.bashrc&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># generate a project</span>
+</span></span><span style=display:flex><span>parseArger project my-awesome-project <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --description <span style=color:#e6db74>&#34;this is a cool project !&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#75715e># no commit, push or nothing, for install script generation</span>
+</span></span><span style=display:flex><span>  --git-repo <span style=color:#e6db74>&#34;myRandomDevName/my_awesome_project&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --project-subcommand my-script <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --project-subcommand another-script
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>cd my-awesome-project
+</span></span><span style=display:flex><span>./my-awesome-project --help
+</span></span></code></pre></div><h2 id=install>Install</h2><p>First things first, let&rsquo;s install the damn thing !
+Open up a terminal and execute those commands :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># download the install script</span>
+</span></span><span style=display:flex><span>curl -s https://raw.githubusercontent.com/DimitriGilbert/parseArger/main/utils/get_parseArger -O;
+</span></span><span style=display:flex><span><span style=color:#75715e># You are thoughtfully encouraged to spend the next few minutes reading it, just to make sure I do not have nefarious purposes, thank you.</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># make it executable</span>
+</span></span><span style=display:flex><span>chmod +x get_parseArger;
+</span></span><span style=display:flex><span><span style=color:#75715e># install</span>
+</span></span><span style=display:flex><span>./get_parseArger --install;
+</span></span><span style=display:flex><span><span style=color:#75715e># source bashrc, only needed once, modify according to your shell (if you don&#39;t know, it&#39;s the good one :D)</span>
+</span></span><span style=display:flex><span>source <span style=color:#e6db74>&#34;</span>$HOME<span style=color:#e6db74>/.bashrc&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># check install</span>
+</span></span><span style=display:flex><span>parseArger --help
+</span></span></code></pre></div><p>More help is available on the install script, just type <code>./get_parseArger --help</code> in your terminal.</p><h2 id=generate-a-script>Generate a script</h2><p>Let&rsquo;s start simple with a script that has one argument, one option and one flag. We&rsquo;ll output the generated content to ./my-script.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>parseArger generate <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --help-message <span style=color:#e6db74>&#34;this is a script&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --pos <span style=color:#e6db74>&#39;my-arg &#34;my argument&#34;&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --opt <span style=color:#e6db74>&#39;my-option &#34;my option&#34;&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --flag <span style=color:#e6db74>&#39;a-flag &#34;boolean flag for my script&#34;&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --output my-script
+</span></span></code></pre></div><p>You are now free to add your actual code at the bottom of the generated file. It will not be modified if (when !) you update the parsing code using <code>parse</code>.
+There are more options for &ndash;pos, &ndash;opt and &ndash;flag, I&rsquo;ll dive deeper into that in further articles ;).
+Concerning variable created, <code>-</code> will be replaced with <code>_</code> and the variable will be prefixed with <code>_arg_</code>.
+So &ndash;my-super-argument value is assigned to $_arg_my_super_argument</p><h2 id=parse-a-script>Parse a script</h2><p>Now that we have a script, needs have changed and we miss some options&mldr; Let&rsquo;s fix that then !</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># -i (or --in-place) means that we update the file with the newly generated parsing code, keeping your custom code</span>
+</span></span><span style=display:flex><span>parseArger parse ./my-script -i <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --opt <span style=color:#e6db74>&#39;missing-option &#34;my missing option&#34;&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --opt <span style=color:#e6db74>&#39;another-opt &#34;yet another one&#34;&#39;</span>
+</span></span></code></pre></div><p>Done, you you make the code that uses them :).</p><h2 id=completion-script>Completion script</h2><p>The best thing about the terminal ? completion !
+You can&rsquo;t get your mouse on the most likely button you&rsquo;ll need to click in a window (erf, maybe, but &mldr;the usability&mldr;).
+Well, you can in a terminal :D. Creating the scripts manually though ? Gee&mldr;, no !</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>parseArger completely my-script ./my-script
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>source ./completely.bash
+</span></span></code></pre></div><p>Remember you&rsquo;ll have to source the completion script to access completion in the terminal, you can add <code>source /path/to/my-script/completion.bash</code> to your .bashrc (or .zshrc and so on)</p><p>You will need <a href=https://github.com/DannyBen/completely>completely</a> installed for the generation to work, but once generated it&rsquo;s standalone.</p><p>Sometimes, things here do not work as expected and I can&rsquo;t figure out why, if it does for you to, use this as a workaround</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># do not run completely</span>
+</span></span><span style=display:flex><span>parseArger completely my-script <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  ./my-script <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --no-run-completely &gt; completely.yaml
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># use the completely preview and pipe to a file...</span>
+</span></span><span style=display:flex><span>completely preview &gt; completely.bash
+</span></span></code></pre></div><h2 id=documentation>Documentation</h2><p>We all have that pesky collegue that never remember how to use the oh so fantastic tools that you create (AKA you in 6 months).
+Let&rsquo;s think about that guy a bit and throw him a bone with some documentation !</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>parseArger document ./my-script --out documentation.md
+</span></span></code></pre></div><p>It&rsquo;s not perfect as it is just the command help in a md file, but it&rsquo;s a whole lot better than nothing, eh ?</p><h2 id=project-anyone->Project, anyone ?</h2><p>You might say that is a whole bunch of mess for a puny script, and you&rsquo;d be very right !
+Who says you have to stop with one script though ? I didn&rsquo;t.
+You&rsquo;d have several ways to do that but I settled on a very opinionated project structure that is as follows</p><pre tabindex=0><code>.
+├── &lt;program&gt;
+├── &lt;program&gt;.rc
+├── completely.bash
+├── completely.yaml
+├── documentation.md
+├── form.html
+├── Makefile
+├── readme.md
+├── bin
+│   ├── command-one
+│   ├── command-two
+│   ├── ...
+└── utils
+    ├── get_&lt;program&gt;
+    ├── install
+    └── webserver
+</code></pre><p>And of course I made a parseArger command for that : <code>project</code></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>parseArger project my-bash-project
+</span></span></code></pre></div><p>Off the bat, it&rsquo;ll create the main program, an rc file for your bashrc, documentation, readme and misc stuff (makefile, installer, webserver, html form). It&rsquo;ll initialize a git repo in the created folder but won&rsquo;t add or commit anything.
+With some options, it&rsquo;ll also create the <code>bin</code> folder and command scripts, configure the main program to use these commands (as for <code>generate</code> there&rsquo;ll be another article).</p><h2 id=what-belongs-to-ceasar>What belongs to Ceasar</h2><p>This project was started because I couldn&rsquo;t find out how to modify <a href=https://github.com/matejak/argbash>argbash</a>.
+Most of the work was (well) done so I took the generated output and went at building a similar generator.
+It is not as fancy as the original work and a bit of &ldquo;grog brain developer&rdquo; display &mldr; but, meh, it works <em>and it&rsquo;s miiiine</em>.</p><p>On that subject, if you are interested in a more rounded up bash generator thingy, you might want to have a look at <a href=https://github.com/DannyBen/bashly/>bashly</a>, I use completely which is a part of it and it&rsquo;s awesome !</p><h2 id=what-now->What now ?</h2><p>Well, have at it ! Have fun, create awesome scripts with sh load of options !
+Also as I am the only user, it&rsquo;s getting hard to find bugs to squash, though I am pretty sure nests can be found.
+And if no bugs are to be found, maybe you have a use case I didn&rsquo;t think of and everyone would benefit from.
+All that can be done using issues on <a href=https://github.com/DimitriGilbert/parseArger>parseArger&rsquo;s github repo</a>.</p><p>Thanks for the read and I hope you found it useful (or at least entertaining :D )</p><p>See you around and happy coding !</p></div><div class=post-toc><nav id=TableOfContents><ul><li><a href=#meet-parsearger>Meet parseArger</a></li><li><a href=#tldr>TLDR</a></li><li><a href=#install>Install</a></li><li><a href=#generate-a-script>Generate a script</a></li><li><a href=#parse-a-script>Parse a script</a></li><li><a href=#completion-script>Completion script</a></li><li><a href=#documentation>Documentation</a></li><li><a href=#project-anyone->Project, anyone ?</a></li><li><a href=#what-belongs-to-ceasar>What belongs to Ceasar</a></li><li><a href=#what-now->What now ?</a></li></ul></nav></div></div><div class=post-footer></div></article></main></body></html>
