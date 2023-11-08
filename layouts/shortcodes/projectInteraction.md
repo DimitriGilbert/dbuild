@@ -1,0 +1,2 @@
+{{ $project := .Get "project" }}
+As always, you can report [issues](https://github.com/DimitriGilbert/{{$project}}/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=) or [suggest ideas](https://github.com/DimitriGilbert/{{$project}}/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=) on [{{$project}} github repository](https://github.com/DimitriGilbert/{{$project}}/). Or even better, you can submit [a pull request](https://github.com/DimitriGilbert/{{$project}}/compare) if you added something you find meaningful.

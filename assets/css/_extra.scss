@@ -1,0 +1,53 @@
+/* source-code-pro-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/source-code-pro-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1 a {
+  color: $lightest-color;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.posts > article.post {
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #fff;
+}
+
+.post-content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  .post-cnt {
+    max-width: 65rem;
+  }
+  .post-toc {
+    position: sticky;
+    top: 5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.posts-list {
+  max-width: 65rem;
+}

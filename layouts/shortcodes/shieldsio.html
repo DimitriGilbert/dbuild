@@ -1,0 +1,6 @@
+{{ $sourceType := or (.Get "sourceType") "json" }}
+{{ $url := .Get "url"}}
+{{ $query := .Get "query"}}
+{{ $label = or (.Get "label") "label" }}
+
+<img alt="{{ $label }}" src="https://img.shields.io/badge/dynamic/{{ $sourceType }}?url={{ $url | urlize }}&query={{ $query | urlize }}&{{ $label | urlize }}{{if isset .Params "prefix"}}&{{ .Get "prefix" }}{{ end }}{{if isset .Params "suffix"}}&{{ .Get "suffix" }}{{ end }}{{if isset .Params "color"}}&{{ .Get "color" }}{{ end }}{{if isset .Params "style"}}&{{ .Get "style" }}{{ end }}{{if isset .Params "logo"}}&{{ .Get "logo" }}{{ end }}{{if isset .Params "logoColor"}}&{{ .Get "logoColor" }}{{ end }}{{if isset .Params "label"}}&{{ .Get "label" }}{{ end }}{{if isset .Params "labelColor"}}&{{ .Get "labelColor" }}{{ end }}{{if isset .Params "link"}}&{{ .Get "link" }}{{ end }}" />

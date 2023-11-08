@@ -1,0 +1,26 @@
+baseURL = 'https://dbuild.io/'
+languageCode = 'en-us'
+title = 'DBuild'
+description = 'I am D, I build things'
+
+theme = "m10c"
+# theme = "i_built_this"
+[params]
+  author = 'D'
+  description = 'I am D, I build things'
+  style = {darkestColor = "#122738",darkColor = "#193549",lightColor = "#f1f1e6",lightestColor = "#e69c24",primaryColor = "#92fc79"}
+  front_page_content = ["Projects"]
+  avatar = "logo.png"
+[Menus]
+  main = [
+    {Name = "Projects", URL = "/projects/", External = false, weight = 1},
+    {Name = "Tutorials", URL = "/tags/tutorial", External = false, weight = 2},
+    {Name = "DeVlog", URL = "/tags/devlog", External = false, weight = 3},
+    {Name = "Black Hole", URL = "/Black hole", External = false, weight = 4},
+  ]
+
+[markup]
+  [tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
