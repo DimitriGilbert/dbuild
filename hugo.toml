@@ -11,6 +11,14 @@ theme = "m10c"
   style = {darkestColor = "#122738",darkColor = "#193549",lightColor = "#f1f1e6",lightestColor = "#e69c24",primaryColor = "#92fc79"}
   front_page_content = ["Projects"]
   avatar = "logo.png"
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/DimitriGilbert"
+  [[params.social]]
+    icon = "rss"
+    name = "RSS"
+    url = "/index.xml"
 [Menus]
   main = [
     {Name = "Projects", URL = "/projects/", External = false, weight = 1},
