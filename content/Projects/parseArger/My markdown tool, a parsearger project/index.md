@@ -1,6 +1,7 @@
 ---
 title: My markdown tool, a parsearger project
 date: "2023-10-27T00:00:00+02:00"
+summary: A realistic example is worth days of hello world tutorials !
 toc: true
 tags:
   - bash
