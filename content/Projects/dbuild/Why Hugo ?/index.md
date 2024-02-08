@@ -29,7 +29,7 @@ On top of the web server, you need PHP and a SQL database of a decent size so if
 
 ### Mandatory updates
 
-Updates are cool right ? Yeeaahhh, weeeel, yes, but... You gotta be on top of the damn thing all the bloody time.
+Updates are cool right ? Yeeaahhh, weeeell, yes, but... You gotta be on top of the damn thing all the bloody time.
 
 Core, theme, plugins... damn... plus system updates if you configure you server yourself.
 
@@ -57,7 +57,7 @@ Low code (no code ?), flat files (markdown if possible), builds to html. BOUM, t
 
 No database, no admin gui, I want it slick. My editor, a terminal and a browser should be all I need.
 
-This also excludes javascript ! Wait why ? Because I'm tired of js this, js that, dependencies for centuries, node_module black hole directory, etc... I still don't really like javascript 15 years in, if I can do withou, I'm'na be A, O, K !
+This also excludes javascript ! Wait why ? Because I'm tired of js this, js that, dependencies for centuries, node_module black hole directory, etc... I still don't really like javascript 15 years in, if I can do without, I'm'na be A, O, K !
 
 ### I want fast
 
@@ -91,7 +91,7 @@ Go it is then, not that I plan on coding anything (from scratch, and at all if I
 
 ## Hi Hugo !
 
-Half a second of internet searchlater, my browser is shouting Hugo at my face, I guess it's popular then. Trying something new does not necessarily mean esotheric, having a bit of a crowd already means that it's more polished and that you'll find documentation and...
+Half a second of internet search later, my browser is shouting Hugo at my face, I guess it's popular then. Trying something new does not necessarily mean esotheric, having a bit of a crowd already means that it's more polished and that you'll find documentation and...
 
 ### Themes, that's good !
 

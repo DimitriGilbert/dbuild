@@ -1,4 +1,4 @@
-baseURL = 'https://dbuild.io/'
+baseURL = 'https://dbuild.dev/'
 languageCode = 'en-us'
 title = 'DBuild'
 description = 'I am D, I build things'
