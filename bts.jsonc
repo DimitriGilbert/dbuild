@@ -4,7 +4,7 @@
 {
   "$schema": "https://better-t-stack.dev/schema.json",
   "version": "2.22.10",
-  "createdAt": "2025-07-04T08:53:50.533Z",
+  "createdAt": "2025-07-04T08:59:16.198Z",
   "database": "none",
   "orm": "none",
   "backend": "none",

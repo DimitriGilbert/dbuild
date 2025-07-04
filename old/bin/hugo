@@ -1,6 +1,0 @@
-#!/bin/bash
-docker run --rm -it \
-  -p 61808:61808 \
-  -v "$(pwd)":/src \
-  klakegg/hugo:ext-alpine \
-  "$@"
