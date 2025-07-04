@@ -128,8 +128,8 @@ export function ProjectHero({ projects }: ProjectHeroProps) {
                 Building <TypingAnimation words={projects.map((p) => p.name)} className="text-primary" />
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
-                I create tools and solutions that solve real problems. From embedded systems to web applications, each
-                project represents a journey of learning, building, and iterating.
+                I create tools and solutions that solve my problems. From arduino to web apps, each
+                project represents a journey of learning, building, and iterating (a lot).
               </p>
             </div>
 

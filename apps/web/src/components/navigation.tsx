@@ -22,7 +22,8 @@ export function Navigation() {
     <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-md border-b border-border z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="font-bold text-xl text-primary">
+          <Link href="/" className="flex items-center font-bold text-xl text-primary">
+            <img src="/favicon/dbuild.svg" alt="Dbuild" className="mr-2 h-6 w-6 text-foreground" />
             Dbuild
           </Link>
 

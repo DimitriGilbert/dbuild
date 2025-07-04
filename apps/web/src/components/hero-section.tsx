@@ -65,8 +65,8 @@ export function HeroSection() {
                 />
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
-                I build tools and solutions across the entire stack - from embedded systems to web applications. Turning
-                ideas into reality, one line of code at a time.
+                I build tools and solutions across the entire stack - from arduino to web applications. Turning
+                my ideas into reality (sometimes), one bug at a time.
               </p>
             </div>
 
