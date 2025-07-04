@@ -1,3 +1,2 @@
-OLD/
-dbuild.io.code-workspace
-themes/i_built_this/
+node_modules
+.turbo
