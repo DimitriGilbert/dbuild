@@ -1,0 +1,67 @@
+{
+  "projects": [
+    {
+      "id": "LiteChat",
+      "name": "LiteChat",
+      "description": "A modern, local first AI chat app for your browser.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/LiteChat",
+      "site": "https://litechat.dbuild.dev",
+      "tags": ["pwa", "ai", "chat-application", "agents", "llm", "local-llm"]
+    },
+    {
+      "id": "parseArger",
+      "name": "parseArger",
+      "description": "Standalone bash argument parsing code generator.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/parseArger",
+      "site": "https://dimitrigilbert.github.io/parseArger/",
+      "tags": []
+    },
+    {
+      "id": "TerMinable",
+      "name": "TerMinable",
+      "description": "This is a T3 Stack project bootstrapped with create-t3-app.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/TerMinable",
+      "site": "https://terminable.dbuild.dev/",
+      "tags": ["Next.js", "NextAuth.js", "Prisma", "Drizzle", "Tailwind CSS", "tRPC"]
+    },
+    {
+      "id": "FormEdible",
+      "name": "FormEdible",
+      "description": "A powerful React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/FormEdible",
+      "site": "https://dimitrigilbert.github.io/Formedible/",
+      "tags": ["form", "hook", "react", "typescript", "shadcn-ui", "zod"]
+    },
+    {
+      "id": "sshm0",
+      "name": "sshm0",
+      "description": "A simple CLI ssh connection manager",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/sshm0",
+      "site": "https://github.com/DimitriGilbert/sshm0",
+      "tags": ["ssh"]
+    },
+    {
+      "id": "AI-gents",
+      "name": "AI-gents",
+      "description": "AI-gents. A simple format for AI agents.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/AI-gents",
+      "site": "ai-gents.dbuild.dev/",
+      "tags": []
+    },
+    {
+      "id": "StationIO-Station",
+      "name": "StationIO-Station",
+      "description": "Arduino framework that handle the basics",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/StationIO-Station",
+      "site": "dimitrigilbert.github.io/StationIO-Station/",
+      "tags": ["arduino", "esp8266", "esp32"]
+    }
+  ]
+}
