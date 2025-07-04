@@ -25,6 +25,7 @@ export default function RootLayout({
           <main>{children}</main>
         </ThemeProvider>
       </body>
+      <script src="https://cdn.counter.dev/script.js" data-id="154c6878-7558-4eff-90f9-bd4904015df1" data-utcoffset="1"></script>
     </html>
   )
 }
