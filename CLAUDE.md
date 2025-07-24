@@ -23,7 +23,7 @@ This is a **Turborepo monorepo** with a modern TypeScript stack. The primary app
 ### Project Structure
 
 ```
-dbuild.io/
+Dbuild.dev/
 ├── apps/web/          # Main Next.js application
 ├── packages/          # Shared packages (if any)
 └── turbo.json         # Turborepo configuration

@@ -9,9 +9,42 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dbuild.io",
+  title: "Dbuild.dev",
   description:
-    "Dbuild.io is a portfolio and blog showcasing projects and insights",
+    "Dbuild.dev is a portfolio and blog showcasing projects and insights",
+  metadataBase: new URL("https://dbuild.dev"),
+  openGraph: {
+    title: "Dbuild.dev",
+    description:
+      "Dbuild.dev is a portfolio and blog showcasing projects and insights",
+    url: "https://dbuild.dev",
+    siteName: "Dbuild.dev",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Dbuild.dev - Portfolio and Blog",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dbuild.dev",
+    description:
+      "Dbuild.dev is a portfolio and blog showcasing projects and insights",
+    images: ["/og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({

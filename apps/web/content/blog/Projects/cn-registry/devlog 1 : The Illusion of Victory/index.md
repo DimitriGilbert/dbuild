@@ -151,7 +151,7 @@ Et en voiture Simone !
 
 Realignment aside, this got me a building backend that I asked the agent to wire up to the frontend.
 
-### Broken string and over misadventures...
+### Broken string and other misadventures...
 
 Were you waiting for it ? To be completely honest, I did not think it was going to be so early...but yes, no plan survive contacts with the enemy.
 

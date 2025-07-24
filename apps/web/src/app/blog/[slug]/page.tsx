@@ -1,31 +1,78 @@
-import { getPostBySlug, getAllPosts } from "@/lib/blog"
-import { notFound } from "next/navigation"
-import { MarkdownRenderer } from "@/components/markdown-renderer"
-import { TableOfContents } from "@/components/table-of-contents"
-import { Badge } from "@/components/ui/badge"
-import { Calendar, Clock, FolderOpen } from "lucide-react"
-import Link from "next/link"
-import { PrefetchLink } from "@/components/prefetch-link"
+import { getPostBySlug, getAllPosts } from "@/lib/blog";
+import { notFound } from "next/navigation";
+import { MarkdownRenderer } from "@/components/markdown-renderer";
+import { TableOfContents } from "@/components/table-of-contents";
+import { Badge } from "@/components/ui/badge";
+import { Calendar, Clock, FolderOpen } from "lucide-react";
+import Link from "next/link";
+import { PrefetchLink } from "@/components/prefetch-link";
+import type { Metadata } from "next";
 
 interface BlogPostPageProps {
   params: Promise<{
-    slug: string
-  }>
+    slug: string;
+  }>;
 }
 
 export async function generateStaticParams() {
-  const posts = getAllPosts()
+  const posts = getAllPosts();
   return posts.map((post) => ({
     slug: post.slug,
-  }))
+  }));
+}
+
+export async function generateMetadata({
+  params,
+}: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
+
+  if (!post) {
+    return {
+      title: "Post Not Found",
+    };
+  }
+
+  const title = `${post.title} | Dbuild.dev`;
+  const description = post.description || `Read ${post.title} on Dbuild.dev`;
+  const url = `https://dbuild.dev/blog/${slug}`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: "Dbuild.dev",
+      images: [
+        {
+          url: "/og-image.jpg",
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+      locale: "en_US",
+      type: "article",
+      publishedTime: post.date,
+      tags: post.tags,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/og-image.jpg"],
+    },
+  };
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  const { slug } = await params
-  const post = getPostBySlug(slug)
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
 
   if (!post) {
-    notFound()
+    notFound();
   }
 
   return (
@@ -35,8 +82,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           {/* Header */}
           <header className="mb-8">
             <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
-              <PrefetchLink 
-                href="/blog" 
+              <PrefetchLink
+                href="/blog"
                 className="hover:text-primary transition-colors"
               >
                 Blog
@@ -49,13 +96,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 </>
               )}
             </div>
-            
+
             <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
-            
+
             {post.description && (
-              <p className="text-xl text-muted-foreground mb-6">{post.description}</p>
+              <p className="text-xl text-muted-foreground mb-6">
+                {post.description}
+              </p>
             )}
-            
+
             <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
@@ -66,12 +115,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <span>{post.readTime} min read</span>
               </div>
             </div>
-            
+
             <div className="flex flex-wrap gap-2 mt-4">
               <Badge variant="secondary">{post.category}</Badge>
               {post.tags.map((tag) => (
-                <PrefetchLink key={tag} href={`/blog/tags/${tag.toLowerCase()}`}>
-                  <Badge variant="outline" className="hover:bg-primary hover:text-primary-foreground">
+                <PrefetchLink
+                  key={tag}
+                  href={`/blog/tags/${tag.toLowerCase()}`}
+                >
+                  <Badge
+                    variant="outline"
+                    className="hover:bg-primary hover:text-primary-foreground"
+                  >
                     {tag}
                   </Badge>
                 </PrefetchLink>
@@ -90,12 +145,16 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             )}
 
             {/* Content */}
-            <article className={post.toc.length > 0 ? "lg:col-span-3" : "lg:col-span-4"}>
+            <article
+              className={
+                post.toc.length > 0 ? "lg:col-span-3" : "lg:col-span-4"
+              }
+            >
               <MarkdownRenderer content={post.content} />
             </article>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

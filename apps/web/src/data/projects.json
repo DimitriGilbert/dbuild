@@ -73,7 +73,7 @@
       "id": "sshm0",
       "name": "sshm0",
       "description": "A simple CLI ssh connection manager",
-      "image": "/placeholder.svg?height=400&width=600",
+      "image": "/images/sshm0/project.jpg",
       "repo": "https://github.com/DimitriGilbert/sshm0",
       "site": "https://github.com/DimitriGilbert/sshm0",
       "tags": [
