@@ -1,18 +1,24 @@
 'use client'
 
 import ReactMarkdown from "react-markdown"
-import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter"
-import javascript from 'react-syntax-highlighter/dist/cjs/languages/prism/javascript';
-import { oneDark } from "react-syntax-highlighter/dist/cjs/styles/prism"
-
-// Register the language
-SyntaxHighlighter.registerLanguage('javascript', javascript);
+import hljs from 'highlight.js'
+import { useEffect } from 'react'
 
 interface MarkdownRendererProps {
   content: string
 }
 
 export function MarkdownRenderer({ content }: MarkdownRendererProps) {
+  useEffect(() => {
+    // Configure highlight.js
+    hljs.configure({
+      ignoreUnescapedHTML: true,
+    })
+    
+    // Highlight all code blocks after component mounts
+    hljs.highlightAll()
+  }, [content])
+
   return (
     <div className="prose prose-lg dark:prose-invert max-w-none">
       <ReactMarkdown
@@ -38,7 +44,7 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
                 .replace(/[^a-z0-9]+/g, "-")
                 .replace(/(^-|-$)/g, "") || ""
             return (
-              <h2 id={id} className="scroll-mt-20" {...props}>
+              <h2 id={id} className="scroll-mt-20 text-3xl font-bold text-primary border-b-2 border-accent pb-2 mb-4" {...props}>
                 {children}
               </h2>
             )
@@ -51,7 +57,7 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
                 .replace(/[^a-z0-9]+/g, "-")
                 .replace(/(^-|-$)/g, "") || ""
             return (
-              <h3 id={id} className="scroll-mt-20" {...props}>
+              <h3 id={id} className="scroll-mt-20 text-2xl font-bold text-accent border-b-2 border-primary pb-2 mb-3" {...props}>
                 {children}
               </h3>
             )
@@ -64,7 +70,7 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
                 .replace(/[^a-z0-9]+/g, "-")
                 .replace(/(^-|-$)/g, "") || ""
             return (
-              <h4 id={id} className="scroll-mt-20" {...props}>
+              <h4 id={id} className="scroll-mt-20 text-xl font-semibold text-primary border-b border-accent pb-1 mb-3" {...props}>
                 {children}
               </h4>
             )
@@ -77,7 +83,7 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
                 .replace(/[^a-z0-9]+/g, "-")
                 .replace(/(^-|-$)/g, "") || ""
             return (
-              <h5 id={id} className="scroll-mt-20" {...props}>
+              <h5 id={id} className="scroll-mt-20 text-lg font-semibold text-accent border-b border-primary pb-1 mb-2" {...props}>
                 {children}
               </h5>
             )
@@ -90,7 +96,7 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
                 .replace(/[^a-z0-9]+/g, "-")
                 .replace(/(^-|-$)/g, "") || ""
             return (
-              <h6 id={id} className="scroll-mt-20" {...props}>
+              <h6 id={id} className="scroll-mt-20 text-base font-medium text-primary border-b border-accent pb-1 mb-2" {...props}>
                 {children}
               </h6>
             )
@@ -102,12 +108,16 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
           ),
           code: ({ node, inline, className, children, ...props }: any) => {
             const match = /language-(\w+)/.exec(className || "")
+            const language = match ? match[1] : ''
+            
             return !inline && match ? (
-              <SyntaxHighlighter style={oneDark} language={match[1]} PreTag="div" className="rounded-lg" {...props}>
-                {String(children).replace(/\n$/, "")}
-              </SyntaxHighlighter>
+              <pre className="hljs">
+                <code className={`language-${language}`} {...props}>
+                  {String(children).replace(/\n$/, "")}
+                </code>
+              </pre>
             ) : (
-              <code className="bg-muted px-1.5 py-0.5 rounded text-sm font-mono" {...props}>
+              <code className="not-prose" {...props}>
                 {children}
               </code>
             )

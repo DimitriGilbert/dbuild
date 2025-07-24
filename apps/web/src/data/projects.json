@@ -7,7 +7,43 @@
       "image": "/images/litechat/project.jpg",
       "repo": "https://github.com/DimitriGilbert/LiteChat",
       "site": "https://litechat.dbuild.dev",
-      "tags": ["pwa", "ai", "chat-application", "agents", "llm", "local-llm"]
+      "tags": [
+        "pwa",
+        "ai",
+        "chat-application",
+        "agents",
+        "llm",
+        "local-llm"
+      ]
+    },
+    {
+      "id": "FormEdible",
+      "name": "FormEdible",
+      "description": "A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.",
+      "image": "/images/FormEdible/project.jpg",
+      "repo": "https://github.com/DimitriGilbert/FormEdible",
+      "site": "https://dimitrigilbert.github.io/Formedible/",
+      "tags": [
+        "Shadcn",
+        "Registry",
+        "form",
+        "hook",
+        "react",
+        "typescript",
+        "zod"
+      ]
+    },
+    {
+      "id": "cn-registry",
+      "name": "cn-registry.dev",
+      "description": "A hub for Shadcn components and tools.",
+      "image": "/images/cn-registry.dev/project.jpg",
+      "repo": "https://github.com/DimitriGilbert/cn-registry.dev",
+      "site": "https://cn-registry.dev",
+      "tags": [
+        "Shadcn",
+        "Registry"
+      ]
     },
     {
       "id": "parseArger",
@@ -25,16 +61,13 @@
       "image": "/images/terminable/project.jpg",
       "repo": "https://github.com/DimitriGilbert/TerMinable",
       "site": "https://terminable.dbuild.dev/",
-      "tags": ["Shadcn", "Registry", "Terminal", "React", "Typescript"]
-    },
-    {
-      "id": "FormEdible",
-      "name": "FormEdible",
-      "description": "A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.",
-      "image": "/images/FormEdible/project.jpg",
-      "repo": "https://github.com/DimitriGilbert/FormEdible",
-      "site": "https://dimitrigilbert.github.io/Formedible/",
-      "tags": ["Shadcn", "Registry", "form", "hook", "react", "typescript", "zod"]
+      "tags": [
+        "Shadcn",
+        "Registry",
+        "Terminal",
+        "React",
+        "Typescript"
+      ]
     },
     {
       "id": "sshm0",
@@ -43,7 +76,12 @@
       "image": "/placeholder.svg?height=400&width=600",
       "repo": "https://github.com/DimitriGilbert/sshm0",
       "site": "https://github.com/DimitriGilbert/sshm0",
-      "tags": ["ssh", "bash", "cli", "parseArger"]
+      "tags": [
+        "ssh",
+        "bash",
+        "cli",
+        "parseArger"
+      ]
     },
     {
       "id": "AI-gents",
@@ -52,16 +90,26 @@
       "image": "/images/ai-gents/project.jpg",
       "repo": "https://github.com/DimitriGilbert/AI-gents",
       "site": "ai-gents.dbuild.dev/",
-      "tags": ["bash", "cli", "parseArger", "ai", "agents"]
+      "tags": [
+        "bash",
+        "cli",
+        "parseArger",
+        "ai",
+        "agents"
+      ]
     },
     {
       "id": "StationIO-Station",
-      "name": "StationIO-Station",
+      "name": "StationIO",
       "description": "Arduino framework-ish that handle the basics (wifi, ota, etc.)",
       "image": "/placeholder.svg?height=400&width=600",
       "repo": "https://github.com/DimitriGilbert/StationIO-Station",
       "site": "dimitrigilbert.github.io/StationIO-Station/",
-      "tags": ["arduino", "esp8266", "esp32"]
+      "tags": [
+        "arduino",
+        "esp8266",
+        "esp32"
+      ]
     }
   ]
 }

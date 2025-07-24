@@ -153,3 +153,30 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Highlight.js custom styles */
+.hljs {
+  border-radius: 0.5rem;
+  border: 1px solid hsl(var(--border));
+  font-size: 0.875rem;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+/* Light theme code blocks */
+.hljs:not(.dark *) {
+  background: #f8f9fa !important;
+  color: #24292e !important;
+}
+
+/* Dark theme code blocks */
+:is(.dark .hljs) {
+  background: #0d1117 !important;
+  color: #c9d1d9 !important;
+}
+
+/* Inline code styling improvement */
+.prose code:not(.hljs code) {
+  @apply bg-muted/50 text-foreground px-1.5 py-0.5 rounded-sm text-sm font-mono;
+  border: 1px solid hsl(var(--border));
+}
