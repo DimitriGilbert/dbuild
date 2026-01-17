@@ -249,3 +249,5 @@ And as my eyes were all closing, I could not see shadows brewing
 Covering me with joy and warm for my app worked like a charm
 
 An innocent small idea that would become ...[find me a noun of something bad finishing by the sound a, i need a rhyme]
+
+In the mean time, here is the [demo](https://cn-registry.dev) and the [repo](https://github.com/DimitriGilbert/cn-registry), feedback greatly appreciated as always !

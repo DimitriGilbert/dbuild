@@ -261,3 +261,5 @@ Et alors que mes yeux se fermaient tous, je ne pouvais pas voir les ombres qui s
 Me couvrant de joie et de chaleur pour mon application qui fonctionnait comme un charme.
 
 Une petite idée innocente qui deviendrait... [trouvez-moi un nom de quelque chose de mauvais se terminant par le son a, j'ai besoin d'une rime].
+
+En attendant, voici la [démo](https://cn-registry.dev) et le [dépôt](https://github.com/DimitriGilbert/cn-registry). Vos retours sont, comme toujours, grandement appréciés !

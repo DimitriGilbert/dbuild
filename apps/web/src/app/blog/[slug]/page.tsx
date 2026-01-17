@@ -1,12 +1,11 @@
-import { getPostBySlug, getAllPosts } from "@/lib/blog";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { MarkdownRenderer } from "@/components/markdown-renderer";
 import { TableOfContents } from "@/components/table-of-contents";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Clock, FolderOpen } from "lucide-react";
-import Link from "next/link";
 import { PrefetchLink } from "@/components/prefetch-link";
-import type { Metadata } from "next";
+import { getPostBySlug, getAllPosts } from "@/lib/blog";
 
 interface BlogPostPageProps {
   params: Promise<{
