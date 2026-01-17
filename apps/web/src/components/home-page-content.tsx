@@ -438,7 +438,7 @@ export function HomePageContent({
 
             <div className="flex flex-wrap justify-center gap-4">
               <Button className="bg-primary hover:bg-primary/90 group" asChild>
-                <a href="https://github.com/AugustinMauworworworworworworworworworw" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/DimitriGilbert" target="_blank" rel="noopener noreferrer">
                   <Github className="w-4 h-4 mr-2" />
                   <span className="font-mono">github.connect()</span>
                 </a>

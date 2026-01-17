@@ -14,6 +14,48 @@ interface ProjectsPageContentProps {
   allTags: string[]
 }
 
+function seededRandom(seed: string): number {
+  let hash = 0
+  for (let i = 0; i < seed.length; i++) {
+    const char = seed.charCodeAt(i)
+    hash = ((hash << 5) - hash) + char
+    hash = hash & hash
+  }
+  const x = Math.sin(hash) * 10000
+  return x - Math.floor(x)
+}
+
+function getBentoSizeFromProject(
+  projectId: string,
+  index: number,
+  totalCount: number
+): { col: "1" | "2" | "3" | "4"; row: "1" | "2" | "3" } {
+  const rand = seededRandom(projectId + index.toString())
+  
+  if (index === 0) {
+    return { col: "2", row: "2" }
+  }
+  
+  const sizeOptions: Array<{ col: "1" | "2" | "3" | "4"; row: "1" | "2" | "3"; weight: number }> = [
+    { col: "1", row: "1", weight: 0.35 },
+    { col: "2", row: "1", weight: 0.25 },
+    { col: "1", row: "2", weight: 0.20 },
+    { col: "2", row: "2", weight: 0.12 },
+    { col: "3", row: "1", weight: 0.05 },
+    { col: "2", row: "3", weight: 0.03 },
+  ]
+  
+  let cumulative = 0
+  for (const option of sizeOptions) {
+    cumulative += option.weight
+    if (rand < cumulative) {
+      return { col: option.col, row: option.row }
+    }
+  }
+  
+  return { col: "1", row: "1" }
+}
+
 export function ProjectsPageContent({ projects, allTags }: ProjectsPageContentProps) {
   const [activeTag, setActiveTag] = useState<string | null>(null)
 
@@ -21,20 +63,6 @@ export function ProjectsPageContent({ projects, allTags }: ProjectsPageContentPr
     if (!activeTag) return projects
     return projects.filter((p) => p.tags.some((t) => t.toLowerCase() === activeTag.toLowerCase()))
   }, [activeTag, projects])
-
-  const getBentoSize = (index: number): { col: "1" | "2" | "3" | "4"; row: "1" | "2" | "3" } => {
-    const patterns: Array<{ col: "1" | "2" | "3" | "4"; row: "1" | "2" | "3" }> = [
-      { col: "2", row: "2" },
-      { col: "1", row: "1" },
-      { col: "1", row: "2" },
-      { col: "2", row: "1" },
-      { col: "1", row: "1" },
-      { col: "1", row: "1" },
-      { col: "2", row: "1" },
-      { col: "1", row: "2" },
-    ]
-    return patterns[index % patterns.length]
-  }
 
   return (
     <div className="min-h-screen pt-20 relative overflow-hidden">
@@ -125,7 +153,7 @@ export function ProjectsPageContent({ projects, allTags }: ProjectsPageContentPr
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 auto-rows-[minmax(200px,auto)]">
           {filteredProjects.map((project, index) => {
-            const size = getBentoSize(index)
+            const size = getBentoSizeFromProject(project.id, index, filteredProjects.length)
             const isFeatured = index === 0 && !activeTag
 
             return (
