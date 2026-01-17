@@ -1,0 +1,156 @@
+---
+title: RaceBench
+date: 2025-01-17T10:00:00+01:00
+summary: "Racing LLMs against each other to see who writes the best JavaScript. Spoiler: it's chaos out there!"
+tags:
+  - benchmark
+  - llm
+  - ai
+  - testing
+slug: "index"
+---
+
+So, you know how everyone's benchmarking LLMs these days? Like, "oh look, this model scored 87.3% on this synthetic test suite" or whatever. Boring, right? I mean, who cares if a model can reverse a string perfectly when you'll never ask it to reverse a string in real life? 😛
+
+That's why I built **RaceBench** — a benchmarking tool that actually tests something useful: how well different LLMs can write real, working JavaScript code. Not some "hello world" nonsense, but actual creative coding tasks — games, visualisations, interactive stuff you might actually want to build.
+
+## The idea (because every project needs an origin story)
+
+One day I was curious: if I ask different AI models to write the same game, which one would actually produce playable code? Not "technically correct but crashes on the third frame" code, but stuff you could run and enjoy.
+
+So I created a benchmark where I ask models to build a 2D scroll shooter game using Three.js. Not exactly "easy mode" for an AI — it requires understanding 3D graphics, game loops, user input, and making everything work together without blowing up the browser. Spoiler: some models handle it beautifully, others... well, let's say it's educational to watch them try 😊
+
+## What it actually does
+
+RaceBench is a static HTML dashboard that displays results from testing various LLMs on JavaScript code generation. Here's the cool part:
+
+- **Real-world benchmarking** — We test creative coding tasks, not synthetic "reverse this string" nonsense
+- **Executable results** — Every model's output can be run directly. See the code, click preview, judge for yourself
+- **Multi-dimensional analysis** — It's not just "did it work?" We track prompt tokens, completion tokens, TTFT (time to first token), generation time, and success rate
+- **Educational value** — Compare how different models structure their code, their approaches to the same problem, and learn from the variety (even the bad ones!)
+
+## How it works (the technical bits, minus the boring parts)
+
+### The setup
+
+Everything's static — pure HTML/CSS/JS with no backend. Deploy it anywhere. GitHub Pages? Sure. Netlify? Why not. Your Raspberry Pi at home? Absolutely. The whole thing weighs about as much as a small hamster 🐹
+
+```bash
+# Clone it
+git clone https://github.com/DimitriGilbert/racebench.git
+
+# Deploy to GitHub Pages (or your jungle site of choice)
+# I mean, whatever floats your boat
+```
+
+### The test case
+
+The benchmark uses a 2D scroll shooter game built with Three.js as the test scenario. Each model gets the same prompt and has to produce working code. We extract the last ````runjs` code block from each response (because models love to chat before giving you the goods, you know?).
+
+### What we track
+
+For each model, RaceBench captures:
+
+- **Prompt tokens** — How much it needed to understand what we wanted
+- **Completion tokens** — How verbose it got with the solution
+- **TTFT** (Time To First Token) — Responsiveness metrics
+- **Generation time** — Total time to produce the code
+- **Success rate** — Did it actually run? Or did it explode?
+
+### The UI (because I care about aesthetics, surprisingly)
+
+It's got this nice dark mode UI that doesn't look like it was designed by a sysadmin in 2003. Two view modes:
+
+- **Card grid** — Pretty cards for each model with key metrics at a glance
+- **Sortable table** — For when you want to data-nerd out and sort by TTFT or token count
+
+Click any model and you get:
+- Live preview (opens in a new tab, runs the actual code)
+- Raw response view (see exactly what the model said)
+- All the metrics broken down
+
+## Versions (because software never ends)
+
+### v1: The brave beginning
+
+Tested 18 models. Learned a lot. Realised some models are impressively creative while others are... trying their best. Let's put it that way. 😛
+
+### v2: The refinement
+
+Narrowed it down to 10 models. Better metrics extraction. Cleaner UI. Still watching models struggle with Three.js in entertaining ways.
+
+## Tech stack (kept it simple, you're welcome)
+
+- **Node.js** — Because JavaScript is life
+- **Tailwind CSS (via CDN)** — Styling without the build step headaches
+- **Simple-Datatables** — For when you want sortable tables but don't want to write them yourself
+- **Three.js (dynamic)** — Loaded on demand for the live previews
+
+Minimal dependencies. No complex build pipelines. Just works. I like that philosophy.
+
+## The models (participants in the chaos)
+
+We've tested a bunch of the big names:
+
+- Claude Sonnet 4
+- DeepSeek R1
+- GPT-4.1
+- Gemini 2.5
+- Grok 4
+- Kimi K2
+- Qwen3
+- ...and more
+
+Each one brings its own personality to the code. Some are terse and efficient. Others are verbose and over-engineered. A few produce code that makes you question everything you know about software development. All educational in their own way 😊
+
+## See it in action
+
+Don't just take my word for it — go play with the actual dashboard:
+
+**[Live Demo](https://dimitrigilbert.github.io/racebench/scroller/index.html)**
+
+Click around. Run some code. See which model you'd want on your team. Spoiler: the answer might surprise you (or it might be exactly what you expect. LLMs are weird like that).
+
+## What makes this different from other benchmarks?
+
+I'm glad you asked (I know you didn't, but pretend you did) 😛
+
+1. **Real tasks, not toy problems** — We test actual creative coding, not "sort this array" nonsense
+2. **You can run the results** — Not just a score — actual working code you can inspect and execute
+3. **No server needed** — Static HTML means you can host it anywhere or even run it locally
+4. **Transparent metrics** — See exactly what we measured and how
+5. **Educational** — Compare approaches, learn patterns, see what works (and what definitely doesn't)
+
+## What I learned (because building stuff teaches you things)
+
+- Some models are surprisingly good at 3D graphics code
+- Others clearly haven't seen many Three.js examples in their training
+- TTFT doesn't always correlate with code quality
+- Verbose models aren't necessarily better — sometimes they're just... chatty
+- The best model depends on what you value: speed, efficiency, code clarity, or just getting something that runs
+
+## Future plans (the "if I get around to it" section)
+
+I'd like to:
+
+- Add more test cases (different types of creative coding challenges)
+- Test more models (new ones keep popping up like mushrooms)
+- Improve the metrics (maybe add code quality scoring?)
+- Add a "leaderboard" view for those who love rankings
+- Maybe, possibly, contribute the data to some broader benchmark effort (if such a thing exists and wants this kind of real-world data)
+
+But let's be honest — I'll probably add a new test case before I remember to do any of that. Priorities, right? 😊
+
+## Wrapping up
+
+RaceBench isn't trying to be the definitive AI benchmark. It's just me trying to answer a simple question: "Which AI writes the best JavaScript code for real projects?" And having fun seeing them all try.
+
+If you find it useful, great. If you learn something from the different code styles, even better. If you just enjoy clicking through live previews of AI-generated games and thinking "wow, that actually works," then I've done my job.
+
+Feel free to fork it, add your own models, test different prompts. The more data, the better. Just don't ask me which model is "best" — that depends on what you're building, your timeline, your budget, and probably the phase of the moon. LLMs are like that 😛
+
+**GitHub:** [DimitriGilbert/racebench](https://github.com/DimitriGilbert/racebench)
+
+Now go race some models. May the best code win.
+
+{{% goodbye %}}

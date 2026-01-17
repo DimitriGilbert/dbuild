@@ -46,7 +46,7 @@ function calculateReadTime(content: string) {
 function generateTOC(content: string): TocItem[] {
   const headings: TocItem[] = []
   const lines = content.split('\n')
-  
+
   for (const line of lines) {
     const match = line.match(/^(#{1,6})\s+(.+)$/)
     if (match) {
@@ -57,7 +57,7 @@ function generateTOC(content: string): TocItem[] {
         .replace(/[^\w\s-]/g, '')
         .replace(/\s+/g, '-')
         .replace(/^-+|-+$/g, '')
-      
+
       headings.push({
         level,
         title,
@@ -65,7 +65,7 @@ function generateTOC(content: string): TocItem[] {
       })
     }
   }
-  
+
   return headings
 }
 
@@ -82,17 +82,17 @@ function slugify(text: string) {
 // Recursively get all markdown files from subdirectories
 function getAllMarkdownFiles(dir: string, baseDir: string = dir): string[] {
   const files: string[] = []
-  
+
   if (!fs.existsSync(dir)) {
     return files
   }
-  
+
   const items = fs.readdirSync(dir)
-  
+
   for (const item of items) {
     const fullPath = path.join(dir, item)
     const stat = fs.statSync(fullPath)
-    
+
     if (stat.isDirectory()) {
       // Recursively get files from subdirectory
       files.push(...getAllMarkdownFiles(fullPath, baseDir))
@@ -100,7 +100,7 @@ function getAllMarkdownFiles(dir: string, baseDir: string = dir): string[] {
       files.push(fullPath)
     }
   }
-  
+
   return files
 }
 
@@ -123,13 +123,13 @@ export function getAllPosts(): BlogPost[] {
       const relativePath = path.relative(BLOG_DIR, filePath)
       const dirPath = path.dirname(relativePath)
       const fileName = path.basename(filePath, path.extname(filePath))
-      
+
       // Check if this is a category index file
       const isCategory = fileName === '_index'
-      
+
       // Generate slug - ensure uniqueness for index files
       let slug = frontmatter.slug
-      
+
       if (!slug) {
         if (fileName === 'index' || fileName === '_index') {
           // For index files, use the directory name to create unique slug
@@ -149,7 +149,7 @@ export function getAllPosts(): BlogPost[] {
           slug = 'home'
         }
       }
-      
+
       // Ensure slug is properly formatted
       slug = slugify(slug)
 
@@ -196,7 +196,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
 export function getPostsByCategory(category: string): BlogPost[] {
   try {
     const posts = getAllPosts()
-    return posts.filter(post => 
+    return posts.filter(post =>
       post.category.toLowerCase() === category.toLowerCase()
     )
   } catch (error) {
@@ -209,8 +209,8 @@ export function getPostsByCategory(category: string): BlogPost[] {
 export function getPostsByTag(tag: string): BlogPost[] {
   try {
     const posts = getAllPosts()
-    return posts.filter(post => 
-      post.tags.some(postTag => 
+    return posts.filter(post =>
+      post.tags.some(postTag =>
         postTag.toLowerCase() === tag.toLowerCase()
       )
     )
@@ -224,7 +224,7 @@ export function getPostsByTag(tag: string): BlogPost[] {
 export function getPostsByDirectory(directory: string): BlogPost[] {
   try {
     const posts = getAllPosts()
-    return posts.filter(post => 
+    return posts.filter(post =>
       post.directory === directory
     )
   } catch (error) {
@@ -285,18 +285,18 @@ export function getCategoryBySlug(slug: string): Category | null {
   try {
     const posts = getAllPosts()
     const categoryPost = posts.find(post => post.isCategory && post.slug === slug)
-    
+
     if (!categoryPost) {
       return null
     }
-    
+
     // Get all posts that are in the same directory or subdirectories, excluding category indexes
-    const childPosts = posts.filter(post => 
-      !post.isCategory && 
-      (post.directory === categoryPost.directory || 
+    const childPosts = posts.filter(post =>
+      !post.isCategory &&
+      (post.directory === categoryPost.directory ||
        post.directory.startsWith(categoryPost.directory + '/'))
     )
-    
+
     return {
       slug: categoryPost.slug,
       title: categoryPost.title,
@@ -315,8 +315,8 @@ export function getCategoryBySlug(slug: string): Category | null {
 export function getPostsInDirectory(directory: string): BlogPost[] {
   try {
     const posts = getAllPosts()
-    return posts.filter(post => 
-      post.directory === directory && 
+    return posts.filter(post =>
+      post.directory === directory &&
       !post.isCategory
     ).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   } catch (error) {
@@ -341,8 +341,8 @@ export function searchPosts(query: string): BlogPost[] {
   try {
     const posts = getAllPosts()
     const searchTerm = query.toLowerCase()
-    
-    return posts.filter(post => 
+
+    return posts.filter(post =>
       post.title.toLowerCase().includes(searchTerm) ||
       post.description.toLowerCase().includes(searchTerm) ||
       post.content.toLowerCase().includes(searchTerm) ||

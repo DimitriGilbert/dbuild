@@ -110,6 +110,70 @@
         "esp8266",
         "esp32"
       ]
+    },
+    {
+      "id": "RaceBench",
+      "name": "RaceBench",
+      "description": "Benchmarking LLMs on real JavaScript code generation tasks with executable results.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/racebench",
+      "site": "https://dimitrigilbert.github.io/racebench/scroller/index.html",
+      "tags": [
+        "benchmark",
+        "llm",
+        "ai",
+        "testing",
+        "javascript",
+        "three.js"
+      ]
+    },
+    {
+      "id": "Task-O-Matic",
+      "name": "Task-O-Matic",
+      "description": "AI-powered task management system transforming chaotic ideas into structured, executable task lists.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/task-o-matic",
+      "site": "https://github.com/DimitriGilbert/task-o-matic",
+      "tags": [
+        "ai",
+        "task-management",
+        "cli",
+        "productivity",
+        "typescript",
+        "bun"
+      ]
+    },
+    {
+      "id": "Sprynge",
+      "name": "Sprynge",
+      "description": "Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/sprynge-next",
+      "site": "https://github.com/DimitriGilbert/sprynge-next",
+      "tags": [
+        "community",
+        "help",
+        "nextjs",
+        "convex",
+        "real-time",
+        "gamification"
+      ]
+    },
+    {
+      "id": "git-moar",
+      "name": "git-moar",
+      "description": "Advanced Git repository analytics and reporting CLI tool with beautiful HTML reports and visualizations.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/git-report",
+      "site": "https://github.com/DimitriGilbert/git-report",
+      "tags": [
+        "git",
+        "analytics",
+        "cli",
+        "visualization",
+        "javascript",
+        "nodejs"
+      ]
     }
   ]
 }
