@@ -1,0 +1,319 @@
+1:"$Sreact.fragment"
+2:I[22304,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","177","static/chunks/app/layout-267ae1d5e4eb94a7.js"],"ThemeProvider"]
+3:I[71000,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","177","static/chunks/app/layout-267ae1d5e4eb94a7.js"],"FloatingNavigation"]
+4:I[13842,[],""]
+5:I[86880,[],""]
+7:I[25803,[],"OutletBoundary"]
+9:I[25803,[],"MetadataBoundary"]
+b:I[25803,[],"ViewportBoundary"]
+d:I[16773,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/9579c992d89962c7.css","style"]
+0:{"P":null,"b":"fxCbDsEksO5NPvyXbZAu_","p":"","c":["","blog","tags","task-o-matic",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","task-o-matic","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9579c992d89962c7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","task-o-matic","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","5npwiT2jH2AouVczlII2p",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[73104,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-aeecd19139ff1a04.js"],"TagDetailContent"]
+f:T2777,
+So, who here has **project ideas** ? And among these ideas, some turn into... uh, actual tasks, right ?
+
+Ok ok, so, get me a structured plan, broken down tasks, and anything resembling order, like, right NOW !
+
+Yeah...it's ok, we've all been there 😛. The wasteland of unorganized thoughts is a dangerous place. But worry not, I built us a bunker !
+
+## Welcome to the Bunker 🏚️
+
+[Task-O-Matic](https://github.com/DimitriGilbert/task-o-matic) is an AI-powered task management system styled with a post-apocalyptic survival bunker theme (because why not ?). It transforms your chaotic project ideas into structured, executable task lists through AI assistance.
+
+Think of it as your personal task commander in the aftermath of project anarchy.
+
+## The Mission (What it does) 📋
+
+Task-O-Matic is not state of the art — I'm not a bloody AI researcher — but it *does* work and it's rather useful for us bunker dwellers :
+
+- **Idea to PRD generation** : Take your half-baked idea and let AI turn it into a proper Product Requirements Document
+- **PRD parsing into structured tasks** : Break down that PRD into actual, doable tasks
+- **AI-powered task enhancement** : Let the AI improve, split, and plan your tasks
+- **Multi-AI generation** : Run multiple AI models in parallel and compare results (battle royale style)
+- **Task execution with external tools** : Connect to Opencode, Claude Code, Gemini CLI, and more
+- **Benchmarking system** : Test different AI models with git worktree isolation
+- **Existing project adoption** : Attach Task-O-Matic to existing projects (`init attach`)
+- **Local-first storage** : Everything lives in your `.task-o-matic` directory (the bunker's archives)
+- **Hierarchical task breakdown** : Subtasks, sub-subtasks, sub-sub-sub... you get the idea
+- **Streaming responses** : Watch the AI think with reasoning tokens
+
+## The Tech Stack 🔧
+
+Built with a collection of reliable tools that survived the apocalypse:
+
+- **TypeScript** : Because type safety is survival safety
+- **Bun** : Fast package manager (needed when running from generators)
+- **Vercel AI SDK v6** : The magic behind the AI curtain
+- **Commander.js** : CLI parsing (I know a thing or two about CLI tools...)
+- **Inquirer.js** : Interactive prompts (for when you need to make decisions in the bunker)
+- **Zod** : Schema validation (don't want corrupted data in the archives)
+
+## TLDR (Quick Start) ⚡
+
+Oh, I know you're impatient (me too...), so here is a quick run down to get going !
+
+```bash
+# Clone the repo
+git clone https://github.com/DimitriGilbert/task-o-matic.git
+cd task-o-matic
+
+# Install dependencies
+bun install
+
+# Link for local development (optional but recommended)
+bun link
+
+# Initialize a new project in your existing directory
+task-o-matic init attach
+
+# Generate a PRD from your idea
+task-o-matic prd generate "Build a survival bunker dashboard"
+
+# Parse the PRD into tasks
+task-o-matic prd parse
+
+# Let the AI enhance your tasks
+task-o-matic task enhance --all
+
+# Execute tasks with your AI of choice
+task-o-matic task execute --ai claude
+```
+
+## Installation 🔨
+
+First things first, let's get you installed in the bunker !
+
+```bash
+# Clone the repository
+git clone https://github.com/DimitriGilbert/task-o-matic.git
+cd task-o-matic
+
+# Install dependencies with Bun
+bun install
+
+# Make the CLI available globally (optional but handy)
+bun link
+```
+
+You can also install via npm if you prefer the old ways:
+
+```bash
+npm install -g @dimitrigilbert/task-o-matic
+```
+
+## Configuration 🔑
+
+Task-O-Matic needs to know how to reach the outside world (AI providers). Set your API keys as environment variables:
+
+```bash
+# OpenAI
+export OPENAI_API_KEY="your-openai-api-key"
+
+# Anthropic (Claude)
+export ANTHROPIC_API_KEY="your-anthropic-api-key"
+
+# Google (Gemini)
+export GOOGLE_API_KEY="your-google-api-key"
+
+# OpenRouter (if you want access to many models)
+export OPENROUTER_API_KEY="your-openrouter-api-key"
+```
+
+I'd recommend putting these in your `.env` file or shell profile. Don't commit them to git, obviously.
+
+## Workflow Example 🚀
+
+Let's walk through a typical bunker workflow, shall we ?
+
+### Step 1: Initialize Your Bunker
+
+```bash
+# Attach to an existing project directory
+task-o-matic init attach
+
+# Or create a new project
+task-o-matic init new my-survival-project
+```
+
+This creates a `.task-o-matic` directory where all your data lives. It's like your bunker's storage room.
+
+### Step 2: Generate a PRD from Your Idea
+
+```bash
+task-o-matic prd generate "I want to build a personal finance tracker that works offline, syncs when online, and has a dark mode because the bunker lights are harsh"
+```
+
+The AI will interview you (via inquirer prompts) to clarify requirements and generate a proper PRD document.
+
+### Step 3: Parse the PRD into Tasks
+
+```bash
+task-o-matic prd parse
+```
+
+This breaks down your PRD into a hierarchical task structure. You'll get tasks, subtasks, and sub-subtasks organized by priority and dependencies.
+
+### Step 4: Enhance and Plan Your Tasks
+
+```bash
+# Let AI improve all tasks
+task-o-matic task enhance --all
+
+# Plan execution order based on dependencies
+task-o-matic task plan
+
+# Split a large task into smaller chunks
+task-o-matic task split --id task-123
+```
+
+### Step 5: Execute Tasks with AI
+
+```bash
+# Execute a specific task with Claude
+task-o-matic task execute --id task-123 --ai claude
+
+# Execute all pending tasks with multiple AI models
+task-o-matic task execute --all --ai claude,gemini,gpt4
+
+# Execute with external tools
+task-o-matic task execute --id task-123 --tool opencode
+```
+
+The AI will read the task description, context, and generate the actual code or documentation. You can review before committing.
+
+## Multi-AI Generation 🤖
+
+One of the cooler features (in my humble opinion) is the ability to run multiple AI models in parallel:
+
+```bash
+# Generate solutions from multiple providers
+task-o-matic task generate-multi \
+  --id task-123 \
+  --providers claude,gpt4,gemini \
+  --compare
+
+# This will show you a comparison of the different approaches
+```
+
+Great for when you want to see different perspectives or verify the best solution. It's like having a council of AI advisors in your bunker 😊
+
+## Benchmarking System 📊
+
+If you're curious about which AI model performs best for your use cases:
+
+```bash
+# Run benchmarks with git worktree isolation
+task-o-matic benchmark run \
+  --models claude,gpt4,gemini \
+  --task-set my-tasks
+
+# View results
+task-o-matic benchmark results
+
+# Compare specific runs
+task-o-matic benchmark compare --run-id run1,run2
+```
+
+This uses git worktrees to ensure clean environments for each benchmark run. No contamination !
+
+## Existing Project Adoption 🏠
+
+Already have a project you want to bring into the bunker ?
+
+```bash
+# Navigate to your project directory
+cd my-existing-project
+
+# Attach Task-O-Matic
+task-o-matic init attach
+
+# It will scan your codebase and create initial context
+```
+
+Task-O-Matic will analyze your existing code structure and use it as context for future task generation.
+
+## Local-First Storage 💾
+
+Everything Task-O-Matic creates lives in your `.task-o-matic` directory:
+
+```
+.task-o-matic/
+├── prds/           # Product Requirements Documents
+├── tasks/          # Task definitions and status
+├── history/        # Execution history
+├── benchmarks/     # Benchmark results
+└── config.json     # Your configuration
+```
+
+No cloud dependency, no data leaving your bunker (unless you choose to). Your data, your rules.
+
+## Streaming with Reasoning Tokens 🧠
+
+When executing tasks, you can watch the AI think in real-time:
+
+```bash
+task-o-matic task execute --id task-123 --stream
+```
+
+This shows you the reasoning tokens as they're generated. It's fascinating to see how the AI approaches problems (sometimes in ways I wouldn't expect, which is good).
+
+## Why the Bunker Theme ? 🤔
+
+I know, I know, it's a bit weird. But here's the thing:
+
+1. It's fun 😛
+2. Projects can feel like chaotic wastelands
+3. Having a structured system feels like building a safe shelter
+4. "Bunker" is a great metaphor for local-first, isolated development
+5. Why not ?
+
+Also, calling users "citizens" and projects "missions" makes me chuckle. If it makes you smile too, then it's worth it.
+
+## Current Status 🚧
+
+Task-O-Matic is in active development at **v0.1.5-beta.1**. Things might break, features might change, but the core functionality works.
+
+If you find bugs (and I'm sure there are nests of them), please open an issue on the [GitHub repo](https://github.com/DimitriGilbert/task-o-matic/issues). I'm the only user right now, so finding bugs is becoming... challenging 😊
+
+## What's Next ? 🔮
+
+Here's what I'm planning (subject to change based on what the wasteland throws at us):
+
+- [ ] More AI provider integrations
+- [ ] Web UI (because some people prefer graphical interfaces)
+- [ ] Team collaboration features (multi-bunker coordination)
+- [ ] Plugin system for custom tools
+- [ ] Better dependency visualization
+- [ ] Task templates for common project types
+- [ ] Integration with CI/CD pipelines
+
+## Get Involved ! 🤝
+
+This is a side project I built because I needed it. If you find it useful, that's awesome. If you want to contribute, even better !
+
+- Star the repo if you like it
+- Open issues for bugs or feature requests
+- Submit PRs if you want to add something cool
+- Share it with other bunker dwellers
+
+## Final Thoughts 💭
+
+Task-O-Matic isn't going to revolutionize project management or anything grand like that. It's just a tool I built to help me (and hopefully you) turn chaotic ideas into organized, executable tasks.
+
+It's not perfect. It's not the most elegant code I've ever written. But it works, it's useful, and it's mine.
+
+If you're drowning in project chaos and need a structured approach to breaking things down, give it a shot. Worst case, you'll have a cool CLI tool with a bunker theme.
+
+Best case, you'll actually ship that project you've been thinking about for months.
+
+Stay safe out there in the wasteland, citizen. And happy coding !
+
+---
+
+{{% goodbye %}}
+6:["$","$Le",null,{"tag":"task-o-matic","posts":[{"slug":"projects-task-o-matic","title":"Task-O-Matic, your AI survival bunker for project chaos","description":"Transform chaotic project ideas into structured, executable task lists through AI assistance. Welcome to the bunker, citizen!","date":"2025-01-17T10:00:00+01:00","category":"General","tags":["ai","task-management","cli","productivity","task-o-matic"],"content":"$f","readTime":8,"toc":[{"level":2,"title":"Welcome to the Bunker 🏚️","id":"welcome-to-the-bunker"},{"level":2,"title":"The Mission (What it does) 📋","id":"the-mission-what-it-does"},{"level":2,"title":"The Tech Stack 🔧","id":"the-tech-stack"},{"level":2,"title":"TLDR (Quick Start) ⚡","id":"tldr-quick-start"},{"level":1,"title":"Clone the repo","id":"clone-the-repo"},{"level":1,"title":"Install dependencies","id":"install-dependencies"},{"level":1,"title":"Link for local development (optional but recommended)","id":"link-for-local-development-optional-but-recommended"},{"level":1,"title":"Initialize a new project in your existing directory","id":"initialize-a-new-project-in-your-existing-directory"},{"level":1,"title":"Generate a PRD from your idea","id":"generate-a-prd-from-your-idea"},{"level":1,"title":"Parse the PRD into tasks","id":"parse-the-prd-into-tasks"},{"level":1,"title":"Let the AI enhance your tasks","id":"let-the-ai-enhance-your-tasks"},{"level":1,"title":"Execute tasks with your AI of choice","id":"execute-tasks-with-your-ai-of-choice"},{"level":2,"title":"Installation 🔨","id":"installation"},{"level":1,"title":"Clone the repository","id":"clone-the-repository"},{"level":1,"title":"Install dependencies with Bun","id":"install-dependencies-with-bun"},{"level":1,"title":"Make the CLI available globally (optional but handy)","id":"make-the-cli-available-globally-optional-but-handy"},{"level":2,"title":"Configuration 🔑","id":"configuration"},{"level":1,"title":"OpenAI","id":"openai"},{"level":1,"title":"Anthropic (Claude)","id":"anthropic-claude"},{"level":1,"title":"Google (Gemini)","id":"google-gemini"},{"level":1,"title":"OpenRouter (if you want access to many models)","id":"openrouter-if-you-want-access-to-many-models"},{"level":2,"title":"Workflow Example 🚀","id":"workflow-example"},{"level":3,"title":"Step 1: Initialize Your Bunker","id":"step-1-initialize-your-bunker"},{"level":1,"title":"Attach to an existing project directory","id":"attach-to-an-existing-project-directory"},{"level":1,"title":"Or create a new project","id":"or-create-a-new-project"},{"level":3,"title":"Step 2: Generate a PRD from Your Idea","id":"step-2-generate-a-prd-from-your-idea"},{"level":3,"title":"Step 3: Parse the PRD into Tasks","id":"step-3-parse-the-prd-into-tasks"},{"level":3,"title":"Step 4: Enhance and Plan Your Tasks","id":"step-4-enhance-and-plan-your-tasks"},{"level":1,"title":"Let AI improve all tasks","id":"let-ai-improve-all-tasks"},{"level":1,"title":"Plan execution order based on dependencies","id":"plan-execution-order-based-on-dependencies"},{"level":1,"title":"Split a large task into smaller chunks","id":"split-a-large-task-into-smaller-chunks"},{"level":3,"title":"Step 5: Execute Tasks with AI","id":"step-5-execute-tasks-with-ai"},{"level":1,"title":"Execute a specific task with Claude","id":"execute-a-specific-task-with-claude"},{"level":1,"title":"Execute all pending tasks with multiple AI models","id":"execute-all-pending-tasks-with-multiple-ai-models"},{"level":1,"title":"Execute with external tools","id":"execute-with-external-tools"},{"level":2,"title":"Multi-AI Generation 🤖","id":"multi-ai-generation"},{"level":1,"title":"Generate solutions from multiple providers","id":"generate-solutions-from-multiple-providers"},{"level":1,"title":"This will show you a comparison of the different approaches","id":"this-will-show-you-a-comparison-of-the-different-approaches"},{"level":2,"title":"Benchmarking System 📊","id":"benchmarking-system"},{"level":1,"title":"Run benchmarks with git worktree isolation","id":"run-benchmarks-with-git-worktree-isolation"},{"level":1,"title":"View results","id":"view-results"},{"level":1,"title":"Compare specific runs","id":"compare-specific-runs"},{"level":2,"title":"Existing Project Adoption 🏠","id":"existing-project-adoption"},{"level":1,"title":"Navigate to your project directory","id":"navigate-to-your-project-directory"},{"level":1,"title":"Attach Task-O-Matic","id":"attach-task-o-matic"},{"level":1,"title":"It will scan your codebase and create initial context","id":"it-will-scan-your-codebase-and-create-initial-context"},{"level":2,"title":"Local-First Storage 💾","id":"local-first-storage"},{"level":2,"title":"Streaming with Reasoning Tokens 🧠","id":"streaming-with-reasoning-tokens"},{"level":2,"title":"Why the Bunker Theme ? 🤔","id":"why-the-bunker-theme"},{"level":2,"title":"Current Status 🚧","id":"current-status"},{"level":2,"title":"What's Next ? 🔮","id":"whats-next"},{"level":2,"title":"Get Involved ! 🤝","id":"get-involved"},{"level":2,"title":"Final Thoughts 💭","id":"final-thoughts"}],"directory":"Projects/Task-O-Matic","relativePath":"Projects/Task-O-Matic/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/Task-O-Matic/index.md","isCategory":false}]}]
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
+8:null

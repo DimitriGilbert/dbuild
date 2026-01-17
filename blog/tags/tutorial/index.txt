@@ -1,17 +1,1702 @@
 1:"$Sreact.fragment"
-2:I[99638,["770","static/chunks/770-c6e6a01e844fec29.js","136","static/chunks/136-c10d66bd0a69dd87.js","177","static/chunks/app/layout-8979f8ec81e3e496.js"],"ThemeProvider"]
-3:I[56208,["770","static/chunks/770-c6e6a01e844fec29.js","136","static/chunks/136-c10d66bd0a69dd87.js","177","static/chunks/app/layout-8979f8ec81e3e496.js"],"Navigation"]
-4:I[49507,[],""]
-5:I[52639,[],""]
-7:I[91432,[],"OutletBoundary"]
-9:I[91432,[],"MetadataBoundary"]
-b:I[91432,[],"ViewportBoundary"]
-d:I[69398,[],""]
+2:I[22304,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","177","static/chunks/app/layout-267ae1d5e4eb94a7.js"],"ThemeProvider"]
+3:I[71000,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","177","static/chunks/app/layout-267ae1d5e4eb94a7.js"],"FloatingNavigation"]
+4:I[13842,[],""]
+5:I[86880,[],""]
+7:I[25803,[],"OutletBoundary"]
+9:I[25803,[],"MetadataBoundary"]
+b:I[25803,[],"ViewportBoundary"]
+d:I[16773,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/014afd35cbea7c6e.css","style"]
-0:{"P":null,"b":"OW1grnFf0JKHXDpYGX-yj","p":"","c":["","blog","tags","tutorial",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","tutorial","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/014afd35cbea7c6e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_e8ce0c","children":["$","$L2",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","tutorial","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Tiloe0E8-9HAnEC8ObFHh",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
-e:I[62593,["770","static/chunks/770-c6e6a01e844fec29.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-8663f19fcc2ae3e3.js"],"PrefetchLink"]
-6:["$","div",null,{"className":"min-h-screen pt-20","children":["$","div",null,{"className":"container mx-auto px-4 py-12","children":[["$","$Le",null,{"href":"/blog/tags","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-9 px-4 py-2 has-[>svg]:px-3 mb-8","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left w-4 h-4 mr-2","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"All Tags"]}]}],["$","div",null,{"className":"text-center mb-12","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":["Articles tagged with ",["$","span",null,{"className":"text-primary","children":"tutorial"}]]}],["$","p",null,{"className":"text-muted-foreground","children":[6," article","s"," found"]}]]}],["$","div",null,{"className":"space-y-6","children":[["$","div","projects-mdd-story-of-a-simple-update",{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm group hover:shadow-lg transition-shadow","children":[["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"11/8/2023"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4 ml-2","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[8," min read"]}]]}],["$","div",null,{"data-slot":"card-title","className":"font-semibold text-2xl group-hover:text-primary transition-colors","children":["$","$Le",null,{"href":"/blog/projects-mdd-story-of-a-simple-update","children":"Story of a simple update"}]}]]}],["$","div",null,{"data-slot":"card-content","className":"px-6","children":[["$","p",null,{"className":"text-muted-foreground mb-4","children":"No plans survive first contact, the best part is no part, check yo stagin"}],["$","div",null,{"className":"flex flex-wrap gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[["$","$Le","parseArger",{"href":"/blog/tags/parsearger","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"parseArger"}]}],["$","$Le","mdd",{"href":"/blog/tags/mdd","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"mdd"}]}],["$","$Le","devlog",{"href":"/blog/tags/devlog","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"devlog"}]}],["$","$Le","bash",{"href":"/blog/tags/bash","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"bash"}]}],["$","$Le","terminal",{"href":"/blog/tags/terminal","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"terminal"}]}],["$","$Le","tutorial",{"href":"/blog/tags/tutorial","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90 hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"tutorial"}]}]]]}],["$","$Le",null,{"href":"/blog/projects-mdd-story-of-a-simple-update","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 has-[>svg]:px-3 p-0 h-auto font-medium","children":["Read more ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 ml-1","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}],["$","div","projects-parsearger-my-markdown-tool-a-parsearger-project",{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm group hover:shadow-lg transition-shadow","children":[["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"10/27/2023"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4 ml-2","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[10," min read"]}]]}],["$","div",null,{"data-slot":"card-title","className":"font-semibold text-2xl group-hover:text-primary transition-colors","children":["$","$Le",null,{"href":"/blog/projects-parsearger-my-markdown-tool-a-parsearger-project","children":"My markdown tool, a parsearger project"}]}]]}],["$","div",null,{"data-slot":"card-content","className":"px-6","children":[["$","p",null,{"className":"text-muted-foreground mb-4","children":"A realistic example is worth days of hello world tutorials !"}],["$","div",null,{"className":"flex flex-wrap gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[["$","$Le","bash",{"href":"/blog/tags/bash","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"bash"}]}],["$","$Le","terminal",{"href":"/blog/tags/terminal","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"terminal"}]}],["$","$Le","scripting",{"href":"/blog/tags/scripting","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"scripting"}]}],["$","$Le","parsearger",{"href":"/blog/tags/parsearger","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"parsearger"}]}],["$","$Le","tutorial",{"href":"/blog/tags/tutorial","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90 hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"tutorial"}]}],["$","$Le","devlog",{"href":"/blog/tags/devlog","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"devlog"}]}]]]}],["$","$Le",null,{"href":"/blog/projects-parsearger-my-markdown-tool-a-parsearger-project","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 has-[>svg]:px-3 p-0 h-auto font-medium","children":["Read more ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 ml-1","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}],["$","div","projects-parsearger-completion-documentation-and-stuff",{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm group hover:shadow-lg transition-shadow","children":[["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"10/16/2023"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4 ml-2","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[8," min read"]}]]}],["$","div",null,{"data-slot":"card-title","className":"font-semibold text-2xl group-hover:text-primary transition-colors","children":["$","$Le",null,{"href":"/blog/projects-parsearger-completion-documentation-and-stuff","children":"ParseArger, completion, documentation and stuff"}]}]]}],["$","div",null,{"data-slot":"card-content","className":"px-6","children":[["$","p",null,{"className":"text-muted-foreground mb-4","children":"Learn all about the completion, documentation and supporting stuff for your scripts that you can generate with ParseArger."}],["$","div",null,{"className":"flex flex-wrap gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[["$","$Le","bash",{"href":"/blog/tags/bash","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"bash"}]}],["$","$Le","terminal",{"href":"/blog/tags/terminal","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"terminal"}]}],["$","$Le","scripting",{"href":"/blog/tags/scripting","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"scripting"}]}],["$","$Le","parsearger",{"href":"/blog/tags/parsearger","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"parsearger"}]}],["$","$Le","tutorial",{"href":"/blog/tags/tutorial","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90 hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"tutorial"}]}]]]}],["$","$Le",null,{"href":"/blog/projects-parsearger-completion-documentation-and-stuff","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 has-[>svg]:px-3 p-0 h-auto font-medium","children":["Read more ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 ml-1","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}],["$","div","projects-parsearger-more-on-pos-opt-and-flag",{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm group hover:shadow-lg transition-shadow","children":[["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"10/13/2023"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4 ml-2","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[6," min read"]}]]}],["$","div",null,{"data-slot":"card-title","className":"font-semibold text-2xl group-hover:text-primary transition-colors","children":["$","$Le",null,{"href":"/blog/projects-parsearger-more-on-pos-opt-and-flag","children":"ParseArger, more on Pos Opt and Flag"}]}]]}],["$","div",null,{"data-slot":"card-content","className":"px-6","children":[["$","p",null,{"className":"text-muted-foreground mb-4","children":"Options with default values ? Repeatable options or aliases maybe ? This is a deeper dive into parseArger's arguments, options and flags generation."}],["$","div",null,{"className":"flex flex-wrap gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[["$","$Le","bash",{"href":"/blog/tags/bash","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"bash"}]}],["$","$Le","terminal",{"href":"/blog/tags/terminal","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"terminal"}]}],["$","$Le","scripting",{"href":"/blog/tags/scripting","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"scripting"}]}],["$","$Le","parsearger",{"href":"/blog/tags/parsearger","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"parsearger"}]}],["$","$Le","tutorial",{"href":"/blog/tags/tutorial","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90 hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"tutorial"}]}]]]}],["$","$Le",null,{"href":"/blog/projects-parsearger-more-on-pos-opt-and-flag","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 has-[>svg]:px-3 p-0 h-auto font-medium","children":["Read more ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 ml-1","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}],["$","div","projects-parsearger-generate-and-parse",{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm group hover:shadow-lg transition-shadow","children":[["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"10/10/2023"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4 ml-2","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[6," min read"]}]]}],["$","div",null,{"data-slot":"card-title","className":"font-semibold text-2xl group-hover:text-primary transition-colors","children":["$","$Le",null,{"href":"/blog/projects-parsearger-generate-and-parse","children":"ParseArger, generate and Parse"}]}]]}],["$","div",null,{"data-slot":"card-content","className":"px-6","children":[["$","p",null,{"className":"text-muted-foreground mb-4","children":"Deeper dive in parseArger generate and parse commands arguments and options."}],["$","div",null,{"className":"flex flex-wrap gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[["$","$Le","bash",{"href":"/blog/tags/bash","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"bash"}]}],["$","$Le","terminal",{"href":"/blog/tags/terminal","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"terminal"}]}],["$","$Le","scripting",{"href":"/blog/tags/scripting","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"scripting"}]}],["$","$Le","parsearger",{"href":"/blog/tags/parsearger","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"parsearger"}]}],["$","$Le","tutorial",{"href":"/blog/tags/tutorial","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90 hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"tutorial"}]}]]]}],["$","$Le",null,{"href":"/blog/projects-parsearger-generate-and-parse","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 has-[>svg]:px-3 p-0 h-auto font-medium","children":["Read more ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 ml-1","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}],["$","div","projects-parsearger-create-bash-scripts-youll-want-to-use",{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm group hover:shadow-lg transition-shadow","children":[["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"10/8/2023"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4 ml-2","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[6," min read"]}]]}],["$","div",null,{"data-slot":"card-title","className":"font-semibold text-2xl group-hover:text-primary transition-colors","children":["$","$Le",null,{"href":"/blog/projects-parsearger-create-bash-scripts-youll-want-to-use","children":"ParseArger, create bash scripts you'll want to use"}]}]]}],["$","div",null,{"data-slot":"card-content","className":"px-6","children":[["$","p",null,{"className":"text-muted-foreground mb-4","children":"Generate standalone bash scripts with argument, option and flag parsing, documentation, completion and more !"}],["$","div",null,{"className":"flex flex-wrap gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[["$","$Le","bash",{"href":"/blog/tags/bash","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"bash"}]}],["$","$Le","terminal",{"href":"/blog/tags/terminal","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"terminal"}]}],["$","$Le","scripting",{"href":"/blog/tags/scripting","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"scripting"}]}],["$","$Le","parsearger",{"href":"/blog/tags/parsearger","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"parsearger"}]}],["$","$Le","tutorial",{"href":"/blog/tags/tutorial","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90 hover:bg-primary hover:text-primary-foreground cursor-pointer","children":"tutorial"}]}]]]}],["$","$Le",null,{"href":"/blog/projects-parsearger-create-bash-scripts-youll-want-to-use","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 has-[>svg]:px-3 p-0 h-auto font-medium","children":["Read more ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 ml-1","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}]]}]]}]}]
+:HL["/_next/static/css/9579c992d89962c7.css","style"]
+0:{"P":null,"b":"fxCbDsEksO5NPvyXbZAu_","p":"","c":["","blog","tags","tutorial",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","tutorial","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9579c992d89962c7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","tutorial","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","5-TXY5_vwEaPQ__OLomZb",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[73104,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-aeecd19139ff1a04.js"],"TagDetailContent"]
+f:T231b,
+A small article on an mdd update, and the process behind it. Nothing fancy, but a little bit of food for thoughts ;).
+
+## Why is this even a post
+
+First of all, I'm trying to make content ! And, also, I almost went at it "the wrong way", so I thought it would be a good idea to share my experience.
+
+Now, if you never put your foot in your mouth when doing something, you should pass on the read, otherwise, you might find something interesting or at least feel less lonely.
+
+It's on a very small scale and that is why I think it is such a good example. On top of which, you already are familiar with the project so you won't be lost, and also, it's a tutorial project...i'm gonna milk it !
+
+## TLDR
+
+I wanted to go at it fancy, separation between stuff and all, but I ended up doing it the simple way, and it's fine. At least for now.
+
+Yes, it would have worked otherwise, it would have been fine or even great, prepared for improvement and shit, but, a mix of "meh, can't be bothered" and, "hum, i certainly don't need that now..." got the better of the fancyness.
+
+Let's see how it all happened.
+
+## Heads first
+
+* "I should create entry for my projects on the site....huuuuuu, booooorrriiiing...."
+* "well, you have a tool for that big dumb dumb" (yes, we are talking to myself, no judgement !)
+* "oooh yeah, hum... but it creates article only..."
+* "dude, decouple your thumbs from Uranus !"
+* "huuuuuu.....OOOOO KKAAAYYY...."
+
+```bash
+parseArger generate \
+  --output bin/category \
+  --help-message "create a new category" \
+  --pos 'title "category title"' \
+  --opt 'folder "article folder name" --alias directory --alias dir' \
+  --opt 'categories "article parent categories" --short c --repeat --alias cat --alias parent' \
+  --opt 'date "publication date meta" --short d --alias publication --alias publish-at' \
+  --opt 'summary "summary meta" --short s --alias description --alias desc' \
+  --nested 'meta "add any meta you want"'
+```
+
+And then take that from `article`, and that, oh, and that, and....
+
+## Heeeyy, wait a minute, AKA duh
+
+So, all I did for the last 37 seconds (damn, [parseArger](https://github.com/DimitriGilbert/parseArger) is SOOOO coool !) is copy pasting article to make a simpler version of it.
+
+Because, when you think about it, categories in Hugo are just articles, but instead onf a `index.md` file, you have a `_index.md`, maybe, just maybe, we could add an option to specify the file name, it would even make `mdd article` more versatile.
+
+To make things a bit more user friendly (yes, you can have friendly CLI !), we'll also add a flag to say it's a category so you don't have to write `--filename _index.md` every time.
+
+```bash
+parseArger parse bin/article -i \
+  --opt 'filename "markdown file name" --default-value index.md' \
+  --flag 'is-category "this is a category, using _index.md as filename" --alias is-cat'
+```
+
+Let's modify our `bin/article file to reflect the new constraints.
+
+```bash
+# the end of the file 
+if [ "$_arg_force" == "on" ] && [ -f "${_container_dir}/index.md" ]; then 
+  rm "${_container_dir}/index.md" -f; 
+fi
+if [ ! -f "${_container_dir}/index.md" ]; then
+	if [ "$_arg_template" == "" ] || [ ! -f "$_arg_template" ]; then
+		if [ "$_arg_template" != "" ]; then
+			log "template $_arg_template not found" -1;
+		fi
+		log "using default template" 4;
+		_arg_template="${_SCRIPT_DIR}/../templates/article.md";
+	fi
+	sed \
+		-e "s/{{metas}}/$_metas_str/g" \
+		-e "s/{{content}}/$_contents_str/g" \
+		"$_arg_template" > "${_container_dir}/index.md";
+else
+	die "file already exists: ${_container_dir}";
+fi
+
+# is now 
+# if is-category and filename not specified
+if [ "$_arg_is_category" == "on" ] && [ "$_arg_filename" == "index.md" ]; then
+	_arg_filename="_index.md";
+fi
+
+# using _arg_filename instead of index.md
+if [ "$_arg_force" == "on" ] && [ -f "${_container_dir}/${_arg_filename}" ]; then 
+  rm "${_container_dir}/${_arg_filename}" -f; 
+fi
+if [ ! -f "${_container_dir}/${_arg_filename}" ]; then
+	if [ "$_arg_template" == "" ] || [ ! -f "$_arg_template" ]; then
+		if [ "$_arg_template" != "" ]; then
+			log "template $_arg_template not found" -1;
+		fi
+		log "using default template" 4;
+		_arg_template="${_SCRIPT_DIR}/../templates/article.md";
+	fi
+	sed \
+		-e "s/{{metas}}/$_metas_str/g" \
+		-e "s/{{content}}/$_contents_str/g" \
+		"$_arg_template" > "${_container_dir}/${_arg_filename}";
+else
+	die "file already exists: ${_container_dir}";
+fi
+
+```
+
+That simple, not even 10 lines (6, 6 lines, I counted them on re-read....dawn you braiiiin) ! Definitly worth it if you consider the alternative would have been a new file, with mostly duplicated code.
+
+I could have called `mdd article` in my new command and then renamed `index.md` to `_index.md`, but it did not seem like a great solution to add 500 lines of code and another file for 10 lines of functionality, when i could add 10 (6 I said ! and most of it is modification) more lines and do more.
+
+## Bug fixes and chores
+
+Well, let's test our new toy, shall we ?
+
+```bash
+mdd article mdd --cat Projects --is-category \
+  --summary "My MarkDown tools, a parseArger tutorial project"
+```
+
+Directory and file created ok, let's add an article then.
+
+```bash
+mdd article "Story of a simple update" \
+  --summary "No plans survive first contact, the best part is no part, check yo' stagin'\!" \
+  --h2 "Why is this even a post" \
+  --h2 "TLDR" \
+  --h2 "Heads first" \
+  --h2 "Heeeyy, wait a minute, AKA 'duh'" \
+  --h2 "Conclusion" \
+  --h2 "What now ?" \
+  --cat Projects \
+  --cat mdd \
+  --tag parseArger \
+  --tag mdd \
+  --tag devlog \
+  --tag bash \
+  --tag tutorial
+```
+
+aaannnnnd `ERROR 2023/11/05 10:46:34 Rebuild failed: "/src/content/Projects/mdd/Story of a simple update/index.md:4:1": failed to unmarshal YAML: yaml: line 4: found character that cannot start any token`, NOOOPE !
+
+A few minutes of head scratching, couple of copy paste and test and, yup, YAML do not like `\t` for arrays, it wants `  `... fine, what...eeeever.
+
+```bash
+if [ "${#_arg_tags[@]}" -gt 0  ]; then
+	log "${#_arg_tags[@]} tags specified:" 4;
+	_metas_str+="tags: \n";
+	for _tg in "${_arg_tags[@]}"; do
+		log "\t$_tg" 4;
+		_metas_str+="\t- $_tg\n";
+	done
+fi
+
+# is now this
+if [ "${#_arg_tags[@]}" -gt 0  ]; then
+	log "${#_arg_tags[@]} tags specified:" 4;
+	_metas_str+="tags: \n";
+	for _tg in "${_arg_tags[@]}"; do
+		log "\t$_tg" 4;
+    # RIGHT HERE, YOOOHOO
+		_metas_str+="  - $_tg\n";
+	done
+fi
+```
+
+Aaaand, ....,  it does not crash anymore \o/.
+
+Maybe `article` for the command is not as good now, let's change it to `new` we have to regenerate doc and completion anyway.
+
+```bash
+mv bin/article bin/new
+rm -f bin/category
+```
+
+Edit mdd and modify parsearger declaration to remove `--one-of article`, it won't be remove automagically, even if bin-directory it's on purpose, I'll probably add a flag for this behavior later
+
+```bash
+# edit mdd replace
+@parseArger pos target "mdd subcommand" --subcommand-directory "bin" --subcommand-run --subcommand-use-leftovers --subcommand --one-of "article" --one-of "new"
+# with
+@parseArger pos target "mdd subcommand" --subcommand-directory "bin" --subcommand-run --subcommand-use-leftovers --subcommand --one-of "new"
+```
+
+A bit of parsing magic before documentation and completion generation.
+
+```bash
+parseArger parse -i mdd
+
+parseArger completely "mdd" ./mdd --subcommand-directory ./bin --no-run-completely > completely.yaml
+completely preview > completely.bash
+
+parseArger document --file ./mdd  --directory ./bin --title "MarkDown for Didi" > documentation.md
+
+git add bin/new
+git commit -am 'ename to new + category creation + tag bug fix'
+git push origin main
+```
+
+It's now all ready to go \o/.
+
+## Conclusion
+
+Sometimes you don't need a bazooka to kill a fly, sometimes, you don't even need a gun (trust me, if I had access to guns, I'd use that to kill flies, of course I would !) and sometimes you don't even need to kill this fly... BUT not Today !
+
+**heavy hand droping on the table**
+
+Oh no, Today, we squashed the damn bugger by doing almost nothing !
+
+Joking aside, I think that there's a place and time for complexity, but it was not it.
+
+The main objective of this project is simplicity, and adding that much more surface area so early did seem to go against that.
+
+If there is something I realized over the years, fancy don't always mean effective, whether it's a small joke project or a big gargantuous blob of a software and we as `engineers` have a small (tiny, little, puny, dare I say it, nanoscopic !) tendency to want to add complexity, `because`.
+
+Just, be aware of it when you plan your next stuff, and this was a good example ;)
+
+## What now ?
+
+Nothing much, we had a look at updating a parseArger project and went over a bit of KISS principle. 
+Maybe it made you realize you went overboard with some of your work ? Do you have a way of alleviating this kind of behavior ? And, do you even care or do you embrace complexity and overkill ?
+
+{{% projectInteraction project="parseArger" %}}
+
+{{% goodbye %}}
+10:T2f99,
+## Let's create a project together !
+
+I'm one of those `learn by doing` guys (mostly), I'm assuming your kind of are too, so let's build something together.
+
+### A bit of context and basic requirements
+
+For this blog, I'm using [hugo](https://gohugo.io) as a static site generator, and I'm writing my articles in markdown.
+`hugo new` does the job, but I want something a bit different, with a folder that contains everything I need for the article (asset, code, etc...).
+I would like my new post to be prefilled as much as possible so the tool should be able to set any meta.
+Also, I tend to craft my article squeletton before writting (#trauma #school XD), so I should at least be able to add main headings from the CLI.
+Because I do not know where this is goping, I won't just `generate` a script, I am going to start a new `project` so I can add more stuff later on.
+
+## Leeeeeet's goooooo !
+
+### Generate the project
+
+We are using the `project` command, more information can be found in the [previous article]() if you need help.
+
+```bash
+# create a new project called mdd (MarkDown for Didi. Much creativity, such accronym, #wow)
+# one subcommand 'article' for now.
+parseArger project mdd \
+  --description "markdown tools for my blog" \
+  --git-repo "DimitriGilbert/mdd" \
+  --project-subcommand article
+```
+
+This command will create a new folder `mdd` with the following structure:
+
+```bash
+|_ mdd
+|_ documentation.md
+|_ form.html
+|_ Makefile
+|_ readme.md
+|_ bin
+  |_ article
+|_ utils
+  |_ get_mdd
+  |_ install
+  |_ webserver 
+```
+
+Our entry point `mdd` should handle the command routing on its own, no work needed so we go along to `article`.
+
+### Parse the article command
+
+After some careful thoughts, I have refined my requirements which are now the following:
+
+* create a new folder with the article name
+  * if $(pwd) contains a `content` folder, create the article in it
+  * article can have hierarchical categories. (if more than one, the previous is the parent)
+    * categories make the path to the article
+* create index.md from template you can specify
+* tags, series, title, draft (on), date (now), summary metas handled by CLI
+  * add any other meta you want
+* add headings
+  * headings level can be specified
+
+From all that, we know that we'll need the folowing :
+* arguments : 
+  * title (the only thing mandatory, so it's an argument)
+* options : 
+  * categories (repeatable)
+  * folder name (not strictly necessary, but i can forsee a need soooo...)
+  * tags (repeatable)
+  * series (repeatable)
+  * date
+  * summary
+  * template
+  * headings (repeatable)
+  * headings level (default 2)
+* flags :
+  * draft (on by default)
+* nested options :
+  * meta
+    * due to bash limitation, no repeatable nested options, so only the last value for a key will be kept
+
+With that in mind, let's build our `parse` command to update our `bin/article` file. Don't forget to remove comment before executing, they don't play well with backslashes ^^.
+
+```bash
+# parse the bin/article file
+parseArger parse bin/article \
+  # add the title argument, nothing special here
+  --pos 'title "article title"' \
+  # add the folder name option, using title if none provided. I also declare aliases for this option, namely 'dir' and 'directory'
+  --opt 'folder "article folder name" --alias directory --alias dir' \
+  # add the categories option, repeatable, with aliases 'cat' and 'parent', a short version of the option is given, namely 'c'
+  --opt 'categories "article parent categories" --short c --alias cat --alias parent --repeat' \
+  # add the tags option, repeatable, with alias 'tag' and short option 't'
+  --opt 'tags "article tags" --repeat --short t --alias tag' \
+  # add the series option, with alias 'group' and short option 'g'
+  --opt 'series "article belongs to this series" --alias group --short g' \
+  # add the date option with short option 'd' and aliases 'publication', 'publish-at'
+  --opt 'date "publication date meta" --alias publication --alias publish-at --short d' \
+  # add the summary option with short option 's' and aliases 'description', 'desc'
+  --opt 'summary "summary meta" --short s --alias description --alias desc' \
+  # add the template option with short option 'tpl' and alias 'template'
+  --opt 'template "template file to use" --alias tpl' \
+  # add the headings option, repeatable, with short option 'h' and aliases 'part', 'h2'
+  --opt 'headings "add headings to your file" --repeat --alias part --alias h2' \
+  # add the headings level option with short option 'hl' and alias 'headings-level'
+  --opt 'headings-level "heading level" --default-value 2 --alias hl' \
+  # add the draft flag on by default and with a no-alias as publish 
+  #   meaning if you want it off, you can either use --no-draft or --publish
+  --flag 'draft "is it a draft" --on --no-alias publish' \
+  # add the meta nested option
+  --nested-options 'meta "add any meta you want"' \
+  # parse in place, -i is the short option
+  --in-place
+```
+
+This will give us the following `bin/article` file :
+
+{{% fileContent file="/content/Projects/parseArger/My markdown tool, a parsearger project/article_v1" language="bash" %}}
+
+It's a whole bunch of code, but mercyfully you do not have to pay attention to it \o/ (I mean, you can if you want, but it's not necessary).
+
+Instead we are going to focus on the code that is going to use those parsed arguments and stuff !
+
+### The (real) code
+
+Well, let's start fullfilling our requirements !
+
+#### Folder stuff
+
+I use the log function with a level of 4 for comments ;)
+
+```bash
+# if nothing else, the title
+_container_dir="$_arg_title";
+
+if [ "$_arg_folder" != "" ]; then
+	log "folder specified: $_arg_folder" 4;
+	_container_dir="$_arg_folder";
+fi
+
+# there is categories at least 1
+if [ "${#_arg_categories[@]}" -gt 0 ]; then
+	log "categories specified:" 4;
+	_cat_dir="";
+	for _cat in "${_arg_categories[@]}"; do
+		_cat_dir+="$_cat/";
+	done
+	log "	categories path : $_cat_dir" 4;
+	_container_dir="$_cat_dir$_container_dir";
+fi
+
+# hugo directory, it's a poor check , I don't care ^^
+if [ -d "content" ]; then
+	log "using content directory" 4;
+	_container_dir="content/$_container_dir";
+fi
+
+# create the directory if it does not exist
+if [ ! -d "$_container_dir" ]; then
+	log "creating container directory: $_container_dir" 2;
+	mkdir -p "$_container_dir";
+fi
+```
+
+#### Meta stuff
+
+Here we'll handle all the metas so that we can put that to rest.
+
+```bash
+# start with the title, it's always here
+_metas_str="title: $_arg_title\n";
+
+if [ "$_arg_date" != "" ]; then
+	log "date specified: $_arg_date" 4;
+	_metas_str+="date: $_arg_date\n";
+fi
+
+if [ "$_arg_summary" != "" ]; then
+	log "summary specified: $_arg_summary" 4;
+	_metas_str+="summary: $_arg_summary\n";
+fi
+
+if [ "${#_arg_tags[@]}" -gt 0  ]; then
+	log "${#_arg_tags[@]} tags specified:" 4;
+	_metas_str+="tags: \n";
+	for _tg in "${_arg_tags[@]}"; do
+		log "\t$_tg" 4;
+		_metas_str+="\t- $_tg\n";
+	done
+fi
+
+if [ "$_arg_series" != "" ]; then
+	log "series specified: $_arg_series" 4;
+	_metas_str+="series: $_arg_series\n";
+fi
+
+if [ "$_arg_draft" == "on" ]; then
+	log "draft on" 4;
+	_metas_str+="draft: true\n";
+fi
+
+if [ "${#_arg_ns_meta[@]}" -gt 0 ]; then
+	log "other metas specified:" 4;
+	for _tmp_k_meta in "${!_arg_ns_meta[@]}"; do
+		log "\t$_tmp_k_meta: ${_arg_ns_meta[$_tmp_k_meta]}" 4;
+		_metas_str+="$_tmp_k_meta: ${_arg_ns_meta[$_tmp_k_meta]}\n";
+	done
+fi
+```
+
+#### Creating the headings
+
+My article squeletton straight from the CLI
+
+```bash
+# empty content by default
+_content_str="";
+if [ "${#_arg_headings[@]}" -gt 0 ]; then
+	_hd_level_str="";
+	for (( i=0; i<_arg_headings_level; i++ )); do
+		_hd_level_str+="#";
+	done
+
+	log "headings specified:" 4;
+	for _hd in "${_arg_headings[@]}"; do
+		log "\t$_hd" 4;
+		_contents_str+="\n$_hd_level_str $_hd\n\n\n";
+	done
+fi
+```
+
+#### Creating the index.md file
+
+Creating the file itself, but, damn, even after *careful thoughts* it looks like I'm missing something....
+
+We'll have to come back to that later i guess...
+
+```bash
+
+# dont erase stuff willy nilly, but, hum, looks like I'm missing something here...
+if [ ! -f "${_container_dir}/index.md" ]; then
+	if [ "$_arg_template" == "" ] || [ ! -f "$_arg_template" ]; then
+		if [ "$_arg_template" != "" ]; then
+			log "template $_arg_template not found" -1;
+		fi
+		log "using default template" 4;
+		_arg_template="${_SCRIPT_DIR}/../templates/article.md";
+	fi
+	sed \
+		-e "s/{{metas}}/$_metas_str/g" \
+		-e "s/{{content}}/$_contents_str/g" \
+		"$_arg_template" > "${_container_dir}/index.md";
+else
+	die "file already exists: ${_container_dir}";
+fi
+```
+
+befor going any further, let's test what we have so far :
+
+```bash
+./mdd article "A test article" \
+  --cat my-cat \
+  --cat "sub category" \
+  -s "this is just a test" \
+  --folder "My test article" \
+  --h2 "A title for my test" --h2 "a second part to the test" --h2 "Conclusion"
+```
+
+Executing this command gives us the following structure :
+
+```bash
+|_ my-cat
+  |_ sub category
+    |_ My test article
+      |_ index.md
+```
+
+and `cat "my-cat/sub category/My test article/index.md"` :
+
+```markdown
+---
+title: A test article
+summary: this is just a test
+draft: true
+
+---
+
+## A title for my test
+
+
+
+## a second part to the test
+
+
+
+## Conclusion
+```
+
+Well, looks like success to me !
+Now let's get back to what we missed earlier !
+
+#### Allow ovverride of index.md
+
+Yeah, that's what we forgot, we need to be able to override the index.md file, so let's add a flag for that.
+
+```bash
+parseArger parse bin/article -i --flag 'force "erase if exists"'
+```
+
+This modify the parsing code so we just need to update the code accordingly :
+
+this : 
+```bash
+if [ ! -f "${_container_dir}/index.md" ]; then
+	...
+```
+becomes that :
+```bash
+if [ "$_arg_force" == "on" ] && [ -f "${_container_dir}/index.md" ]; then 
+  rm "${_container_dir}/index.md" -f; 
+fi
+if [ ! -f "${_container_dir}/index.md" ] || [ "$_arg_force" == "on" ]; then
+	...
+```
+
+I do it this way if (when ?) we add a backup system ;)
+
+### Nice to haves
+
+Let"s take care of our QoL as developers and help our future selves, let's start with documentation.
+
+```bash
+parseArger document --file ./mdd  --directory ./bin --title "MarkDown for Didi" > documentation.md
+```
+
+I just pipe the result too the file, je suis un geudin, faut pas me chercher !
+
+Completion is next, and as usual for me, something crashes, the "normal" command is as follow :
+
+```bash
+parseArger completely "mdd" ./mdd --subcommand-directory ./bin
+```
+
+which fails for me, but I use this workaround :
+
+```bash
+parseArger completely "mdd" ./mdd --subcommand-directory ./bin --no-run-completely > completely.yaml
+completely preview > completely.bash
+```
+
+Why does this work when otherwise fail ? `\_(ツ)_/`
+
+That done, the rc file require creation, this is the content :
+
+```bash
+if [ "${MDD_DIR}" != "" ]; then
+  alias mdd="${MDD_DIR}/mdd";
+  [ -f "${MDD_DIR}/completely.bash" ] && source "${MDD_DIR}/completely.bash";
+fi
+```
+
+A small detour by the readme file to fill a bit of information :
+
+```markdown
+# Markdown for Didi
+
+Markdown tools for my blog.
+This is a tutorial project for [parseArger](https://github.com/DimitriGilbert/parseArger).
+```
+
+### Tidy up !
+
+I'll remove the form and the makefile, I don't need them for this project.
+And if I end up doing, their just a command away ^^
+
+```bash
+rm -f form.html Makefile
+```
+
+If you followed along you might have extra directory from your test, don't forget to clean them !
+And we're just left with a commit to be done for now !
+
+```bash
+git add .
+git commit -m "first commit"
+# hub create <repo>
+git push origin main
+```
+
+## What now ?
+
+I won't re write a heroic fantasy introduction in lieu of conclusion this time, but for real, I kinda have nothing more to teach you on parseArger for now.
+
+As for `mdd`, I'll probably add some stuff to it, but I don't know what yet, so I'll just leave it there for now. [bug report, feature request and PR](https://github.com/DimitriGilbert/mdd) are welcome though, I don't promise quick support but I'll sure have a look ;)
+
+I'll probably go over a few other stuff I created before writting again about parseArger, but it'll be back, I promise !
+
+{{% projectInteraction project="parseArger" %}}
+
+{{% goodbye %}}
+11:T2c26,
+Now that you can [generate and parse](/projects/parsearger/generate-and-parse/) scripts with [fine tuned arguments, options and flags](/projects/parsearger/more-on-pos-opt-and-flag/), we are going to genrate supporting stuff for our scripts.
+
+## Completion
+
+Completion is a great feature of the terminal that allows you to complete commands, options and arguments by pressing the `tab` key. It is a great way to avoid typos and to discover new commands and options. For me, it is the main selling point on why you should use the terminal.
+I use [completely](https://github.com/DannyBen/completely), so  you have to install it before generating the completion script, but the script itself is standalone. 
+Here comes the help :
+
+```bash
+  command-name: command-name
+  file: file
+  --subcommand-directory|--subcmd-dir <subcommand-directory>: directory for subcommand target
+  --completely-cmd|--cmpcmd <completely-cmd>: completely command, repeatable
+  --extra-file <extra-file>: extra yaml declaration, repeatable
+  --yaml-file <yaml-file>: yaml file name [default: ' completely.yaml ']
+  --completion-file <completion-file>: completion file name [default: ' completely.bash ']
+  --run-completely|--no-run-completely: run completely, on by default (use --no-run-completely to turn it off)
+          no-aliases: --no-run,
+  --discover-subcommand|--no-discover-subcommand: auto run completely on found subcommand
+```
+
+Let's have a look a few examples :
+
+```bash
+# generate completion for my-script
+parseArger completely my-script "./my-script"
+
+# generate completion for my-script and its subcommand in the ./bin directory
+parseArger completely my-script "./my-script" --subcommand-directory "./bin"
+```
+
+Sometimes, for some esotheric reason, it does not work, but I found a work around :
+
+```bash
+# generate completion definition for completely
+parseArger completely my-script "./my-script" --no-run-completely > completely.yaml
+# run completely preview (that does work) and put the output in the completion script file
+completely preview > completely.bash
+```
+
+### command-name
+
+The command you generate the completion for
+
+```bash
+parseArger completely my-script ./my-script
+```
+
+### file
+
+The executable file for `command-name`
+
+```bash
+parseArger completely my-script ./my-script
+```
+
+### --subcommand-directory
+
+If your command has subcommands, you can specify the directory where they are located so it will generate the completion as well.
+
+```bash
+parseArger completely my-script ./my-script --subcommand-directory ./bin
+```
+
+### --completely-cmd
+
+Completely is not installed inyour path ? It runs as a container ? That's ok, you can specify the command to run completely.
+
+```bash
+parseArger completely my-script ./my-script --completely-cmd "docker run --rm -it completely"
+```
+
+### --extra-file
+
+The completion is generated from the arguments options and flags you defined in your script, but you can concatenate other yaml files to add more completion.
+
+```bash
+parseArger completely my-script ./my-script --extra-file ./my-script.completion.yaml
+```
+
+### --yaml-file
+
+If the yaml file name does not suit you.
+
+```bash
+parseArger completely my-script ./my-script --yaml-file ./not-completely.yaml
+```
+
+### --completion-file
+
+Same as for the yaml file.
+
+```bash
+parseArger completely my-script ./my-script --completion-file ./not-completely.bash
+```
+
+### --[no-]run-completely
+
+Output the yaml file to stdout
+
+```bash
+parseArger completely my-script ./my-script --no-run-completely
+```
+
+### --[no-]discover-subcommand
+
+If you have subcommands, you can generate the completion for them as well, but you don't have to.
+
+```bash
+parseArger completely my-script ./my-script --no-discover-subcommand
+```
+
+## Documentation
+
+making things is coll, but making so that others (or you, after a while) can use whatever you put out there is even cooler. But it is also very long and boring. So I made a tool to do some of it for me. I don't use the output as is but it's a good starting point ;).
+
+```bash
+  -f, --file <file>: file to document, repeatable
+  -d, --directory|--folder <directory>: directory to document, repeatable
+  -o, --out <out>: output file
+  --tag <tag>: markdown tag for title [default: ' ## ']
+  --next-tag-prepend <next-tag-prepend>: prepend to next title tag level [default: ' # ']
+  --title <title>: documentation title [default: ' Usage ']
+  --title-tag <title-tag>: documentation title tag [default: ' # ']
+  --sub-directory|--no-sub-directory: document subdirectory, on by default (use --no-sub-directory to turn it off)
+  --append-output|--no-append-output: add to output file if it exists, on by default (use --no-append-output to turn it off)
+```
+
+and a few examples :
+
+```bash
+# generate completion for my-script
+parseArger document --file "./my-script" --out "./my-script documentation.md"
+
+# generate completion for my-script and all the scripts in the ./bin directory, erase "my-script documentatino.md" if it exists
+parseArger document --file "./my-script" --directory "./bin" --out "./my-script documentation.md" --no-append-output
+```
+
+### --file
+
+Document this file, repeatable. First in first out.
+
+```bash
+# generate completion for my-script and my-other-script
+parseArger document --file "./my-script" --file "./my-other-script"
+```
+
+### --directory
+
+Document all parseArger scripts in this directory, repeatable. First in first out.
+
+```bash
+# generate completion for all the scripts in the ./bin and ./I/put/stuff/every/where directories
+parseArger document --directory "./bin" --directory "./I/put/stuff/every/where"
+```
+
+### --out
+
+If not specified, I will barf all over stdout !
+
+```bash
+# generate completion output to stdout
+parseArger document --file "./my-script"
+# generate completion output to documentation.md
+parseArger document --file "./my-script" --out "./documentation.md"
+```
+
+### --tag
+
+I shall use a tag for titles, default is ` ## `. But you know, if youd rather have h6, you can do that.
+
+```bash
+parseArger document --file "./my-script" --tag "######"
+```
+
+### --next-tag-prepend
+
+I start taggin with --tag value, but for each subsequent title, I prepend this value to the tag. Default is ` # `.
+
+```bash
+parseArger document --file "./my-script" --next-tag-prepend "######"
+```
+
+### --title
+
+If you wanna get fancy with your title, otherwise you'll get a boring ` Usage `.
+
+```bash
+parseArger document --file "./my-script" --title "How to use my script"
+```
+
+### --title-tag
+
+I already have an h1  bladi bladi blada, whatever ...!
+
+```bash
+parseArger document --file "./my-script" --title-tag "###"
+```
+
+### --[no-]sub-directory
+
+If you ain't tellin' me, I'll go though your stuff !
+
+```bash
+parseArger document --directory "./bin" --no-sub-directory
+```
+
+### --[no-]append-output
+
+That is usually how I clean, using a black hole !
+
+```bash
+parseArger document --file "./my-script" --out "./documentation.md" --no-append-output
+```
+
+## HTML form
+
+Wait, what ?!! Why would a bash CLI script need a form ? Well, it doesn't, but I had the idea of using them for documentation purposes.
+They come bundled with some (very dirty) javascript to generate a command from the input so less terminally inclined people can take advantage of your tools too (and maybe, just maybe learn to appreciate it ;) ).
+
+```bash
+  file: file to process
+  --command <command>: command string, default to file 
+  --action <action>: form action
+  --form-class <form-class>: form html class
+  --input-container-class <input-container-class>: input container class [default: ' form-group ']
+  --input-class <input-class>: input class [default: ' form-control ']
+  --label-class <label-class>: label class [default: ' form-label ']
+  --select-class <select-class>: select class [default: ' form-select ']
+  --checkbox-container-class|--radio-container-class <checkbox-container-class>: checkbox and radio class [default: ' form-check ']
+  --checkbox-class|--radio-class <checkbox-class>: checkbox and radio class [default: ' form-check-input ']
+  --checkbox-label-class|--radio-label-class <checkbox-label-class>: checkbox and radio label class [default: ' form-check-label ']
+  --parent-form <parent-form>: parent form for result
+  --form|--no-form: display form, on by default (use --no-form to turn it off)
+  --button|--no-button: display button, on by default (use --no-button to turn it off)
+  --js|--no-js: create javascript, --no-js forces --no-result, on by default (use --no-js to turn it off)
+  --result|--no-result: display result, on by default (use --no-result to turn it off)
+```
+
+## file
+
+A simple form for a simple file.
+
+```bash
+# 
+parseArger html-form my-script
+
+```
+
+## --command
+
+If your filename do not match the command you want to run (for alias reasons), you can specify it here.
+
+```bash
+# when you do not want to keep things simple
+parseArger html-form my-script --command "my-script-alias"
+
+```
+
+## --action
+
+The form does not go anywhere by default, but you can change that !
+
+```bash
+# Where I want to go
+parseArger html-form my-script --action "/over/the/rainbow"
+
+```
+
+## --form-class
+
+The form uses bootstrap classes by default so it's easy and quick to make them pretty.
+I won't repeat it, but it goes for all *-class options.
+
+```bash
+# Me no like bootstrap !
+parseArger html-form my-script --form-class "my-form-class"
+
+```
+
+## --input-container-class
+
+```bash
+# 
+parseArger html-form my-script --input-container-class "my-input-container-class"
+
+```
+
+## --input-class
+
+```bash
+# 
+parseArger html-form my-script --input-class "my-input-class"
+
+```
+
+## --label-class
+
+```bash
+# 
+parseArger html-form my-script --label-class "my-label-class"
+
+```
+
+## --select-class
+
+```bash
+# 
+parseArger html-form my-script --select-class "my-select-class"
+
+```
+
+## --checkbox-container-class
+
+```bash
+# 
+parseArger html-form my-script  --checkbox-container-class "my-checkbox-container-class"
+
+```
+
+## --checkbox-class
+
+```bash
+# 
+parseArger html-form my-script --checkbox-class "my-checkbox-class"
+
+```
+
+## --checkbox-label-class
+
+```bash
+# 
+parseArger html-form my-script --checkbox-label-class "my-checkbox-label-class"
+
+```
+
+## --parent-form
+
+When you have sub commands, forms nest into one-another. You can specify the parent form id here.
+
+```bash
+# 
+parseArger html-form my-script --parent-form "my-parent-form"
+
+```
+
+## --form
+
+Then main form id
+
+```bash
+# 
+parseArger html-form my-script --form "my-form"
+
+```
+
+## --[no-]button
+
+On by default, --no- to not create a button
+
+```bash
+# 
+parseArger html-form my-script --no-button
+
+```
+
+## --[no-]js
+
+On by default, --no- to not create javascript
+
+```bash
+# 
+parseArger html-form my-script --no-js
+
+```
+
+## --[no-]result
+
+On by default, --no- to not show results
+
+```bash
+# 
+parseArger html-form my-script --no-result
+
+```
+
+## What now ?
+
+Completion scripts and documentions are a waiting ! You can now **more than ever** make your bash tools **even more awesome** (or useful, but who cares about that, uh ? ;) ) ! And if you get so inclined as create a GUI for your script, you have a starting point with the html form (I never said it was a good one ^^).
+As always bugs and suggestions should go on [parseArger's github repo](https://github.com/DimitriGilbert/parseArger).
+
+Thanks for the read and I hope you found it useful (or at least entertaining :D )
+
+See you around and happy coding !
+12:T1f39,
+Now that you know the basic of parseArger `generate` and `parse`, it's time to have a look at how we declare arguments, options and flags !
+
+## --pos
+
+Positional arguments are what most of us use in a bash script with `$1`, `$2`, `$...`
+Well same thing here, but they have names And much more :
+
+```bash
+arg-name: positional argument name
+description: positional argument description
+--one-of <one-of>: accepted values, repeatable
+--complete <complete>: bash built-in completely function, repeatable
+--complete-custom <complete-custom>: completely custom dynamic suggestion, repeatable
+--subcommand-directory <subcommand-directory>: directory containing subcommands, force subcommand, list parseArger script in directory to fill --one-of
+--subcommand-variable <subcommand-variable>: array variable containing subcommand parts, force subcommand [default: ' __subcommand ']
+--subcommand|--no-subcommand: is a subcommand
+--subcommand-run|--no-subcommand-run: run subcommand, forces sub command
+--subcommand-use-leftovers|--no-subcommand-use-leftovers: add leftover arguments to subcommand, forces subcommand
+```
+
+And a dumb example that generates a script that take one argument my-cmd and execute it as a subcommand using the leftover arguments, my-cmd must be one of "ls", "cd" or "cat" :
+```bash
+parseArger generate --pos \
+  'my-cmd "an argument" --subcommand --subcommand-run --subcommand-use-leftovers --one-of ls --one-of cd --one-of cat'
+```
+
+### arg-name
+
+The argument name, `-` will be replaced with `_` and the variable will be prefixed with `_arg_`.
+So --my-super-argument value is assigned to $_arg_my_super_argument.
+
+### description
+
+Simple description for help, documentation and so on
+
+### --one-of
+
+Repeatable, The argument value must be one of, the most basic input validation, yeah !
+
+```bash
+parseArger generate --pos 'my-arg "my argument description" --one-of value1 --one-of value2'
+```
+
+### --complete
+
+Repeatable, [Completely built-ins](https://github.com/DannyBen/completely#suggesting-files-directories-and-other-bash-built-ins).
+
+```bash
+parseArger generate --pos 'my-file "this is a file path" --complete file'
+```
+
+### --complete-custom
+
+Repeatable, [Completely custom](https://github.com/DannyBen/completely#suggesting-custom-dynamic-suggestions)
+
+```bash
+parseArger generate --pos 'my-arg "this is an argument" --complete-custom "\$(echo \"some_value some_other you_get the_point\")"'
+```
+
+### --subcommand-directory
+
+You been a good kid and you did split your scripts ?
+If they're all in the subcommand-directory, parseArger will add them to one of and build a __subcommand variable for you to use.
+It forces --subcommand ... in case you were wondering.
+
+```bash
+parseArger generate --pos 'my-arg "this is an argument" --subcommand-directory bin'
+```
+
+### --subcommand-variable
+
+Ooooh, oh you don't like __subcommand !!? What should it be called then ? It forces --subcommand.
+
+```bash
+parseArger generate --pos 'my-arg "this is an argument" --subcommand-variable notAsubCommand'
+```
+
+### --subcommand
+
+This is a subcommand
+
+```bash
+parseArger generate --pos 'my-arg "this is a command argument" --subcommand'
+```
+
+### --subcommand-run
+
+Run the subcommand before handing you the script, forces --subcommand.
+
+```bash
+parseArger generate --pos 'my-arg "this is an argument" --subcommand-run'
+```
+
+### --subcommand-use-leftovers
+
+Maybe those leftovers are worth something..., after all ! Forces --subcommand
+
+```bash
+parseArger generate --pos 'my-arg "this is an argument" --subcommand-use-leftovers
+```
+
+## --opt
+
+I'm pretty sure most of you were waiting for that : (add ethereal music here) options !
+
+```bash
+arg-name: positional argument name
+description: positional argument description
+--repeat-min <repeat-min>: minimum repeatition forces repeat [default: ' 1 ']
+--repeat-max <repeat-max>: maximum repeatition forces repeat
+--one-of <one-of>: accepted values, repeatable
+-d, --default-value <default-value>: value, repeatable
+-s, --short <short>: short form
+--alias <alias>: option alias, repeatable
+--empty-value <empty-value>: value for empty option
+--complete <complete>: bash built-in completely function, repeatable
+--complete-custom <complete-custom>: completely custom dynamic suggestion, repeatable
+-r|--repeat|--no-repeat: repeatable
+--empty|--no-empty: use option as flag
+```
+
+I won't bore you with arg-name and description, and if you need me too, you might want to re read the previous part a tiny tad more attentively, maybe, if you'd like to.
+
+### --repeat-min
+
+Repeatable option, yes ! but at least this many ! Forces --repeat.
+
+```bash
+parseArger generate --opt 'my-opt "this is an option" --repeat-min 42
+```
+
+### --repeat-max
+
+Repeatable option, yes ! but not too much ! Forces --repeat.
+
+```bash
+parseArger generate --opt 'my-opt "this is an option" --repeat-max 69
+```
+
+### --one-of
+
+see --pos --one-of above, it's the same ;)
+
+### --default-value
+
+An option, why not, but it shall not be empty !
+
+```bash
+parseArger generate --opt 'my-opt "musnt be eeeemmmmpty" --default-value "this is not empty"'
+```
+
+### --short
+
+I know ya'll concerned about bodily efficiency (my mom called that "lazy"...), letters matters ! you got 26 of'em, that's how many options max my scripts have !
+
+```bash
+parseArger generate --opt 'my-opt "lazily call me" --short o'
+```
+
+### --alias
+
+I know it's hard to always agree (especially with yourself !), with aliases, no more decision (about option names), you can have your cake, and eat it, too !
+
+```bash
+parseArger generate --opt 'a-opt "lazily call me" --alias "an-opt" --alias "an-option" --alias "needlessly-long-option-name"'
+```
+
+### --short
+
+I know ya'll concerned about bodily efficiency (my mom called that "lazy"...), letters matters ! you got 26 of'em, that's how many options max my scripts have !
+
+```bash
+parseArger generate --opt 'my-opt "lazily call me" --short o'
+```
+
+### --complete
+
+see --pos --complete above, it's the same ;)
+
+### --complete-custom
+
+see --pos --complete-custom above, it's the same ;)
+
+### --repeat
+
+You can now have multiple values for your option. the option is now an array, even if only one value is given.
+
+```bash
+parseArger generate --opt 'my-opt "look ma', I'am an array !" --repeat'
+```
+
+### --empty
+
+Option or flag ? Well, why not both ? A flag if you don't give it anything, an option otherwise ! 
+
+```bash
+parseArger generate --opt 'my-opt "option>flag superposition" --empty'
+```
+
+## --flag
+
+Ahoy ! raise the flaaaaaag ! (I'd say I'm grasping at branches, but it seems tree do not grow in the ocean...)
+
+```bash
+arg-name: positional argument name
+description: positional argument description
+-s, --short <short>: short form
+--no-name <no-name>: value for the negation
+--alias <alias>: flag alias, repeatable
+--no-alias <no-alias>: flag negation alias, repeatable
+--on|--no-on: on by default
+```
+
+You know the drill with arg-name, description, --short and alias, it's up above ;)
+
+### --no-name
+
+`--no-<flag-name>` do not fly ? Fine, you choose !
+
+```bash
+parseArger generate --flag 'do-that "flabbergasted, flag a..." --no-name dont-do-that'
+```
+
+### --no-alias
+
+There are plenty of ways to say no !
+
+```bash
+parseArger generate --flag 'do-that "flabbergasted, flag a..." --no-alias this-instead --no-alias do-this'
+```
+
+### --on
+
+It's already on... but you can turn it off.
+
+```bash
+parseArger generate --flag 'do-that "flabbergasted, flag a..." --on'
+```
+
+## What now ?
+
+Now you almost have the whole view on parseArger, enough for simple scripts anyway !
+But maybe you do not value your mental health much and would like to create a whole program in bash ?
+Well, What a coincidence, next time we'll have a look at the `project` command, it'll help you do just that ! (the program part, I do not deal in mental health)
+As always bugs and suggestions should go on [parseArger's github repo](https://github.com/DimitriGilbert/parseArger).
+
+Thanks for the read and I hope you found it useful (or at least entertaining :D )
+
+See you around and happy coding !13:T1d74,
+We [previously](/projects/parsearger/create-bash-scripts-youll-want-to-use) had a quick look at [parseArger](https://dimitrigilbert.github.io/parseArger/).
+Let's focus on the generate and parse command today !
+I tried to make my arguments descriptions fairly clear, but an example is always nice don't you think ?
+
+## Generate
+
+This command will generate (yeah I know, much creativity) a new bash script.
+We'll have a look at them one by one but here are the whole lot of arguments, options and flags for the command. (yes, this is the output from --help ^^)
+
+```bash
+-p, --pos <pos>: positional argument declaration, repeatable
+-o, --opt <opt>: optional arg declaration, repeatable
+-f, --flag <flag>: flag declaration, repeatable
+-s, --set <set>: declare var, repeatable
+-l, --source <source>: file to source, repeatable
+-m, --help-message <help-message>: help message for the command [default: ' I send an SOS to the world ']
+--help-option <help-option>: help option trigger
+--help-short-option <help-short-option>: short help option
+--leftovers-name <leftovers-name>: extra arguments variable name [default: ' leftovers ']
+--use-shebang <use-shebang>: shebang executable [default: ' /bin/bash ']
+--set-version <set-version>: set version number
+--version-opt-name <version-opt-name>: version option name [default: ' version ']
+--version-short-option <version-short-option>: version short option name [default: ' v ']
+--die-fn-name <die-fn-name>: die function name [default: ' die ']
+--log-fn-name <log-fn-name>: log function name [default: ' log ']
+--verbose-opt-name <verbose-opt-name>: verbose option name [default: ' verbose ']
+--verbose-level <verbose-level>: default verbose level [default: ' 0 ']
+--leftovers|--no-leftovers: accept extra arguments
+--bang|--no-bang: include shebang, on by default (use --no-bang to turn it off)
+--version-opt|--no-version-opt: generate version opt handling, on by default (use --no-version-opt to turn it off)
+--use-verbose|--no-use-verbose: generate verbose level parser, on by default (use --no-use-verbose to turn it off)
+--parse-leftovers|--no-parse-leftovers: parse leftovers, force leftover
+```
+
+Forget about --pos --opt and --flag, we are going over them in a different article.
+
+### --set
+
+repeatable, declare a variable at the top of the script.
+It can use `$()` to run commands but be careful about escaping (which might cause trouble with parsing sometimes...)
+
+```bash
+parseArger generate --set 'my_var="my value"' \
+  --set 'my_var_dynamic_var="\$(cat /a/file)"'
+```
+
+### --source
+
+repeatable, source a file at the top of the script.
+
+```bash
+parseArger generate --source "/path/to/the/file"
+```
+
+### --help-message
+
+the script help message. It might be a good idea to make it useful, but you don't have to... 3:-D
+
+```bash
+parseArger generate --help-message 'my script does something'
+```
+
+### --help-option
+
+option used to trigger help, the fact that you can does not mean that you should.
+
+```bash
+parseArger generate --help-option 'not-very-helpful-help-opt'
+```
+
+### --help-short-option
+
+short option help trigger
+
+```bash
+parseArger generate --help-short-option z
+# because why not z ?
+```
+
+### --leftovers-name
+
+extra argument array variable name. Forces --leftovers flag.
+
+```bash
+parseArger generate --leftovers-name "extra_args"
+```
+
+### --use-shebang
+
+specify the shebang, the generated script does not change though, use at your own risk ;).
+If you have cross shell compatibility tips and tricks, I am all ears !
+
+```bash
+parseArger generate --use-shebang "#!/bin/zsh"
+```
+
+### --set-version
+
+give a version to the script, not enforcing any kind of whatever here, you can `--set-version "potato"`, i won't judge
+
+```bash
+parseArger generate --set-version "0.1-alpha-preview-48"
+```
+
+### --version-opt-name
+
+version trigger option, `--version` by default, but if you hate conventions.
+
+```bash
+parseArger generate --version-opt-name revision
+```
+
+### --version-short-option
+
+short option trigger for version
+
+```bash
+parseArger generate --version-short-option i
+```
+
+### --die-fn-name
+
+who wouldn't choose how one dies ? Bar that, I'll let you choose how your script dies.
+
+```bash
+parseArger generate --die-fn-name wasted
+```
+
+### --log-fn-name
+
+same as die, but I have nothing funny to add, so I think I am just rambling at this point, don't you think ?
+
+```bash
+parseArger generate --log-fn-name report
+```
+
+### --verbose-opt-name
+
+.
+
+```bash
+parseArger generate --verbose-opt-name tmi
+```
+
+### --verbose-level
+
+default verbose level for your script
+
+```bash
+parseArger generate --verbose-level 42
+```
+
+### --leftovers | --no-leftovers
+
+do not waste ! Think about those poor scripts which do not have options.
+So you pack all these nice extra arguments and options in an array for later ! And do not read from stdin before you finished it all !!
+
+```bash
+parseArger generate --leftovers
+```
+
+The array variable is `$_arg_leftovers` or `$_arg_<whatever you chose with --leftovers-name>`.
+
+### --parse-leftovers | --no-parse-leftovers
+
+Force --leftovers and if you hate unordered mess, you can parse the leftovers and look for option like syntax to be extracted in an associative array. How neat.
+
+```bash
+parseArger generate --parse-leftovers
+```
+
+The array variable is `$_arg_parsed_leftovers` or `$_arg_parsed_<whatever you chose with --leftovers-name>`.
+
+### --bang | --no-bang
+
+use a shebang, on by default
+
+```bash
+parseArger generate --no-bang
+```
+
+### --version-opt | --no-version-opt
+
+versions are for looooooosers ! #mainOrDie
+
+```bash
+parseArger generate --no-version-opt
+```
+
+### --use-verbose | --no-use-verbose
+
+when you have nothing to say anyway (or way too many, and you won't stop, and you know you should, but you won't...)
+
+```bash
+parseArger generate --no-use-verbose
+```
+
+## Parse
+
+Whether it is because you forgot something, "oooh, i might be able to do that..." or "DO THAT !", requirements change, just generating the script is already nice but a way to update it would be nicer, like if we couuuuld... *parse* the script (...).
+Like with `generate` command, the whole bunch of options and then details, if you don't find the documentation below, it's because it's the same as `generate`, so look up !
+
+```bash
+file: file to parse
+-p, --pos <pos>: add positional argument declaration, repeatable
+-o, --opt <opt>: add optional arg declaration, repeatable
+-f, --flag <flag>: add flag declaration, repeatable
+-s, --set <set>: add declare var, repeatable
+-l, --source <source>: add file to source, repeatable
+--set-version <set-version>: set version
+-i|--inplace|--no-inplace: replace parseArger generated content in place
+--leftovers|--no-leftovers: add leftovers
+--parse-leftovers|--no-parse-leftovers: parse leftovers
+```
+
+### file
+
+path to the file to parse, yes it is a positional argument, thank you for noticing the absence of `-`.
+You are such an attentive reader :)
+
+### --inplace
+
+update the file directly, goes to stdout by default
+
+## What now ?
+
+Another article is coming to dive deeper in --pos, --opt and --flag options for both generate and parse so you can truly take full advantage of parseArger ;) ! 
+But this has been most of my usage, barebones arguments, simple options (and a few flags, not often).
+This is such a step up from bash scripts I created in the past, especially with the generated help !
+What about you ? Would this help you or are you using other languages when "more complex" scripts are needed ?
+
+Thanks for the read and I hope you found it useful (or at least entertaining :D )
+
+See you around and happy coding !
+14:T1dbe,
+So, who here writes **bash** scripts ? And among these scripts, some take arguments, right ? 
+Ok ok, so, get me any kind of documentation, usage hint or anything, like, right NOW !
+
+Yeah...it's ok, we've all been there, and if you didn't, you might (not) have had a look at [parsing](https://stackoverflow.com/a/14203146){:target="_blank"} arguments and (AND!) [options](https://sookocheff.com/post/bash/parsing-bash-script-arguments-with-shopts/){:target="_blank"} in a bash script...it's a whole kerfuffle ! Well, "NO MORE !" I say !
+
+## Meet parseArger
+
+[ParseArger](https://dimitrigilbert.github.io/parseArger/) is a bash program to generate standalone bash programs, at least :
+* the argument and option parsing (hey, I'm not gonna take your job !),
+* and a basic documentation (just the boring part),
+* and an install script (...),
+* and a bash completion script (...right ?),
+* and an html form (whut ..?!)
+* *aaaaand* a web server in bash (OH COOOOME ON !)(not really to be used apart from the time you can't do without... I'm just flexing ^^')
+
+## TLDR
+
+Oh, I know ya'll abunch of impatient nerds (at least I am...) so here is a quick run down to get going !
+
+```bash
+# download the install script
+curl -s https://raw.githubusercontent.com/DimitriGilbert/parseArger/main/utils/get_parseArger -O;
+# make it executable
+chmod +x get_parseArger;
+# install, use --help for... help...
+./get_parseArger --install;
+# source bashrc, only needed once, modify according to your shell (if you don't know, it's the good one :D)
+source "$HOME/.bashrc"
+
+# generate a project
+parseArger project my-awesome-project \
+  --description "this is a cool project !" \
+  # no commit, push or nothing, for install script generation
+  --git-repo "myRandomDevName/my_awesome_project" \
+  --project-subcommand my-script \
+  --project-subcommand another-script
+
+cd my-awesome-project
+./my-awesome-project --help
+```
+
+## Install
+
+First things first, let's install the damn thing ! 
+Open up a terminal and execute those commands :
+```bash
+# download the install script
+curl -s https://raw.githubusercontent.com/DimitriGilbert/parseArger/main/utils/get_parseArger -O;
+# You are thoughtfully encouraged to spend the next few minutes reading it, just to make sure I do not have nefarious purposes, thank you.
+
+# make it executable
+chmod +x get_parseArger;
+# install
+./get_parseArger --install;
+# source bashrc, only needed once, modify according to your shell (if you don't know, it's the good one :D)
+source "$HOME/.bashrc"
+
+# check install
+parseArger --help
+```
+
+More help is available on the install script, just type `./get_parseArger --help` in your terminal.
+
+## Generate a script
+
+Let's start simple with a script that has one argument, one option and one flag. We'll output the generated content to ./my-script.
+```bash
+parseArger generate \
+  --help-message "this is a script" \
+  --pos 'my-arg "my argument"' \
+  --opt 'my-option "my option"' \
+  --flag 'a-flag "boolean flag for my script"' \
+  --output my-script
+```
+
+You are now free to add your actual code at the bottom of the generated file. It will not be modified if (when !) you update the parsing code using `parse`.
+There are more options for --pos, --opt and --flag, I'll dive deeper into that in further articles ;).
+Concerning variable created, `-` will be replaced with `_` and the variable will be prefixed with `_arg_`.
+So --my-super-argument value is assigned to $_arg_my_super_argument
+
+## Parse a script
+
+Now that we have a script, needs have changed and we miss some options... Let's fix that then !
+```bash
+# -i (or --in-place) means that we update the file with the newly generated parsing code, keeping your custom code
+parseArger parse ./my-script -i \
+  --opt 'missing-option "my missing option"' \
+  --opt 'another-opt "yet another one"'
+```
+
+Done, you you make the code that uses them :).
+
+## Completion script
+
+The best thing about the terminal ? completion ! 
+You can't get your mouse on the most likely button you'll need to click in a window (erf, maybe, but ...the usability...).
+Well, you can in a terminal :D. Creating the scripts manually though ? Gee..., no !
+
+```bash
+parseArger completely my-script ./my-script
+
+source ./completely.bash
+```
+
+Remember you'll have to source the completion script to access completion in the terminal, you can add `source /path/to/my-script/completion.bash` to your .bashrc (or .zshrc and so on)
+
+You will need [completely](https://github.com/DannyBen/completely) installed for the generation to work, but once generated it's standalone.
+
+Sometimes, things here do not work as expected and I can't figure out why, if it does for you to, use this as a workaround
+
+```bash
+# do not run completely
+parseArger completely my-script \
+  ./my-script \
+  --no-run-completely > completely.yaml
+
+# use the completely preview and pipe to a file...
+completely preview > completely.bash
+```
+
+## Documentation
+
+We all have that pesky collegue that never remember how to use the oh so fantastic tools that you create (AKA you in 6 months).
+Let's think about that guy a bit and throw him a bone with some documentation !
+
+```bash
+parseArger document ./my-script --out documentation.md
+```
+
+It's not perfect as it is just the command help in a md file, but it's a whole lot better than nothing, eh ?
+
+## Project, anyone ?
+
+You might say that is a whole bunch of mess for a puny script, and you'd be very right !
+Who says you have to stop with one script though ? I didn't.
+You'd have several ways to do that but I settled on a very opinionated project structure that is as follows
+
+```
+.
+├── <program>
+├── <program>.rc
+├── completely.bash
+├── completely.yaml
+├── documentation.md
+├── form.html
+├── Makefile
+├── readme.md
+├── bin
+│   ├── command-one
+│   ├── command-two
+│   ├── ...
+└── utils
+    ├── get_<program>
+    ├── install
+    └── webserver
+```
+And of course I made a parseArger command for that : `project`
+
+```bash
+parseArger project my-bash-project
+```
+
+Off the bat, it'll create the main program, an rc file for your bashrc, documentation, readme and misc stuff (makefile, installer, webserver, html form). It'll initialize a git repo in the created folder but won't add or commit anything.
+With some options, it'll also create the `bin` folder and command scripts, configure the main program to use these commands (as for `generate` there'll be another article).
+
+## What belongs to Ceasar
+
+This project was started because I couldn't find out how to modify [argbash](https://github.com/matejak/argbash).
+Most of the work was (well) done so I took the generated output and went at building a similar generator.
+It is not as fancy as the original work and a bit of "grog brain developer" display ... but, meh, it works *and it's miiiine*.
+
+On that subject, if you are interested in a more rounded up bash generator thingy, you might want to have a look at [bashly](https://github.com/DannyBen/bashly/), I use completely which is a part of it and it's awesome !
+
+## What now ?
+
+Well, have at it ! Have fun, create awesome scripts with sh load of options !
+Also as I am the only user, it's getting hard to find bugs to squash, though I am pretty sure nests can be found.
+And if no bugs are to be found, maybe you have a use case I didn't think of and everyone would benefit from.
+All that can be done using issues on [parseArger's github repo](https://github.com/DimitriGilbert/parseArger).
+
+Thanks for the read and I hope you found it useful (or at least entertaining :D )
+
+See you around and happy coding !
+6:["$","$Le",null,{"tag":"tutorial","posts":[{"slug":"projects-mdd-story-of-a-simple-update","title":"Story of a simple update","description":"No plans survive first contact, the best part is no part, check yo stagin","date":"2023-11-08T10:58:02+02:00","category":"General","tags":["parseArger","mdd","devlog","bash","terminal","tutorial"],"content":"$f","readTime":8,"toc":[{"level":2,"title":"Why is this even a post","id":"why-is-this-even-a-post"},{"level":2,"title":"TLDR","id":"tldr"},{"level":2,"title":"Heads first","id":"heads-first"},{"level":2,"title":"Heeeyy, wait a minute, AKA duh","id":"heeeyy-wait-a-minute-aka-duh"},{"level":1,"title":"the end of the file","id":"the-end-of-the-file"},{"level":1,"title":"is now","id":"is-now"},{"level":1,"title":"if is-category and filename not specified","id":"if-is-category-and-filename-not-specified"},{"level":1,"title":"using _arg_filename instead of index.md","id":"using-_arg_filename-instead-of-indexmd"},{"level":2,"title":"Bug fixes and chores","id":"bug-fixes-and-chores"},{"level":1,"title":"is now this","id":"is-now-this"},{"level":1,"title":"edit mdd replace","id":"edit-mdd-replace"},{"level":1,"title":"with","id":"with"},{"level":2,"title":"Conclusion","id":"conclusion"},{"level":2,"title":"What now ?","id":"what-now"}],"directory":"Projects/mdd/Story of a simple update","relativePath":"Projects/mdd/Story of a simple update/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/mdd/Story of a simple update/index.md","isCategory":false},{"slug":"projects-parsearger-my-markdown-tool-a-parsearger-project","title":"My markdown tool, a parsearger project","description":"A realistic example is worth days of hello world tutorials !","date":"2023-10-27T00:00:00+02:00","category":"General","tags":["bash","terminal","scripting","parsearger","tutorial","devlog"],"content":"$10","readTime":10,"toc":[{"level":2,"title":"Let's create a project together !","id":"lets-create-a-project-together"},{"level":3,"title":"A bit of context and basic requirements","id":"a-bit-of-context-and-basic-requirements"},{"level":2,"title":"Leeeeeet's goooooo !","id":"leeeeeets-goooooo"},{"level":3,"title":"Generate the project","id":"generate-the-project"},{"level":1,"title":"create a new project called mdd (MarkDown for Didi. Much creativity, such accronym, #wow)","id":"create-a-new-project-called-mdd-markdown-for-didi-much-creativity-such-accronym-wow"},{"level":1,"title":"one subcommand 'article' for now.","id":"one-subcommand-article-for-now"},{"level":3,"title":"Parse the article command","id":"parse-the-article-command"},{"level":1,"title":"parse the bin/article file","id":"parse-the-binarticle-file"},{"level":3,"title":"The (real) code","id":"the-real-code"},{"level":4,"title":"Folder stuff","id":"folder-stuff"},{"level":1,"title":"if nothing else, the title","id":"if-nothing-else-the-title"},{"level":1,"title":"there is categories at least 1","id":"there-is-categories-at-least-1"},{"level":1,"title":"hugo directory, it's a poor check , I don't care ^^","id":"hugo-directory-its-a-poor-check-i-dont-care"},{"level":1,"title":"create the directory if it does not exist","id":"create-the-directory-if-it-does-not-exist"},{"level":4,"title":"Meta stuff","id":"meta-stuff"},{"level":1,"title":"start with the title, it's always here","id":"start-with-the-title-its-always-here"},{"level":4,"title":"Creating the headings","id":"creating-the-headings"},{"level":1,"title":"empty content by default","id":"empty-content-by-default"},{"level":4,"title":"Creating the index.md file","id":"creating-the-indexmd-file"},{"level":1,"title":"dont erase stuff willy nilly, but, hum, looks like I'm missing something here...","id":"dont-erase-stuff-willy-nilly-but-hum-looks-like-im-missing-something-here"},{"level":2,"title":"A title for my test","id":"a-title-for-my-test"},{"level":2,"title":"a second part to the test","id":"a-second-part-to-the-test"},{"level":2,"title":"Conclusion","id":"conclusion"},{"level":4,"title":"Allow ovverride of index.md","id":"allow-ovverride-of-indexmd"},{"level":3,"title":"Nice to haves","id":"nice-to-haves"},{"level":1,"title":"Markdown for Didi","id":"markdown-for-didi"},{"level":3,"title":"Tidy up !","id":"tidy-up"},{"level":1,"title":"hub create <repo>","id":"hub-create-repo"},{"level":2,"title":"What now ?","id":"what-now"}],"directory":"Projects/parseArger/My markdown tool, a parsearger project","relativePath":"Projects/parseArger/My markdown tool, a parsearger project/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/parseArger/My markdown tool, a parsearger project/index.md","isCategory":false},{"slug":"projects-parsearger-completion-documentation-and-stuff","title":"ParseArger, completion, documentation and stuff","description":"Learn all about the completion, documentation and supporting stuff for your scripts that you can generate with ParseArger.","date":"2023-10-16T14:58:02+02:00","category":"General","tags":["bash","terminal","scripting","parsearger","tutorial"],"content":"$11","readTime":8,"toc":[{"level":2,"title":"Completion","id":"completion"},{"level":1,"title":"generate completion for my-script","id":"generate-completion-for-my-script"},{"level":1,"title":"generate completion for my-script and its subcommand in the ./bin directory","id":"generate-completion-for-my-script-and-its-subcommand-in-the-bin-directory"},{"level":1,"title":"generate completion definition for completely","id":"generate-completion-definition-for-completely"},{"level":1,"title":"run completely preview (that does work) and put the output in the completion script file","id":"run-completely-preview-that-does-work-and-put-the-output-in-the-completion-script-file"},{"level":3,"title":"command-name","id":"command-name"},{"level":3,"title":"file","id":"file"},{"level":3,"title":"--subcommand-directory","id":"subcommand-directory"},{"level":3,"title":"--completely-cmd","id":"completely-cmd"},{"level":3,"title":"--extra-file","id":"extra-file"},{"level":3,"title":"--yaml-file","id":"yaml-file"},{"level":3,"title":"--completion-file","id":"completion-file"},{"level":3,"title":"--[no-]run-completely","id":"no-run-completely"},{"level":3,"title":"--[no-]discover-subcommand","id":"no-discover-subcommand"},{"level":2,"title":"Documentation","id":"documentation"},{"level":1,"title":"generate completion for my-script","id":"generate-completion-for-my-script"},{"level":1,"title":"generate completion for my-script and all the scripts in the ./bin directory, erase \"my-script documentatino.md\" if it exists","id":"generate-completion-for-my-script-and-all-the-scripts-in-the-bin-directory-erase-my-script-documentatinomd-if-it-exists"},{"level":3,"title":"--file","id":"file"},{"level":1,"title":"generate completion for my-script and my-other-script","id":"generate-completion-for-my-script-and-my-other-script"},{"level":3,"title":"--directory","id":"directory"},{"level":1,"title":"generate completion for all the scripts in the ./bin and ./I/put/stuff/every/where directories","id":"generate-completion-for-all-the-scripts-in-the-bin-and-iputstuffeverywhere-directories"},{"level":3,"title":"--out","id":"out"},{"level":1,"title":"generate completion output to stdout","id":"generate-completion-output-to-stdout"},{"level":1,"title":"generate completion output to documentation.md","id":"generate-completion-output-to-documentationmd"},{"level":3,"title":"--tag","id":"tag"},{"level":3,"title":"--next-tag-prepend","id":"next-tag-prepend"},{"level":3,"title":"--title","id":"title"},{"level":3,"title":"--title-tag","id":"title-tag"},{"level":3,"title":"--[no-]sub-directory","id":"no-sub-directory"},{"level":3,"title":"--[no-]append-output","id":"no-append-output"},{"level":2,"title":"HTML form","id":"html-form"},{"level":2,"title":"file","id":"file"},{"level":2,"title":"--command","id":"command"},{"level":1,"title":"when you do not want to keep things simple","id":"when-you-do-not-want-to-keep-things-simple"},{"level":2,"title":"--action","id":"action"},{"level":1,"title":"Where I want to go","id":"where-i-want-to-go"},{"level":2,"title":"--form-class","id":"form-class"},{"level":1,"title":"Me no like bootstrap !","id":"me-no-like-bootstrap"},{"level":2,"title":"--input-container-class","id":"input-container-class"},{"level":2,"title":"--input-class","id":"input-class"},{"level":2,"title":"--label-class","id":"label-class"},{"level":2,"title":"--select-class","id":"select-class"},{"level":2,"title":"--checkbox-container-class","id":"checkbox-container-class"},{"level":2,"title":"--checkbox-class","id":"checkbox-class"},{"level":2,"title":"--checkbox-label-class","id":"checkbox-label-class"},{"level":2,"title":"--parent-form","id":"parent-form"},{"level":2,"title":"--form","id":"form"},{"level":2,"title":"--[no-]button","id":"no-button"},{"level":2,"title":"--[no-]js","id":"no-js"},{"level":2,"title":"--[no-]result","id":"no-result"},{"level":2,"title":"What now ?","id":"what-now"}],"directory":"Projects/parseArger/Completion, documentation and stuff","relativePath":"Projects/parseArger/Completion, documentation and stuff/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/parseArger/Completion, documentation and stuff/index.md","isCategory":false},{"slug":"projects-parsearger-more-on-pos-opt-and-flag","title":"ParseArger, more on Pos Opt and Flag","description":"Options with default values ? Repeatable options or aliases maybe ? This is a deeper dive into parseArger's arguments, options and flags generation.","date":"2023-10-13T14:56:33+02:00","category":"General","tags":["bash","terminal","scripting","parsearger","tutorial"],"content":"$12","readTime":6,"toc":[{"level":2,"title":"--pos","id":"pos"},{"level":3,"title":"arg-name","id":"arg-name"},{"level":3,"title":"description","id":"description"},{"level":3,"title":"--one-of","id":"one-of"},{"level":3,"title":"--complete","id":"complete"},{"level":3,"title":"--complete-custom","id":"complete-custom"},{"level":3,"title":"--subcommand-directory","id":"subcommand-directory"},{"level":3,"title":"--subcommand-variable","id":"subcommand-variable"},{"level":3,"title":"--subcommand","id":"subcommand"},{"level":3,"title":"--subcommand-run","id":"subcommand-run"},{"level":3,"title":"--subcommand-use-leftovers","id":"subcommand-use-leftovers"},{"level":2,"title":"--opt","id":"opt"},{"level":3,"title":"--repeat-min","id":"repeat-min"},{"level":3,"title":"--repeat-max","id":"repeat-max"},{"level":3,"title":"--one-of","id":"one-of"},{"level":3,"title":"--default-value","id":"default-value"},{"level":3,"title":"--short","id":"short"},{"level":3,"title":"--alias","id":"alias"},{"level":3,"title":"--short","id":"short"},{"level":3,"title":"--complete","id":"complete"},{"level":3,"title":"--complete-custom","id":"complete-custom"},{"level":3,"title":"--repeat","id":"repeat"},{"level":3,"title":"--empty","id":"empty"},{"level":2,"title":"--flag","id":"flag"},{"level":3,"title":"--no-name","id":"no-name"},{"level":3,"title":"--no-alias","id":"no-alias"},{"level":3,"title":"--on","id":"on"},{"level":2,"title":"What now ?","id":"what-now"}],"directory":"Projects/parseArger/More on pos opt and flag","relativePath":"Projects/parseArger/More on pos opt and flag/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/parseArger/More on pos opt and flag/index.md","isCategory":false},{"slug":"projects-parsearger-generate-and-parse","title":"ParseArger, generate and Parse","description":"Deeper dive in parseArger generate and parse commands arguments and options.","date":"2023-10-10T14:55:13+02:00","category":"General","tags":["bash","terminal","scripting","parsearger","tutorial"],"content":"$13","readTime":6,"toc":[{"level":2,"title":"Generate","id":"generate"},{"level":3,"title":"--set","id":"set"},{"level":3,"title":"--source","id":"source"},{"level":3,"title":"--help-message","id":"help-message"},{"level":3,"title":"--help-option","id":"help-option"},{"level":3,"title":"--help-short-option","id":"help-short-option"},{"level":1,"title":"because why not z ?","id":"because-why-not-z"},{"level":3,"title":"--leftovers-name","id":"leftovers-name"},{"level":3,"title":"--use-shebang","id":"use-shebang"},{"level":3,"title":"--set-version","id":"set-version"},{"level":3,"title":"--version-opt-name","id":"version-opt-name"},{"level":3,"title":"--version-short-option","id":"version-short-option"},{"level":3,"title":"--die-fn-name","id":"die-fn-name"},{"level":3,"title":"--log-fn-name","id":"log-fn-name"},{"level":3,"title":"--verbose-opt-name","id":"verbose-opt-name"},{"level":3,"title":"--verbose-level","id":"verbose-level"},{"level":3,"title":"--leftovers | --no-leftovers","id":"leftovers---no-leftovers"},{"level":3,"title":"--parse-leftovers | --no-parse-leftovers","id":"parse-leftovers---no-parse-leftovers"},{"level":3,"title":"--bang | --no-bang","id":"bang---no-bang"},{"level":3,"title":"--version-opt | --no-version-opt","id":"version-opt---no-version-opt"},{"level":3,"title":"--use-verbose | --no-use-verbose","id":"use-verbose---no-use-verbose"},{"level":2,"title":"Parse","id":"parse"},{"level":3,"title":"file","id":"file"},{"level":3,"title":"--inplace","id":"inplace"},{"level":2,"title":"What now ?","id":"what-now"}],"directory":"Projects/parseArger/Generate and Parse","relativePath":"Projects/parseArger/Generate and Parse/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/parseArger/Generate and Parse/index.md","isCategory":false},{"slug":"projects-parsearger-create-bash-scripts-youll-want-to-use","title":"ParseArger, create bash scripts you'll want to use","description":"Generate standalone bash scripts with argument, option and flag parsing, documentation, completion and more !","date":"2023-10-08T14:51:25+02:00","category":"General","tags":["bash","terminal","scripting","parsearger","tutorial"],"content":"$14","readTime":6,"toc":[{"level":2,"title":"Meet parseArger","id":"meet-parsearger"},{"level":2,"title":"TLDR","id":"tldr"},{"level":1,"title":"download the install script","id":"download-the-install-script"},{"level":1,"title":"make it executable","id":"make-it-executable"},{"level":1,"title":"install, use --help for... help...","id":"install-use---help-for-help"},{"level":1,"title":"source bashrc, only needed once, modify according to your shell (if you don't know, it's the good one :D)","id":"source-bashrc-only-needed-once-modify-according-to-your-shell-if-you-dont-know-its-the-good-one-d"},{"level":1,"title":"generate a project","id":"generate-a-project"},{"level":2,"title":"Install","id":"install"},{"level":1,"title":"download the install script","id":"download-the-install-script"},{"level":1,"title":"You are thoughtfully encouraged to spend the next few minutes reading it, just to make sure I do not have nefarious purposes, thank you.","id":"you-are-thoughtfully-encouraged-to-spend-the-next-few-minutes-reading-it-just-to-make-sure-i-do-not-have-nefarious-purposes-thank-you"},{"level":1,"title":"make it executable","id":"make-it-executable"},{"level":1,"title":"install","id":"install"},{"level":1,"title":"source bashrc, only needed once, modify according to your shell (if you don't know, it's the good one :D)","id":"source-bashrc-only-needed-once-modify-according-to-your-shell-if-you-dont-know-its-the-good-one-d"},{"level":1,"title":"check install","id":"check-install"},{"level":2,"title":"Generate a script","id":"generate-a-script"},{"level":2,"title":"Parse a script","id":"parse-a-script"},{"level":1,"title":"-i (or --in-place) means that we update the file with the newly generated parsing code, keeping your custom code","id":"i-or---in-place-means-that-we-update-the-file-with-the-newly-generated-parsing-code-keeping-your-custom-code"},{"level":2,"title":"Completion script","id":"completion-script"},{"level":1,"title":"do not run completely","id":"do-not-run-completely"},{"level":1,"title":"use the completely preview and pipe to a file...","id":"use-the-completely-preview-and-pipe-to-a-file"},{"level":2,"title":"Documentation","id":"documentation"},{"level":2,"title":"Project, anyone ?","id":"project-anyone"},{"level":2,"title":"What belongs to Ceasar","id":"what-belongs-to-ceasar"},{"level":2,"title":"What now ?","id":"what-now"}],"directory":"Projects/parseArger/Create bash scripts you'll want to use","relativePath":"Projects/parseArger/Create bash scripts you'll want to use/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/parseArger/Create bash scripts you'll want to use/index.md","isCategory":false}]}]
 c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
 8:null

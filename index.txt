@@ -1,17 +1,1023 @@
 1:"$Sreact.fragment"
-2:I[99638,["770","static/chunks/770-c6e6a01e844fec29.js","136","static/chunks/136-c10d66bd0a69dd87.js","177","static/chunks/app/layout-8979f8ec81e3e496.js"],"ThemeProvider"]
-3:I[56208,["770","static/chunks/770-c6e6a01e844fec29.js","136","static/chunks/136-c10d66bd0a69dd87.js","177","static/chunks/app/layout-8979f8ec81e3e496.js"],"Navigation"]
-4:I[49507,[],""]
-5:I[52639,[],""]
-6:I[68949,["770","static/chunks/770-c6e6a01e844fec29.js","136","static/chunks/136-c10d66bd0a69dd87.js","974","static/chunks/app/page-c7b0bb4f65de6726.js"],"ProjectHero"]
-7:I[62593,["770","static/chunks/770-c6e6a01e844fec29.js","136","static/chunks/136-c10d66bd0a69dd87.js","974","static/chunks/app/page-c7b0bb4f65de6726.js"],"PrefetchLink"]
-8:I[91432,[],"OutletBoundary"]
-a:I[91432,[],"MetadataBoundary"]
-c:I[91432,[],"ViewportBoundary"]
-e:I[69398,[],""]
+2:I[22304,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","177","static/chunks/app/layout-267ae1d5e4eb94a7.js"],"ThemeProvider"]
+3:I[71000,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","177","static/chunks/app/layout-267ae1d5e4eb94a7.js"],"FloatingNavigation"]
+4:I[13842,[],""]
+5:I[86880,[],""]
+6:I[31494,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","608","static/chunks/608-2b691ad71583a2ff.js","974","static/chunks/app/page-05dba21174f7b2ce.js"],"HomePageContent"]
+d:I[25803,[],"OutletBoundary"]
+f:I[25803,[],"MetadataBoundary"]
+11:I[25803,[],"ViewportBoundary"]
+13:I[16773,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/014afd35cbea7c6e.css","style"]
-0:{"P":null,"b":"OW1grnFf0JKHXDpYGX-yj","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/014afd35cbea7c6e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_e8ce0c","children":["$","$L2",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen","children":[["$","$L6",null,{"projects":[{"id":"LiteChat","name":"LiteChat","description":"A modern, local first AI chat app for your browser.","image":"/images/litechat/project.jpg","repo":"https://github.com/DimitriGilbert/LiteChat","site":"https://litechat.dbuild.dev","tags":["pwa","ai","chat-application","agents","llm","local-llm"]},{"id":"FormEdible","name":"FormEdible","description":"A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.","image":"/images/FormEdible/project.jpg","repo":"https://github.com/DimitriGilbert/FormEdible","site":"https://dimitrigilbert.github.io/Formedible/","tags":["Shadcn","Registry","form","hook","react","typescript","zod"]},{"id":"cn-registry","name":"cn-registry.dev","description":"A hub for Shadcn components and tools.","image":"/images/cn-registry.dev/project.jpg","repo":"https://github.com/DimitriGilbert/cn-registry.dev","site":"https://cn-registry.dev","tags":["Shadcn","Registry"]},{"id":"parseArger","name":"parseArger","description":"Standalone bash argument parsing code generator.","image":"/images/parsearger/project.jpg","repo":"https://github.com/DimitriGilbert/parseArger","site":"https://dimitrigilbert.github.io/parseArger/","tags":[]},{"id":"TerMinable","name":"TerMinable","description":"A demonstration terminal for you projects (or mine).","image":"/images/terminable/project.jpg","repo":"https://github.com/DimitriGilbert/TerMinable","site":"https://terminable.dbuild.dev/","tags":["Shadcn","Registry","Terminal","React","Typescript"]},{"id":"sshm0","name":"sshm0","description":"A simple CLI ssh connection manager","image":"/images/sshm0/project.jpg","repo":"https://github.com/DimitriGilbert/sshm0","site":"https://github.com/DimitriGilbert/sshm0","tags":["ssh","bash","cli","parseArger"]},{"id":"AI-gents","name":"AI-gents","description":"AI-gents. A simple format for AI agents.","image":"/images/ai-gents/project.jpg","repo":"https://github.com/DimitriGilbert/AI-gents","site":"ai-gents.dbuild.dev/","tags":["bash","cli","parseArger","ai","agents"]},{"id":"StationIO-Station","name":"StationIO","description":"Arduino framework-ish that handle the basics (wifi, ota, etc.)","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/StationIO-Station","site":"dimitrigilbert.github.io/StationIO-Station/","tags":["arduino","esp8266","esp32"]}]}],["$","section",null,{"className":"py-20 bg-muted/30","children":["$","div",null,{"className":"container mx-auto px-4","children":[["$","div",null,{"className":"text-center mb-12","children":[["$","h2",null,{"className":"text-3xl font-bold mb-4","children":"Latest Articles"}],["$","p",null,{"className":"text-muted-foreground max-w-2xl mx-auto","children":"Insights, tutorials, and thoughts on development, tools, and technology"}]]}],["$","div",null,{"className":"grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8","children":[["$","div","litechat",{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm group hover:shadow-lg transition-shadow","children":[["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"7/25/2025"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4 ml-2","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[1," min read"]}]]}],["$","div",null,{"data-slot":"card-title","className":"leading-none font-semibold group-hover:text-primary transition-colors","children":["$","$L7",null,{"href":"/blog/litechat","children":"LiteChat"}]}]]}],["$","div",null,{"data-slot":"card-content","className":"px-6","children":[["$","p",null,{"className":"text-muted-foreground mb-4 line-clamp-3","children":"A modern, local first AI chat app for your browser. No server, no cloud, no tracking, no ads, no bullshit."}],["$","div",null,{"className":"flex flex-wrap gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[]]}],["$","$L7",null,{"href":"/blog/litechat","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 has-[>svg]:px-3 p-0 h-auto font-medium","children":["Read more ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 ml-1","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}],["$","div","projects",{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm group hover:shadow-lg transition-shadow","children":[["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"7/25/2025"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4 ml-2","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[1," min read"]}]]}],["$","div",null,{"data-slot":"card-title","className":"leading-none font-semibold group-hover:text-primary transition-colors","children":["$","$L7",null,{"href":"/blog/projects","children":"My Projects"}]}]]}],["$","div",null,{"data-slot":"card-content","className":"px-6","children":[["$","p",null,{"className":"text-muted-foreground mb-4 line-clamp-3","children":"If I had a dollar each time I created something useful, I probably wouldn't eat tomorow XD. But here is a collection of the best ones I think ;)"}],["$","div",null,{"className":"flex flex-wrap gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[]]}],["$","$L7",null,{"href":"/blog/projects","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 has-[>svg]:px-3 p-0 h-auto font-medium","children":["Read more ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 ml-1","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}],["$","div","projects-cn-registry",{"data-slot":"card","className":"bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm group hover:shadow-lg transition-shadow","children":[["$","div",null,{"data-slot":"card-header","className":"@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"7/25/2025"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4 ml-2","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[1," min read"]}]]}],["$","div",null,{"data-slot":"card-title","className":"leading-none font-semibold group-hover:text-primary transition-colors","children":["$","$L7",null,{"href":"/blog/projects-cn-registry","children":"Untitled"}]}]]}],["$","div",null,{"data-slot":"card-content","className":"px-6","children":[["$","p",null,{"className":"text-muted-foreground mb-4 line-clamp-3","children":""}],["$","div",null,{"className":"flex flex-wrap gap-2 mb-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[]]}],["$","$L7",null,{"href":"/blog/projects-cn-registry","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 has-[>svg]:px-3 p-0 h-auto font-medium","children":["Read more ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 ml-1","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]]}]]}]]}],["$","div",null,{"className":"text-center","children":["$","$L7",null,{"href":"/blog","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 rounded-md px-6 has-[>svg]:px-4","children":["View All Articles ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right w-4 h-4 ml-2","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]}]}]]}]}]]}],null,["$","$L8",null,{"children":"$L9"}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","M6awtzOq1d-D3gwfhqneQ",{"children":[["$","$La",null,{"children":"$Lb"}],["$","$Lc",null,{"children":"$Ld"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
-d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-b:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
-9:null
+:HL["/_next/static/css/9579c992d89962c7.css","style"]
+7:T2f74,
+## Why ?
+
+I looked for something like that and did not find any, so I am building one !
+
+I will take this opportunity to build it in public, as much as possible ! Meaning most prompts and conversations will be available for you to read and "inspire" yourself !
+
+Why not all conversations ? Well, sometimes, I forget, other times... I'm swearing way too much so it does not bring any value ! (I am grumpy and irritable as a default state, pain makes it worst... at the moment, the pain level oscillate between 2 and 5 out of 10 ^^)
+
+I also want to show others that you can actually create something with AI doing most of the grunt work of dev with "careful" orchestration.
+
+Is it going to be perfect ? XD what a stupid question ! NO ! 'f course not !
+
+Can it get the job done ? I certainly hope so !
+
+## What is it already ?
+
+It is a library/marketplace of Shadcn ui components ! I was tired of hunting for cool components and blocks all around the internet !
+
+Between github lackluster SEO and worst devs' website's one, it is really hard to come across new components, and it is a shame cause some are fantastic !
+
+Also, as a creator of some component (with awful terrible SEOed sites...) i kind of feel unseen, sooo [cn-registry.dev](https://cn-registry.dev) was born !
+
+## The process
+
+Like I said, this is a build in public thing, so I am going to try and share what I learned with you (and my future self if this MF wants to listen !).
+
+How I did things, what worked, what did not really do so, my fuck ups, hope and delusions...
+
+In a sense, I am going to make mistake and look like a fool so you don't have to !
+
+Let's start at the beginning...
+
+### The Idea
+
+Plenty of time I see people asking for ideas on things to build, to other humans, or worse, AI...
+
+No... please don't ! not here !
+
+I sincerely thing ideating is **The** thing that will separate us from machines for awhile still ! You should not delegate that !
+
+"But how do I find ideas then ?" might you witty reader ask me ! And so rightful would you be !
+
+So let me answer you with a question, that could trigger some ideation !
+
+Are there no problem that need solving, in the place that you live in ?
+
+Poetic rhymes aside, solve one of your damn fking problem man (or girl, you are welcome to do so too !) !
+
+That way, even if you don't end up having clients, you'll have solved one of your problem !
+
+For me the problem was "lazy ass dev want find shadcn components easy" ! There you go, how do you solve that problem ?!
+
+### Initial plan
+
+Nothing ground breaking or revolutionary, a dumb directory would do the trick... but that would lack a bit of flair... wouldn't it ?
+
+Solving a simple problem does not necessarily mean a simplistic solution and I was already very keen on over-engineering my own tombstone sooo, let's go for that !
+
+Why not sprinkle some social stuff on it ? It's not because I am limited regarding those skills that others are !
+
+User account, likes, comments ! there you go ! Now we can socialise !
+
+We have the basic Idea of what we want ? Yeah ?
+
+Yeah ! Now we can go bother some AI with it !
+
+### Start proompting
+
+```
+I want to build a website using nextjs 15 and shadcn  (i got the stack figured out !) and I need a complete plan to create the front end !
+the project is called "cn-registry" and it will be a registry of shadcn components and tools, because hunting for them feels like a full time job.
+I want you to plan the needed components and pages, I aim for maximum reusability so if something make sense standalone, it should be ! i do not want you to create code, just the plan !
+I want a home page with carousels, one with the 10 latest components, one with the trending one
+components will have a name, a description, a repo link, a website, an installation url, categories and each should have a dedicated page with the copiable install command, the repo readme and github info, some showcase with code toggles
+Tools will be the same but the install url might be for an npm package or not exists
+I want a search page with card or list results and filters on categories
+same for tools but on a different page
+I want to have a star rating system and user account where user can see the components they stared
+User will be able to comment on components
+```
+
+As you can see, simple, (in)efficient, (de)organized ! And a couple refinement later, I have my intermediary prompt for V0 !
+
+I wont bore you with the mile long prompt (you have convo link in repo ^^) but it was a good mile long and i did not change much !
+
+Suffice to say that after that I had some "mock data stuffed" frontend prototype for... where am I going to put that... ?!!
+
+### Select your stack
+
+I already did, and you probably should think of that before proompting to be honest ! For me it was easy, I just reached for my current default stack Nextjs front and back, trpc, tailwind and shadcn.
+
+Yes, it is boring. Yes, everyone is doing the same. I don't care.
+
+I start a gazillion projects (and a half) every month cause I am unable to focus on one thing at a time, it doesn't mean I have the cognitive bandwidth to try and learn new stuff every times !
+
+There is also plenty of good docs and resources for all these, which make it easy to work with without too much prior experience
+
+Plus, as a massive, Massive (MASSIVE !) bonus : It works well with AI ! (mostly, sometimes)
+
+Am I saying you should pick this stack ? If you like it, yes, otherwise, i couldn't care less !
+
+Pick what you know, the new hyped stuff or what tickles your fancy ! Really, I couldn't care less, but I care for you to do it right ! Use [better-t-stack](https://better-t-stack.dev) !
+
+yes, this is authoritative, but if your stack is in, use it ! 1 command, boom, project scaffolded and ready to go in seconds (thank me later)
+
+### Let the music start !
+
+```markdown
+[x] Idea
+[x] Concept
+[x] project initialized
+[x] frontend prototype
+[ ] proper plan
+```
+
+Ooooh ? You thought... ? you thought I was going to open my favourite AI agent and start vibing away ?
+
+no no no ! This is not the way ! You are going to go back to your first AI pal you used for the front end prototype plan and you are going to ask it for another plan !
+
+```markdown
+I am using the latest version of drizzle orm and postgres so i would like you to carefully plan the whole complete data model I will need,
+including user setting and admin/creator utilities table tha migth be needed in the project. we will iterate to align with my goal but try to makee it very comphrehensive
+```
+
+It did a pretty good job with my previous frontend plan alignement in one shot soooo...
+
+```
+cd workspace/Code/cn-registry;
+claude
+"I want you to implement the server complete side of the project following this :
+  **cn-registry Complete Data Model Plan**
+...
+  better auth is already setup and running,
+  I want schema definition and trpc routes with complete access management for security.
+  make sure the apps build when you are done with the backend.
+"
+```
+
+Et en voiture Simone !
+
+Realignment aside, this got me a building backend that I asked the agent to wire up to the frontend.
+
+### Broken string and other misadventures...
+
+Were you waiting for it ? To be completely honest, I did not think it was going to be so early...but yes, no plan survive contacts with the enemy.
+
+Which enemy ? Trpc ! No no ! not trpc trpc, trpc version and the fact that a major revision came out between the training cut off date and the release/adoption of trpc version...
+
+What does this mean ? AI follows patterns it "knows", guess what it does when it doesn't know the patterns ?
+
+Yup, it's "hallucination time" baby ! Wooooooot Wooooooot ! -\_- Can you feel the pain ? ok, good.
+
+But for a villain in the story, a Hero will come forward, you see
+
+A hero to help the dragons slay, and its name is LLM dot txt
+
+```markdown
+my stack is using the following package.json files
+Agents often fails on trpc usage because their knowledge is out of date.
+I would like you to fetch the lates trpc docs and prepare a comprhensive but concise llm.txt for my agents to work with.
+it is only destined towards LLM so you can forgo absolutely all the fluff and present information in the best possible way for you to ingest it efficiently
+```
+
+I fed the responded file to my agent, and behold, a few prompts later, I was served dragons' heart for dinner !
+
+### more, More, MOOOOAR
+
+Do you feel the power rising ? The exhileration of AI acceleration ? Is your brain broken and addicted yet ?
+
+Nooo ? well, we are going to have to work on that ! Maybe it's because we lack documentation ?
+
+You are very right ! So I asked gemini cli to do that !
+
+Unfortunatly, i do not have this prompt anymore, but it went something like :
+
+```
+I am working on this project [description]
+the front and backend are prototyped, the apps build but i did not test anything yet.
+I would like you to analyze it very (very ! VERY !!) carefully !
+you have to open many files to make sure you understand the app and how it is built.
+once done, please create some documentation about that.
+```
+
+to which I invariably had to complement after the first response (exact paraphrasing)
+
+```
+oooOOOOH FFS ! HOW THE F DO YOU WANT TO UNDERSTAND ANYTHING, YOU OPENED 5 FILES, 2 OF THEM WERE PACKAGE.JSON ! OPEN ALL THE FILES ! **ALL OF THEM**
+```
+
+Seriously, how does anyone work with gemini these days ? It ended up giving me some decent documentation after that flogging though !
+
+What ? Why do I make the model document the thing already ?
+
+```
+Good. now that you have a complete understanding of the full project, i want you to create a plan to finish the implementation of the existing base.
+then, I want you to create a plan in better.md that outlines possible enhancement to the base application.
+One I want is a cart system so a user can add component to it and get a complete install command for all the components he selected.
+be creative and come up with functionalities that would make this platform stand out
+```
+
+There you go, this is why ! now that you have something more than a couple of sentence, agents can stretch their legs !
+
+What do similar enough architectures and software have as functionalities ? It will know ! You'll be left with the cherry picking and it might even give you more ideas !
+
+### Tidy up and go forward
+
+Armed with gemini's assertion of the codebase, I asked claude to do the work (you would have to pay me to allow gemini modifying my files !)
+
+Once complete I asked it to create a proper plan for the extra functionalities I chose
+
+- cart system
+- project system
+- github integration
+- creator profiles
+
+It gracefully did that while I started testing the app. Systematic clicking and typing, going from error to error, indexing them by small groups, asking my agent to take care of them.
+
+This is the perfect occasion to start having a look at the code... yes, just now.
+
+To be fair, I was probably less than 3 hours in and I also come from a time where bootstrapping an app was probably that long sooooo... not saying this is good, but I have done that a dozen times already and I know what to expect.
+
+Bug hunting took an hour or so, nothing major, missing "use client", dumb state management, over complicated logic, a bunch of alerts and prompts, in short, claude's specials (I was spared me the blueish purple gradient this time though...)
+
+Implementing the improvement plan was business as usual and took around another 3-4 hours
+
+```
+in @improvements.md implement phase/part ...
+```
+
+### One day at a time
+
+I realize this is getting long, and, well it is the end of day 1 so I am going to stop here for now !
+
+At that moment I had a mostly working app, with an admin side i could get in, component and tools could be added.
+
+And as my eyes were all closing, I could not see shadows brewing
+
+Covering me with joy and warm for my app worked like a charm
+
+An innocent small idea that would become ...[find me a noun of something bad finishing by the sound a, i need a rhyme]
+
+In the mean time, here is the [demo](https://cn-registry.dev) and the [repo](https://github.com/DimitriGilbert/cn-registry), feedback greatly appreciated as always !
+8:T3674,
+## Pourquoi ?
+
+J'ai cherché un truc comme ça et j'ai rien trouvé, alors je le construis !
+
+Je vais en profiter pour le construire en public, autant que faire se peut ! Ca veuut dire que la plupart des prompts et des conversations seront disponibles pour les lire et s'en inspirer !
+
+Pourquoi pas toutes les conversations ? Euuuh alors... bon... parfois, j'oublie. Eeeet euuuh d'autres fois... disons que c'est pas tellement family friendly ^^ ! (Je suis grincheux et irritable par défaut, quand j'ai mal, c'est pire... en ce moment, ca oscille entre 2 et 5 sur 10 ^^)
+
+Je veux aussi montrer/prouver a d'autres qu'il est possible d'utiliser l'IA pour generer la majorité du code avec une "orchestration" minutieuse.
+
+Est-ce que ce sera parfait ? XD quelle question stupide ! NON ! Bien sûr que non !
+
+Est-ce que ça va faire le travail ? J'espère bien !
+
+## Qu'est-ce que c'est déjà ?
+
+C'est une bibliothèque/un marketplace de composants Shadcn ! J'en avais marre de chercher des composants et des blocs sympas un peu partout sur Internet !
+
+Entre la SEO médiocre de GitHub et celle encore pires des sites de développeurs, c'est vraiment pas facile de tomber sur de nouveaux composants, et c'est dommage car certains sont fantastiques !
+
+En plus, en tant que créateur de composants (avec des sites... dont le SEO est affreux...), je me sens un peu invisible, alors [cn-registry.dev](https://cn-registry.dev) est né !
+
+## Le processus
+
+Comme je l'ai dit, il s'agit d'une build in public, alors je vais partager avec vous ce que j'apprends (et mon futur moi si ce con se met a ecouter !).
+
+Comment j'ai fait, ce qui a fonctionné, ou pas, mes conneries, mes espoirs et mes illusions...
+
+En gros, je vais faire des erreurs et avoir l'air d'un idiot pour que vous n'ayez pas à le faire !
+
+Commençons par le début...
+
+### L'idée
+
+C'est souventque je vois des gens demander des idées sur quoi construire, à d'autres, ou pire, à l'IA...
+
+Non... s'il vous plaît, pas ici !
+
+En vrai, l'idéation (oh je vais pas traduire un mot qu'existe pas non plus !) est **la** chose qui nous resteras face machines pour encore un moment ! Faut pas déléguer ca !
+
+"Mais comment trouver des idées alors ?" pourrait me demander mon lecteur astucieux ! Et vous auriez tout à fait raison de le faire !
+
+Alors laissez-moi vous répondre par une question qui pourrait déclencher un peu d'idéation !
+
+Y a-t-il des problèmes à résoudre, là où vous vivez ?
+
+_les 3 phrases d'avant marche tellement pas en francais, mais je les laisse tellement la traduction est moisie x-)_
+
+Traduction en carton à part, résous un de **tes** problèmes mec (ou meuf, z'êtes également les bienvenus !) !
+
+Comme ca, même si personne s'en sert, t'auras résolu un de tes problèmes !
+
+Pour moi, le problème était "dev faignasse chereche composant shadcn facilement" ! Et voila, maintaint, comment on s'occupe de ca ?!
+
+### Plan initial
+
+Rien de révolutionnaire ou de génial, un bete annuaire ferait l'affaire... mais ca manque un peu de pepse... non ?
+
+Problème simple ne signifie pas nécessairement solution simpliste et j'aime deja bien les usines a gaz alors, allons-y !
+
+Pourquoi ne pas ajouter un peu de social ? C'est pas parce que je suis incompétent (ca marche aussi en 2 mots) sociales que les autres le sont !
+
+Comptes utilisateurs, likes, commentaires ! Et hop, maintenant on socialise !
+
+Bon, on a l'idée de base en entier ? Oui ?
+
+Oui ! Et bhe y'a plus qu'a aller embêter une IA avec ça !
+
+### A vos marques, pret, proomptez !
+
+Oui, les prompts sont encores en anglais, ca marche mieux. vraiment !
+
+```
+I want to build a website using nextjs 15 and shadcn  (i got the stack figured out !) and I need a complete plan to create the front end !
+the project is called "cn-registry" and it will be a registry of shadcn components and tools, because hunting for them feels like a full time job.
+I want you to plan the needed components and pages, I aim for maximum reusability so if something make sense standalone, it should be ! i do not want you to create code, just the plan !
+I want a home page with carousels, one with the 10 latest components, one with the trending one
+components will have a name, a description, a repo link, a website, an installation url, categories and each should have a dedicated page with the copiable install command, the repo readme and github info, some showcase with code toggles
+Tools will be the same but the install url might be for an npm package or not exists
+I want a search page with card or list results and filters on categories
+same for tools but on a different page
+I want to have a star rating system and user account where user can see the components they stared
+User will be able to comment on components
+```
+
+Commeon peut le voir, simple, (in)efficace, (dés)organisé ! Et quelques raffinements plus tard, j'ai mon prompt intermédiaire pour V0 !
+
+Je ne vais pas vous ennuyer avec le prompt interminable (vous avez le lien de conversation dans le repo ^^), mais il était interminable et j'ai pas beaucoup changé de choses !
+
+Apres le passage chez V0, j'avais un prototype de front-end avec des données simulées pour... Mais je vais le mettre où ça moi... ?!
+
+### Sélectionnez votre stack
+
+Perso, je l'ai déjà fait, et vous devriez probablement y penser avant de prompt en vrai ! Pour moi, c'était facile, j'ai pris ma stack par défaut du moment : Nextjs front et back, trpc, tailwind et shadcn.
+
+Oui, c'est ennuyeux. Oui, tout le monde fait la même chose. Je m'en tape le coquillard !
+
+Je commence un milliard de projets (et demi) chaque mois parce que je suis incapable de me concentrer sur une seule chose à la fois, ca veut pas dire que j'ai la de bande pasaante pour apprendre de nouvelles choses à chaque fois !
+
+Il y a aussi pas mal de bonnes docs et ressources pour toutes ces technos, ca facilite le travail meme sans trop d'expérience préalable.
+
+Et pour rien gacher, un gros, Gros (mais genre GROS) bonus : Cela fonctionne bien avec l'IA ! (enfin, des fois, un peu)
+
+Est-ce que je dis que vous devriez choisir cette stack ? Si vous l'aimez, oui, sinon, je m'en fiche complètement !
+
+Choisissez ce que vous connaissez, la nouvelle stack à la mode ou ce qui vous titille ! Vraiment, je m'en fiche complètement, mais je me soucie que vous le fassiez correctement ! Utilisez [better-t-stack](https://better-t-stack.dev) !
+
+Oui, c'est autoritaire, mais si votre stack est dedans, utilisez ca ! 1 commande, boom, projet tout chaud et prêt à decoller en quelques secondes (remercie moi plus tard)
+
+### Laissez la musique commencer !
+
+```markdown
+[x] Idée
+[x] Concept
+[x] projet initialisé
+[x] prototype frontend
+[ ] plan approprié
+```
+
+Ooooh ? Vous pensiez... ? vous pensiez que j'allais ouvrir mon agent IA préféré et commencer à vibe coder ?
+
+uuuhh non non non ! pas la, pas encore ! la, on retourne à notre premier pote qu'on a utilisé pour le plan du front-end et on va lui demander un autre plan !
+
+```markdown
+I am using the latest version of drizzle orm and postgres so i would like you to carefully plan the whole complete data model I will need,
+including user setting and admin/creator utilities table tha migth be needed in the project. we will iterate to align with my goal but try to makee it very comphrehensive
+```
+
+Comme j'ai deja reorientez les choses pour le front end, j'ai eu le droit a un joli plan en one shot, donc...
+
+```
+cd workspace/Code/cn-registry;
+claude
+"I want you to implement the server complete side of the project following this :
+  **cn-registry Complete Data Model Plan**
+...
+  better auth is already setup and running,
+  I want schema definition and trpc routes with complete access management for security.
+  make sure the apps build when you are done with the backend.
+"
+```
+
+Et en voiture Simone !
+
+Mis à part les petites reorientations, ca m'a donné un backend "fonctionnel" (a une vache pres !) donc j'ai demandé à l'agent de connecter ca au frontend.
+
+### C'est Bestel, il a mis la cassette et puis pouf !
+
+Vous l'attendiez ? Pour être tout à fait honnête, je ne pensais pas que ce serait si tôt... mais oui, aucun plan ne survit au contact de l'ennemi.
+
+Quel ennemi ? Trpc ! Non non ! pas trpc trpc (c'est très bien trpc !), la version de trpc et le fait qu'une révision majeure est sortie entre la date de coupure d'entrainement de claude et maintenant......
+
+Qu'est ce que donc que ca pourrait il vouloir bien dire toussa ? Les LLMs suivent des schémas qu'elles "connaissent", et devinez ce qu'elles font quand elles connaîssentt pas les schémas ?
+
+Ouep, c'est ca, elles "hallucinent" leurs mamies ! Wooooooot Wooooooot ! -\_- J'espere que vous sentez la douleur !
+
+Mais pour un méchant dans l'histoire, un Héros se présentera un beau soir
+
+Un héros pour aider les dragons à être tués, et son nom est LLM point txt
+
+_eeeett vous savez a quoi on reconnaît des bonnes ryhmes ? elles se traduisent toutes seules!_
+
+```markdown
+my stack is using the following package.json files
+Agents often fails on trpc usage because their knowledge is out of date.
+I would like you to fetch the lates trpc docs and prepare a comprhensive but concise llm.txt for my agents to work with.
+it is only destined towards LLM so you can forgo absolutely all the fluff and present information in the best possible way for you to ingest it efficiently
+```
+
+J'ai gavé la réponse à mon agent, et après quelques prompts, on m'a servi le cœur du dragon pour le dîner !
+
+### encore, Encore, ENCOOORE
+
+Vous sentez la puissance monter ? L'exaltation de l'accélération par l'IA ? Votre cerveau est-il déjà accro ? Non ? Eh bhe on va devoir travailler là-dessus !
+
+Manque de la doc peut etre ?
+
+Mais tout a fait tout a fait, allons voir ce bon vieux gemini !
+
+je n'ai plus ce prompt, mais c'était quelque chose comme :
+
+```
+I am working on this project [description]
+the front and backend are prototyped, the apps build but i did not test anything yet.
+I would like you to analyze it very (very ! VERY !!) carefully !
+you have to open many files to make sure you understand the app and how it is built.
+once done, please create some documentation about that.
+```
+
+que j'ai invariablement dû compléter après la première réponse par un joyeux (paraphrase exacte)
+
+```
+oooOOOOH FFS ! HOW THE F DO YOU WANT TO UNDERSTAND ANYTHING, YOU OPENED 5 FILES, 2 OF THEM WERE PACKAGE.JSON ! OPEN ALL THE FILES ! **ALL OF THEM**
+```
+
+Sérieusement, qui arrive a bosser avec gemini (vrais question !) ? Bon apres cette petite sceance de fouettage gemini m'as finalement pondus une doc correct !
+
+De quoi, quoi ? Pourquoi j'ai fait documenter le taf par l'IA ?
+
+```
+Good. now that you have a complete understanding of the full project, i want you to create a plan to finish the implementation of the existing base.
+then, I want you to create a plan in better.md that outlines possible enhancement to the base application.
+One I want is a cart system so a user can add component to it and get a complete install command for all the components he selected.
+be creative and come up with functionalities that would make this platform stand out
+```
+
+Voilà pourquoi ! Pour bien bosser les LLM ont besoin de plus de 2 phrases de contexte, avec une vision plus précise du code, l'IA pourra planifier plus efficacement !
+
+Quelles fonctionnalités et architectures sont utilisé dans des logiciels similaires ? Il le saura ! Z'aurez plus qu'as faire vos emplettes et ca pourras meme debloquer d'autres idées !
+
+### Vous en avez mare de ces details ? et bhe on va vous en débarrasser
+
+Armés de l'étude de gemini sur mon code, j'ai demandé à claude de faire le travail (Faudrais me payer pour laisser gemini s'approcher de ma codebase en ecriture !).
+
+Une fois finis, je luiai demandé de créer un plan plus precis pour les fonctionnalités supplémentaires que j'ai choisies
+
+- système de panier
+- système de projet
+- intégration GitHub
+- profils créateurs
+
+Il l'a tres grâcieusement fait pendant que je commençais à tester l'application.
+
+Click frenetique et topotage systématiques, passage d'erreur en erreur, indexation par petits groupes, envoyé a l'agent qui n'en fait qu'une bouchée !
+
+C'est l'occasion parfaite pour commencer à examiner le code... oui oui, que maintenant.
+
+En vrai, J'y etais depuis moins de 3 heures et j'ai commancé ma carriere a une époque où tout mettre en place pour dev une application prenait probablement aussi longtemps donc...
+
+je ne dis pas que c'est bien, mais ca fait une bonne douzaine de fois que je commence du dev comme ca et je sais à quoi m'attendre en terme de code.
+
+La chasse aux bugs a pris environ une heure, rien de majeur, "use client" manquant, mauvaise gestion d'état, logique trop compliquée, un tas d'alertes et de prompts, en bref, les spécialités de claude (et j'ai pas subi les gradients bleu violacé cette fois-ci ...)
+
+L'implémentation du plan d'amélioration ? Pareil, simple efficace, en 3-4h de plus :
+
+```
+dans @improvements.md implémenter la phase/partie ...
+```
+
+### Un jour à la fois
+
+Bon... ce post devient long, et comme c'est la fin du jour 1, je vais m'arrêter ici :D !
+
+À ce moment-là, j'avais une app quasi fonctionnelle, avec un côté admin, les composants et les outils pouvaient être ajoutés.
+
+_je vais les laisser comme ca aussi les suivantes, le jours ou l'IA traduit les ryhmes, on est cuit les lapins!_
+
+Et alors que mes yeux se fermaient tous, je ne pouvais pas voir les ombres qui se formaient.
+
+Me couvrant de joie et de chaleur pour mon application qui fonctionnait comme un charme.
+
+Une petite idée innocente qui deviendrait... [trouvez-moi un nom de quelque chose de mauvais se terminant par le son a, j'ai besoin d'une rime].
+
+En attendant, voici la [démo](https://cn-registry.dev) et le [dépôt](https://github.com/DimitriGilbert/cn-registry). Vos retours sont, comme toujours, grandement appréciés !
+9:T11ee,
+Hello everyone, I’d like to introduce LiteChat, a project I created.
+
+[Repository](https://github.com/DimitriGilbert/LiteChat) and download link [here](https://github.com/DimitriGilbert/LiteChat/releases) (available in French, English, Spanish, Italian, and German).
+
+LiteChat is an AI chat application I built to interact with both local and remote LLMs—all within your browser. It’s designed with a "local-first" philosophy, requiring only an HTTP server to run, with everything else handled in your browser! No tracking, no accounts—you bring your own API keys. Data is saved in an IndexedDB database, and you can synchronize your conversations using Git.
+
+Yes, entirely in the browser! 😛 To make this work, I also implemented a virtual file system (again, all in the browser). You can clone repos and include files from the VFS in your conversations! But manually selecting files was tedious, so I integrated tools for managing the VFS and Git.
+
+With the core architecture in place, I added support for HTTP MCP servers. However, standard stdio servers were still missing, so I also built a bridge (rewritten by AI from `mcp-proxy`) to make them work (you can deploy it anywhere, but it’s not secure!).
+
+Sure, AI is fun, but I was getting tired of text-only interactions. So, I added support for Mermaid diagrams and HTML forms (now you don’t even need to think about how to phrase your requests!). Sure, Mermaid diagrams aren’t the prettiest, but since I added a workflow module with visualizations based on [reactflow.dev](https://reactflow.dev), I also included a way for LLMs to generate them! And since plain text isn’t very engaging, there’s also a "Beat" block that uses [strudel.cc](http://strudel.cc/) to add auditory feedback.
+
+Testing was getting repetitive, so I created a prompt library with templates—now you just fill in a form! (Okay, maybe I also needed it for workflows…)
+
+What’s an Agent, you ask? It’s a system prompt, tools, and task-specific prompts! So, you also get a library for those.
+
+Prompts and agents can integrate into workflows (that’s what they’re designed for!), but you also have transformation steps, user code execution, and custom prompts to facilitate transitions.
+
+As you might have guessed, if I have a way to execute code in workflows, why not run AI-generated code? Yes, you can! In Python or JavaScript. And if you’re feeling adventurous, you can run JavaScript in "unsafe" mode (`eval` and all—that’s code for "yolo" 😆). This can produce cool stuff, like [this one-shot Three.js scroll shooter](https://dimitrigilbert.github.io/racebench/scroller/index.html). You can export it in one click (the template is a bit ugly, but I’ll improve it!).
+
+To avoid losing context, all these UI blocks can be "activated" (or rather, suggested) using rules. Of course, you can add your own rules! There’s even a button to ask the AI to pick the best ones for your current prompt.
+
+You also get the usual regenerate (with a different model if you like) and forking options. You can even edit responses manually to remove unnecessary parts. Code blocks are also editable with syntax highlighting for common languages (but no autocompletion or fancy features—let’s not push grandma into the bushes!).
+
+To top it all off, you can organize AI "races" with an unlimited number of participants (though that depends on your budget, haha). It’s great for benchmarking or seeing which model will replace us first. I even built a small tool that takes exported race conversations and turns them into a benchmark site (currently more focused on the JS execution block: [https://dimitrigilbert.github.io/racebench/scroller/index.html](https://dimitrigilbert.github.io/racebench/scroller/index.html) for the "game" mentioned earlier).
+
+I’m sure I forgot a few things, but you’ve got the gist! 😊
+
+The hosted version is on GitHub Pages, with no tracking and no accounts! You bring your own API keys. You probably won’t be able to use the hosted version for your local LLM due to HTTPS/HTTP restrictions, but as I said, you can [download it](https://github.com/DimitriGilbert/LiteChat/releases) and host it with a simple HTTP server. There are also localized versions for French, Italian, German, and Spanish. A short (and incomplete) tutorial playlist if you’re feeling lost: [https://www.youtube.com/playlist?list=PL5Doe56gCsNRdNyfetOYPQw_JkPHO3XVh](https://www.youtube.com/playlist?list=PL5Doe56gCsNRdNyfetOYPQw_JkPHO3XVh)
+
+I hope you enjoy it, and constructive feedback is greatly appreciated! 😊
+
+---
+a:T156f,
+Salut a tous, pour mon premier post, je vous presente LiteChat dont je sui le créateur.
+
+[Repo](https://github.com/DimitriGilbert/LiteChat) et ici [pour télécharger](https://github.com/DimitriGilbert/LiteChat/releases) (en francais, anglais, espagnol, italien et allemand).
+
+
+
+C’est un chat IA que j’ai créé pour pouvoir utiliser des LLM locaux et distant, le tout dans votre navigateur. Il est conçu pour être “local first” et n’a besoin que d’un serveur HTTP pour fonctionner, tout le reste c’est dans votre navigateur ! Pas de tracking, pas de compte, vous venez avec vos clé d’API ! Les données sont sauvegardées dans une base de données IndexeDB et vous pouvez synchroniser vos conversations en utilisant git.
+
+Oui, dans le navigateur :P Pour ce faire, j’ai aussi dû implémenter un système de fichiers virtuel (oui, toujour dans le navigateur en utilisant ). Vous avez donc accès aux deux, tant qu’a faire ! Vous pouvez cloner un repo et joindre des fichiers du VFS dans vos conversations !
+
+Mais comme la sélection manuelle des fichiers, c’était une corvée, j’ai intégré des outils pour le VFS et git !
+
+Ensuite, comme l’architecture de base était là, et bien j’ai ajouté le support des serveurs MCP HTTP, mais il manquait toujours les serveurs stdio …, donc j’ai aussi “fait” un bridge (réécrit par l’IA à partir de mcp-proxy ) pour les utiliser (vous pouvez le déployer où vous voulez mais ce n’est pas sécurisé !)
+
+Apres, c’est bien mignon l’IA, mais j’en avais un peu marre du texte seul, du coup, j’ai ajouté le support des diagrammes Mermaid et des formulaires HTML (Comme ca on a meme plus besoin de réfléchir a quoi lui dire a la machine !). Bon… après…les diagrammes Mermaid c’est un peu moche, et comme j’ai ajouté un module de workflow avec des visualisations basée sur [https://reactflow.dev/], j’ai aussi ajouté un moyen pour les LLM de vous en créer ! Et puis comme le text ca fait pas beaucoup de bruit, il y a aussi in block “Beat” qui utilise (http://strudel.cc/) pour aussi en profiter de maniere auditive !
+
+Et puis bon, en testant, toujours taper les mêmes prompts avec juste quelques différences c’était lourd aussi, j’ai donc fait un module de bibliothèque de prompts avec des modèles pour qu’y ai plus qu’a remplir un formulaire ;) (peut etre aussi que j’en avais besoin pour les workflows…)
+
+‘Pis, un Agents, c’est quoi ? hein ? bah un prompt système, des outils et des prompts spécifiques pour les tâches ! Donc ça aussi vous en avez une librairie !
+
+Les prompts et les agents peuvent s’intégrer dans les workflows (duh, ils étaient faits pour ça !) mais vous avez aussi des étapes de “transformation”/exécution de code utilisateur/“prompt personnalisé” pour faciliter le transit !
+
+Comme vous l’avez peut-être deviné, si j’ai une forme d’exécution de code pour les workflows, Est ce que je pourrais t’y donc pas faire tourner le code généré par l’IA, hein ? Eeeeh bha SI ! En Python ou JavaScript Et même que si vous ête un dinguo, vous pouvez faire tourner le js en mode “unsafe” (eval et yolo XD) du coup ca peut produire des trucs (comme ce one shot threejs scroll shooter ) que vous pouvez exporter en 1 clic (le template est moche mais je vais y travailler !)
+
+Afin de n’pas completement obliterer le context, tous ces jolis blocs d’UI peuvent être “activés” (plutôt suggérés ^^) en utilisant des règles. Evidement, vous pouvez ajouter vos règles a vous ! Et meme que vous avez un bouton pour demander a l’IA de les choisir pour vous pour votre prompt actuel !
+
+Bien sûr, vous avez les habituels regen (avec un modèle différent si le coeur vous en dis) et forking, mais vous pouvez aussi modifier une réponse a la main pour dégager l’inutile. D’ailleur, Les blocs de code sont aussi modifiable avec la coloration syntaxique pour les langages les plus courants, (mais pas d’auto-complétion ou autre truc de bogoss, on va pas poussez mémé dans les orties !).
+
+Pour couronner le tout, vous pouvez organiser des courses d’IA avec un nombre illimité de participants (ca dependra de la profondeur de votre portefeuille :P). C’est cool pour faire des benchmarks ou quand on veut voir laquelle des machines prendra notre place en premier… J’ai même fait un petit outil qui prend une conversation de course exportée et qui crée un mini site de benchmark (plus ciblé sur le bloc d’exécution JS pour l’instant https://dimitrigilbert.github.io/racebench/scroller/index.html pour le “jeu” d’avant)
+
+J’oublie certainement quelques bricoles, mais vous avez compris l’essentiel ^^
+
+La version hébergée est sur les pages GitHub et il n’y a pas de tracking, pas de compte ! Vous apportez vos propres clés API ! Vous ne pourrez probablement pas utiliser la version hébergée pour votre LLM local à cause des restrictions https/http, mais comme je l’ai dit, vous pouvez télécharger https://github.com/DimitriGilbert/LiteChat/releases et héberger avec un simple serveur HTTP. Vous avez même des versions localisées pour le français, l’italien, l’allemand et l’espagnol. Une petite playlist (très incomplète) de tutoriels si vous vous sentez un peu perdu https://www.youtube.com/playlist?list=PL5Doe56gCsNRdNyfetOYPQw_JkPHO3XVh
+
+J’espère que vous apprécierez et les commentaires constructifs sont grandement appréciés :Db:T284c,
+So, who here builds **React forms** ? And by forms I mean the good kind, with validation, multi-step wizards, conditional logic, and... well, not state of the art things that take you a week to build. 
+
+Yeah... it's ok, we've all been there. I mean, have you ever tried to build a proper form system from scratch ? It's a whole kerfuffle ! Between validation, field types, conditional rendering, and let's not even talk about persistence... 😛
+
+Well, "NO MORE !" I say !
+
+## Meet Formedible
+
+[Formedible](https://github.com/DimitriGilbert/formedible) is what happens when you take [TanStack Form v1](https://tanstack.com/form/latest) (which is already pretty awesome) and wrap it in a nice, user-friendly package with enterprise-grade features. It's currently at v0.3.13, so it's early days but it's getting there !
+
+Here's what you get out of the box:
+
+* **22+ built-in field types** - text, email, password, select, combobox, date, time, location, file upload, arrays, objects, and a whole bunch more
+* **Multi-page forms** - with progress tracking and step navigation
+* **Schema-first validation** - powered by Zod (because we like type safety around here)
+* **Conditional logic** - show/hide fields based on other field values
+* **Dynamic options** - load options from APIs, filter them, whatever you need
+* **Template interpolation** - use `{{fieldName}}` syntax in labels, descriptions, options... it's pretty handy
+* **Real-time analytics** - track form completion, field-level analytics, abandonment... the whole shebang
+* **Form persistence** - localStorage, sessionStorage, whatever you need to keep data around
+* **Visual form builder** - because sometimes you just want to click things together
+* **AI-powered form builder** - yeah, you heard that right, AI generates forms for you now
+* **Component override system** - customize everything if you feel adventurous
+
+## TLDR
+
+Oh, I know you lot are a bunch of impatient nerds (at least I am...) so here's a quick run down to get going !
+
+```bash
+# install the core package
+bun add formedible
+
+# or if you're feeling fancy and want everything
+bun add formedible formedible-builder formedible-ai-builder formedible-parser
+```
+
+Then, a simple form looks like this:
+
+```tsx
+import { createFormSchema } from 'formedible'
+import { z } from 'zod'
+
+const schema = createFormSchema({
+  fields: [
+    {
+      name: 'name',
+      type: 'text',
+      label: 'Your name',
+      validation: z.string().min(2, "C'mon, give me more than 2 characters !"),
+    },
+    {
+      name: 'email',
+      type: 'email',
+      label: 'Your email',
+      validation: z.string().email("That's not a valid email, mate"),
+    },
+    {
+      name: 'country',
+      type: 'select',
+      label: 'Where you from ?',
+      options: ['France', 'UK', 'Germany', 'Other'],
+    },
+  ],
+})
+
+// use it in your component
+import { FormedibleForm } from 'formedible'
+
+function MyForm() {
+  return (
+    <FormedibleForm schema={schema} onSubmit={(data) => console.log(data)}>
+      <FormedibleForm.Field name="name" />
+      <FormedibleForm.Field name="email" />
+      <FormedibleForm.Field name="country" />
+      <FormedibleForm.Submit>Submit</FormedibleForm.Submit>
+    </FormedibleForm>
+  )
+}
+```
+
+Easy as pie, right ? Well, hopefully easier than pie, because pie is actually quite hard to make well...
+
+## What's under the hood ?
+
+I've built Formedible as a monorepo with a few packages (because everyone loves monorepos, right ? ... right ?):
+
+- **formedible** - the core library, this is what you'll use 90% of the time
+- **formedible-builder** - visual form builder, drag & drop style
+- **formedible-ai-builder** - AI-powered form generation (still experimental, but cool)
+- **formedible-parser** - parse form schemas and generate different outputs
+
+The tech stack is pretty modern:
+
+* **React 19.1+** - yeah, we're living in the future
+* **TanStack Form v1.23+** - the form library that does all the heavy lifting
+* **Zod v4.0+** - validation and type safety
+* **shadcn/ui** - nice UI components out of the box
+* **TailwindCSS 4.1+** - styling, because who has time to write CSS these days ?
+* **Turborepo** - managing the monorepo, builds, and all that jazz
+
+## The field types
+
+Right, so I mentioned 22+ field types... let me list the main ones so you know what you're getting:
+
+* **Text inputs** - text, password, textarea, number
+* **Selection** - select, multi-select, combobox, radio, checkbox, checkbox-group
+* **Date & time** - date, time, datetime, date-range
+* **Files** - file-upload, image-upload
+* **Special** - location, phone, url, color, rating, slider, toggle
+* **Complex** - array, object, nested forms (ooh, fancy)
+
+And if that's not enough, you can build your own custom field types because I've made the thing extensible (you're welcome 😊).
+
+## Multi-page forms
+
+One of the things I'm actually quite proud of is the multi-page form system. It's not state of the art (nothing around here is), but it does the job pretty well:
+
+```tsx
+const schema = createFormSchema({
+  fields: [
+    {
+      name: 'personal',
+      type: 'object',
+      label: 'Personal Info',
+      fields: [
+        {
+          name: 'name',
+          type: 'text',
+          label: 'Your name',
+        },
+        {
+          name: 'email',
+          type: 'email',
+          label: 'Your email',
+        },
+      ],
+    },
+    {
+      name: 'address',
+      type: 'object',
+      label: 'Address',
+      fields: [
+        {
+          name: 'street',
+          type: 'text',
+          label: 'Street',
+        },
+        {
+          name: 'city',
+          type: 'text',
+          label: 'City',
+        },
+      ],
+    },
+  ],
+})
+
+function MultiStepForm() {
+  return (
+    <FormedibleForm schema={schema} onSubmit={handleSubmit}>
+      <FormedibleForm.Step step="personal">
+        <FormedibleForm.Field name="personal.name" />
+        <FormedibleForm.Field name="personal.email" />
+        <FormedibleForm.Next>Next</FormedibleForm.Next>
+      </FormedibleForm.Step>
+      
+      <FormedibleForm.Step step="address">
+        <FormedibleForm.Field name="personal.street" />
+        <FormedibleForm.Field name="personal.city" />
+        <FormedibleForm.Submit>Submit</FormedibleForm.Submit>
+      </FormedibleForm.Step>
+      
+      <FormedibleForm.Progress />
+    </FormedibleForm>
+  )
+}
+```
+
+See ? Not too scary, is it ?
+
+## Conditional logic
+
+This is the bit where things get interesting. You can show/hide fields based on other field values:
+
+```tsx
+const schema = createFormSchema({
+  fields: [
+    {
+      name: 'hasExperience',
+      type: 'checkbox',
+      label: 'Do you have experience with React forms ?',
+    },
+    {
+      name: 'experienceYears',
+      type: 'number',
+      label: 'How many years ?',
+      showWhen: {
+        field: 'hasExperience',
+        operator: 'equals',
+        value: true,
+      },
+    },
+  ],
+})
+```
+
+You can do nested conditions, multiple conditions, all sorts of stuff. I won't go into all the details here because we'd be here all day, but the documentation has the full scoop.
+
+## Analytics
+
+So, I added analytics because... well, why not ? Sometimes you actually want to know how people interact with your forms:
+
+```tsx
+<FormedibleForm 
+  schema={schema} 
+  onSubmit={handleSubmit}
+  analytics={{
+    enabled: true,
+    onFieldFocus: (field) => console.log('User focused on', field),
+    onFieldBlur: (field) => console.log('User left', field),
+    onFieldChange: (field, value) => console.log('User changed', field, 'to', value),
+    onStepChange: (step) => console.log('User moved to step', step),
+  }}
+>
+```
+
+It's not Google Analytics (thank god), but it gives you enough to understand what's happening with your forms.
+
+## Persistence
+
+Ever filled out a long form, then accidentally closed the tab ? Yeah, me too. It's awful. So I built in persistence:
+
+```tsx
+<FormedibleForm 
+  schema={schema}
+  persistence={{
+    enabled: true,
+    storage: 'localStorage', // or 'sessionStorage'
+    key: 'my-form-data',
+  }}
+>
+```
+
+Now when users come back, their data is still there. They'll thank you. Maybe not out loud, but in their hearts, they're thanking you.
+
+## The visual builder
+
+Right, so if you're not the coding type (or you're just lazy, which I respect), there's a visual builder. It's not the best thing since sliced bread, but it's decent:
+
+```bash
+# install the builder
+bun add formedible-builder
+
+# run it
+bunx formedible-builder
+```
+
+It'll start a web interface where you can drag & drop fields, configure them, and export the schema. Pretty handy when you're prototyping.
+
+## The AI builder
+
+Now this one is still experimental, but it's pretty cool. You describe a form, and AI generates it for you:
+
+```bash
+bun add formedible-ai-builder
+bunx formedible-ai-builder "I need a registration form with name, email, password, address fields"
+```
+
+It's not perfect (I mean, nothing is), but it's getting better. Sometimes it gets things wrong, sometimes it gives you weird field types... but when it works, it's like magic ✨
+
+## What I still need to work on
+
+Look, I'm going to be honest with you here (as I should be). There are still things that need work:
+
+* Documentation is... adequate, but could be better
+* The AI builder is hit or miss sometimes
+* Some field types don't have all the options you might expect
+* Performance on very large forms (100+ fields) could be better
+* The visual builder could use more polish
+* I'm sure there are bugs I haven't found yet (because I'm the only one using it...)
+
+But hey, it's open source and I'm actively working on it. If you find bugs, have suggestions, or just want to say "hey, this is actually pretty good", feel free to open an issue on the [GitHub repo](https://github.com/DimitriGilbert/formedible).
+
+## What now ?
+
+Well, have at it ! Try it out, build some forms, break things, let me know what works and what doesn't.
+
+If you're interested in contributing, there's plenty to do. Documentation, bug fixes, new field types, better AI prompts... the list goes on.
+
+The repository is [here](https://github.com/DimitriGilbert/formedible) and the documentation is [here](https://formedible.dev) (well, it will be there once I finish setting it up... it's a work in progress, ok ?).
+
+Thanks for the read and I hope you found it useful (or at least entertaining :D)
+
+{{% goodbye %}}
+c:T1e05,
+So, you know how everyone's benchmarking LLMs these days? Like, "oh look, this model scored 87.3% on this synthetic test suite" or whatever. Boring, right? I mean, who cares if a model can reverse a string perfectly when you'll never ask it to reverse a string in real life? 😛
+
+That's why I built **RaceBench** — a benchmarking tool that actually tests something useful: how well different LLMs can write real, working JavaScript code. Not some "hello world" nonsense, but actual creative coding tasks — games, visualisations, interactive stuff you might actually want to build.
+
+## The idea (because every project needs an origin story)
+
+One day I was curious: if I ask different AI models to write the same game, which one would actually produce playable code? Not "technically correct but crashes on the third frame" code, but stuff you could run and enjoy.
+
+So I created a benchmark where I ask models to build a 2D scroll shooter game using Three.js. Not exactly "easy mode" for an AI — it requires understanding 3D graphics, game loops, user input, and making everything work together without blowing up the browser. Spoiler: some models handle it beautifully, others... well, let's say it's educational to watch them try 😊
+
+## What it actually does
+
+RaceBench is a static HTML dashboard that displays results from testing various LLMs on JavaScript code generation. Here's the cool part:
+
+- **Real-world benchmarking** — We test creative coding tasks, not synthetic "reverse this string" nonsense
+- **Executable results** — Every model's output can be run directly. See the code, click preview, judge for yourself
+- **Multi-dimensional analysis** — It's not just "did it work?" We track prompt tokens, completion tokens, TTFT (time to first token), generation time, and success rate
+- **Educational value** — Compare how different models structure their code, their approaches to the same problem, and learn from the variety (even the bad ones!)
+
+## How it works (the technical bits, minus the boring parts)
+
+### The setup
+
+Everything's static — pure HTML/CSS/JS with no backend. Deploy it anywhere. GitHub Pages? Sure. Netlify? Why not. Your Raspberry Pi at home? Absolutely. The whole thing weighs about as much as a small hamster 🐹
+
+```bash
+# Clone it
+git clone https://github.com/DimitriGilbert/racebench.git
+
+# Deploy to GitHub Pages (or your jungle site of choice)
+# I mean, whatever floats your boat
+```
+
+### The test case
+
+The benchmark uses a 2D scroll shooter game built with Three.js as the test scenario. Each model gets the same prompt and has to produce working code. We extract the last ````runjs` code block from each response (because models love to chat before giving you the goods, you know?).
+
+### What we track
+
+For each model, RaceBench captures:
+
+- **Prompt tokens** — How much it needed to understand what we wanted
+- **Completion tokens** — How verbose it got with the solution
+- **TTFT** (Time To First Token) — Responsiveness metrics
+- **Generation time** — Total time to produce the code
+- **Success rate** — Did it actually run? Or did it explode?
+
+### The UI (because I care about aesthetics, surprisingly)
+
+It's got this nice dark mode UI that doesn't look like it was designed by a sysadmin in 2003. Two view modes:
+
+- **Card grid** — Pretty cards for each model with key metrics at a glance
+- **Sortable table** — For when you want to data-nerd out and sort by TTFT or token count
+
+Click any model and you get:
+- Live preview (opens in a new tab, runs the actual code)
+- Raw response view (see exactly what the model said)
+- All the metrics broken down
+
+## Versions (because software never ends)
+
+### v1: The brave beginning
+
+Tested 18 models. Learned a lot. Realised some models are impressively creative while others are... trying their best. Let's put it that way. 😛
+
+### v2: The refinement
+
+Narrowed it down to 10 models. Better metrics extraction. Cleaner UI. Still watching models struggle with Three.js in entertaining ways.
+
+## Tech stack (kept it simple, you're welcome)
+
+- **Node.js** — Because JavaScript is life
+- **Tailwind CSS (via CDN)** — Styling without the build step headaches
+- **Simple-Datatables** — For when you want sortable tables but don't want to write them yourself
+- **Three.js (dynamic)** — Loaded on demand for the live previews
+
+Minimal dependencies. No complex build pipelines. Just works. I like that philosophy.
+
+## The models (participants in the chaos)
+
+We've tested a bunch of the big names:
+
+- Claude Sonnet 4
+- DeepSeek R1
+- GPT-4.1
+- Gemini 2.5
+- Grok 4
+- Kimi K2
+- Qwen3
+- ...and more
+
+Each one brings its own personality to the code. Some are terse and efficient. Others are verbose and over-engineered. A few produce code that makes you question everything you know about software development. All educational in their own way 😊
+
+## See it in action
+
+Don't just take my word for it — go play with the actual dashboard:
+
+**[Live Demo](https://dimitrigilbert.github.io/racebench/scroller/index.html)**
+
+Click around. Run some code. See which model you'd want on your team. Spoiler: the answer might surprise you (or it might be exactly what you expect. LLMs are weird like that).
+
+## What makes this different from other benchmarks?
+
+I'm glad you asked (I know you didn't, but pretend you did) 😛
+
+1. **Real tasks, not toy problems** — We test actual creative coding, not "sort this array" nonsense
+2. **You can run the results** — Not just a score — actual working code you can inspect and execute
+3. **No server needed** — Static HTML means you can host it anywhere or even run it locally
+4. **Transparent metrics** — See exactly what we measured and how
+5. **Educational** — Compare approaches, learn patterns, see what works (and what definitely doesn't)
+
+## What I learned (because building stuff teaches you things)
+
+- Some models are surprisingly good at 3D graphics code
+- Others clearly haven't seen many Three.js examples in their training
+- TTFT doesn't always correlate with code quality
+- Verbose models aren't necessarily better — sometimes they're just... chatty
+- The best model depends on what you value: speed, efficiency, code clarity, or just getting something that runs
+
+## Future plans (the "if I get around to it" section)
+
+I'd like to:
+
+- Add more test cases (different types of creative coding challenges)
+- Test more models (new ones keep popping up like mushrooms)
+- Improve the metrics (maybe add code quality scoring?)
+- Add a "leaderboard" view for those who love rankings
+- Maybe, possibly, contribute the data to some broader benchmark effort (if such a thing exists and wants this kind of real-world data)
+
+But let's be honest — I'll probably add a new test case before I remember to do any of that. Priorities, right? 😊
+
+## Wrapping up
+
+RaceBench isn't trying to be the definitive AI benchmark. It's just me trying to answer a simple question: "Which AI writes the best JavaScript code for real projects?" And having fun seeing them all try.
+
+If you find it useful, great. If you learn something from the different code styles, even better. If you just enjoy clicking through live previews of AI-generated games and thinking "wow, that actually works," then I've done my job.
+
+Feel free to fork it, add your own models, test different prompts. The more data, the better. Just don't ask me which model is "best" — that depends on what you're building, your timeline, your budget, and probably the phase of the moon. LLMs are like that 😛
+
+**GitHub:** [DimitriGilbert/racebench](https://github.com/DimitriGilbert/racebench)
+
+Now go race some models. May the best code win.
+
+{{% goodbye %}}
+0:{"P":null,"b":"fxCbDsEksO5NPvyXbZAu_","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9579c992d89962c7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"projects":[{"id":"LiteChat","name":"LiteChat","description":"A modern, local first AI chat app for your browser.","image":"/images/litechat/project.jpg","repo":"https://github.com/DimitriGilbert/LiteChat","site":"https://litechat.dbuild.dev","tags":["pwa","ai","chat-application","agents","llm","local-llm"]},{"id":"FormEdible","name":"FormEdible","description":"A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.","image":"/images/FormEdible/project.jpg","repo":"https://github.com/DimitriGilbert/FormEdible","site":"https://dimitrigilbert.github.io/Formedible/","tags":["Shadcn","Registry","form","hook","react","typescript","zod"]},{"id":"cn-registry","name":"cn-registry.dev","description":"A hub for Shadcn components and tools.","image":"/images/cn-registry.dev/project.jpg","repo":"https://github.com/DimitriGilbert/cn-registry.dev","site":"https://cn-registry.dev","tags":["Shadcn","Registry"]},{"id":"parseArger","name":"parseArger","description":"Standalone bash argument parsing code generator.","image":"/images/parsearger/project.jpg","repo":"https://github.com/DimitriGilbert/parseArger","site":"https://dimitrigilbert.github.io/parseArger/","tags":[]},{"id":"TerMinable","name":"TerMinable","description":"A demonstration terminal for you projects (or mine).","image":"/images/terminable/project.jpg","repo":"https://github.com/DimitriGilbert/TerMinable","site":"https://terminable.dbuild.dev/","tags":["Shadcn","Registry","Terminal","React","Typescript"]},{"id":"sshm0","name":"sshm0","description":"A simple CLI ssh connection manager","image":"/images/sshm0/project.jpg","repo":"https://github.com/DimitriGilbert/sshm0","site":"https://github.com/DimitriGilbert/sshm0","tags":["ssh","bash","cli","parseArger"]},{"id":"AI-gents","name":"AI-gents","description":"AI-gents. A simple format for AI agents.","image":"/images/ai-gents/project.jpg","repo":"https://github.com/DimitriGilbert/AI-gents","site":"ai-gents.dbuild.dev/","tags":["bash","cli","parseArger","ai","agents"]},{"id":"StationIO-Station","name":"StationIO","description":"Arduino framework-ish that handle the basics (wifi, ota, etc.)","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/StationIO-Station","site":"dimitrigilbert.github.io/StationIO-Station/","tags":["arduino","esp8266","esp32"]},{"id":"RaceBench","name":"RaceBench","description":"Benchmarking LLMs on real JavaScript code generation tasks with executable results.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/racebench","site":"https://dimitrigilbert.github.io/racebench/scroller/index.html","tags":["benchmark","llm","ai","testing","javascript","three.js"]},{"id":"Task-O-Matic","name":"Task-O-Matic","description":"AI-powered task management system transforming chaotic ideas into structured, executable task lists.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/task-o-matic","site":"https://github.com/DimitriGilbert/task-o-matic","tags":["ai","task-management","cli","productivity","typescript","bun"]},{"id":"Sprynge","name":"Sprynge","description":"Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/sprynge-next","site":"https://github.com/DimitriGilbert/sprynge-next","tags":["community","help","nextjs","convex","real-time","gamification"]},{"id":"git-moar","name":"git-moar","description":"Advanced Git repository analytics and reporting CLI tool with beautiful HTML reports and visualizations.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/git-report","site":"https://github.com/DimitriGilbert/git-report","tags":["git","analytics","cli","visualization","javascript","nodejs"]}],"projectTags":["React","Registry","Shadcn","Terminal","Typescript","agents","ai","analytics","arduino","bash","benchmark","bun","chat-application","cli","community","convex","esp32","esp8266","form","gamification","git","help","hook","javascript","llm","local-llm","nextjs","nodejs","parseArger","productivity","pwa","react","real-time","ssh","task-management","testing","three.js","typescript","visualization","zod"],"recentPosts":[{"slug":"projects-cn-registry-devlog-1-the-illusion-of-victory","title":"cn-registry devlog 1 - The illusion of victory","description":"Follow me on a journey of failure and foolishness, en route to master the current crop of AI.","date":"$D2025-07-24T14:00:17.000Z","category":"General","tags":["shadcn","devlog","cn-registry"],"content":"$7","readTime":12,"toc":[{"level":2,"title":"Why ?","id":"why"},{"level":2,"title":"What is it already ?","id":"what-is-it-already"},{"level":2,"title":"The process","id":"the-process"},{"level":3,"title":"The Idea","id":"the-idea"},{"level":3,"title":"Initial plan","id":"initial-plan"},{"level":3,"title":"Start proompting","id":"start-proompting"},{"level":3,"title":"Select your stack","id":"select-your-stack"},{"level":3,"title":"Let the music start !","id":"let-the-music-start"},{"level":3,"title":"Broken string and other misadventures...","id":"broken-string-and-other-misadventures"},{"level":3,"title":"more, More, MOOOOAR","id":"more-more-mooooar"},{"level":3,"title":"Tidy up and go forward","id":"tidy-up-and-go-forward"},{"level":3,"title":"One day at a time","id":"one-day-at-a-time"}],"directory":"Projects/cn-registry/devlog 1 : The Illusion of Victory","relativePath":"Projects/cn-registry/devlog 1 : The Illusion of Victory/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/cn-registry/devlog 1 : The Illusion of Victory/index.md","isCategory":false},{"slug":"projects-cn-registry-devlog-1-une-illusion-de-victoire","title":"cn-registry devlog 1 -Une illusion de victoire","description":"Suivez-moi dans un voyage d'échecs et de folie, en route pour maîtriser la nouvelle génération d'IA.","date":"$D2025-07-24T14:00:17.000Z","category":"General","tags":["shadcn","devlog","cn-registry"],"content":"$8","readTime":13,"toc":[{"level":2,"title":"Pourquoi ?","id":"pourquoi"},{"level":2,"title":"Qu'est-ce que c'est déjà ?","id":"quest-ce-que-cest-dj"},{"level":2,"title":"Le processus","id":"le-processus"},{"level":3,"title":"L'idée","id":"lide"},{"level":3,"title":"Plan initial","id":"plan-initial"},{"level":3,"title":"A vos marques, pret, proomptez !","id":"a-vos-marques-pret-proomptez"},{"level":3,"title":"Sélectionnez votre stack","id":"slectionnez-votre-stack"},{"level":3,"title":"Laissez la musique commencer !","id":"laissez-la-musique-commencer"},{"level":3,"title":"C'est Bestel, il a mis la cassette et puis pouf !","id":"cest-bestel-il-a-mis-la-cassette-et-puis-pouf"},{"level":3,"title":"encore, Encore, ENCOOORE","id":"encore-encore-encooore"},{"level":3,"title":"Vous en avez mare de ces details ? et bhe on va vous en débarrasser","id":"vous-en-avez-mare-de-ces-details-et-bhe-on-va-vous-en-dbarrasser"},{"level":3,"title":"Un jour à la fois","id":"un-jour-la-fois"}],"directory":"Projects/cn-registry/devlog 1 : Une illusion de victoire","relativePath":"Projects/cn-registry/devlog 1 : Une illusion de victoire/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/cn-registry/devlog 1 : Une illusion de victoire/index.md","isCategory":false},{"slug":"projects-litechat-litechat-a-local-first-and-self-hostable-ai-chat-app-for-power-user","title":"LiteChat - A local first and self hostable AI chat app for power user","description":"A smallish presentation of my project LiteChat !","date":"$D2025-07-04T10:40:17.000Z","category":"General","tags":["ai","chat","local","server"],"content":"$9","readTime":4,"toc":[],"directory":"Projects/LiteChat/LiteChat : A local first and self hostable AI chat app for power user","relativePath":"Projects/LiteChat/LiteChat : A local first and self hostable AI chat app for power user/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/LiteChat/LiteChat : A local first and self hostable AI chat app for power user/index.md","isCategory":false},{"slug":"projects-litechat-litechat-un-chat-ia-local-first-auto-hebergeable-sur-un-server-http","title":"LiteChat - Un chat IA local first, auto hebergeable sur un server HTTP","description":"Une petite présentation de mon projet LiteChat, en Français dans le texte !","date":"$D2025-07-04T10:39:17.000Z","category":"General","tags":["ai","chat","local","server"],"content":"$a","readTime":5,"toc":[],"directory":"Projects/LiteChat/LiteChat : Un chat IA local first, auto hebergeable sur un server HTTP","relativePath":"Projects/LiteChat/LiteChat : Un chat IA local first, auto hebergeable sur un server HTTP/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/LiteChat/LiteChat : Un chat IA local first, auto hebergeable sur un server HTTP/index.md","isCategory":false},{"slug":"projects-formedible","title":"Formedible, the Ultimate React Form Library for 2025","description":"A sophisticated wrapper around TanStack Form v1 with 22+ built-in field types, multi-step wizards, conditional logic, analytics, and enterprise-grade features. Built with React 19, TypeScript, Zod, and shadcn/ui.","date":"2025-01-17T10:00:00+01:00","category":"General","tags":["form","react","typescript","tanstack","zod"],"content":"$b","readTime":8,"toc":[{"level":2,"title":"Meet Formedible","id":"meet-formedible"},{"level":2,"title":"TLDR","id":"tldr"},{"level":1,"title":"install the core package","id":"install-the-core-package"},{"level":1,"title":"or if you're feeling fancy and want everything","id":"or-if-youre-feeling-fancy-and-want-everything"},{"level":2,"title":"What's under the hood ?","id":"whats-under-the-hood"},{"level":2,"title":"The field types","id":"the-field-types"},{"level":2,"title":"Multi-page forms","id":"multi-page-forms"},{"level":2,"title":"Conditional logic","id":"conditional-logic"},{"level":2,"title":"Analytics","id":"analytics"},{"level":2,"title":"Persistence","id":"persistence"},{"level":2,"title":"The visual builder","id":"the-visual-builder"},{"level":1,"title":"install the builder","id":"install-the-builder"},{"level":1,"title":"run it","id":"run-it"},{"level":2,"title":"The AI builder","id":"the-ai-builder"},{"level":2,"title":"What I still need to work on","id":"what-i-still-need-to-work-on"},{"level":2,"title":"What now ?","id":"what-now"}],"directory":"Projects/Formedible","relativePath":"Projects/Formedible/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/Formedible/index.md","isCategory":false},{"slug":"projects-racebench","title":"RaceBench","description":"Racing LLMs against each other to see who writes the best JavaScript. Spoiler: it's chaos out there!","date":"$D2025-01-17T09:00:00.000Z","category":"General","tags":["benchmark","llm","ai","testing"],"content":"$c","readTime":7,"toc":[{"level":2,"title":"The idea (because every project needs an origin story)","id":"the-idea-because-every-project-needs-an-origin-story"},{"level":2,"title":"What it actually does","id":"what-it-actually-does"},{"level":2,"title":"How it works (the technical bits, minus the boring parts)","id":"how-it-works-the-technical-bits-minus-the-boring-parts"},{"level":3,"title":"The setup","id":"the-setup"},{"level":1,"title":"Clone it","id":"clone-it"},{"level":1,"title":"Deploy to GitHub Pages (or your jungle site of choice)","id":"deploy-to-github-pages-or-your-jungle-site-of-choice"},{"level":1,"title":"I mean, whatever floats your boat","id":"i-mean-whatever-floats-your-boat"},{"level":3,"title":"The test case","id":"the-test-case"},{"level":3,"title":"What we track","id":"what-we-track"},{"level":3,"title":"The UI (because I care about aesthetics, surprisingly)","id":"the-ui-because-i-care-about-aesthetics-surprisingly"},{"level":2,"title":"Versions (because software never ends)","id":"versions-because-software-never-ends"},{"level":3,"title":"v1: The brave beginning","id":"v1-the-brave-beginning"},{"level":3,"title":"v2: The refinement","id":"v2-the-refinement"},{"level":2,"title":"Tech stack (kept it simple, you're welcome)","id":"tech-stack-kept-it-simple-youre-welcome"},{"level":2,"title":"The models (participants in the chaos)","id":"the-models-participants-in-the-chaos"},{"level":2,"title":"See it in action","id":"see-it-in-action"},{"level":2,"title":"What makes this different from other benchmarks?","id":"what-makes-this-different-from-other-benchmarks"},{"level":2,"title":"What I learned (because building stuff teaches you things)","id":"what-i-learned-because-building-stuff-teaches-you-things"},{"level":2,"title":"Future plans (the \"if I get around to it\" section)","id":"future-plans-the-if-i-get-around-to-it-section"},{"level":2,"title":"Wrapping up","id":"wrapping-up"}],"directory":"Projects/RaceBench","relativePath":"Projects/RaceBench/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/RaceBench/index.md","isCategory":false}],"blogTags":["ai","analytics","bash","benchmark","chat","cli","cn-registry","community","convex","devlog","form","git","help","homelab","llm","local","mdd","nextjs","parseArger","parsearger","productivity","react","rpi","scripting","server","shadcn","tanstack","task-management","task-o-matic","terminal","testing","tutorial","typescript","visualization","zod"],"totalPosts":17}],null,["$","$Ld",null,{"children":"$Le"}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","b-nd-RF4MaLHGHOPVuGU1",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","$L11",null,{"children":"$L12"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
+12:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
+e:null
