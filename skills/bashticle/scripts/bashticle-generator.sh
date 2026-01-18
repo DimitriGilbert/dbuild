@@ -342,6 +342,8 @@ convert_markdown_to_bash() {
     # Inside code block - add to command array
     # Remove leading whitespace
     gsub(/^[[:space:]]+/, "")
+    # Remove trailing backslash (line continuation)
+    sub(/[[:space:]]*\\[[:space:]]*$/, "")
     # Escape backslashes and quotes
     gsub(/\\/, "\\\\")
     gsub(/"/, "\\\"")
