@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "highlight.js/styles/nord.css";
+@import "highlight.js/styles/a11y-light.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -168,22 +170,29 @@ body {
 /* Highlight.js custom styles */
 .hljs {
   border-radius: 0.5rem;
-  border: 1px solid hsl(var(--border));
   font-size: 0.875rem;
-  line-height: 1.5;
-  overflow-x: auto;
+  line-height: 1.6;
+  padding: 1.25rem;
 }
 
-/* Light theme code blocks */
+/* Dark mode code blocks (Nord theme) */
+.dark .hljs {
+  background: #2E3440;
+  border: 1px solid oklch(0.3 0.04 240);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Light mode code blocks (A11y Light theme) */
 .hljs:not(.dark *) {
-  background: #f8f9fa !important;
-  color: #24292e !important;
-}
-
-/* Dark theme code blocks */
-:is(.dark .hljs) {
-  background: #0d1117 !important;
-  color: #c9d1d9 !important;
+  background: #fefefe;
+  border: 1px solid oklch(0.2 0.01 90);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Inline code styling improvement */

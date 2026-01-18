@@ -6,18 +6,11 @@ This guide is for AI coding agents working in this repository.
 
 ### Root Commands (run from repository root)
 - `bun install` - Install dependencies for all apps
-- `bun run dev` - Start all applications in development mode
 - `bun run build` - Build all applications for production
 - `bun run check-types` - Check TypeScript types across all apps (includes all workspaces)
-- `bun run dev:web` - Start only the web application
-- `bun run dev:native` - Start only native app
-- `bun run dev:server` - Start only server app
 
 ### Web App Commands (from apps/web/)
-- `bun run dev` - Start Next.js dev server (port 3001 via NEXT_PUBLIC_SERVER_PORT)
 - `bun run build` - Build Next.js application
-- `bun run start` - Start production server
-- `bun run lint` - Run Next.js linting (ESLint)
 - `bun run to2web` - Build and deploy to GitHub Pages
 - `bun run validate-content` - Validate blog content
 - `bun run setup-content` - Setup blog content structure
@@ -89,10 +82,12 @@ apps/web/
 - Use `usePathname()` from next/navigation for current route
 
 ### Content & Data
-- Blog posts: Markdown files in `content/blog/` with frontmatter (gray-matter)
+- Blog posts: Each article is a directory containing an `index.md` file with frontmatter (gray-matter)
+  - Structure: `apps/web/content/blog/<Category>/<Article Title>/index.md`
+  - Article directory name is the article title (preserve original casing)
+  - Frontmatter fields: title, date (ISO format: YYYY-MM-DDTHH:MM:SS+TZ), tags (array), summary, slug (usually "index")
 - Projects: JSON data in `data/projects.json`
-- Support nested directory structure with `_index.md` for category pages
-- Frontmatter supports: title, description, date, category, tags, slug
+- Categories: Each category directory has an `_index.md` file for the category page
 - Automatic TOC generation from markdown headings
 
 ### Styling
@@ -138,3 +133,4 @@ apps/web/
   - Responsive design with mobile-first approach
   - **Follow existing code patterns as the style guide**
 - **DO NOT START LONG RUNNING PROCESSES** ! NO `bun run dev` !!! Strictly forbidden !
+- This is hosted on Github Pages so it needs to be exportable as HTML. no backend server !

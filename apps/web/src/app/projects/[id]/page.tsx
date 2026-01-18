@@ -28,7 +28,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   return (
     <div className="min-h-screen pt-20">
       <div className="container mx-auto px-4 py-12">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <Link href="/projects">
             <Button variant="ghost" className="mb-8">
               <ArrowLeft className="w-4 h-4 mr-2" />
