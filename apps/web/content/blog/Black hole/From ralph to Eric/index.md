@@ -295,3 +295,9 @@ npx task-o-matic@latest tasks execute-loop --include-prd \
   --model zai-coding-plan/glm-4.7 \
   --validate "npm run check-types && npm run build"
 ```
+
+And now, you wait, coffee, snacks, more coffee, diner and breakfast probably, it gonna take a while ^^
+
+## What do you think ? Where do we go from here ?
+
+So that's the end (of this article) ! What do you think ? did you try a similar technique ? What's the plan next, cause...
