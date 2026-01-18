@@ -1,0 +1,296 @@
+1:"$Sreact.fragment"
+2:I[22304,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","177","static/chunks/app/layout-8f6931abe4e72e4f.js"],"ThemeProvider"]
+3:I[71000,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","177","static/chunks/app/layout-8f6931abe4e72e4f.js"],"FloatingNavigation"]
+4:I[13842,[],""]
+5:I[86880,[],""]
+7:I[25803,[],"OutletBoundary"]
+9:I[25803,[],"MetadataBoundary"]
+b:I[25803,[],"ViewportBoundary"]
+d:I[16773,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/50152c3edddaf6a5.css","style"]
+0:{"P":null,"b":"xu25PFW4HmsoruEgi_bR5","p":"","c":["","blog","projects-formedible-fr",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","projects-formedible-fr","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/50152c3edddaf6a5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","projects-formedible-fr","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","QzAkRxm6s2uNhX3qFIoXj",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[86907,["239","static/chunks/239-c47e640cea1e8478.js","913","static/chunks/913-dae07b9fbc51ebae.js","953","static/chunks/app/blog/%5Bslug%5D/page-bc85e6f2f2452701.js"],"PrefetchLink"]
+f:I[28492,["239","static/chunks/239-c47e640cea1e8478.js","913","static/chunks/913-dae07b9fbc51ebae.js","953","static/chunks/app/blog/%5Bslug%5D/page-bc85e6f2f2452701.js"],"TableOfContents"]
+10:I[49424,["239","static/chunks/239-c47e640cea1e8478.js","913","static/chunks/913-dae07b9fbc51ebae.js","953","static/chunks/app/blog/%5Bslug%5D/page-bc85e6f2f2452701.js"],"MarkdownRenderer"]
+11:T2a1e,
+_Ce contenu a été généré par le modèle AI GLM 4.7 et not-ai-writer_
+
+Alors, qui ici construit des **formulaires React** ? Et par formulaires, j'entends les bons. Avec validation, assistants multi-étapes, logique conditionnelle, et... enfin, pas des trucs à la pointe de l'art qui vous prennent une semaine à construire.
+
+Ouais. C'est ok. On est tous passés par là. Je mean, vous avez déjà essayé de construire un système de formulaires propre à partir de zéro ? C'est tout un bordel ! Entre la validation, les types de champs, l'affichage conditionnel, et parlons même pas de la persistance... 😛
+
+Bon. "PLUS ÇA !" je dis !
+
+## Meet Formedible
+
+[Formedible](https://github.com/DimitriGilbert/formedible) c'est ce qui arrive quand vous prenez [TanStack Form v1](https://tanstack.com/form/latest) (déjà vachement bien) et que vous l'enveloppez dans un joli paquet user-friendly avec des fonctionnalités de niveau entreprise. Actuellement en v0.3.13, donc tout début mais ça avance !
+
+Ce que vous obtenez out-of-the-box :
+
+* **22+ types de champs intégrés** — text, email, password, select, combobox, date, time, location, upload de fichiers, arrays, objects, et tout un tas d'autres
+* **Formulaires multi-pages** — avec suivi de progression et navigation par étapes
+* **Validation first-schema** — propulsée par Zod (on aime la type safety par ici)
+* **Logique conditionnelle** — afficher/masquer des champs basés sur les valeurs d'autres champs
+* **Options dynamiques** — chargez des options depuis des APIs, filtrez-les, tout ce dont vous avez besoin
+* **Interpolation de template** — utilisez la syntaxe `{{fieldName}}` dans les labels, descriptions, options... plutôt pratique
+* **Analytics en temps réel** — suivez la complétion des formulaires, analytics au niveau champ, abandon... tout le bazar
+* **Persistance des formulaires** — localStorage, sessionStorage, tout ce dont vous avez besoin
+* **Constructeur visuel de formulaires** — parfois vous voulez juste cliquer des trucs ensemble
+* **Constructeur de formulaires AI-powered** — ouais, l'IA génère des formulaires pour vous maintenant
+* **Système de override de composants** — customisez tout si vous vous sentez aventureux
+
+## Démarrage rapide
+
+Oh, je sais que vous êtes tous des nerds impatients. (En tout cas je le suis...)
+
+```bash
+# installer le package core
+bun add formedible
+
+# ou si vous vous sentez fantaisiste et que vous voulez tout
+bun add formedible formedible-builder formedible-ai-builder formedible-parser
+```
+
+Un simple formulaire :
+
+```tsx
+import { createFormSchema } from 'formedible'
+import { z } from 'zod'
+
+const schema = createFormSchema({
+  fields: [
+    {
+      name: 'name',
+      type: 'text',
+      label: 'Your name',
+      validation: z.string().min(2, "C'mon, give me more than 2 characters!"),
+    },
+    {
+      name: 'email',
+      type: 'email',
+      label: 'Your email',
+      validation: z.string().email("That's not a valid email, mate"),
+    },
+    {
+      name: 'country',
+      type: 'select',
+      label: 'Where you from?',
+      options: ['France', 'UK', 'Germany', 'Other'],
+    },
+  ],
+})
+
+import { FormedibleForm } from 'formedible'
+
+function MyForm() {
+  return (
+    <FormedibleForm schema={schema} onSubmit={(data) => console.log(data)}>
+      <FormedibleForm.Field name="name" />
+      <FormedibleForm.Field name="email" />
+      <FormedibleForm.Field name="country" />
+      <FormedibleForm.Submit>Submit</FormedibleForm.Submit>
+    </FormedibleForm>
+  )
+}
+```
+
+Simple comme tout ? Bon. Espérons que c'est plus simple que la tarte, parce que la tarte en fait c'est assez dur à réussir bien...
+
+## Sous le capot
+
+J'ai construit Formedible comme un monorepo avec quelques packages (parce que tout le monde aime les monorepos, non ? ... non ?) :
+
+- **formedible** — la librairie core, ce que vous utiliserez 90% du temps
+- **formedible-builder** — constructeur visuel de formulaires, style drag & drop
+- **formedible-ai-builder** — génération de formulaires AI-powered (expérimental, mais cool)
+- **formedible-parser** — parse les schémas de formulaires et génère différents outputs
+
+La stack technique est plutôt moderne :
+
+* **React 19.1+** — on vit dans le futur
+* **TanStack Form v1.23+** — la librairie de formulaires qui fait le gros du travail
+* **Zod v4.0+** — validation et type safety
+* **shadcn/ui** — des composants UI sympas out-of-the-box
+* **TailwindCSS 4.1+** — styling, parce que qui a le temps d'écrire du CSS de nos jours ?
+* **Turborepo** — gérer le monorepo, les builds, et tout ce bazar
+
+## Les types de champs
+
+Bon, donc j'ai mentionné 22+ types de champs... voici les principaux :
+
+* **Text inputs** — text, password, textarea, number
+* **Sélection** — select, multi-select, combobox, radio, checkbox, checkbox-group
+* **Date & time** — date, time, datetime, date-range
+* **Fichiers** — file-upload, image-upload
+* **Spécial** — location, phone, url, color, rating, slider, toggle
+* **Complexe** — array, object, formulaires imbriqués (ooh, fantaisiste)
+
+Pas assez ? Construisez les vôtres. Je l'ai fait extensible (de rien 😊).
+
+## Formulaires multi-pages
+
+Un des trucs dont je suis plutôt fier. Pas à la pointe de l'art (rien n'est à la pointe de l'art par ici), mais ça fait assez bien le taf :
+
+```tsx
+const schema = createFormSchema({
+  fields: [
+    {
+      name: 'personal',
+      type: 'object',
+      label: 'Personal Info',
+      fields: [
+        { name: 'name', type: 'text', label: 'Your name' },
+        { name: 'email', type: 'email', label: 'Your email' },
+      ],
+    },
+    {
+      name: 'address',
+      type: 'object',
+      label: 'Address',
+      fields: [
+        { name: 'street', type: 'text', label: 'Street' },
+        { name: 'city', type: 'text', label: 'City' },
+      ],
+    },
+  ],
+})
+
+function MultiStepForm() {
+  return (
+    <FormedibleForm schema={schema} onSubmit={handleSubmit}>
+      <FormedibleForm.Step step="personal">
+        <FormedibleForm.Field name="personal.name" />
+        <FormedibleForm.Field name="personal.email" />
+        <FormedibleForm.Next>Next</FormedibleForm.Next>
+      </FormedibleForm.Step>
+
+      <FormedibleForm.Step step="address">
+        <FormedibleForm.Field name="personal.street" />
+        <FormedibleForm.Field name="personal.city" />
+        <FormedibleForm.Submit>Submit</FormedibleForm.Submit>
+      </FormedibleForm.Step>
+
+      <FormedibleForm.Progress />
+    </FormedibleForm>
+  )
+}
+```
+
+Vous voyez ? Pas trop effrayant, non ?
+
+## Logique conditionnelle
+
+C'est là que ça devient intéressant. Affichez/masquez des champs basés sur les valeurs d'autres champs :
+
+```tsx
+const schema = createFormSchema({
+  fields: [
+    {
+      name: 'hasExperience',
+      type: 'checkbox',
+      label: 'Do you have experience with React forms?',
+    },
+    {
+      name: 'experienceYears',
+      type: 'number',
+      label: 'How many years?',
+      showWhen: {
+        field: 'hasExperience',
+        operator: 'equals',
+        value: true,
+      },
+    },
+  ],
+})
+```
+
+Conditions imbriquées, conditions multiples, tout un tas de trucs. Je vais pas entrer dans tous les détails ici (on serait là toute la journée), mais la documentation a toutes les infos.
+
+## Analytics
+
+Donc, j'ai ajouté des analytics parce que... bah, pourquoi pas ? Parfois vous voulez vraiment savoir comment les gens interagissent avec vos formulaires :
+
+```tsx
+<FormedibleForm
+  schema={schema}
+  onSubmit={handleSubmit}
+  analytics={{
+    enabled: true,
+    onFieldFocus: (field) => console.log('User focused on', field),
+    onFieldBlur: (field) => console.log('User left', field),
+    onFieldChange: (field, value) => console.log('User changed', field, 'to', value),
+    onStepChange: (step) => console.log('User moved to step', step),
+  }}
+>
+```
+
+Pas Google Analytics (merci dieu), mais ça vous donne assez pour comprendre ce qui se passe avec vos formulaires.
+
+## Persistance
+
+Vous avez déjà rempli un long formulaire, puis fermé l'onglet par erreur ? Ouais, moi aussi. C'est horrible. Donc j'ai intégré la persistance :
+
+```tsx
+<FormedibleForm
+  schema={schema}
+  persistence={{
+    enabled: true,
+    storage: 'localStorage', // ou 'sessionStorage'
+    key: 'my-form-data',
+  }}
+>
+```
+
+Maintenant quand les utilisateurs reviennent, leurs données sont toujours là. Ils vous remercieront. Peut-être pas à voix haute, mais dans leur cœur, ils vous remercient.
+
+## Le constructeur visuel
+
+Si vous n'êtes pas du genre à coder (ou juste flemmard, ce que je respecte), il y a un constructeur visuel. Pas la meilleure chose depuis le pain tranché, mais ça se défend :
+
+```bash
+bun add formedible-builder
+bunx formedible-builder
+```
+
+Ça lance une interface web où vous pouvez drag & drop des champs, les configurer, et exporter le schéma. Plutôt pratique quand vous prototyppez.
+
+## Le constructeur AI
+
+Toujours expérimental, mais plutôt cool. Décrivez un formulaire, l'IA le génère pour vous :
+
+```bash
+bun add formedible-ai-builder
+bunx formedible-ai-builder "I need a registration form with name, email, password, address fields"
+```
+
+Pas parfait (rien ne l'est), mais ça s'améliore. Parfois ça se trompe, parfois ça donne des types de champs bizarres... mais quand ça marche, c'est magique ✨
+
+## Ce qui a encore besoin de boulot
+
+Écoutez, je vais être honnête avec vous (comme je devrais l'être) :
+
+* La documentation est... adequate, mais pourrait être meilleure
+* Le constructeur AI est parfois hit or miss
+* Certains types de champs n'ont pas toutes les options que vous pourriez attendre
+* Les performances sur les très gros formulaires (100+ champs) pourraient être meilleures
+* Le constructeur visuel pourrait utiliser plus de polish
+* Je suis sûr qu'il y a des bugs que je n'ai pas encore trouvés (parce que je suis le seul à l'utiliser...)
+
+Mais hey, c'est open source et je travaille activement dessus. Si vous trouvez des bugs, avez des suggestions, ou voulez juste dire "hey, c'est plutôt pas mal", ouvrez une issue sur [GitHub](https://github.com/DimitriGilbert/formedible).
+
+## Et maintenant ?
+
+Faites-vous plaisir ! Essayez-le, construisez des formulaires, cassez des trucs, dites-moi ce qui marche et ce qui ne marche pas.
+
+Si vous êtes intéressé par contribuer, il y a plein à faire. Documentation, fix de bugs, nouveaux types de champs, meilleurs prompts AI... la liste continue.
+
+Le repo est [ici](https://github.com/DimitriGilbert/formedible) et la documentation est [ici](https://formedible.dev) (enfin, elle y sera une fois que j'aurai fini de la mettre en place... c'est un travail en cours, ok ?).
+
+Merci d'avoir lu. J'espère que vous avez trouvé ça utile (ou au moins divertissant :D)
+
+{{% goodbye %}}
+6:["$","div",null,{"className":"min-h-screen pt-20","children":["$","div",null,{"className":"container mx-auto px-4 py-12","children":["$","div",null,{"className":"max-w-7xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-4","children":[["$","$Le",null,{"href":"/blog","className":"hover:text-primary transition-colors","children":"Blog"}],[["$","span",null,{"children":"/"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-folder-open w-4 h-4","children":[["$","path","usdka0",{"d":"m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2"}],"$undefined"]}],["$","span",null,{"children":"Projects/Formedible-fr"}]]]}],["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"Formedible, la Bibliothèque de Formulaires React Ultime pour 2025"}],["$","p",null,{"className":"text-xl text-muted-foreground mb-6","children":"Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui."}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-muted-foreground","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"1/17/2025"}]]}],["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[8," min read"]}]]}]]}],["$","div",null,{"className":"flex flex-wrap gap-2 mt-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[["$","$Le","form",{"href":"/blog/tags/form","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"form"}]}],["$","$Le","react",{"href":"/blog/tags/react","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"react"}]}],["$","$Le","typescript",{"href":"/blog/tags/typescript","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"typescript"}]}],["$","$Le","tanstack",{"href":"/blog/tags/tanstack","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"tanstack"}]}],["$","$Le","zod",{"href":"/blog/tags/zod","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"zod"}]}],["$","$Le","french",{"href":"/blog/tags/french","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"french"}]}]]]}]]}],["$","div",null,{"className":"grid lg:grid-cols-4 gap-8","children":[["$","div",null,{"className":"lg:col-span-1","children":["$","div",null,{"className":"sticky top-24","children":["$","$Lf",null,{"toc":[{"level":2,"title":"Meet Formedible","id":"meet-formedible"},{"level":2,"title":"Démarrage rapide","id":"dmarrage-rapide"},{"level":1,"title":"installer le package core","id":"installer-le-package-core"},{"level":1,"title":"ou si vous vous sentez fantaisiste et que vous voulez tout","id":"ou-si-vous-vous-sentez-fantaisiste-et-que-vous-voulez-tout"},{"level":2,"title":"Sous le capot","id":"sous-le-capot"},{"level":2,"title":"Les types de champs","id":"les-types-de-champs"},{"level":2,"title":"Formulaires multi-pages","id":"formulaires-multi-pages"},{"level":2,"title":"Logique conditionnelle","id":"logique-conditionnelle"},{"level":2,"title":"Analytics","id":"analytics"},{"level":2,"title":"Persistance","id":"persistance"},{"level":2,"title":"Le constructeur visuel","id":"le-constructeur-visuel"},{"level":2,"title":"Le constructeur AI","id":"le-constructeur-ai"},{"level":2,"title":"Ce qui a encore besoin de boulot","id":"ce-qui-a-encore-besoin-de-boulot"},{"level":2,"title":"Et maintenant ?","id":"et-maintenant"}]}]}]}],["$","article",null,{"className":"lg:col-span-3","children":["$","$L10",null,{"content":"$11"}]}]]}]]}]}]}]
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Formedible, la Bibliothèque de Formulaires React Ultime pour 2025 | Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui."}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Formedible, la Bibliothèque de Formulaires React Ultime pour 2025 | Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui."}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/blog/projects-formedible-fr/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Formedible, la Bibliothèque de Formulaires React Ultime pour 2025"}],["$","meta","15",{"property":"og:type","content":"article"}],["$","meta","16",{"property":"article:published_time","content":"2025-01-17T10:00:00+01:00"}],["$","meta","17",{"property":"article:tag","content":"form"}],["$","meta","18",{"property":"article:tag","content":"react"}],["$","meta","19",{"property":"article:tag","content":"typescript"}],["$","meta","20",{"property":"article:tag","content":"tanstack"}],["$","meta","21",{"property":"article:tag","content":"zod"}],["$","meta","22",{"property":"article:tag","content":"french"}],["$","meta","23",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","24",{"name":"twitter:title","content":"Formedible, la Bibliothèque de Formulaires React Ultime pour 2025 | Dbuild.dev"}],["$","meta","25",{"name":"twitter:description","content":"Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui."}],["$","meta","26",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","27",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
+8:null

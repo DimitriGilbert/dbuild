@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[22304,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","177","static/chunks/app/layout-267ae1d5e4eb94a7.js"],"ThemeProvider"]
-3:I[71000,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","177","static/chunks/app/layout-267ae1d5e4eb94a7.js"],"FloatingNavigation"]
+2:I[22304,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","177","static/chunks/app/layout-8f6931abe4e72e4f.js"],"ThemeProvider"]
+3:I[71000,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","177","static/chunks/app/layout-8f6931abe4e72e4f.js"],"FloatingNavigation"]
 4:I[13842,[],""]
 5:I[86880,[],""]
 7:I[25803,[],"OutletBoundary"]
@@ -8,13 +8,15 @@
 b:I[25803,[],"ViewportBoundary"]
 d:I[16773,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/9579c992d89962c7.css","style"]
-0:{"P":null,"b":"fxCbDsEksO5NPvyXbZAu_","p":"","c":["","blog","tags","testing",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","testing","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9579c992d89962c7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","testing","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","1RyRGCRES1aG0kWGMw-XA",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
-e:I[73104,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-aeecd19139ff1a04.js"],"TagDetailContent"]
-f:T1e05,
+:HL["/_next/static/css/50152c3edddaf6a5.css","style"]
+0:{"P":null,"b":"xu25PFW4HmsoruEgi_bR5","p":"","c":["","blog","tags","testing",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","testing","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/50152c3edddaf6a5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","testing","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","xK3iSq_tjlGbCGkOvesrd",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[73104,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-af6646a5e411dccb.js"],"TagDetailContent"]
+f:T1e1b,
+_This content has been generated by GLM 4.7 AI model_
+
 So, you know how everyone's benchmarking LLMs these days? Like, "oh look, this model scored 87.3% on this synthetic test suite" or whatever. Boring, right? I mean, who cares if a model can reverse a string perfectly when you'll never ask it to reverse a string in real life? 😛
 
-That's why I built **RaceBench** — a benchmarking tool that actually tests something useful: how well different LLMs can write real, working JavaScript code. Not some "hello world" nonsense, but actual creative coding tasks — games, visualisations, interactive stuff you might actually want to build.
+That's why I built **RaceBench** — a benchmarking tool that actually tests something useful. How well different LLMs can write real, working JavaScript code. Not some "hello world" nonsense, but actual creative coding tasks — games, visualisations, interactive stuff you might actually want to build.
 
 ## The idea (because every project needs an origin story)
 
@@ -26,10 +28,10 @@ So I created a benchmark where I ask models to build a 2D scroll shooter game us
 
 RaceBench is a static HTML dashboard that displays results from testing various LLMs on JavaScript code generation. Here's the cool part:
 
-- **Real-world benchmarking** — We test creative coding tasks, not synthetic "reverse this string" nonsense
-- **Executable results** — Every model's output can be run directly. See the code, click preview, judge for yourself
-- **Multi-dimensional analysis** — It's not just "did it work?" We track prompt tokens, completion tokens, TTFT (time to first token), generation time, and success rate
-- **Educational value** — Compare how different models structure their code, their approaches to the same problem, and learn from the variety (even the bad ones!)
+- **Real-world benchmarking** — we test creative coding tasks, not synthetic "reverse this string" nonsense
+- **Executable results** — every model's output can be run directly. See the code, click preview, judge for yourself
+- **Multi-dimensional analysis** — not just "did it work?" We track prompt tokens, completion tokens, TTFT (time to first token), generation time, and success rate
+- **Educational value** — compare how different models structure their code, their approaches to the same problem, and learn from the variety (even the bad ones!)
 
 ## How it works (the technical bits, minus the boring parts)
 
@@ -38,7 +40,6 @@ RaceBench is a static HTML dashboard that displays results from testing various 
 Everything's static — pure HTML/CSS/JS with no backend. Deploy it anywhere. GitHub Pages? Sure. Netlify? Why not. Your Raspberry Pi at home? Absolutely. The whole thing weighs about as much as a small hamster 🐹
 
 ```bash
-# Clone it
 git clone https://github.com/DimitriGilbert/racebench.git
 
 # Deploy to GitHub Pages (or your jungle site of choice)
@@ -53,18 +54,18 @@ The benchmark uses a 2D scroll shooter game built with Three.js as the test scen
 
 For each model, RaceBench captures:
 
-- **Prompt tokens** — How much it needed to understand what we wanted
-- **Completion tokens** — How verbose it got with the solution
-- **TTFT** (Time To First Token) — Responsiveness metrics
-- **Generation time** — Total time to produce the code
-- **Success rate** — Did it actually run? Or did it explode?
+- **Prompt tokens** — how much it needed to understand what we wanted
+- **Completion tokens** — how verbose it got with the solution
+- **TTFT** (Time To First Token) — responsiveness metrics
+- **Generation time** — total time to produce the code
+- **Success rate** — did it actually run? Or did it explode?
 
 ### The UI (because I care about aesthetics, surprisingly)
 
-It's got this nice dark mode UI that doesn't look like it was designed by a sysadmin in 2003. Two view modes:
+Nice dark mode UI that doesn't look like it was designed by a sysadmin in 2003. Two view modes:
 
-- **Card grid** — Pretty cards for each model with key metrics at a glance
-- **Sortable table** — For when you want to data-nerd out and sort by TTFT or token count
+- **Card grid** — pretty cards for each model with key metrics at a glance
+- **Sortable table** — for when you want to data-nerd out and sort by TTFT or token count
 
 Click any model and you get:
 - Live preview (opens in a new tab, runs the actual code)
@@ -83,10 +84,10 @@ Narrowed it down to 10 models. Better metrics extraction. Cleaner UI. Still watc
 
 ## Tech stack (kept it simple, you're welcome)
 
-- **Node.js** — Because JavaScript is life
-- **Tailwind CSS (via CDN)** — Styling without the build step headaches
-- **Simple-Datatables** — For when you want sortable tables but don't want to write them yourself
-- **Three.js (dynamic)** — Loaded on demand for the live previews
+- **Node.js** — because JavaScript is life
+- **Tailwind CSS (via CDN)** — styling without the build step headaches
+- **Simple-Datatables** — for when you want sortable tables but don't want to write them yourself
+- **Three.js (dynamic)** — loaded on demand for the live previews
 
 Minimal dependencies. No complex build pipelines. Just works. I like that philosophy.
 
@@ -117,11 +118,11 @@ Click around. Run some code. See which model you'd want on your team. Spoiler: t
 
 I'm glad you asked (I know you didn't, but pretend you did) 😛
 
-1. **Real tasks, not toy problems** — We test actual creative coding, not "sort this array" nonsense
-2. **You can run the results** — Not just a score — actual working code you can inspect and execute
-3. **No server needed** — Static HTML means you can host it anywhere or even run it locally
-4. **Transparent metrics** — See exactly what we measured and how
-5. **Educational** — Compare approaches, learn patterns, see what works (and what definitely doesn't)
+1. **Real tasks, not toy problems** — we test actual creative coding, not "sort this array" nonsense
+2. **You can run the results** — not just a score, actual working code you can inspect and execute
+3. **No server needed** — static HTML means you can host it anywhere or even run it locally
+4. **Transparent metrics** — see exactly what we measured and how
+5. **Educational** — compare approaches, learn patterns, see what works (and what definitely doesn't)
 
 ## What I learned (because building stuff teaches you things)
 
@@ -156,7 +157,153 @@ Feel free to fork it, add your own models, test different prompts. The more data
 Now go race some models. May the best code win.
 
 {{% goodbye %}}
-6:["$","$Le",null,{"tag":"testing","posts":[{"slug":"projects-racebench","title":"RaceBench","description":"Racing LLMs against each other to see who writes the best JavaScript. Spoiler: it's chaos out there!","date":"$D2025-01-17T09:00:00.000Z","category":"General","tags":["benchmark","llm","ai","testing"],"content":"$f","readTime":7,"toc":[{"level":2,"title":"The idea (because every project needs an origin story)","id":"the-idea-because-every-project-needs-an-origin-story"},{"level":2,"title":"What it actually does","id":"what-it-actually-does"},{"level":2,"title":"How it works (the technical bits, minus the boring parts)","id":"how-it-works-the-technical-bits-minus-the-boring-parts"},{"level":3,"title":"The setup","id":"the-setup"},{"level":1,"title":"Clone it","id":"clone-it"},{"level":1,"title":"Deploy to GitHub Pages (or your jungle site of choice)","id":"deploy-to-github-pages-or-your-jungle-site-of-choice"},{"level":1,"title":"I mean, whatever floats your boat","id":"i-mean-whatever-floats-your-boat"},{"level":3,"title":"The test case","id":"the-test-case"},{"level":3,"title":"What we track","id":"what-we-track"},{"level":3,"title":"The UI (because I care about aesthetics, surprisingly)","id":"the-ui-because-i-care-about-aesthetics-surprisingly"},{"level":2,"title":"Versions (because software never ends)","id":"versions-because-software-never-ends"},{"level":3,"title":"v1: The brave beginning","id":"v1-the-brave-beginning"},{"level":3,"title":"v2: The refinement","id":"v2-the-refinement"},{"level":2,"title":"Tech stack (kept it simple, you're welcome)","id":"tech-stack-kept-it-simple-youre-welcome"},{"level":2,"title":"The models (participants in the chaos)","id":"the-models-participants-in-the-chaos"},{"level":2,"title":"See it in action","id":"see-it-in-action"},{"level":2,"title":"What makes this different from other benchmarks?","id":"what-makes-this-different-from-other-benchmarks"},{"level":2,"title":"What I learned (because building stuff teaches you things)","id":"what-i-learned-because-building-stuff-teaches-you-things"},{"level":2,"title":"Future plans (the \"if I get around to it\" section)","id":"future-plans-the-if-i-get-around-to-it-section"},{"level":2,"title":"Wrapping up","id":"wrapping-up"}],"directory":"Projects/RaceBench","relativePath":"Projects/RaceBench/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/RaceBench/index.md","isCategory":false}]}]
+10:T23a9,
+_Ce contenu a été généré par le modèle AI GLM 4.7 et not-ai-writer_
+
+Alors, vous voyez comme tout le monde benchmarke des LLMs en ce moment ? Genre, "oh regarde, ce modèle a score 87,3% sur cette suite de tests synthétique" ou quoi que ce soit dans le genre. Ennuyeux, non ? Je veux dire, on s'en fiche de savoir si un modèle peut inverser une chaîne parfaitement quand on ne lui demandera jamais d'inverser une chaîne dans la vraie vie ? 😛
+
+C'est pour ça que j'ai créé **RaceBench** — un outil de benchmark qui teste vraiment quelque chose d'utile. À quel point différents LLMs peuvent écrire du code JavaScript réel qui fonctionne. Pas des trucs de "hello world" nuls, mais de vraies tâches de code créatif — des jeux, des visualisations, des trucs interactifs que vous pourriez vraiment vouloir construire.
+
+## L'idée (parce que tout projet a besoin d'une histoire d'origine)
+
+Un jour j'étais curieux: si je demande à différents modèles d'IA d'écrire le même jeu, lequel produirait vraiment du code jouable ? Pas du code "techniquement correct mais qui plante à la troisième frame", mais des trucs qu'on pourrait lancer et apprécier.
+
+Donc j'ai créé un benchmark où je demande aux modèles de construire un jeu de tir scroll 2D en utilisant Three.js. Pas vraiment "mode facile" pour une IA — ça demande de comprendre la 3D, les boucles de jeu, les entrées utilisateur, et de faire tout fonctionner ensemble sans faire exploser le navigateur. Spoiler: certains modèles gèrent ça magnifiquement, d'autres... enfin, disons que c'est éducatif de les essayer 😊
+
+## Ce que ça fait vraiment
+
+RaceBench est un dashboard HTML statique qui affiche les résultats de tests de divers LLMs sur la génération de code JavaScript. Voici la partie cool:
+
+- **Benchmarking réel** — on teste des tâches de code créatif, pas des trucs synthétiques du genre "inverse cette chaîne"
+- **Résultats exécutables** — la sortie de chaque modèle peut être lancée directement. Voyez le code, cliquez sur preview, jugez par vous-même
+- **Analyse multi-dimensionnelle** — pas juste "ça a marché ?" On tracke les tokens de prompt, les tokens de complétion, le TTFT (temps jusqu'au premier token), le temps de génération, et le taux de succès
+- **Valeur éducative** — comparez comment différents modèles structurent leur code, leurs approches au même problème, et apprenez de la variété (même des mauvais !)
+
+## Comment ça marche (les bits techniques, moins les parties ennuyeuses)
+
+### Le setup
+
+Tout est statique — du HTML/CSS/JS pur sans backend. Déployez-le n'importe où. GitHub Pages ? Sûr. Netlify ? Pourquoi pas. Votre Raspberry Pi à la maison ? Absolument. Le tout pèse à peu près le poids d'un petit hamster 🐹
+
+```bash
+git clone https://github.com/DimitriGilbert/racebench.git
+
+# Deploy to GitHub Pages (or your jungle site of choice)
+# I mean, whatever floats your boat
+```
+
+### Le cas de test
+
+Le benchmark utilise un jeu de tir scroll 2D construit avec Three.js comme scénario de test. Chaque modèle reçoit le même prompt et doit produire du code qui fonctionne. On extrait le dernier bloc de code ```runjs de chaque réponse (parce que les modèles adorent discuter avant de vous donner la marchandise, vous voyez ?).
+
+### Ce qu'on tracke
+
+Pour chaque modèle, RaceBench capture:
+
+- **Prompt tokens** — combien il en a eu besoin pour comprendre ce qu'on voulait
+- **Completion tokens** — à quel point il a été verbeux avec la solution
+- **TTFT** (Time To First Token) — métriques de réactivité
+- **Generation time** — temps total pour produire le code
+- **Success rate** — ça a vraiment tourné ? Ou ça a explosé ?
+
+### L'UI (parce que je me soucie de l'esthétique, étonnamment)
+
+Une superbe interface dark mode qui n'a pas l'air d'avoir été conçue par un admin sys en 2003. Deux modes de vue:
+
+- **Grille de cartes** — de belles cartes pour chaque modèle avec les métriques clés en un coup d'œil
+- **Tableau triable** — pour quand vous voulez faire le data-nerd et trier par TTFT ou nombre de tokens
+
+Cliquez sur n'importe quel modèle et vous obtenez:
+- Live preview (s'ouvre dans un nouvel onglet, lance le vrai code)
+- Vue de la réponse brute (voyez exactement ce que le modèle a dit)
+- Toutes les métriques détaillées
+
+## Versions (parce que le logiciel ne se termine jamais)
+
+### v1: Le début courageux
+
+Testé 18 modèles. Appris beaucoup. Réalisé que certains modèles sont impressionnamment créatifs tandis que d'autres sont... essaient leur meilleur. Mettons les choses comme ça. 😛
+
+### v2: Le raffinement
+
+Réduit à 10 modèles. Meilleure extraction des métriques. UI plus propre. Toujours à regarder les modèles galérer avec Three.js de manière amusante.
+
+## Stack technique (gardé simple, de rien)
+
+- **Node.js** — parce que JavaScript est la vie
+- **Tailwind CSS (via CDN)** — du style sans les maux de tête de build
+- **Simple-Datatables** — pour quand vous voulez des tableaux triables mais ne voulez pas les écrire vous-même
+- **Three.js (dynamique)** — chargé à la demande pour les previews en direct
+
+Dépendances minimales. Pas de pipelines de build complexes. Juste ça marche. J'aime cette philosophie.
+
+## Les modèles (participants dans le chaos)
+
+On a testé plein de grands noms:
+
+- Claude Sonnet 4
+- DeepSeek R1
+- GPT-4.1
+- Gemini 2.5
+- Grok 4
+- Kimi K2
+- Qwen3
+- ...et plus
+
+Chacun apporte sa propre personnalité au code. Certains sont laconiques et efficaces. D'autres sont verbeux et sur-ingénierés. Quelques-uns produisent du code qui vous fait remettre en question tout ce que vous savez sur le développement logiciel. Tous éducatifs à leur manière 😊
+
+## Voyez-le en action
+
+Ne me croyez pas sur parole — allez jouer avec le vrai dashboard:
+
+**[Démo Live](https://dimitrigilbert.github.io/racebench/scroller/index.html)**
+
+Cliquez autour. Lancez du code. Voyez quel modèle vous voudriez dans votre équipe. Spoiler: la réponse pourrait vous surprendre (ou elle pourrait être exactement ce que vous attendez. Les LLMs sont bizarres comme ça).
+
+## Ce qui rend ça différent des autres benchmarks ?
+
+Je suis ravi que vous demandiez (je sais que vous n'avez pas demandé, mais faites semblant) 😛
+
+1. **Vraies tâches, pas problèmes jouets** — on teste du code créatif réel, pas des trucs du genre "trie ce tableau"
+2. **Vous pouvez lancer les résultats** — pas juste un score, du vrai code qui fonctionne que vous pouvez inspecter et exécuter
+3. **Pas de serveur nécessaire** — HTML statique signifie que vous pouvez l'héberger n'importe où ou même le lancer localement
+4. **Métriques transparentes** — voyez exactement ce qu'on a mesuré et comment
+5. **Éducatif** — comparez les approches, apprenez des patterns, voyez ce qui marche (et ce qui ne marche DEFINITIVEMENT pas)
+
+## Ce que j'ai appris (parce que construire des trucs vous apprend des choses)
+
+- Certains modèles sont étonnamment bons en code graphique 3D
+- D'autres n'ont clairement pas vu beaucoup d'exemples Three.js dans leur entraînement
+- Le TTFT ne correlate pas toujours avec la qualité du code
+- Les modèles verbeux ne sont pas nécessairement meilleurs — parfois ils sont juste... bavards
+- Le meilleur modèle dépend de ce que vous valorisez: vitesse, efficacité, clarté du code, ou juste avoir quelque chose qui tourne
+
+## Plans futurs (la section "si je m'y retrouve")
+
+J'aimerais:
+
+- Ajouter plus de cas de test (différents types de défis de code créatif)
+- Tester plus de modèles (de nouveaux surgissent comme des champignons)
+- Améliorer les métriques (peut-être ajouter un scoring de qualité du code ?)
+- Ajouter une vue "leaderboard" pour ceux qui adorent les classements
+- Peut-être, possiblement, contribuer les données à un effort de benchmark plus large (si un tel truc existe et veut ce genre de données du monde réel)
+
+Mais soyons honnêtes — j'ajouterai probablement un nouveau cas de test avant de me souvenir de faire quoi que ce soit de tout ça. Les priorités, quoi ? 😊
+
+## Conclusion
+
+RaceBench n'essaie pas d'être le benchmark AI définitif. C'est juste moi qui essaie de répondre à une question simple: "Quelle IA écrit le meilleur code JavaScript pour des projets réels ?" Et m'amuse à les voir tous essayer.
+
+Si vous le trouvez utile, super. Si vous apprenez quelque chose des différents styles de code, encore mieux. Si vous aimez juste cliquer à travers des previews en direct de jeux générés par IA et penser "wow, ça marche vraiment," alors j'ai fait mon boulot.
+
+N'hésitez pas à le forker, ajouter vos propres modèles, tester différents prompts. Plus il y a de données, mieux c'est. Ne me demandez pas quel modèle est "le meilleur" — ça dépend de ce que vous construisez, votre timeline, votre budget, et probablement la phase de la lune. Les LLMs sont comme ça 😛
+
+**GitHub:** [DimitriGilbert/racebench](https://github.com/DimitriGilbert/racebench)
+
+Maintenant allez faire la course à quelques modèles. Que le meilleur code gagne.
+
+{{% goodbye %}}
+6:["$","$Le",null,{"tag":"testing","posts":[{"slug":"projects-racebench","title":"RaceBench","description":"Racing LLMs against each other to see who writes the best JavaScript. Spoiler: it's chaos out there!","date":"$D2025-01-17T09:00:00.000Z","category":"General","tags":["benchmark","llm","ai","testing"],"content":"$f","readTime":7,"toc":[{"level":2,"title":"The idea (because every project needs an origin story)","id":"the-idea-because-every-project-needs-an-origin-story"},{"level":2,"title":"What it actually does","id":"what-it-actually-does"},{"level":2,"title":"How it works (the technical bits, minus the boring parts)","id":"how-it-works-the-technical-bits-minus-the-boring-parts"},{"level":3,"title":"The setup","id":"the-setup"},{"level":1,"title":"Deploy to GitHub Pages (or your jungle site of choice)","id":"deploy-to-github-pages-or-your-jungle-site-of-choice"},{"level":1,"title":"I mean, whatever floats your boat","id":"i-mean-whatever-floats-your-boat"},{"level":3,"title":"The test case","id":"the-test-case"},{"level":3,"title":"What we track","id":"what-we-track"},{"level":3,"title":"The UI (because I care about aesthetics, surprisingly)","id":"the-ui-because-i-care-about-aesthetics-surprisingly"},{"level":2,"title":"Versions (because software never ends)","id":"versions-because-software-never-ends"},{"level":3,"title":"v1: The brave beginning","id":"v1-the-brave-beginning"},{"level":3,"title":"v2: The refinement","id":"v2-the-refinement"},{"level":2,"title":"Tech stack (kept it simple, you're welcome)","id":"tech-stack-kept-it-simple-youre-welcome"},{"level":2,"title":"The models (participants in the chaos)","id":"the-models-participants-in-the-chaos"},{"level":2,"title":"See it in action","id":"see-it-in-action"},{"level":2,"title":"What makes this different from other benchmarks?","id":"what-makes-this-different-from-other-benchmarks"},{"level":2,"title":"What I learned (because building stuff teaches you things)","id":"what-i-learned-because-building-stuff-teaches-you-things"},{"level":2,"title":"Future plans (the \"if I get around to it\" section)","id":"future-plans-the-if-i-get-around-to-it-section"},{"level":2,"title":"Wrapping up","id":"wrapping-up"}],"directory":"Projects/RaceBench","relativePath":"Projects/RaceBench/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/RaceBench/index.md","isCategory":false},{"slug":"projects-racebench-fr","title":"RaceBench fr","description":"Faire s'affronter des LLMs pour voir qui écrit le meilleur JavaScript. Spoiler: c'est le chaos complet !","date":"$D2025-01-17T09:00:00.000Z","category":"General","tags":["benchmark","llm","ai","testing","french"],"content":"$10","readTime":8,"toc":[{"level":2,"title":"L'idée (parce que tout projet a besoin d'une histoire d'origine)","id":"lide-parce-que-tout-projet-a-besoin-dune-histoire-dorigine"},{"level":2,"title":"Ce que ça fait vraiment","id":"ce-que-a-fait-vraiment"},{"level":2,"title":"Comment ça marche (les bits techniques, moins les parties ennuyeuses)","id":"comment-a-marche-les-bits-techniques-moins-les-parties-ennuyeuses"},{"level":3,"title":"Le setup","id":"le-setup"},{"level":1,"title":"Deploy to GitHub Pages (or your jungle site of choice)","id":"deploy-to-github-pages-or-your-jungle-site-of-choice"},{"level":1,"title":"I mean, whatever floats your boat","id":"i-mean-whatever-floats-your-boat"},{"level":3,"title":"Le cas de test","id":"le-cas-de-test"},{"level":3,"title":"Ce qu'on tracke","id":"ce-quon-tracke"},{"level":3,"title":"L'UI (parce que je me soucie de l'esthétique, étonnamment)","id":"lui-parce-que-je-me-soucie-de-lesthtique-tonnamment"},{"level":2,"title":"Versions (parce que le logiciel ne se termine jamais)","id":"versions-parce-que-le-logiciel-ne-se-termine-jamais"},{"level":3,"title":"v1: Le début courageux","id":"v1-le-dbut-courageux"},{"level":3,"title":"v2: Le raffinement","id":"v2-le-raffinement"},{"level":2,"title":"Stack technique (gardé simple, de rien)","id":"stack-technique-gard-simple-de-rien"},{"level":2,"title":"Les modèles (participants dans le chaos)","id":"les-modles-participants-dans-le-chaos"},{"level":2,"title":"Voyez-le en action","id":"voyez-le-en-action"},{"level":2,"title":"Ce qui rend ça différent des autres benchmarks ?","id":"ce-qui-rend-a-diffrent-des-autres-benchmarks"},{"level":2,"title":"Ce que j'ai appris (parce que construire des trucs vous apprend des choses)","id":"ce-que-jai-appris-parce-que-construire-des-trucs-vous-apprend-des-choses"},{"level":2,"title":"Plans futurs (la section \"si je m'y retrouve\")","id":"plans-futurs-la-section-si-je-my-retrouve"},{"level":2,"title":"Conclusion","id":"conclusion"}],"directory":"Projects/RaceBench-fr","relativePath":"Projects/RaceBench-fr/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/RaceBench-fr/index.md","isCategory":false}]}]
 c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
 8:null

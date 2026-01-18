@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /favicon.ico
+
+Sitemap: https://dbuild.dev/sitemap.xml

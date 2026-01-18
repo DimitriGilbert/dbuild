@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[22304,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","177","static/chunks/app/layout-267ae1d5e4eb94a7.js"],"ThemeProvider"]
-3:I[71000,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","177","static/chunks/app/layout-267ae1d5e4eb94a7.js"],"FloatingNavigation"]
+2:I[22304,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","177","static/chunks/app/layout-8f6931abe4e72e4f.js"],"ThemeProvider"]
+3:I[71000,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","177","static/chunks/app/layout-8f6931abe4e72e4f.js"],"FloatingNavigation"]
 4:I[13842,[],""]
 5:I[86880,[],""]
 7:I[25803,[],"OutletBoundary"]
@@ -8,10 +8,602 @@
 b:I[25803,[],"ViewportBoundary"]
 d:I[16773,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/9579c992d89962c7.css","style"]
-0:{"P":null,"b":"fxCbDsEksO5NPvyXbZAu_","p":"","c":["","blog","category","black-hole",""],"i":false,"f":[[["",{"children":["blog",{"children":["category",{"children":[["category","black-hole","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9579c992d89962c7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["category",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","category","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["category","black-hole","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","category","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","sqc4rGRXcc4I96rIsahrd",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
-e:I[52493,["271","static/chunks/271-6613a09017b67af4.js","442","static/chunks/442-5f28b56b616ff3ca.js","846","static/chunks/846-c04b448c1b306dd5.js","145","static/chunks/app/blog/category/%5Bcategory%5D/page-615d28bff0f3f539.js"],"CategoryPageContent"]
-6:["$","$Le",null,{"categoryData":{"slug":"black-hole","title":"Black hole","description":"Everything goes in here and (hopefully ?) never escapes !","directory":"Black hole","content":"\nIT's the watercooler space, usually way darker though, and with a lot more swearing.\n\nI won't be held responsible for any form of spaghetification !\n","posts":[]}}]
+:HL["/_next/static/css/50152c3edddaf6a5.css","style"]
+0:{"P":null,"b":"xu25PFW4HmsoruEgi_bR5","p":"","c":["","blog","category","black-hole",""],"i":false,"f":[[["",{"children":["blog",{"children":["category",{"children":[["category","black-hole","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/50152c3edddaf6a5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["category",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","category","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["category","black-hole","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","category","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","JTE60nBD100phXpZIqsLr",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[52493,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","913","static/chunks/913-dae07b9fbc51ebae.js","145","static/chunks/app/blog/category/%5Bcategory%5D/page-9f2800851ba3a599.js"],"CategoryPageContent"]
+f:T3d6f,
+I wont reintroduce the concept of Ralph loop, if you have been anywhere near AI in the first half of January 2026, you have heard of it ! If not, you should go and watch [Theo's video](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (or someone else's but this is a good !)
+
+You probably know which comics character Ralph is refering to, but Eric... who could it possibly be ?
+
+If you thought short, fat and angry, you'd be right ! I'm of course talking about Eric Cartman from South Park !
+
+While Ralph is naive and innocent, Eric is calculating and manipulative. Not something I'd look for in a Human, but for managing a bunch of AIs ? HELL YEAH !
+
+## The Eric Loop
+
+An idea, even if good, always need some work and some back and forth to be implemented. So we first expose the idea to the AI to get an requirement document (PRD) and we work on it !
+
+How ? you'll need to read first ! and straight away update parts you don't agree with or things you need to be more thorough !
+
+Once that is done, ask AI models to ask You questions about the PRD and give all those, the PRD and your replies to another AI for update
+
+Rince, Repeat, until you are satisfied with the document.
+
+You can even get multiple model go at it to then compare and merge the outputs, using AI, of course :D
+
+This is where we start diverging from the basic Ralph loop. instead of just passing that to the AI and hoping tasks will be implemented properly we get an AI to pre split and formalise the tasks and sub tasks into a list !
+
+The rift grows further as we split the task implementation in several steps with:
+* a planning phase that analyzes the requirements for the tasks, existing code, and conduct the needed research
+* an execution phase to do the actual work,
+* an optional automated verification phase (check types, build, tests, ...) with automated feedback to the execution phase in case of errors,
+* an result review phase, that can send back to the execution phase for further refinement.
+
+Once all that is done ? the Eric loop goes on for the next phase of the plan, just like Ralph !
+
+## But, Why... ?
+
+Separation of concerns !
+
+Yes models have gotten smarter, but if you played around with sub agents and skills, you know that prompting is not dead (yet...)
+
+Having a neat separation like that helps you have better prompts for each phase of the task execution.
+
+As a side effect, it mmeans you can control which model is used for which phase maybe you dont need Opus the whole way if it made a banger plan !
+
+## What would it look like ?
+
+We are going to create a small project from an idea I have, you can do it to if you like !
+
+It's called Tiny-till, a small app to have a simple till for itinerant merchants.
+
+But we are going to need a tool to help us ... 
+
+### Task-o-matic
+
+Yep, I already kind of made said tool :D ! [task-o-matic](https://task-o-matic.dev)
+
+I'll write more about it in a future post ! but you already have plenty of content to go through on the site itself.
+
+I made sure to generate a lot of docs and a couple tutorials so you can already give it a try if you'd like !
+
+But in a nutshell, it helps you create PRDs, refine them , split into tasks and subtasks and finally wiring all that to your favorite AI harness !
+
+### Let's get this rolling
+
+For the AI to operate properly, we need a specific stack, that way, we limit hallucination !
+
+#### Initialisation and bootstrapping
+
+Task-o-matic uses (https://better-t-stack.dev) under the hood to bootstrap the stack so let's do that !
+
+```bash
+npx task-o-matic@latest init init --project-name tiny-till \
+  --frontend tanstack-router \
+  --backend none \
+  --package-manager bun && cd tiny-till
+```
+
+Boom, a monorepo for Tiny-till ! Batteries included : tailwind, shadcn, build script and all :D
+
+Why `init init` ? you might have missed the whole using AI to code whole projects, sometimes... it is not aesthetically pleasing, and you should learn not to care to much (is my take on that... or lazyness...)
+
+You will need a .env file to configure the AI stack.
+
+```ini
+AI_PROVIDER=openrouter
+
+AI_MODEL=nvidia/nemotron-3-nano-30b-a3b:free
+
+OPENROUTER_API_KEY=sk_123456azertPOIUY7890i58008
+```
+
+#### Document the requirements of your project
+
+Now, we tell the AI what we want to do, but why would we limit ourselves to 1 ?
+
+```bash
+npx task-o-matic@latest prd create \
+  --ai-reasoning 4096 \
+  --stream \
+  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096" \
+  --ai "mistralai/devstral-2512:free:free" \
+  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
+  --ai "minimax/minimax-m2.1;reasoning=4096" \
+  --ai "z-ai/glm-4.7;reasoning=4096" \
+  --ai "google/gemini-3-flash-preview;reasoning=4096" \
+  --combine-ai "z-ai/glm-4.7;reasoning=4096" \
+  "i would like to build tiny-till,
+  it will be a small web app, local first (for sparse internet connection) that serve as a very simple till for on the go seller, farmers markets stall, etc...
+  the idea came from me watching my baker who does delivery tour twice a week. she is always fighting here calculator to make the tally and she gromle about it a lot
+  the idea wwould be only a few screens : 
+  - product management (add/remove product, name+price (img optional) ) : a list with action buttons, + or edit happen inline (+ at the top)
+  - a tally page : grid of product for fast and easy access (row of 2 or 3 for mobile, 4 to 6 on tablet, normal/compact variant, control by setting)
+    - clicking on a product adds it to the count
+    - number of this product added appear in the card, click on it trigger an input field to enter value with a remove button
+  - a setting page : theme, display, import/export catalog
+  No saving, it is purely done too calculate the price and is not meant for accounting purposes
+  i am using tanstack-router and the project is already set up with tailwind css typescript and shadcnUI"
+```
+
+Am I using free endpoints for "real" work ? Yes, yes I am ! Does it distort my views on how much AI work should cost ? ... Why would it ? No, no, you just being a killjoy right now !
+
+#### Petrol is not the only thing that needs refining !
+
+A few minutes later... I got myself this (`cat .task-o-matic/prd/prd-master.md`)[/assets/blackhole/from-ralph-to-eric/prd-master.md] it doesn't really need more questions, but let's see what Claude has to say, shall we ?
+
+```bash
+npx task-o-matic@latest prd question  --stream \
+  --file .task-o-matic/prd/prd-master.md \
+  --ai-model anthropic/claude-4.5-sonnet --ai-reasoning 1500
+```
+
+Well, let's answer those... some are pertinant ! I guess that's why we bring out the big guns !
+
+Let's reply !
+
+```bash
+npx task-o-matic@latest prd refine  --stream\
+  --file .task-o-matic/prd/prd-master.md \
+  --ai-model anthropic/claude-4.5-sonnet --ai-reasoning 1500 \
+  --output .task-o-matic/prd/prd-master-refined.md \
+  --questions prd-questions.json
+```
+
+Questions are asked interactivelly ;)
+
+```markdown
+"The PRD mentions using Zustand with persist middleware for the Catalog, but also specifies IndexedDB as the storage layer. Should Zustand's persist middleware be configured to use IndexedDB directly, or will there be a custom sync layer between Zustand and IndexedDB? This affects how image blobs are handled since Zustand persist middleware typically works best with serializable data."
+
+yes, configure Zustand's persist middleware to use IndexedDB directly.
+```
+
+```markdown
+"For the 'Tap Badge to manually enter quantity' feature, what should happen if a user enters invalid input (negative numbers, decimals, non-numeric characters, or zero)? Should zero be treated as 'remove from cart' or should it maintain the item with 0 quantity until explicitly removed?",
+
+zero should be treated as 'remove from cart'.
+```
+
+```markdown
+"The PRD states the tally is 'transient' and held in memory, yet also mentions using sessionStorage. Given that sessionStorage persists across page refreshes within the same tab, this conflicts with the 'privacy and simplicity' goal of resetting on refresh. Should the tally truly reset on refresh (pure memory), or should it survive accidental refreshes during a transaction (sessionStorage)?",
+
+no persistance, this is not for accounting and should only be in memory, when a new tally starts, the previous one does not exist anymore.
+```
+
+```markdown
+"With TanStack Router's file-based routing, how should the navigation structure be organized? Specifically, should the Tally Page be the root route ('/'), and if users are on the Settings or Catalog management page when they refresh, should they be automatically redirected back to the Tally Page to prevent data loss confusion?",
+
+yes, / is the tally page, yes redirect to tally page.
+```
+
+```markdown
+"The image upload feature is marked as 'optional' for products, but the PRD recommends 'no images for MVP' in the risk mitigation. Should image upload functionality be completely excluded from MVP (Phase 1-5), or should the data model and UI be built to accommodate images even if the upload feature is disabled/hidden initially?",
+
+no, i want images, just inforce a strict size limitation, 128*128 px, this is not meant to be a full image gallery, just a thumbnail for display, future improvement maybe to try and resize/optimise bigger image directly on device...but not in MVP !
+```
+
+```markdown
+"For the Import/Export catalog feature, what should happen when importing a JSON file that contains product IDs that conflict with existing products? Should it merge (overwrite matching IDs), append (create duplicates), or prompt the user to choose? Also, should the import validate the JSON schema and handle corrupt/invalid files gracefully?",
+
+overwrite and yes, must validate.
+```
+
+```markdown
+"The 'Compact vs Normal' view toggle affects card size, but how should this interact with the responsive column count? For example, if a tablet user sets 6 columns in Normal view, should switching to Compact view automatically increase columns (e.g., to 8) to utilize the space savings, or should column count remain fixed per the user's explicit setting?",
+
+yes, auto increase, 'tis why we want compact !
+```
+
+```markdown
+"Given the Turborepo setup mentioned in the stack, is this application intended to be part of a monorepo with potential future packages (e.g., a companion admin dashboard, analytics service)? If so, should the data models and storage utilities be architected in a shared package from the start, or is this truly a standalone application for now?"
+
+no, single package for now, we'll see later for the rest. let's keep it simple for now.
+```
+
+Well, this little stunt just costed me a nice 15 cts, more or les 10x more than the first PRD generation...
+
+I don't know what is the most amazing... that 
+
+* 1 call costs more than the 10 previous, 
+* I can complain about a 2 days worth of work document cost 15 cents for only a few seconds of work !
+* a document worth 2 of my days of work costs 15 cents to produce...in only a few seconds...
+
+I haven't decided yet...anywooooooo, time to move on and not get siderated !
+
+#### Touching up and go
+
+When i said seconds, i lied, I spent 5 minutes editing the file. to fix lib versions, marked install and config work as done, and, finally, set expectation for the design.
+
+the last thing we have to do, is ask an AI to split into main tasks.
+
+once again, i wont only do 1, but this time, I'll ask Claude to be the final task creator, from others input !
+
+```bash
+npx task-o-matic@latest prd parse  --ai-reasoning 4096 --stream \
+  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096"\
+  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
+  --ai "z-ai/glm-4.7;reasoning=4096" \
+  --combine-ai "anthropic/claude-4.5-sonnet;reasoning=4096"
+```
+
+And there goes another 8.2 cents burnt for the token Gods, but in return, we get a detailed breakdown of the tasks required to complete the project !
+
+We still have to split those tasks though... To make them more palatable for the current crop of AI models ! 
+
+You should really consider reviewing the tasks in detail before spliting, not vibe planning like a muppet ! (guess what I did ^^)
+
+```bash
+npx task-o-matic@latest tasks split  --all --stream \
+  --reasoning 4096 \
+  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096"\
+  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
+  --ai "z-ai/glm-4.7;reasoning=4096" \
+  --combine-ai "anthropic/claude-4.5-sonnet;reasoning=4096"
+```
+
+I think Claude is not necessary here, but I had me $3 of openrouter credit i have to burn before the end of the month soooooo... big guns it is !
+
+Burnt a tenth of that ! but now... we are actually ready ! Almost...
+
+#### AGENTS.md
+
+Or CLAUDE, or GEMINI, depends on your harness of choice, For me, it is opencode i'am going to run the /init prompt in opencode !
+
+```bash
+opencode run "/init"
+```
+
+it is not mandatory, but it is a good way to prevent dumb mistake and set some proper behavior regarding a few things, for me, i'll add the following
+
+* Not to run the dev server
+* not start background/long running processes
+* not to use `:any`, `as any` or `any` as type, I want a typesafe codebase
+* before claiming success, `bun run check-types` and `bun run build` must both succeed
+* to fix LSP error when they happen
+* use shadcn component has much as possible
+* stay DRY and prefer creating custom components and utilities than repeat code
+* use adapted skills when possible (frontend-design skill is mandatory when working on the frontend)
+* that it is a static app project that will be hosted on github pages
+* to use Context7 MCP in case more documentation or up to date documentation is needed (as the knowledge is certainly behind because of cutoff training date)
+
+```bash
+opencode run "Add the following to the AGENTS.md, remove any conflicting instructions you created, these take precedence : 
+* Not to run the dev server
+* not start background/long running processes
+* not to use `:any`, `as any` or `any` as type, I want a typesafe codebase
+* before claiming success, `bun run check-types` and `bun run build` must both succeed
+* to fix LSP error when they happen
+* use shadcn component has much as possible
+* stay DRY and prefer creating custom components and utilities than repeat code
+* use adapted skills when possible (frontend-design skill is mandatory when working on the frontend)
+* that it is a static app project that will be hosted on github pages
+* to use Context7 MCP in case more documentation or up to date documentation is needed (as the knowledge is certainly behind because of cutoff training date)" -c
+```
+
+I might add more as the agent works if i see reccuring errors and dumb things happening
+
+#### Time to let Eric loose...
+
+Well, guys, stash your parents away cause we are going to let Eric go at it !
+
+Because I am El CheapoDev DelBrokeCasa, i am going to use my GLM coding plan to code, that way, i wont break the bank and it is OK enough for something like that i think !
+
+If you'd rather use claude code, use the `--tool claude` option. (or codex/gemini/kilo) but opencode is nicer as it stream the content out (in part at least) so you see what is happening !
+
+```bash
+npx task-o-matic@latest tasks execute-loop --include-prd \
+  --plan --plan-model zai-coding-plan/glm-4.7 \
+  --review --review-model zai-coding-plan/glm-4.7 \
+  --model zai-coding-plan/glm-4.7 \
+  --validate "npm run check-types && npm run build"
+```
+
+And now, you wait, coffee, snacks, more coffee, diner and breakfast probably, it gonna take a while ^^
+
+## What do you think ? Where do we go from here ?
+
+So that's the end (of this article) ! What do you think ? did you try a similar technique ? What's the plan next, cause...
+
+If you are interested, the repo can be found on [github](https://github.com/DimitriGilbert/tiny-till)
+10:T4479,
+Je vais pas re-introduire le concept de Ralph loop, si vous avez été a côté de l'IA dans la première moitié de janvier 2026, vous en avez entendu parler ! Si non, vous devriez aller voir la vidéo de Theo (ou quelqu'un d'autre mais celle-la est bonne !)
+
+Vous savez probablement quel personnage de comics Ralph référence, mais Eric... ca pourrait être qui ?
+
+Si vous avez pensé petit, gros et en colère, vous avez raison ! Je parle bien sûr d'Eric Cartman de South Park !
+
+Alors que Ralph est naïf et innocent, Eric est calculateur et manipulateur. Pas quelque chose que je chercherais chez un humain, mais pour gérer un tas d'IA ? OUAIS DEFINITIVEMENT !
+
+## La boucle Eric
+
+Une idée, même si elle est bonne, a toujours besoin de travail et d'allers-retours pour être implémentée. Donc on expose d'abord l'idée à l'IA pour avoir un Product Requirements Document (PRD) et on travaille dessus !
+
+Comment ca, lire ? Et bhe oui, il faut d'abord lire ! et tout de suite mettre à jour les parties avec lesquelles vous n'êtes pas d'accord ou les choses qui doivent être plus approfondies !
+
+Une fois que c'est fait, demandez aux modèles d'IA de vous poser des questions sur le PRD et donnez tout ça, le PRD et vos réponses, à une autre IA pour la mise à jour.
+
+Rincez, Répétez, jusqu'à ce que vous soyez satisfait du document.
+
+Vous pouvez même faire traiter le PRD par plusieurs modèles pour ensuite comparer et fusionner les résultats, en utilisant l'IA, bien sûr :D
+
+C'est là qu'on commence à diverger de la boucle Ralph de base. Au lieu de juste passer ça à l'IA et espérer que les tâches seront bien implémentées, on fait pré-découper et formaliser les tâches et sous-tâches en une liste par une IA !
+
+L'écart grandit encore plus car on sépare l'implémentation des tâches en plusieurs étapes avec :
+* une phase de planification qui analyse les requis pour les tâches, le code existant, et fait les recherches nécessaires
+* une phase d'exécution pour faire le travail réel
+* une phase optionnelle de vérification automatisée (check types, build, tests, ...) avec feedback automatique vers la phase d'exécution en cas d'erreurs
+* une phase de review des résultats, qui peut renvoyer vers la phase d'exécution pour plus de raffinement.
+
+Une fois tout ça fait ? la boucle Eric continue pour la phase suivante du plan, tout comme Ralph !
+
+## Mais, Pourquoi... ?
+
+La séparation des préoccupations !
+
+Oui les modèles sont devenus plus intelligents, mais si vous avez joué avec des sub-agents et des skills, vous savez que le prompting n'est pas mort (pour le moment...)
+
+Avoir une séparation propre comme ça aide à avoir de meilleurs prompts pour chaque phase de l'exécution des tâches.
+
+Comme effet secondaire, ça signifie que vous pouvez contrôler quel modèle est utilisé pour quelle phase, peut-être que vous n'avez pas besoin d'Opus tout le long si ça a fait un super plan !
+
+## A quoi ça ressemblerait ?
+
+On va créer un petit projet à partir d'une idée que j'ai, vous pouvez le faire aussi si vous voulez !
+
+Il s'appelle Tiny-till, une petite app pour avoir une caisse simple pour marchands ambulants.
+
+Mais on va avoir besoin d'un outil pour nous aider ...
+
+### Task-o-matic
+
+Ouais, j'ai déjà en gros fait l'outil en question :D ! [task-o-matic](https://task-o-matic.dev)
+
+J'écrirai plus à ce sujet dans un futur post ! mais vous avez déjà pas mal de contenu à parcourir sur le site lui-même.
+
+J'ai fait gaffe à générer plein de docs et quelques tutoriels pour que vous puissiez déjà essayer si vous voulez !
+
+Mais en gros, ça aide à créer des PRDs, les raffiner, découper en tâches et sous-tâches et finalement connecter tout ça à votre outil de code assité d'IA préféré !
+
+### Allons-y
+
+Pour que l'IA opère proprement, on a besoin d'une stack spécifique, comme ça, on limite les hallucinations !
+
+#### Initialisation et bootstrap
+
+Task-o-matic utilise (https://better-t-stack.dev) en interne pour bootstrap la stack donc faisons ça !
+
+```bash
+npx task-o-matic@latest init init --project-name tiny-till \
+  --frontend tanstack-router \
+  --backend none \
+  --package-manager bun && cd tiny-till
+```
+
+Boum, un monorepo pour Tiny-till ! Batteries incluses : tailwind, shadcn, script de build et tout :D
+
+Pourquoi `init init` ? vous avez peut-être raté toute l'histoire de l'IA qui code des projets entiers, parfois... c'est pas esthétique, et vous devriez apprendre à pas trop y faire attention (c'est mon avis la-dessus... ou de la flemme...)
+
+Vous aurez besoin d'un fichier .env pour configurer la stack IA.
+
+```ini
+AI_PROVIDER=openrouter
+
+AI_MODEL=nvidia/nemotron-3-nano-30b-a3b:free
+
+OPENROUTER_API_KEY=sk_123456azertPOIUY7890i58008
+```
+
+#### Documenter les requis de votre projet
+
+Maintenant, on dit à l'IA ce qu'on veut faire, mais pourquoi se limiter à 1 ?
+
+```bash
+npx task-o-matic@latest prd create \
+  --ai-reasoning 4096 \
+  --stream \
+  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096" \
+  --ai "mistralai/devstral-2512:free:free" \
+  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
+  --ai "minimax/minimax-m2.1;reasoning=4096" \
+  --ai "z-ai/glm-4.7;reasoning=4096" \
+  --ai "google/gemini-3-flash-preview;reasoning=4096" \
+  --combine-ai "z-ai/glm-4.7;reasoning=4096" \
+  "i would like to build tiny-till,
+  it will be a small web app, local first (for sparse internet connection) that serve as a very simple till for on the go seller, farmers markets stall, etc...
+  the idea came from me watching my baker who does delivery tour twice a week. she is always fighting here calculator to make the tally and she gromle about it a lot
+  the idea wwould be only a few screens :
+  - product management (add/remove product, name+price (img optional) ) : a list with action buttons, + or edit happen inline (+ at the top)
+  - a tally page : grid of product for fast and easy access (row of 2 or 3 for mobile, 4 to 6 on tablet, normal/compact variant, control by setting)
+    - clicking on a product adds it to the count
+    - number of this product added appear in the card, click on it trigger an input field to enter value with a remove button
+  - a setting page : theme, display, import/export catalog
+  No saving, it is purely done too calculate the price and is not meant for accounting purposes
+  i am using tanstack-router and the project is already set up with tailwind css typescript and shadcnUI"
+```
+
+J'utilise des endpoints gratuits pour du "vrai" travail ? Oui, oui, je fais ! Est-ce que ça fausse ma vision de combien le travail IA devrait coûter ? ... pourquoi ça ferait ça ? Non, non, vous êtes juste en train de gâcher la fête là !
+
+#### L'essence n'est pas la seule chose qui doit être raffinée !
+
+Quelques minutes plus tard... je me suis récupéré ça (`cat .task-o-matic/prd/prd-master.md`)[/assets/blackhole/from-ralph-to-eric/prd-master.md] ça a pas vraiment besoin de plus de questions, mais voyons ce que Claude a a dire, d'accord ?
+
+```bash
+npx task-o-matic@latest prd question  --stream \
+  --file .task-o-matic/prd/prd-master.md \
+  --ai-model anthropic/claude-4.5-sonnet --ai-reasoning 1500
+```
+
+Bon, répondons à ça... certaines sont pertinentes ! je suppose que c'est pour ça qu'on sort les gros canons !
+
+Répondons !
+
+```bash
+npx task-o-matic@latest prd refine  --stream\
+  --file .task-o-matic/prd/prd-master.md \
+  --ai-model anthropic/claude-4.5-sonnet --ai-reasoning 1500 \
+  --output .task-o-matic/prd/prd-master-refined.md \
+  --questions prd-questions.json
+```
+
+Les questions sont posées interactivement ;)
+
+```markdown
+"The PRD mentions using Zustand with persist middleware for the Catalog, but also specifies IndexedDB as the storage layer. Should Zustand's persist middleware be configured to use IndexedDB directly, or will there be a custom sync layer between Zustand and IndexedDB? This affects how image blobs are handled since Zustand persist middleware typically works best with serializable data."
+
+oui, configurer le middleware persist de Zustand pour utiliser IndexedDB directement.
+```
+
+```markdown
+"For the 'Tap Badge to manually enter quantity' feature, what should happen if a user enters invalid input (negative numbers, decimals, non-numeric characters, or zero)? Should zero be treated as 'remove from cart' or should it maintain the item with 0 quantity until explicitly removed?",
+
+zéro doit être traité comme 'retirer du panier'.
+```
+
+```markdown
+"The PRD states the tally is 'transient' and held in memory, yet also mentions using sessionStorage. Given that sessionStorage persists across page refreshes within the same tab, this conflicts with the 'privacy and simplicity' goal of resetting on refresh. Should the tally truly reset on refresh (pure memory), or should it survive accidental refreshes during a transaction (sessionStorage)?",
+
+pas de persistance, c'est pas pour la comptabilité et ça doit être uniquement en mémoire, quand un nouveau tally commence, le précédent n'existe plus.
+```
+
+```markdown
+"With TanStack Router's file-based routing, how should the navigation structure be organized? Specifically, should the Tally Page be the root route ('/'), and if users are on the Settings or Catalog management page when they refresh, should they be automatically redirected back to the Tally Page to prevent data loss confusion?",
+
+oui, / est la page tally, oui rediriger vers la page tally.
+```
+
+```markdown
+"The image upload feature is marked as 'optional' for products, but the PRD recommends 'no images for MVP' in the risk mitigation. Should image upload functionality be completely excluded from MVP (Phase 1-5), or should the data model and UI be built to accommodate images even if the upload feature is disabled/hidden initially?",
+
+non, je veux les images, imposez juste une limitation de taille stricte, 128*128 px, c'est pas fait pour être une galerie d'images complète, juste une miniature pour l'affichage, amélioration future peut-être pour essayer de redimensionner/optimiser des images plus grosses directement sur l'appareil...mais pas en MVP !
+```
+
+```markdown
+"For the Import/Export catalog feature, what should happen when importing a JSON file that contains product IDs that conflict with existing products? Should it merge (overwrite matching IDs), append (create duplicates), or prompt the user to choose? Also, should the import validate the JSON schema and handle corrupt/invalid files gracefully?",
+
+écraser et oui, doit valider.
+```
+
+```markdown
+"The 'Compact vs Normal' view toggle affects card size, but how should this interact with the responsive column count? For example, if a tablet user sets 6 columns in Normal view, should switching to Compact view automatically increase columns (e.g., to 8) to utilize the space savings, or should column count remain fixed per the user's explicit setting?",
+
+oui, augmentation auto, c'est pour ça qu'on veut compact !
+```
+
+```markdown
+"Given the Turborepo setup mentioned in the stack, is this application intended to be part of a monorepo with potential future packages (e.g., a companion admin dashboard, analytics service)? If so, should the data models and storage utilities be architected in a shared package from the start, or is this truly a standalone application for now?",
+
+non, package unique pour l'instant, on verra après pour le reste. gardons ça simple pour l'instant.
+```
+
+Bon, cette petite astuce vient de me coûter un joli 15 cts, plus ou moins 10x plus que la première génération de PRD...
+
+Je sais pas ce qui est le plus incroyable... que
+
+* 1 appel coûte plus que les 10 précédents,
+* je puisse me plaindre qu'un document de 2 jours de travail coûte 15 cents pour seulement quelques secondes de travail !
+* un document qui vaut 2 de mes jours de travail coûte 15 cents à produire...en seulement quelques secondes...
+
+J'ai pas encore décidé...bon bref, passons à la suite et restons pas bloqués !
+
+#### Les petites retouches et c'est parti
+
+Quand j'ai dit secondes, j'ai menti, j'ai passé 5 minutes à éditer le fichier. pour fixer les versions de lib, marquer le travail d'install et de config comme fait, et, enfin, définir les attentes pour le design.
+
+la dernière chose qu'on a a faire, c'est demander à une IA de découper en tâches principales.
+
+encore une fois, je vais pas en faire qu'une seule, mais cette fois, je vais demander à Claude d'être le créateur de tâches final, à partir des entrées des autres !
+
+```bash
+npx task-o-matic@latest prd parse  --ai-reasoning 4096 --stream \
+  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096"\
+  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
+  --ai "z-ai/glm-4.7;reasoning=4096" \
+  --combine-ai "anthropic/claude-4.5-sonnet;reasoning=4096"
+```
+
+Et voila encore 8.2 cents brûlés en offrandes aux dieux du token, mais en retour, on a un découpage détaillé des tâches requises pour finir le projet !
+
+On a encore à découper ces tâches par contre... Pour les rendre plus digérables, même pour les meilleurs modèles IA à l'heure actuelle !
+
+Ca serait une bonne idée de revoir les tâches en détail avant de les découper, pas faire du vibe-planning comme un neuneu ! (devinez ce que j'ai fait ^^)
+
+```bash
+npx task-o-matic@latest tasks split  --all --stream \
+  --reasoning 4096 \
+  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096"\
+  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
+  --ai "z-ai/glm-4.7;reasoning=4096" \
+  --combine-ai "anthropic/claude-4.5-sonnet;reasoning=4096"
+```
+
+Je pense pas que Claude soit nécessaire là, mais j'avais mes $3 de crédit openrouter à brûler avant la fin du mois donc bon... on sort l'artillerie lourde !
+
+Et bim, 30 centimes de plus ! mais maintenant... on est vraiment prêts ! Presque...
+
+#### AGENTS.md
+
+Ou CLAUDE, ou GEMINI, dépend de votre outil de code assité préféré, Pour moi, c'est opencode je vais lancer le prompt /init dans opencode !
+
+```bash
+opencode run "/init"
+```
+
+c'est pas vraiment obligatoire, mais c'est quand meme une bonne histoire d'eviter les plus grosse conneries et de recentrer quelques comportements pour certaines choses, du coup, on rajoute ca :
+
+* Pas lancer le server de dev
+* pas démarrer de processus en arrière-plan/de longue durée
+* pas utiliser `:any`, `as any` ou `any` comme type, je veux une base de code typesafe
+* avant de dire "Jai finiiiii", `bun run check-types` et `bun run build` doivent tous les deux réussir
+* corriger les erreurs LSP quand elles arrivent
+* utiliser les composants shadcn autant que possible
+* rester DRY et préférer créer des composants personnalisés et des utilitaires que répéter du code
+* utiliser les compétences adaptées quand c'est possible (la compétence frontend-design est obligatoire quand on travaille sur le frontend)
+* que c'est un projet d'app statique qui sera hébergé sur github pages
+* utiliser Context7 MCP au cas où plus de documentation ou une documentation à jour est nécessaire (car la connaissance est certainement en retard à cause de la date limite de training)
+
+```bash
+opencode run "Add the following to the AGENTS.md, remove any conflicting instructions you created, these take precedence :
+* Not to run the dev server
+* not start background/long running processes
+* not to use `:any`, `as any` or `any` as type, I want a typesafe codebase
+* before claiming success, `bun run check-types` and `bun run build` must both succeed
+* to fix LSP error when they happen
+* use shadcn component has much as possible
+* stay DRY and prefer creating custom components and utilities than repeat code
+* use adapted skills when possible (frontend-design skill is mandatory when working on the frontend)
+* that it is a static app project that will be hosted on github pages
+* to use Context7 MCP in case more documentation or up to date documentation is needed (as the knowledge is certainly behind because of cutoff training date)" -c
+```
+
+J'ajouterai peut-être plus pendant que l'agent travaille si je vois des erreurs récurrentes et des gourdineries qui arrivent trop souvent (... si je regarde passer le train... c'est pas dit XD)
+
+#### Et maintenant, on fait rouler Eric...
+
+Bon les gars, cachez vos parents car on va laisser Eric y aller !
+
+Parce que je suis El CheapoDev DelBrokeCasa, je vais utiliser mon GLM coding plan pour coder, comme ça, je vais pas eclater ma tirelire et c'est assez intelligent pour un truc comme ça je pense !
+
+Si vous préférez claude code, utilisez l'option `--tool claude`. (ou codex/gemini/kilo) mais opencode est plus sympa car il stream le contenu (en partie en tout cas) donc vous voyez ce qui se passe (meuuuuh !) !
+
+```bash
+npx task-o-matic@latest tasks execute-loop --include-prd \
+  --plan --plan-model zai-coding-plan/glm-4.7 \
+  --review --review-model zai-coding-plan/glm-4.7 \
+  --model zai-coding-plan/glm-4.7 \
+  --validate "npm run check-types && npm run build"
+```
+
+Et maintenant, vous attendez, un café, un gouter, un peu plus de café, le dîner et pis le p'tit déj probablement, ça va prendre un moment ^^
+
+## Vous en pensez quoi ? On va où après ?
+
+Donc c'est la fin (de cet article) ! Vous en pensez quoi ? vous avez essayé une technique similaire ? C'est quoi le plan après, parce que bon, vu comme c'est parti...
+
+Si vous êtes intéressés, le repo peut être trouvé sur [tiny-till github](https://github.com/DimitriGilbert/tiny-till)
+
+et pour [task-o-matic](https://task-o-matic.dev) vous trouverez [le repo ici](https://github.com/DimitriGilbert/task-o-matic)
+6:["$","$Le",null,{"categoryData":{"slug":"black-hole","title":"Black hole","description":"Everything goes in here and (hopefully ?) never escapes !","directory":"Black hole","content":"\nIT's the watercooler space, usually way darker though, and with a lot more swearing.\n\nI won't be held responsible for any form of spaghetification !\n","posts":[{"slug":"black-hole-from-ralph-to-eric","title":"From Ralph to Eric","description":"Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !","date":"$D2026-01-16T23:01:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$f","readTime":13,"toc":[{"level":2,"title":"The Eric Loop","id":"the-eric-loop"},{"level":2,"title":"But, Why... ?","id":"but-why"},{"level":2,"title":"What would it look like ?","id":"what-would-it-look-like"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Let's get this rolling","id":"lets-get-this-rolling"},{"level":4,"title":"Initialisation and bootstrapping","id":"initialisation-and-bootstrapping"},{"level":4,"title":"Document the requirements of your project","id":"document-the-requirements-of-your-project"},{"level":4,"title":"Petrol is not the only thing that needs refining !","id":"petrol-is-not-the-only-thing-that-needs-refining"},{"level":4,"title":"Touching up and go","id":"touching-up-and-go"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Time to let Eric loose...","id":"time-to-let-eric-loose"},{"level":2,"title":"What do you think ? Where do we go from here ?","id":"what-do-you-think-where-do-we-go-from-here"}],"directory":"Black hole/From ralph to Eric","relativePath":"Black hole/From ralph to Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/From ralph to Eric/index.md","isCategory":false},{"slug":"black-hole-passer-de-ralph-a-eric","title":"Passer de Ralph a Eric","description":"Tout le monde ne parle que de la 'Ralph loop', et le principe est cool, mais je pense qu'on peut faire mieux grace au concept de la Boucle a Eric !","date":"$D2026-01-16T23:00:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$10","readTime":14,"toc":[{"level":2,"title":"La boucle Eric","id":"la-boucle-eric"},{"level":2,"title":"Mais, Pourquoi... ?","id":"mais-pourquoi"},{"level":2,"title":"A quoi ça ressemblerait ?","id":"a-quoi-a-ressemblerait"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Allons-y","id":"allons-y"},{"level":4,"title":"Initialisation et bootstrap","id":"initialisation-et-bootstrap"},{"level":4,"title":"Documenter les requis de votre projet","id":"documenter-les-requis-de-votre-projet"},{"level":4,"title":"L'essence n'est pas la seule chose qui doit être raffinée !","id":"lessence-nest-pas-la-seule-chose-qui-doit-tre-raffine"},{"level":4,"title":"Les petites retouches et c'est parti","id":"les-petites-retouches-et-cest-parti"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Et maintenant, on fait rouler Eric...","id":"et-maintenant-on-fait-rouler-eric"},{"level":2,"title":"Vous en pensez quoi ? On va où après ?","id":"vous-en-pensez-quoi-on-va-o-aprs"}],"directory":"Black hole/Passer de Ralph a Eric","relativePath":"Black hole/Passer de Ralph a Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Passer de Ralph a Eric/index.md","isCategory":false}]}}]
 c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
 8:null
