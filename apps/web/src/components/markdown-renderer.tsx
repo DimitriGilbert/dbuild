@@ -98,7 +98,11 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
                 .replace(/[^a-z0-9]+/g, "-")
                 .replace(/(^-|-$)/g, "") || ""
             return (
-              <h1 id={id} className="scroll-mt-20" {...props}>
+              <h1 
+                id={id} 
+                className="scroll-mt-20 text-4xl md:text-5xl font-bold bg-gradient-to-br from-primary to-accent bg-clip-text text-transparent pb-3 mb-6 border-b-2 border-accent" 
+                {...props}
+              >
                 {children}
               </h1>
             )

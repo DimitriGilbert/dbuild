@@ -201,6 +201,170 @@ body {
   border: 1px solid hsl(var(--border));
 }
 
+/* Custom prose styling for markdown content */
+.prose {
+  @apply text-foreground;
+}
+
+/* Link styling with visibility and hover effects */
+.prose a {
+  @apply text-primary no-underline decoration-2 underline-offset-4;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.prose a:hover {
+  @apply text-accent;
+  text-decoration: underline;
+  text-decoration-color: hsl(var(--accent));
+  text-decoration-thickness: 2px;
+}
+
+.prose a:visited {
+  @apply text-secondary;
+}
+
+/* List styling with custom bullets */
+.prose ul {
+  @apply pl-6 my-4 space-y-2;
+  list-style: none;
+  position: relative;
+}
+
+.prose ul::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    hsl(var(--primary) / 0.6) 0%,
+    hsl(var(--accent) / 0.6) 100%
+  );
+}
+
+.prose ul li {
+  @apply relative pl-4 py-1;
+}
+
+.prose ul li::before {
+  content: '●';
+  position: absolute;
+  left: -0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.75rem;
+  color: hsl(var(--primary));
+  line-height: 1;
+}
+
+.prose ul li:hover::before {
+  color: hsl(var(--accent));
+}
+
+/* Nested lists with different bullets */
+.prose ul ul {
+  @apply mt-2 mb-1;
+}
+
+.prose ul ul li::before {
+  content: '○';
+  left: -0.75rem;
+  color: hsl(var(--secondary));
+}
+
+.prose ul ul ul li::before {
+  content: '•';
+  left: -0.75rem;
+  color: hsl(var(--accent));
+}
+
+/* Ordered lists */
+.prose ol {
+  @apply pl-6 my-4 space-y-2;
+}
+
+.prose ol li {
+  @apply pl-2 py-1;
+  position: relative;
+}
+
+.prose ol li::marker {
+  @apply font-mono text-primary;
+  font-weight: 600;
+}
+
+.prose ol li:hover::marker {
+  @apply text-accent;
+}
+
+/* Heading improvements */
+.prose h1 {
+  @apply text-4xl font-bold;
+  background: linear-gradient(
+    135deg,
+    hsl(var(--primary)) 0%,
+    hsl(var(--accent)) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid hsl(var(--accent));
+}
+
+.prose h2 {
+  @apply text-3xl font-bold text-primary;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid hsl(var(--accent));
+}
+
+.prose h3 {
+  @apply text-2xl font-bold text-accent;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid hsl(var(--primary));
+}
+
+/* Blockquote improvements */
+.prose blockquote {
+  @apply border-l-4 border-primary pl-4 py-2 my-4 italic text-muted-foreground;
+  background: hsl(var(--muted) / 0.3);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* Paragraph improvements */
+.prose p {
+  @apply my-4 leading-relaxed;
+}
+
+/* Horizontal rule */
+.prose hr {
+  @apply my-8 border-t-2 border-border;
+  position: relative;
+}
+
+.prose hr::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    hsl(var(--primary)),
+    hsl(var(--accent)),
+    transparent
+  );
+}
+
 /* Glassmorphism utility classes */
 .glass {
   background: hsl(var(--surface-floating) / 0.8);

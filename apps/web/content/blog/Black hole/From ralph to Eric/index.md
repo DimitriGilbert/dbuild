@@ -1,15 +1,16 @@
 ---
 title: "From Ralph to Eric"
-date: 2026-01-17T00:00:00+01:00
-tags: []
+date: 2026-01-17T00:01:00+01:00
+tags: [
+  "AI",
+  "Ralph lopp",
+  "Eric loop"
+]
 summary: "Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !"
 slug: "index"
 ---
 
-
-# From Ralph to Eric
-
-I wont reintroduce the concept of Ralph loop, if you have been anywhere near AI in the first half of January 2026, you have heard of it ! If not, you should go and watch [Theo's video](https://youtube.com/) (or someone else's but this is a good !)
+I wont reintroduce the concept of Ralph loop, if you have been anywhere near AI in the first half of January 2026, you have heard of it ! If not, you should go and watch [Theo's video](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (or someone else's but this is a good !)
 
 You probably know which comics character Ralph is refering to, but Eric... who could it possibly be ?
 
@@ -59,7 +60,7 @@ But we are going to need a tool to help us ...
 
 ### Task-o-matic
 
-Yep, I already kind of made said tool :D ! (https://task-o-matic.dev)
+Yep, I already kind of made said tool :D ! [task-o-matic](https://task-o-matic.dev)
 
 I'll write more about it in a future post ! but you already have plenty of content to go through on the site itself.
 
@@ -301,3 +302,5 @@ And now, you wait, coffee, snacks, more coffee, diner and breakfast probably, it
 ## What do you think ? Where do we go from here ?
 
 So that's the end (of this article) ! What do you think ? did you try a similar technique ? What's the plan next, cause...
+
+If you are interested, the repo can be found on [github](https://github.com/DimitriGilbert/tiny-till)
