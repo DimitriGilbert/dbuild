@@ -38,7 +38,7 @@ Task-O-Matic n'est pas state of the art — je suis pas un putain de chercheur e
 - **Amélioration propulsée par l'IA** : Laissez l'IA améliorer, diviser et planifier vos tâches
 - **Génération multi-IA** : Lancez plusieurs modèles d'IA en parallèle et comparez les résultats (style battle royale)
 - **Intégration d'outils externes** : Connectez-vous à Opencode, Claude Code, Gemini CLI, et plus
-- **Benchmarking** : Testez différents modèles d'IA avec l'isolation git worktree
+- **Benchmarking** : Testez différents modèles d'IA avec l'isolation git worktree (un jour peu etre ca sera tester, pour le moment, c'est pure vibe :P)
 - **Projets existants** : Attachez Task-O-Matic à des projets que vous avez déjà commencés (`init attach`)
 - **Local-first** : Tout vit dans `.task-o-matic` (les archives du bunker)
 - **Découpage hiérarchique** : Sous-tâches, sous-sous-tâches, sous-sous-sous... vous voyez l'idée

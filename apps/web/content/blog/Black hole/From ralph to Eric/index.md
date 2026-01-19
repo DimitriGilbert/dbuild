@@ -18,6 +18,8 @@ If you thought short, fat and angry, you'd be right ! I'm of course talking abou
 
 While Ralph is naive and innocent, Eric is calculating and manipulative. Not something I'd look for in a Human, but for managing a bunch of AIs ? HELL YEAH !
 
+![Eric saw Ralph](/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp)
+
 ## The Eric Loop
 
 An idea, even if good, always need some work and some back and forth to be implemented. So we first expose the idea to the AI to get an requirement document (PRD) and we work on it !
