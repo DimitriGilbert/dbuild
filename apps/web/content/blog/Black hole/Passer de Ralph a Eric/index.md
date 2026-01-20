@@ -11,19 +11,23 @@ slug: "index"
 og-image: "/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"
 ---
 
-Je vais pas re-introduire le concept de Ralph loop, si vous avez été a côté de l'IA dans la première moitié de janvier 2026, vous en avez entendu parler ! Si non, vous devriez aller voir la vidéo de Theo (ou quelqu'un d'autre mais celle-la est bonne !)
+Je vais pas re-introduire le concept de Ralph loop, si vous avez été a côté de l'IA dans la première moitié de janvier 2026, vous en avez entendu parler ! Si non, vous devriez aller voir la vidéo de [Theo](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (ou quelqu'un d'autre mais celle-la est bonne !)
 
 Vous savez probablement quel personnage de comics Ralph référence, mais Eric... ca pourrait être qui ?
 
 Si vous avez pensé petit, gros et en colère, vous avez raison ! Je parle bien sûr d'Eric Cartman de South Park !
 
-Alors que Ralph est naïf et innocent, Eric est calculateur et manipulateur. Pas quelque chose que je chercherais chez un humain, mais pour gérer un tas d'IA ? OUAIS DEFINITIVEMENT !
+Alors que Ralph est naïf et innocent, Eric est calculateur et manipulateur. Pas quelque chose que je chercherais chez une personne, mais pour gérer un tas d'IA ? Carrément !
 
 ![Eric saw Ralph](/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp)
 
 ## La boucle Eric
 
-Une idée, même si elle est bonne, a toujours besoin de travail et d'allers-retours pour être implémentée. Donc on expose d'abord l'idée à l'IA pour avoir un Product Requirements Document (PRD) et on travaille dessus !
+Comme chaque projet ca commence par une idée, 
+
+Et même si elle est bonne, on a toujours besoin de la retravailler, de faire des ajustements, ... pour bien implémentée.
+
+Donc on expose d'abord l'idée à l'IA pour avoir un Product Requirements Document (PRD) et on travaille dessus !
 
 Comment ca, lire ? Et bhe oui, il faut d'abord lire ! et tout de suite mettre à jour les parties avec lesquelles vous n'êtes pas d'accord ou les choses qui doivent être plus approfondies !
 
@@ -51,7 +55,7 @@ Oui les modèles sont devenus plus intelligents, mais si vous avez joué avec de
 
 Avoir une séparation propre comme ça aide à avoir de meilleurs prompts pour chaque phase de l'exécution des tâches.
 
-Comme effet secondaire, ça signifie que vous pouvez contrôler quel modèle est utilisé pour quelle phase, peut-être que vous n'avez pas besoin d'Opus tout le long si ça a fait un super plan !
+Comme effet secondaire, ça signifie que vous pouvez contrôler quel modèle est utilisé pour quelle phase, peut-être que vous n'avez pas besoin d'Opus tout le long si "il" a fait un super plan !
 
 ## A quoi ça ressemblerait ?
 
@@ -63,7 +67,7 @@ Mais on va avoir besoin d'un outil pour nous aider ...
 
 ### Task-o-matic
 
-Ouais, j'ai déjà en gros fait l'outil en question :D ! [task-o-matic](https://task-o-matic.dev)
+Ouais, j'ai déjà fait l'outil en question :D ! [task-o-matic](https://task-o-matic.dev)
 
 J'écrirai plus à ce sujet dans un futur post ! mais vous avez déjà pas mal de contenu à parcourir sur le site lui-même.
 
@@ -77,7 +81,7 @@ Pour que l'IA opère proprement, on a besoin d'une stack spécifique, comme ça,
 
 #### Initialisation et bootstrap
 
-Task-o-matic utilise (https://better-t-stack.dev) en interne pour bootstrap la stack donc faisons ça !
+Task-o-matic utilise [better-t-stack](https://better-t-stack.dev) en interne pour bootstrap la stack donc faisons ça !
 
 ```bash
 npx task-o-matic@latest init init --project-name tiny-till \
@@ -310,9 +314,9 @@ Une demi-journée plus tard, Eric a terminé la tâche avec succès. youhou \o/
 
 J'ai une super page d'erreur qui me parle d'une sorte de "exceeded depth error blablabla"... Zustand... je déteste PUTAIN Zustand !
 
-J'aurais pu aller ouvrir le projet, lire quelques-unes des 35970 lignes de... **35970 LIGNES DE CODE** ??? Naaah, mec, pas question que je songe même à ça !
+J'aurais pu aller ouvrir le projet, lire quelques-unes des 35970 lignes de... **35970 LIGNES DE CODE** ??? Naaah, gros, c'est mort de chez mort !
 
-Bien sûr, j'ai demandé à GLM de corriger cette utilisation terriblement évidente de Zustand, et j'ai même dû passer quelques minutes à hurler sur une redirection vers le problème /... J'avais l'impression d'être un homme des cavernes quand même !
+Bien sûr, j'ai demandé à GLM de corriger l'utilisation degueulasse de Zustand, et j'ai même dû passer quelques minutes à hurler sur un problème de redirection vers /... J'avais l'impression d'être un homme des cavernes quand même !
 
 Je veux dire, devoir ouvrir un outil ? Pour faire... **du travail** ?? Nan mais Allo quoi, c'est 2022 ou quoi ?
 

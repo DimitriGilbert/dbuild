@@ -79,7 +79,7 @@ For the AI to operate properly, we need a specific stack, that way, we limit hal
 
 #### Initialisation and bootstrapping
 
-Task-o-matic uses (https://better-t-stack.dev) under the hood to bootstrap the stack so let's do that !
+Task-o-matic uses [better-t-stack](https://better-t-stack.dev) under the hood to bootstrap the stack so let's do that !
 
 ```bash
 npx task-o-matic@latest init init --project-name tiny-till \
