@@ -8,7 +8,10 @@ tags: [
 ]
 summary: "Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !"
 slug: "index"
+og-image: "/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"
 ---
+
+_TLDR; Eric loop is a concept that upgrades Ralph loop by adding more complexity and depth to the idea of managing AI systems, [bash version of the article](/assets/blackhole/from_ralph_to_eric/bashticle.sh)_
 
 I wont reintroduce the concept of Ralph loop, if you have been anywhere near AI in the first half of January 2026, you have heard of it ! If not, you should go and watch [Theo's video](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (or someone else's but this is a good !)
 
@@ -301,8 +304,42 @@ npx task-o-matic@latest tasks execute-loop --include-prd \
 
 And now, you wait, coffee, snacks, more coffee, diner and breakfast probably, it gonna take a while ^^
 
+### What's the result
+
+Half a day later, Eric has successfully completed the task. yaaay \o/
+
+`npm run dev`, browser to http://localhost:3001 aaaaand, it does not work.... XD
+
+I have a very fancy error page telling me about some kind of "exceeded depth error blablabla"... Zustand... i bloody fucking HATE Zustand !
+
+I could have gone in, open the project, read some of the 35970 lines of... **35970 LINES OF CODE** ??? Naaah, dude, ain't no way i'm even thinking about that !
+
+Of course, i asked GLM to fix this obviously terrible usage of Zustand, and I even have to spend another few minutes screaming about some redirection to the / issue... I still felt like a caveman though !
+
+I mean, having to open a tool ? To do ... **work** ?? Like it's 2022 or something !
+
+I haven't been testing anything yet, so i'm pretty sure there'll be a few more issues, but the dev server runs, i can navigate the app without error (even in console) so it is not bad at all !
+
+I might do a follow up later on, to update you on what i had to do to get it a bit closer to the original idea (if needed ^^)
+
 ## What do you think ? Where do we go from here ?
 
 So that's the end (of this article) ! What do you think ? did you try a similar technique ? What's the plan next, cause...
 
-If you are interested, the repo can be found on [github](https://github.com/DimitriGilbert/tiny-till)
+If you are interested, the repo can be found on [github](https://github.com/DimitriGilbert/tiny-till). Is the code great ?
+
+As for [task-o-matic](https://task-o-matic.dev), the [repo is on github](https://github.com/DimitriGilbert/task-o-matic) so feel free to poke around ;)
+
+What about the "Eric Loop", how can you do that yourself ? Well, the beautiful thing with AI is that, you can actually ask it to write code ! So a quick
+
+```markdown
+coudl you create a bash script to have a program that would run the "Eric Loop" with custom options ?
+
+letting me specify the project, what model to use and when, I basically want everything configurable through options !
+
+use the --help command of task-o-matic if you need any doc !
+```
+
+[this being the result](/assets/blackhole/from_ralph_to_eric/eric_loop.sh), your own Eric Loop, ain't life beautiful ?
+
+Hope you enjoyed, I'll see you around

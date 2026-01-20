@@ -16,6 +16,7 @@ export interface BlogPost {
   relativePath: string
   filePath: string
   isCategory?: boolean
+  ogImage?: string
 }
 
 export interface TocItem {
@@ -168,6 +169,7 @@ export function getAllPosts(): BlogPost[] {
         relativePath: relativePath,
         filePath: filePath,
         isCategory: isCategory,
+        ogImage: frontmatter.ogImage || frontmatter['og-image'],
       }
 
       posts.push(post)

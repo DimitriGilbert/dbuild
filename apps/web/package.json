@@ -6,6 +6,7 @@
     "dev": "next dev --port ${NEXT_PUBLIC_SERVER_PORT:-3001}",
     "build": "next build",
     "start": "next start",
+    "check-types": "tsc --noEmit",
     "lint": "next lint",
     "init": "node scripts/init.js",
     "setup-content": "node scripts/setup-content.js",

@@ -8,6 +8,7 @@ tags: [
 ]
 summary: "Tout le monde ne parle que de la 'Ralph loop', et le principe est cool, mais je pense qu'on peut faire mieux grace au concept de la Boucle a Eric !"
 slug: "index"
+og-image: "/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"
 ---
 
 Je vais pas re-introduire le concept de Ralph loop, si vous avez été a côté de l'IA dans la première moitié de janvier 2026, vous en avez entendu parler ! Si non, vous devriez aller voir la vidéo de Theo (ou quelqu'un d'autre mais celle-la est bonne !)
@@ -17,6 +18,8 @@ Vous savez probablement quel personnage de comics Ralph référence, mais Eric..
 Si vous avez pensé petit, gros et en colère, vous avez raison ! Je parle bien sûr d'Eric Cartman de South Park !
 
 Alors que Ralph est naïf et innocent, Eric est calculateur et manipulateur. Pas quelque chose que je chercherais chez un humain, mais pour gérer un tas d'IA ? OUAIS DEFINITIVEMENT !
+
+![Eric saw Ralph](/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp)
 
 ## La boucle Eric
 
@@ -299,10 +302,42 @@ npx task-o-matic@latest tasks execute-loop --include-prd \
 
 Et maintenant, vous attendez, un café, un gouter, un peu plus de café, le dîner et pis le p'tit déj probablement, ça va prendre un moment ^^
 
+### Résultat
+
+Une demi-journée plus tard, Eric a terminé la tâche avec succès. youhou \o/
+
+`npm run dev`, navigateur vers http://localhost:3001 et eeeet, ça marche pas.... XD
+
+J'ai une super page d'erreur qui me parle d'une sorte de "exceeded depth error blablabla"... Zustand... je déteste PUTAIN Zustand !
+
+J'aurais pu aller ouvrir le projet, lire quelques-unes des 35970 lignes de... **35970 LIGNES DE CODE** ??? Naaah, mec, pas question que je songe même à ça !
+
+Bien sûr, j'ai demandé à GLM de corriger cette utilisation terriblement évidente de Zustand, et j'ai même dû passer quelques minutes à hurler sur une redirection vers le problème /... J'avais l'impression d'être un homme des cavernes quand même !
+
+Je veux dire, devoir ouvrir un outil ? Pour faire... **du travail** ?? Nan mais Allo quoi, c'est 2022 ou quoi ?
+
+J'ai rien testé encore, donc je suis à peu près sûr qu'il y aura quelques autres problèmes, mais le serveur de dev tourne, je peux naviguer dans l'app sans erreur (même en console) donc c'est pas mal du tout !
+
+Je ferai peut-être un autre article plus tard, pour vous tenir au courant de ce que j'ai eu à faire pour rapprocher un peu plus de l'idée originale (si nécessaire ^^)
+
 ## Vous en pensez quoi ? On va où après ?
 
-Donc c'est la fin (de cet article) ! Vous en pensez quoi ? vous avez essayé une technique similaire ? C'est quoi le plan après, parce que bon, vu comme c'est parti...
+Donc c'est la fin (de cet article) ! Vous en pensez quoi ? vous avez essayé une technique similaire ? C'est quoi le plan après, parce que bon...
 
-Si vous êtes intéressés, le repo peut être trouvé sur [tiny-till github](https://github.com/DimitriGilbert/tiny-till)
+Si vous êtes intéressés, le repo peut être trouvé sur [github](https://github.com/DimitriGilbert/tiny-till). Le code est génial ?
 
-et pour [task-o-matic](https://task-o-matic.dev) vous trouverez [le repo ici](https://github.com/DimitriGilbert/task-o-matic)
+Et pour [task-o-matic](https://task-o-matic.dev), le [repo est sur github](https://github.com/DimitriGilbert/task-o-matic) donc n'hésitez pas à faire un tour ;)
+
+Et pour la "Boucle Eric", comment faire vous-même ? Yaka demander à l'IA :D vous pouvez lui demander d'écrire du code ! Donc un petit
+
+```markdown
+tu pourrais créer un script bash qui exécuterait la "Boucle Eric" avec des options personnalisées ?
+
+en me laissant spécifier le projet, quel modèle utiliser et quand, je veux tout pouvoir configurer via des options !
+
+utilise la commande --help de task-o-matic si t'as besoin de doc !
+```
+
+[voici le résultat](/assets/blackhole/from_ralph_to_eric/eric_loop.sh), votre Eric Loop a vous, elle est pas belle la vie ?!
+
+Hope you enjoyed, I'll see you around

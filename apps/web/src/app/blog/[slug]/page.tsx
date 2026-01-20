@@ -35,6 +35,7 @@ export async function generateMetadata({
   const title = `${post.title} | Dbuild.dev`;
   const description = post.description || `Read ${post.title} on Dbuild.dev`;
   const url = `https://dbuild.dev/blog/${slug}`;
+  const ogImage = post.ogImage || "/og-image.jpg";
 
   return {
     title,
@@ -46,7 +47,7 @@ export async function generateMetadata({
       siteName: "Dbuild.dev",
       images: [
         {
-          url: "/og-image.jpg",
+          url: ogImage,
           width: 1200,
           height: 630,
           alt: post.title,
@@ -61,7 +62,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: ["/og-image.jpg"],
+      images: [ogImage],
     },
   };
 }
