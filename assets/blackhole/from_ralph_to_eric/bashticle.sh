@@ -17,8 +17,7 @@ fi
 # @parseArger opt api-key "API key for the AI provider" --short k
 # @parseArger opt project-name "Name for the project to create" --default-value "tiny-till"
 # @parseArger opt reasoning "Reasoning tokens for AI models" --default-value "4096"
-# @parseArger flag run-command "Actually execute commands instead of just echoing them" --short r
-# @parseArger flag dry-run "Only echo commands without executing (default)" --short d --on
+# @parseArger flag run-command "Actually execute commands instead of just echoing them" --short r --no-name dry-run
 # @parseArger flag stream "Enable streaming output for AI commands" --short s --on
 # @parseArger flag verbose "Show additional details" --short v
 # @parseArger-declarations-end
@@ -59,12 +58,11 @@ _optional_positionals+=("_arg_step");
 # OPTIONALS ARGUMENTS
 _arg_ai_provider="openrouter"
 _arg_ai_model="nvidia/nemotron-3-nano-30b-a3b:free"
-_arg_api_key="${AI_API_KEY}"
+_arg_api_key=
 _arg_project_name="tiny-till"
 _arg_reasoning="4096"
 # FLAGS
 _arg_run_command="off"
-_arg_dry_run="on"
 _arg_stream="on"
 _arg_verbose="off"
 # NESTED
@@ -85,12 +83,11 @@ print_help()
 	echo -e "	-k, --api-key <api-key>: API key for the AI provider"
 	echo -e "	--project-name <project-name>: Name for the project to create [default: ' tiny-till ']"
 	echo -e "	--reasoning <reasoning>: Reasoning tokens for AI models [default: ' 4096 ']"
-	echo -e "	-r|--run-command|--no-run-command: Actually execute commands instead of just echoing them"
-	echo -e "	-d|--dry-run|--no-dry-run: Only echo commands without executing (default), on by default (use --no-dry-run to turn it off)"
+	echo -e "	-r|--run-command|--dry-run: Actually execute commands instead of just echoing them"
 	echo -e "	-s|--stream|--no-stream: Enable streaming output for AI commands, on by default (use --no-stream to turn it off)"
 	echo -e "	-v|--verbose|--no-verbose: Show additional details"
 	echo -e "Usage :
-	$0 [step] [--ai-provider <value>] [--ai-model <value>] [--api-key <value>] [--project-name <value>] [--reasoning <value>] [--[no-]run-command] [--[no-]dry-run] [--[no-]stream] [--[no-]verbose]";
+	$0 [step] [--ai-provider <value>] [--ai-model <value>] [--api-key <value>] [--project-name <value>] [--reasoning <value>] [--[no-]run-command] [--[no-]stream] [--[no-]verbose]";
 	fi
 
 }
@@ -101,29 +98,29 @@ log() {
 	if [ "${_arg_level}" -le "${_verbose_level}" ]; then
 		case "$_arg_level" in
 			-3)
-				_arg_COLOR="[0;31m";
+				_arg_COLOR="\033[0;31m";
 				;;
 			-2)
-				_arg_COLOR="[0;33m";
+				_arg_COLOR="\033[0;33m";
 				;;
 			-1)
-				_arg_COLOR="[1;33m";
+				_arg_COLOR="\033[1;33m";
 				;;
 			1)
-				_arg_COLOR="[0;32m";
+				_arg_COLOR="\033[0;32m";
 				;;
 			2)
-				_arg_COLOR="[1;36m";
+				_arg_COLOR="\033[1;36m";
 				;;
 			3)
-				_arg_COLOR="[0;36m";
+				_arg_COLOR="\033[0;36m";
 				;;
 			*)
-				_arg_COLOR="[0m";
+				_arg_COLOR="\033[0m";
 				;;
 		esac
 		if [ "${_has_colors}" == "1" ]; then
-			echo -e "${_arg_COLOR}${_arg_msg}[0m";
+			echo -e "${_arg_COLOR}${_arg_msg}\033[0m";
 		else
 			echo "${_arg_msg}";
 		fi
@@ -148,7 +145,7 @@ parse_commandline()
 			-p*)
 				_arg_ai_provider="${_key##-p}"
 				;;
-			
+
 			-m|--ai-model)
 				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
 				_arg_ai_model="$2"
@@ -160,7 +157,7 @@ parse_commandline()
 			-m*)
 				_arg_ai_model="${_key##-m}"
 				;;
-			
+
 			-k|--api-key)
 				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
 				_arg_api_key="$2"
@@ -172,7 +169,7 @@ parse_commandline()
 			-k*)
 				_arg_api_key="${_key##-k}"
 				;;
-			
+
 			--project-name)
 				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
 				_arg_project_name="$2"
@@ -181,7 +178,7 @@ parse_commandline()
 			--project-name=*)
 				_arg_project_name="${_key##--project-name=}"
 				;;
-			
+
 			--reasoning)
 				test $# -lt 2 && die "Missing value for the option: '$_key'" 1
 				_arg_reasoning="$2"
@@ -190,18 +187,12 @@ parse_commandline()
 			--reasoning=*)
 				_arg_reasoning="${_key##--reasoning=}"
 				;;
-			
+
 			-r|--run-command)
 				_arg_run_command="on"
 				;;
-			--no-run-command)
+			--dry-run)
 				_arg_run_command="off"
-				;;
-			-d|--dry-run)
-				_arg_dry_run="on"
-				;;
-			--no-dry-run)
-				_arg_dry_run="off"
 				;;
 			-s|--stream)
 				_arg_stream="on"
@@ -247,7 +238,7 @@ parse_commandline()
 					shift;
 				fi
 				;;
-			
+
 				*)
 				_last_positional="$1"
 				_positionals+=("$_last_positional")
@@ -263,8 +254,7 @@ handle_passed_args_count()
 {
 	local _required_args_string=""
 	if [ "${_positionals_count}" -gt 1 ] && [ "$_helpHasBeenPrinted" == "1" ];then
-		_PRINT_HELP=yes die "FATAL ERROR: There were spurious positional arguments --- we expect at most 1 (namely: $_required_args_string), but got ${_positionals_count} (the last one was: '${_last_positional}').
-	${_positionals[*]}" 1
+		_PRINT_HELP=yes die "FATAL ERROR: There were spurious positional arguments --- we expect at most 1 (namely: $_required_args_string), but got ${_positionals_count} (the last one was: '${_last_positional}').\n\t${_positionals[*]}" 1
 	fi
 	if [ "${_positionals_count}" -lt 0 ] && [ "$_helpHasBeenPrinted" == "1" ];then
 		_PRINT_HELP=yes die "FATAL ERROR: Not enough positional arguments - we require at least 0 (namely: $_required_args_string), but got only ${_positionals_count}.
@@ -296,7 +286,7 @@ print_debug()
 	print_help
 	# shellcheck disable=SC2145
 	echo "DEBUG: $0 $@";
-	
+
 	echo -e "	step: ${_arg_step}";
 	echo -e "	ai-provider: ${_arg_ai_provider}";
 	echo -e "	ai-model: ${_arg_ai_model}";
@@ -304,7 +294,6 @@ print_debug()
 	echo -e "	project-name: ${_arg_project_name}";
 	echo -e "	reasoning: ${_arg_reasoning}";
 	echo -e "	run-command: ${_arg_run_command}";
-	echo -e "	dry-run: ${_arg_dry_run}";
 	echo -e "	stream: ${_arg_stream}";
 	echo -e "	verbose: ${_arg_verbose}";
 
@@ -519,12 +508,13 @@ show_init() {
   echo ""
 
   print_subsection "Create .env file"
-  show_cmd "Create .env with your AI configuration:" \
-    cat > .env <<EOF
-AI_PROVIDER=$_arg_ai_provider
-AI_MODEL=$_arg_ai_model
-${_arg_ai_provider^^}_API_KEY=${_arg_api_key:-"your-api-key-here"}
-EOF
+  echo ""
+  echo -e "\033[0;37mCreate .env with your AI configuration:\033[0m"
+  echo -e "\033[1;35m$\033[0m cat > .env <<EOF"
+  echo "AI_PROVIDER=$_arg_ai_provider"
+  echo "AI_MODEL=$_arg_ai_model"
+  echo "${_arg_ai_provider^^}_API_KEY=${_arg_api_key:-"your-api-key-here"}"
+  echo "EOF"
 
   if [ "$_arg_run_command" == "on" ]; then
     cat > .env <<EOF
