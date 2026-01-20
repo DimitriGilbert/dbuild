@@ -9,7 +9,7 @@ b:I[25803,[],"ViewportBoundary"]
 d:I[16773,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/css/50152c3edddaf6a5.css","style"]
-0:{"P":null,"b":"S9-h1eF9IOwEgcddW-7IA","p":"","c":["","blog","tags","ai",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","ai","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/50152c3edddaf6a5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","ai","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","5oVTXVSn-LjaTRwcCNX4s",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"NRr8LmFrHuALZKXDD2S1C","p":"","c":["","blog","tags","ai",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","ai","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/50152c3edddaf6a5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","ai","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","tujIfvotv9itPBlFR-1EY",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
 e:I[73104,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-af6646a5e411dccb.js"],"TagDetailContent"]
 f:T45e9,
 _TLDR; Eric loop is a concept that upgrades Ralph loop by adding more complexity and depth to the idea of managing AI systems, [bash version of the article](/assets/blackhole/from_ralph_to_eric/bashticle.sh)_
@@ -344,20 +344,24 @@ use the --help command of task-o-matic if you need any doc !
 [this being the result](/assets/blackhole/from_ralph_to_eric/eric_loop.sh), your own Eric Loop, ain't life beautiful ?
 
 Hope you enjoyed, I'll see you around
-10:T4c03,
-Je vais pas re-introduire le concept de Ralph loop, si vous avez été a côté de l'IA dans la première moitié de janvier 2026, vous en avez entendu parler ! Si non, vous devriez aller voir la vidéo de Theo (ou quelqu'un d'autre mais celle-la est bonne !)
+10:T4c64,
+Je vais pas re-introduire le concept de Ralph loop, si vous avez été a côté de l'IA dans la première moitié de janvier 2026, vous en avez entendu parler ! Si non, vous devriez aller voir la vidéo de [Theo]((https://www.youtube.com/watch?v=Yr9O6KFwbW4)) (ou quelqu'un d'autre mais celle-la est bonne !)
 
 Vous savez probablement quel personnage de comics Ralph référence, mais Eric... ca pourrait être qui ?
 
 Si vous avez pensé petit, gros et en colère, vous avez raison ! Je parle bien sûr d'Eric Cartman de South Park !
 
-Alors que Ralph est naïf et innocent, Eric est calculateur et manipulateur. Pas quelque chose que je chercherais chez un humain, mais pour gérer un tas d'IA ? OUAIS DEFINITIVEMENT !
+Alors que Ralph est naïf et innocent, Eric est calculateur et manipulateur. Pas quelque chose que je chercherais chez une personne, mais pour gérer un tas d'IA ? Carrément !
 
 ![Eric saw Ralph](/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp)
 
 ## La boucle Eric
 
-Une idée, même si elle est bonne, a toujours besoin de travail et d'allers-retours pour être implémentée. Donc on expose d'abord l'idée à l'IA pour avoir un Product Requirements Document (PRD) et on travaille dessus !
+Comme chaque projet ca commence par une idée, 
+
+Et même si elle est bonne, on a toujours besoin de la retravailler, de faire des ajustements, ... pour bien implémentée.
+
+Donc on expose d'abord l'idée à l'IA pour avoir un Product Requirements Document (PRD) et on travaille dessus !
 
 Comment ca, lire ? Et bhe oui, il faut d'abord lire ! et tout de suite mettre à jour les parties avec lesquelles vous n'êtes pas d'accord ou les choses qui doivent être plus approfondies !
 
@@ -385,7 +389,7 @@ Oui les modèles sont devenus plus intelligents, mais si vous avez joué avec de
 
 Avoir une séparation propre comme ça aide à avoir de meilleurs prompts pour chaque phase de l'exécution des tâches.
 
-Comme effet secondaire, ça signifie que vous pouvez contrôler quel modèle est utilisé pour quelle phase, peut-être que vous n'avez pas besoin d'Opus tout le long si ça a fait un super plan !
+Comme effet secondaire, ça signifie que vous pouvez contrôler quel modèle est utilisé pour quelle phase, peut-être que vous n'avez pas besoin d'Opus tout le long si "il" a fait un super plan !
 
 ## A quoi ça ressemblerait ?
 
@@ -397,7 +401,7 @@ Mais on va avoir besoin d'un outil pour nous aider ...
 
 ### Task-o-matic
 
-Ouais, j'ai déjà en gros fait l'outil en question :D ! [task-o-matic](https://task-o-matic.dev)
+Ouais, j'ai déjà fait l'outil en question :D ! [task-o-matic](https://task-o-matic.dev)
 
 J'écrirai plus à ce sujet dans un futur post ! mais vous avez déjà pas mal de contenu à parcourir sur le site lui-même.
 
@@ -646,7 +650,7 @@ J'ai une super page d'erreur qui me parle d'une sorte de "exceeded depth error b
 
 J'aurais pu aller ouvrir le projet, lire quelques-unes des 35970 lignes de... **35970 LIGNES DE CODE** ??? Naaah, gros, c'est mort de chez mort !
 
-Bien sûr, j'ai demandé à GLM de corriger l'utilisation degueulasse de Zustand, et j'ai même dû passer quelques minutes à hurler sur une redirection vers le problème /... J'avais l'impression d'être un homme des cavernes quand même !
+Bien sûr, j'ai demandé à GLM de corriger l'utilisation degueulasse de Zustand, et j'ai même dû passer quelques minutes à hurler sur un problème de redirection vers /... J'avais l'impression d'être un homme des cavernes quand même !
 
 Je veux dire, devoir ouvrir un outil ? Pour faire... **du travail** ?? Nan mais Allo quoi, c'est 2022 ou quoi ?
 
