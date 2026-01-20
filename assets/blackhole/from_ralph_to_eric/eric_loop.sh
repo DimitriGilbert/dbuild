@@ -13,7 +13,7 @@ if [ -t 1 ]; then # Check if stdout is a terminal
 fi
 # @parseArger-declarations
 # @parseArger opt config "Load configuration from file" --short c --complete "file"
-# @parseArger opt taskomatic-version "Task-o-matic version to use" --default-value "@beta"
+# @parseArger opt taskomatic-version "Task-o-matic version to use" --default-value "@latest"
 # @parseArger opt ai-provider "AI provider (openrouter/anthropic/openai/custom)" --default-value "openrouter"
 # @parseArger opt ai-model "Default AI model" --default-value "z-ai/glm-4.7"
 # @parseArger opt ai-key "AI API key (or set AI_KEY env var)"
@@ -89,7 +89,7 @@ _positionals=();
 _optional_positionals=();
 # OPTIONALS ARGUMENTS
 _arg_config=
-_arg_taskomatic_version="@beta"
+_arg_taskomatic_version="@latest"
 _arg_ai_provider="openrouter"
 _arg_ai_model="z-ai/glm-4.7"
 _arg_ai_key="${AI_KEY}"
@@ -146,7 +146,7 @@ print_help()
 		_helpHasBeenPrinted=0;
 		echo -e "Eric Loop - AI-powered development automation script. Automates the Eric Loop workflow for AI-driven development projects. Supports configurable AI models, tools, and verification commands for each phase.:"
 	echo -e "	-c, --config <config>: Load configuration from file"
-	echo -e "	--taskomatic-version <taskomatic-version>: Task-o-matic version to use [default: ' @beta ']"
+	echo -e "	--taskomatic-version <taskomatic-version>: Task-o-matic version to use [default: ' @latest ']"
 	echo -e "	--ai-provider <ai-provider>: AI provider (openrouter/anthropic/openai/custom) [default: ' openrouter ']"
 	echo -e "	--ai-model <ai-model>: Default AI model [default: ' z-ai/glm-4.7 ']"
 	echo -e "	--ai-key <ai-key>: AI API key (or set AI_KEY env var)"
