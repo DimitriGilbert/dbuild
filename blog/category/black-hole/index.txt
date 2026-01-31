@@ -9,9 +9,597 @@ b:I[25803,[],"ViewportBoundary"]
 d:I[16773,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/css/50152c3edddaf6a5.css","style"]
-0:{"P":null,"b":"w9CUhlv4tgrZOHMM9NBaZ","p":"","c":["","blog","category","black-hole",""],"i":false,"f":[[["",{"children":["blog",{"children":["category",{"children":[["category","black-hole","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/50152c3edddaf6a5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["category",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","category","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["category","black-hole","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","category","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","i5Zo7iY1DzQRNM9Q7Wv2F",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"GOksvsvJQL1USwWsIhjM8","p":"","c":["","blog","category","black-hole",""],"i":false,"f":[[["",{"children":["blog",{"children":["category",{"children":[["category","black-hole","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/50152c3edddaf6a5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["category",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","category","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["category","black-hole","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","category","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Eimvl_Th-ZlnSBnSu09Eg",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
 e:I[52493,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","913","static/chunks/913-dae07b9fbc51ebae.js","145","static/chunks/app/blog/category/%5Bcategory%5D/page-9f2800851ba3a599.js"],"CategoryPageContent"]
-f:T45f9,
+f:T3b43,
+"The bubble popping is gonna kill AI !" / "it is not a bubble, it will never stop !"
+
+"It's just a useless fad, AI and its chatbots are not the future !" / "Humans are useless now ! AI can do it all !"
+
+"I will never use AI, it is dumb and make people dumber !" / "AI AI AI AI AI AI AI **AAAAAAAAA**...**IIIIIIIIIII** !!!"
+
+"AI is going to destroy jobs and that is a problem !" / "UBI UBI UBI UBI !!!"
+
+**Oh boy**...
+
+If you have been watching or reading tech/business/economics content in the last few months you'll have seen this ...canyon forming with very few people standing in between !
+
+Both side being very absolutist, and IMO, both sides being incredibly stupid... (or maybe i'm the stupid one... but something's got to give !)
+
+## Who am I to talk about this ?
+
+I am an old and cranky (and sick) developer and I've been using AI since the early days of ChatGPT, and I've seen it evolve a lot.
+
+I was one of those AI bros that started fairly early, went heavy on AI usage with Cursor first, then built [Litechat](https://litechat.dev) using [T3 chat](https://t3.chat) cause I wanted to learn more about how AI worked (Cursor hid that from me a bit too much because it was too fast !).
+
+So, I'm heavily biased here, account for that, but I also tried very hard not to fall too much into the hype... all in all, I think I'm not that far from some sort of reasonable truth.
+
+Oh, and I digress, sometimes a lot, so there might be some of that coming ahead ^^
+
+---
+
+## Bubble go pop, AI go bye bye ?
+
+Is there an AI bubble ? Yes, yes there absolutely is an AI bubble of stupid proportion !
+
+Between the circular financing, the nonsensical company valuations and their all around lack of profitability, it's a bubble for sure !
+
+So, that's it, bubble, burst, AI dead ? Meeeh, not so sure about that !
+
+### Open source changed the game
+
+If we'd be in a fully closed ecosystem, you would be right I think, but have you seen or used the open source models recently ?
+
+If not and you are using only closed SOTA models, you might be burning a big bunch of cash for not much ! And more to the point, they are virtually on par with their closed source counterparts !
+
+This, I think, is both why the bubble is going to go critical, but also why it is not the end for AI.
+
+If anything, companies cutting cost and dumping hardware might actually speed up evolution when it comes to smaller labs/models !
+
+### The Chinese wild card
+
+I also don't think that the burst will even stop how fast AI is evolving ! And it's because all major open source/weights labs are not in the US... they are Chinese !
+
+Not that they won't feel the squeeze, but they are not bound to the same constraints as US companies
+
+And here is a wild idea... (kind of...) What if they are pulling the same kind of trick the US did to the USSR with the moon program...
+
+I am not a planificator for the Party but my guess would be that what is happening in the Chinese open AI ecosystem is not by chance, but by design ! Dangle AGI and watch your competitors burn cash...
+
+I might be wrong though, and maybe Chinese hedge funds fueling AI companies are actually doing it for the most altruistic of reasons... (as is always the case with Humanity's actions... who knows ey' !?)
+
+---
+
+## "It's just crypto all over again !"
+
+I'd argue crypto is not dead, it might even become useful at some point and not just be a hoarding nonsense... but we are not talking about that, we are talking about AI !
+
+And, contrary to crypto, AI is :
+
+1. not a fad
+2. actively being used daily by 100k+ to millions of people working with it
+3. actually useful (for those many people using it for work)
+
+Developer, accounting, HR, marketing, sales, customer support, medicine, etc... I could make a whole list of where AI is actively (and somewhat succesfully) used, but this ain't a listicle !
+
+### Even if it IS a fad...
+
+And in the very off-chance I'd be wrong, and it is a fad, the repercussions will not be !
+
+Many human work was already obsolete and only protected by the cost of automating it...
+
+Every tool created or slop video out there will remain, for better or for worse !
+
+### It's not a fad
+
+I know of many a devs that will **never** write code the same way we did before ! I am one of them, and we are legion !
+
+What about medical image analysis on par to better than humans ? or "self driving"ish vehicles ?
+
+Once you find real tangible use cases, it so drastically changes the way you think about those tasks that there is **no** going back possible !
+
+There is definitely a hype component around AI (naming your computer or program "AI mega something giga stuff" for example...), and it might close your brain to the real changes, but said changes are happening, and faster than you might think !
+
+---
+
+## You're confusing the gimmick with the tool !
+
+This is probably the biggest mistake I see people make, and it drives me nuts !
+
+Gimli-izing your profile picture or nuding out people (this is **BAD** ! **DON'T DO IT** !) IS a fad !
+
+It's a gimmick that has/will die out, but these are usages of the tool, not the tool itself !
+
+Way too often I hear, even smart (or close enough to that) people say "Uh, it's just used for X/Y/Z so it's completely useless"...
+
+The fact that "you" did not find a use case and are just faffing around with it, does not mean it is useless !
+
+### What it actually did for me
+
+As a (mediocrely talented) developer with disabilities, I was able to find good use cases from the very beginning of this AI spring !
+
+I was in the Copilot preview and a paid customer of it for a few months and it changed my relation to code !
+
+Not having to type all your code, even for a fraction of it, was a game changer for me ! Less pain, more "time to" think and plan !
+
+It was a net positive from the start !
+
+### What it could do for you
+
+You might not realise it, but it might also be true for you, even if you do not code !
+
+How many repetitive tasks are you doing in a day ? A week ? And so on !
+
+Even if AI "can't do it", it might help you **create** the tools that will (at least in part) ! And, once you do that, you might see that so many of your tasks could be, in part, taken care of by new tools !
+
+AI, as we call it, is not the end all be all ! It is a facilitator ! Think of having your own personal technical butler/teacher/assistant !
+
+Don't think of it like it is doing the work, think of it as a tool to create tools that **will** do the work ! I'll give you some concrete examples of what I built with it later on ;)
+
+---
+
+## The great (job) replacement
+
+This I think is the biggest fear of many, and, within the current economic/societal system... I get it !
+
+But, once again, I think we are missing the point !
+
+### "Hey, I still would like a job !"
+
+Or do you ? Really, like, do you **REALLY** want a job ?
+
+Or do you want the money you get doing said job ?
+
+In my experience, there are a vast majority of people that **utterly hate** their job ! Like, viscerally !
+
+The only reason most of us are still participating in said jobs is our need for coins !! _(You might not feel like that, but ask around: "are you doing your job cause you love it or for the money ?" to get a real feel on that)_
+
+Some influencers and "thinkers" that talk about job displacement forget about that, as most of them do **love** theirs !
+
+But for the normal average Joe ? You'd have to convince me they do ! And it is going to be tough !
+
+And, in the long run, do you want to do the work a machine could do ? Most of the time, better than you do ?
+
+### We will still need humans though !
+
+For so many reasons, and in so many aspects, there are so many things that will require humans to do all or part of work !
+
+Even with "AGI" and robots, some things are inherently not doable by machines !
+
+From care to teaching, to artistic expression and much more ! So many things will need a human part to it.
+
+So, what is the real question IMO ?
+
+---
+
+## It's not about jobs, it's about society
+
+This, this is the biggest question on the book !
+
+How do we, as a society, organise ourselves when the need for human labor is drastically reduced ?
+
+Who will possess the new "means of production" ?
+
+How do we share the wealth created by said tools ?
+
+You might say "It's several questions !", you would be right... "How do we organise society ?" is an all encompassing and terrifying question that unfortunately cannot be answered by a single entity with "42"...
+
+What do I think ? ...huuum, unfortunately, I only have parts of ideas that sound like I am a degenerate communist drone.
+
+They have no room in this brain-fart (I might do a separate piece on that at some point in the future) and would only taint the discussion/question-raising part of this piece.
+
+### UBI won't cut it !
+
+Believe it or not, I don't think Universal Basic Income is the answer to all of this. Not in the long run !
+
+I am not an economist and this article is not about that but a condensed version of my thought on the matter goes as follows...
+
+It won't solve the concentration of wealth and power, nor will it solve the repartition of work that is not automatable.
+
+And I am not even talking about the whole inflationary dynamics that this might cause !
+
+Stupid examples coming, but, what if everyone has 1k income, why wouldn't a single bedroom flat be 1k as well ? And a pizza 33 ? Or a movie ticket 70 ?
+
+How would you solve that ? You would regulate prices ? Outlaw pizzas ? Cause this certainly sounds like a degenerate communist take on the thing... you know...
+
+Adding more and more band-aids to a rotting wooden leg with bureaucracy and regulation without any certainty that this would not be sent to oblivion whenever the persons in charge feel like it...
+
+This ties back to who would do the non-automatable (shity/dangerous/...) work ? How would they be compensated, and so on...
+
+Once again, I don't "really" know... I am (again) not an economist but this feel wrong and as far as ideas go, I have hints that I find too imperfect to even voice aloud...
+
+---
+
+## How I (why not you ?) actually use this stuff
+
+That was heavy, ey ? You know what is not ? My dumb experiments with AI !
+
+So here is a selection that might relieve some of the existential dread you should feel right now :D
+
+### Litechat
+
+I was high on auto-complete but wary of agent for a big while, but a year ago, things changed for me.
+
+After Copilot, I used Cursor... and gods damn it ! It was an even more massive shock to me than the AI completion !
+
+It was so fast indeed, that I had to create something, with the wrong tool for the job, so I could wrap my brain around how it works...
+
+So, I built [Litechat](https://litechat.dev) ! Using another (fantastic) AI chat, [T3 chat](https://t3.chat).
+
+Yes, I copy/pasted everything from my text editor to the chat interface, joining files manually, feeding back errors and bugs and all that... by hand, like a big fat dumb dumb !
+
+I "took advantage" (sorry again Theo... ^^') of the fantastic deal of [T3 chat](https://t3.chat) to use Gemini 2.5 and Sonnet 3.5 (more or less unlimited) for $8/mo to create my own AI chat interface.
+
+95+% of the whole thing is AI generated (and me copy/pasted) ! Though after a while I ended up on Cursor again (cause it was getting too hard to manage the contexts and conversations XD)
+
+I touched up a few things in the code, of course, but absolute most of it is AI generated !
+
+Was I faster than if i had to write it all ? maybe.. I don't know :P
+
+What I know though is that this exists only because of AI ! So many things were fixed because I didn't have to fix them myself ! (and before you ask, yes, some problems would have arose even if i didn't use AI !)
+
+### Formedible
+
+I hate Forms, with a passion !
+
+After doing web stuff (and many others too) you spend most of your time dealing with forms !
+
+How they look, how they validate, what fields you have... I HATE IT !
+
+So, being a pain point, I created a tool to help me with that !
+
+I attempted that half a dozen times already over the years, and every time I ended up dropping the idea as it gets complicated way faster than you'd think (ok.. ok !, than I'd think...)
+
+With AI ? Has it been less complicated ?? NOPE, absolutely not, but instead of looking at weeks (months !) to do the things, it took less weeks !
+
+I've been using [Formedible](https://formedible.dev) for a while now, in all my projects if I can !
+
+Is it great code ? Hell no ! but it mostly does the job and i never have to think of those nightmare forms ever again ! (until i work on formedible, then it is only forms... did i just f-ed myself ? Damn...)
+
+### Task-o-matic
+
+After a while using AI, you end up understanding that organisation is the key !
+
+The better you are organised, the better the tool will work.
+
+It will stay more focused. It will be easier to stop and start again.
+
+It can even help in being more efficient by using better models for certain tasks.
+
+I used [Task Master](https://task-master.dev) for a while, but I was not satisfied, and, I do like having my own set of wheels !
+
+So, I created [Task-o-matic](https://task-o-matic.dev) ! It does the same, and a bit more !
+
+You can create Product Requirement Documents, split them into tasks and subtask, plan, execute and verify the work to be done, all from the command line, all using your favourite TUI/CLI harnesses !
+
+In order to test that, I created [Tiny-till](https://github.com/DimitriGilbert/tiny-till) using GLM, and another one that'll come out soon.
+
+Is the result perfect ? no !
+
+Is it entirely autonomous ? not really !
+
+What it gets is 90%+ of the way there with work counted in hours and not weeks/months !
+
+---
+
+## So, what now ?
+
+That is a fucking great question indeed, my dear Watson !
+
+So many things can go horribly wrong, but how couldn't we not hope they would go incredibly right ?
+
+To be honest, I am both fascinated, terrified and exhilarated about this whole thing !
+
+I am in a quantum state of both Hyper-techno-optimism and Mega-doom-judgementDay-dread, this, in a very fast oscillation (as I am an observer, so the states are set... you know, quantum shyte !)
+
+So... is there any side of this rift that is right ? Nooope, i really think both side have very valid point, but both focus on the wrong things, and the proposed solutions s\*ck4ss most of the time...
+
+I think a calm and composed discussion, far from ideology, rhetoric and fearmongering is needed... for real, we need to talk about this !
+
+But to have an informed and fair discussion, we need to understand what is happening and what those tools can do !
+
+I would encourage each and every one of you to use them for something real ! Not just the small and dumb 1 minute experiment, but frfr !
+
+Build something ! Break something ! Get better at your job by learning ! Or get better at another job because you hate the one you have !
+
+I don’t know if we end up with fully automated luxury communism or cyber-feudalism. But I know that pretending the tools don’t work (or that they work for everyone equally) is a lie that serves only the people selling the shovels.
+
+Use the damn things. See for yourself. Then we can argue about how we go about building the future.
+10:T439e,
+"La bulle qui éclate va tuer l'IA !" / "c'est pas une bulle, ça s'arrêtera jamais !"
+
+"C'est juste une mode inutile, l'IA et ses chatbots c'est pas le futur !" / "Les humains servent plus à rien ! L'IA peut tout faire !"
+
+"Je n'utiliserai jamais l'IA, c'est débile et ça rend les gens plus débiles !" / "IA IA IA IA IA IA IA **IIIIIIIIIIII**...**AAAAAAAAA** !!!"
+
+"L'IA va détruire les emplois et c'est un problème !" / "UBI UBI UBI UBI !!!"
+
+**Oh la**...**Oh la la la la**...-\_-
+
+Si t'as regardé ou lu du contenu tech/business/économie ces derniers mois, t'as vu ce ...canyon se former avec très peu de gens au milieu !
+
+Les deux camps sont jusque-boutistes, et à mon avis, les deux sont complètement stupides... (ou peut-être que c'est moi le con... mais un truc doit lacher !)
+
+## Auto validation sur pourquoi je parle de ca
+
+Je suis un vieux dev grincheux (et malade) et j'utilise l'IA depuis les débuts de ChatGPT, et j'ai vu le truc évoluer pas mal.
+
+J'étais un de ces "AI bros" qui ont commencé assez tôt, j'ai foncé dans l'utilisation de l'IA avec Cursor d'abord, puis j'ai construit [Litechat](https://litechat.dev) en utilisant [T3 chat](https://t3.chat) parce que je voulais mieux comprendre comment l'IA fonctionnait (Cursor en cachait un peu trop en allant trop vite !).
+
+Donc, je suis fortement biaisé ici, prends ça en compte, mais j'ai aussi vraiment essayé de pas trop tomber dans le hype... au final, je pense être pas si loin d'une sorte de vérité raisonnable.
+
+Ah, et je digresse, parfois beaucoup, donc attends-toi à en voir passer ^^
+
+---
+
+## La bulle pète et l'IA crève ?
+
+Est-ce qu'il y a une bulle IA ? Ouep, carrement ! On a en ce moment une bulle IA de proportion bibliquement débile !
+
+Entre le financement circulaire, les valorisations d'entreprises qui n'ont aucun sens et leur manque général de rentabilité, c'est une bulle autant que la none dans le desert veut un verre d'eau !
+
+Donc, voilà, bulle, boum, IA kaput ? Meeeeh, pas si sûr de ça !
+
+### L'open source a changé la donne
+
+Si on était dans un écosystème complètement fermé, pourquoi pas, mais t'as vu ou utilisé les modèles open source/weights récemment ?
+
+Si non et que tu utilises uniquement les modèles SOTA fermés, tu crames peut-être un gros tas de pognon pour pas grand-chose ! Et surtout, en rapport avec le sujet, ils sont virtuellement au même niveau que leurs homologues fermés !
+
+Je pense que c'est à la fois pourquoi la bulle va péter, mais aussi pourquoi c'est pas la fin pour l'IA.
+
+Je pense même que les entreprises qui réduisent les coûts et bazardent du matos pourraient en fait accélérer l'évolution pour les plus petits labos/modèles !
+
+### La wildcard chinoise
+
+Je pense pas non plus que l'éclatement va même ralentir la vitesse d'évolution de l'IA ! Et c'est parce que tous les gros labos open source/weights ne sont pas aux US... ils sont chinois !
+
+Non pas qu'ils ressentiront pas la pression, mais ils n'ont pas les mêmes contraintes que les boîtes américaines
+
+Et pis, voilà une idée un peu folle... (enfin, à moitié...) Et si ils faisaient le même genre de coup que les US ont fait à l'URSS avec le programme lunaire...
+
+Je suis pas un planificateur pour le Parti mais je parierais que ce qui se passe dans l'écosystème IA open chinois n'est pas par hasard, mais par design ! Fais miroiter l'AGI et regarde tes concurrents cramer du cash...
+
+Je me trompe peut-être, et peut-être que les hedge funds chinois qui alimentent les entreprises d'IA le font vraiment pour les raisons les plus altruistes qui soient... (comme c'est toujours le cas avec les actions de l'Humanité... va savoir hein !?)
+
+---
+
+## "C'est juste la crypto bis !"
+
+Je ne pense pas que la crypto est morte, ça pourrait même devenir utile à un moment et pas juste être un truc de hoarder neuneu... mais on parle pas de ça, on parle d'IA !
+
+Et, contrairement à la crypto, l'IA c'est :
+
+1. pas une mode
+2. activement utilisée quotidiennement par des centaines de milliers à des millions de gens qui bossent avec
+3. vraiment utile (pour ces gens qui l'utilisent pour le taf)
+
+Dev, compta, RH, marketing, commercial, support client, médecine, etc... je pourrais faire une liste complète de là où l'IA est activement (et avec un certain succès) utilisée, mais c'est pas un listicle ici !
+
+### Même si c'EST une mode...
+
+Et dans le cas très improbable où j'aurais tort, et que c'est une mode, les répercussions ne le seront pas !
+
+Plein de travail humain était déja obsolète et seulement protégé par le coût de l'automatisation...
+
+Chaque outil créé ou vidéo slop restera, pour le meilleur ou pour le pire !
+
+### C'est pas une mode
+
+Je connais plein de devs qui n'écriront **jamais** du code de la même façon qu'avant ! J'en suis un, et nous sommes légion !
+
+Et l'analyse d'images médicales au même niveau voire meilleure que les humains ? ou les véhicules "semi-autonomes" ?
+
+Une fois que tu trouves des vrais cas d'usage tangibles, ça change tellement drastiquement la façon dont tu penses à ces tâches qu'il n'y a **pas** de retour possible !
+
+Il y a clairement une composante hype autour de l'IA (nommer ton ordi ou programme "IA mega machin giga truc" par exemple...), et ça peut te fermer le cerveau aux vrais changements, mais ces changements arrivent, et plus vite que tu penses !
+
+---
+
+## Tu confonds le gadget avec l'outil !
+
+C'est probablement la plus grosse erreur que je vois les gens faire, et ça me rend dingue !
+
+Gimli-fier ta photo de profil ou mettre les gens à poil (c'est **MAL** ! **LE FAIS PAS** !) C'EST une mode !
+
+C'est un gadget qui a/va mourir, mais ce sont des usages de l'outil, pas l'outil lui-même !
+
+Beaucoup trop souvent j'entends, même des gens intelligents (ou pas loin), dire "Bah, c'est juste utilisé pour X/Y/Z donc c'est complètement inutile"...
+
+Le fait que "tu" n'aies pas trouvé de cas d'usage et que tu glandes avec, ça veut pas dire que c'est inutile !
+
+### Ce que ça m'a vraiment apporté
+
+En tant que dev (médiocrement talentueux) avec des handicaps, j'ai pu trouver de bons cas d'usage dès le début de ce printemps de l'IA !
+
+J'étais dans la preview de Copilot et client payant pendant quelques mois et ça a changé ma relation au code !
+
+Ne pas avoir à taper tout mon code, même pour une partie, c'était un vrai changement pour moi ! Moins de douleur, plus de "temps pour" réfléchir et planifier !
+
+C'était un bénéfice net dès le départ !
+
+### Ce que ça pourrait te faire
+
+Tu réalises peut-être pas, mais ça pourrait aussi être vrai pour toi, même si tu ne codes pas !
+
+Combien de tâches répétitives tu fais dans une journée ? Une semaine ? Et ainsi de suite !
+
+Même si l'IA "ne peut pas tout faire", ça peut t'aider à **créer** les outils qui le feront (au moins en partie) ! Et, une fois que tu fais ça, tu vas peut-être voir que tellement de tes tâches pourraient être, en partie, prises en charge par de nouveaux outils !
+
+L'IA, comme on l'appelle, c'est pas la solution ultime ! C'est un facilitateur ! Imagine avoir ton propre majordome/prof/assistant technique personnel !
+
+Pense pas à l'IA comme si ça faisait le travail, pense y comme un outil pour créer des outils qui **feront** le travail ! Je te donnerai des exemples concrets de ce que j'ai construit avec plus tard ;)
+
+---
+
+## Le grand remplacement (de l'emploi)
+
+Je pense que c'est la plus grande peur de beaucoup, et, dans le système économique/sociétal actuel... je comprends !
+
+Mais, encore une fois, je pense qu'on passe à côté du sujet !
+
+### "Hé, j'aimerais quand même avoir un travail !"
+
+Vraiment ? Genre, est-ce que tu veux **VRAIMENT** un job ?
+
+Ou ce que tu veux en fait, c'est l'argent que tu gagnes en faisant ce job ?
+
+D'après mon expérience, il y a une grande majorité de gens qui **détestent viscéralement** leur taf ! Genre, du fond des tripes !
+
+La seule raison pour laquelle la plupart d'entre nous participent encore à ces jobs c'est pour les thunes !! _(Tu ressens peut-être pas ça, mais demande autour : "tu fais ton taf parce que tu l'aimes ou pour l'argent ?" pour avoir une vraie idée)_
+
+Certains influenceurs et "penseurs" qui parlent de suppression d'emplois oublient ça, vu que la plupart d'entre eux **aiment** le leur !
+
+Mais pour le Français moyen ? Faudra me convaincre que c'est le cas ! Et ça va être chaud !
+
+Et, à long terme, tu veux faire le travail qu'une machine pourrait faire, toi ? Et la plupart du temps, mieux (et plus vite) que toi ?
+
+### On aura quand même besoin d'humains !
+
+Pour tellement de raisons, et sur tellement d'aspects, il y a tellement de choses qui nécessiteront des humains pour faire tout ou partie du taf !
+
+Même avec l'"AGI" et les robots, certaines choses sont intrinsèquement pas faisables par des machines !
+
+Du soin à l'enseignement, à l'expression artistique et bien plus ! Tellement de choses auront besoin d'une part humaine.
+
+Donc, c'est quoi la vraie question à mon avis ?
+
+---
+
+## C'est pas une question d'emplois, c'est une question de société
+
+Ça, ça c'est la vraie question dans l'histoire !
+
+Comment on s'organise, en tant que société, quand le besoin de travail humain est drastiquement réduit ?
+
+Qui possédera les nouveaux "moyens de production" ?
+
+Comment on partage la richesse créée par ces outils ?
+
+Tu vas peut-être dire "C'est plusieurs questions !", t'aurais raison... "Comment on organise la société ?" c'est une question englobante et terrifiante qui peut malheureusement pas être répondue par une seule entité avec "42"...
+
+Ce que je pense ? ...huum, malheureusement, j'ai que des bouts d'idées qui font que j'ai l'air d'un drone communiste dégénéré.
+
+Elles ont pas leur place dans ce brain fart (je ferai peut-être un article séparé là-dessus dans le futur) et ne feraient que polluer la partie discussion/questionnement de ce papier.
+
+### Le UBI suffira pas !
+
+Crois-le ou non, je pense pas que le Revenu de Solidarité Universelle soit la réponse à tout ça. Pas sur le long terme !
+
+Je suis pas économiste et cet article n'est pas là-dessus mais une version condensée de ma pensée sur le sujet donne un truc dans le genre...
+
+Ça résoudra pas la concentration des richesses et du pouvoir, ni la répartition du travail qui est pas automatisable.
+
+Et je parle même pas de toutes les dynamiques inflationnistes que ça pourrait causer !
+
+Exemples débiles à venir, mais, si tout le monde a 1k de revenus, pourquoi un studio serait pas à 1k aussi ? Et une pizza à 33 ? Ou une place de ciné à 70 ?
+
+Comment tu résoudrais ça ? Tu régulerais les prix ? Tu interdirais les pizzas ? Parce que ça ressemble vachement à une idée communiste dégénérée sur le truc... non... ?
+
+Rajouter de plus en plus de pansements sur une jambe de bois pourrie avec de la bureaucratie et de la régulation sans aucune certitude que ça sera pas balayé dès que les personnes en charge le décident...
+
+Ça ramène à qui ferait le travail non-automatisable (pourri/dangereux/...) ? Comment ils seraient compensés, et ainsi de suite...
+
+Encore une fois, je "sais" pas vraiment... je suis (encore) pas économiste mais ça sent pas bon et niveau idées, j'ai des pistes que je trouve trop imparfaites pour oser les dire tout haut...
+
+---
+
+## Comment j'utilise (pourquoi pas toi aussi ?) vraiment ces trucs
+
+C'était lourd, hein ? Tu sais ce qui l'est pas ? Mes expériences débiles avec l'IA !
+
+Donc voilà une sélection qui pourrait soulager un peu l'angoisse existentielle que tu devrais ressentir là :D
+
+### Litechat
+
+J'étais accro à l'auto-complétion mais méfiant des agents pendant un bon moment, mais il y a un an, les choses ont changé pour moi.
+
+Après Copilot, j'ai utilisé Cursor... et putain de bordel de merde ! C'était un choc encore plus massif pour moi que l'auto-complétion IA !
+
+C'était tellement rapide en fait, que j'ai dû créer quelque chose, avec le mauvais outil pour le job, histoire de comprendre comment ça marche...
+
+Donc, j'ai construit [Litechat](https://litechat.dev) ! En utilisant un autre chat IA (fantastique), [T3 chat](https://t3.chat).
+
+Ouais, j'ai tout copié/collé de mon éditeur de texte vers l'interface de chat, joignant les fichiers manuellement, renvoyant les erreurs et bugs et tout ça... à la main, comme un gros neuneu !
+
+J'ai "profité" (pardon encore Theo... ^^') du super deal de [T3 chat](https://t3.chat) pour utiliser Gemini 2.5 et Sonnet 3.5 (plus ou moins illimité) pour $8/mois pour créer ma propre interface de chat IA.
+
+95+% du truc entier est généré par l'IA (et copié/collé par moi) ! Bon, après un moment j'ai fini par retourner sur Cursor (parce que c'était trop galère de gérer les contextes et conversations XD)
+
+J'ai retouché quelques trucs dans le code, bien sûr, mais la grande majorité est générée par l'IA !
+
+Est-ce que j'étais plus rapide que si j'avais dû tout écrire ? peut-être.. je sais pas :P
+
+Ce que je sais par contre c'est que ça existe uniquement grâce à l'IA ! Tellement de choses ont été corrigées parce que j'ai pas eu à les corriger moi-même ! (et avant que tu demandes, oui, certains problèmes seraient apparus même si j'avais pas utilisé l'IA !)
+
+### Formedible
+
+Je déteste les Formulaires, avec passion !
+
+Après avoir fait du web (et plein d'autres trucs aussi) tu passes la plupart de ton temps à gérer des formulaires !
+
+A quoi ils ressemblent, comment ils valident, quels champs t'as... JE DETESTE CA !
+
+Tellement fort que j'ai créé un outil pour m'aider avec ça !
+
+J'ai déjà essayé ça une demi-douzaine de fois au fil des années, et à chaque fois j'ai fini par abandonner l'idée parce que ça se complique bien plus vite que tu penserais (ok.. ok !, que je pensais...)
+
+Avec l'IA ? C'était moins compliqué ?? NON, absolument pas, mais au lieu de prévoir des semaines (des mois !) pour faire les trucs, ça a pris moins de semaines !
+
+J'utilise [Formedible](https://formedible.dev) depuis un moment maintenant, dans tous mes projets si je peux !
+
+C'est du bon code ? Certainement pas ! mais ça fait le taf et j'ai plus jamais à penser à ces formulaires de cauchemar ! (jusqu'à ce que je bosse sur formedible, et là c'est que des formulaires... je me suis tiré une balle dans le pied, c'est ca ... ?)
+
+### Task-o-matic
+
+Après un moment à utiliser l'IA, tu finis par comprendre que l'organisation c'est la clé !
+
+Mieux t'es organisé, mieux l'outil marchera.
+
+Il restera plus concentré. Ce sera plus facile d'arrêter et de recommencer.
+
+Ça peut même aider à être plus efficace en utilisant de meilleurs modèles pour certaines tâches.
+
+J'ai utilisé [Task Master](https://task-master.dev) pendant un moment, mais j'étais pas satisfait, et, j'aime bien avoir mes propres roues !
+
+Donc, j'ai créé [Task-o-matic](https://task-o-matic.dev) ! Ça fait pareil, et un peu plus !
+
+Tu peux créer des Product Requirement Documents, les découper en tâches et sous-tâches, planifier, exécuter et vérifier le travail à faire, tout depuis la ligne de commande, tout en utilisant ton outil de code assisté par IA préféré !
+
+Pour tester ça, j'ai créé [Tiny-till](https://github.com/DimitriGilbert/tiny-till) en utilisant GLM, et un autre projet qui sortira bientôt.
+
+Le résultat est parfait ? non !
+
+C'est entièrement autonome ? pas vraiment !
+
+Ce que ça obtient c'est 90%+ du taf, avec du travail compté en heures et pas en semaines/mois !
+
+---
+
+## Donc, c'est quoi la suite ?
+
+Ça c'est une putain de bonne question en effet, mon cher Watson !
+
+Tellement de choses peuvent horriblement mal tourner, mais comment on pourrait ne pas espérer qu'elles tournent incroyablement bien ?
+
+Pour être honnête, je suis à la fois fasciné, terrifié et exalté par tout ça !
+
+Je suis dans un état quantique d'Hyper-techno-optimisme et de Mega-angoisse-jourDuJugement, et ça, dans une oscillation très rapide (vu que je suis un observateur, donc les états sont fixés... tu sais, les conneries quantiques !)
+
+Donc... y'a un seul côté qui a raison ? Noooon, je pense vraiment que les deux côtés ont des points très valides, mais les deux se concentrent sur les mauvaises choses, et les solutions proposées c'est d'la m\*rde en barre, la plupart du temps...
+
+Je pense qu'une discussion calme et posée, loin des idéologies, de la rhétorique et du sensationnalisme est nécessaire... pour de vrai, on doit parler de ça !
+
+Mais pour avoir une discussion informée et juste, on doit comprendre ce qui se passe et ce que ces outils peuvent faire !
+
+Je t'encouragerais à les utiliser pour quelque chose de réel ! Pas juste la petite expérience débile d'une minute, mais pour de vrai !
+
+Construis quelque chose ! Casse quelque chose ! Deviens meilleur à ton taf en apprenant ! Ou deviens meilleur à un autre taf parce que tu détestes celui que t'as !
+
+Je sais pas si on finit avec du communisme de luxe entièrement automatisé ou du cyber-féodalisme. Mais je sais que faire comme si les outils marchaient pas (ou qu'ils marchent pareil pour tout le monde) c'est un mensonge qui sert que les gens qui vendent les pelles.
+
+Utilise ces fichus trucs. Vois par toi-même. Ensuite on pourra débattre de comment on construit le futur.
+11:T45f9,
 _TLDR; Eric loop is a concept that upgrades Ralph loop by adding more complexity and depth to the idea of managing AI systems, [bash version of the article](/assets/blackhole/from_ralph_to_eric/bashticle.sh)_
 
 I wont reintroduce the concept of Ralph loop, if you have been anywhere near AI in the first half of January 2026, you have heard of it ! If not, you should go and watch [Theo's video](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (or someone else's but this is a good !)
@@ -344,7 +932,7 @@ use the --help command of task-o-matic if you need any doc !
 [this being the result](/assets/blackhole/from_ralph_to_eric/eric_loop.sh), your own Eric Loop, ain't life beautiful ?
 
 Hope you enjoyed, I'll see you around
-10:T4c72,
+12:T4c72,
 Je vais pas re-introduire le concept de Ralph loop, si vous avez été a côté de l'IA dans la première moitié de janvier 2026, vous en avez entendu parler ! Si non, vous devriez aller voir la vidéo de [Theo](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (ou quelqu'un d'autre mais celle-la est bonne !)
 
 Vous savez probablement quel personnage de comics Ralph référence, mais Eric... ca pourrait être qui ?
@@ -679,7 +1267,7 @@ utilise la commande --help de task-o-matic si t'as besoin de doc !
 [voici le résultat](/assets/blackhole/from_ralph_to_eric/eric_loop.sh), votre Eric Loop a vous, elle est pas belle la vie ?!
 
 Hope you enjoyed, I'll see you around
-6:["$","$Le",null,{"categoryData":{"slug":"black-hole","title":"Black hole","description":"Everything goes in here and (hopefully ?) never escapes !","directory":"Black hole","content":"\nIT's the watercooler space, usually way darker though, and with a lot more swearing.\n\nI won't be held responsible for any form of spaghetification !\n","posts":[{"slug":"black-hole-from-ralph-to-eric","title":"From Ralph to Eric","description":"Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !","date":"$D2026-01-16T23:01:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$f","readTime":15,"toc":[{"level":2,"title":"The Eric Loop","id":"the-eric-loop"},{"level":2,"title":"But, Why... ?","id":"but-why"},{"level":2,"title":"What would it look like ?","id":"what-would-it-look-like"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Let's get this rolling","id":"lets-get-this-rolling"},{"level":4,"title":"Initialisation and bootstrapping","id":"initialisation-and-bootstrapping"},{"level":4,"title":"Document the requirements of your project","id":"document-the-requirements-of-your-project"},{"level":4,"title":"Petrol is not the only thing that needs refining !","id":"petrol-is-not-the-only-thing-that-needs-refining"},{"level":4,"title":"Touching up and go","id":"touching-up-and-go"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Time to let Eric loose...","id":"time-to-let-eric-loose"},{"level":3,"title":"What's the result","id":"whats-the-result"},{"level":2,"title":"What do you think ? Where do we go from here ?","id":"what-do-you-think-where-do-we-go-from-here"}],"directory":"Black hole/From ralph to Eric","relativePath":"Black hole/From ralph to Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/From ralph to Eric/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"},{"slug":"black-hole-passer-de-ralph-a-eric","title":"Passer de Ralph a Eric","description":"Tout le monde ne parle que de la 'Ralph loop', et le principe est cool, mais je pense qu'on peut faire mieux grace au concept de la Boucle a Eric !","date":"$D2026-01-16T23:00:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$10","readTime":16,"toc":[{"level":2,"title":"La boucle Eric","id":"la-boucle-eric"},{"level":2,"title":"Mais, Pourquoi... ?","id":"mais-pourquoi"},{"level":2,"title":"A quoi ça ressemblerait ?","id":"a-quoi-a-ressemblerait"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Allons-y","id":"allons-y"},{"level":4,"title":"Initialisation et bootstrap","id":"initialisation-et-bootstrap"},{"level":4,"title":"Documenter les requis de votre projet","id":"documenter-les-requis-de-votre-projet"},{"level":4,"title":"L'essence n'est pas la seule chose qui doit être raffinée !","id":"lessence-nest-pas-la-seule-chose-qui-doit-tre-raffine"},{"level":4,"title":"Les petites retouches et c'est parti","id":"les-petites-retouches-et-cest-parti"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Et maintenant, on fait rouler Eric...","id":"et-maintenant-on-fait-rouler-eric"},{"level":3,"title":"Résultat","id":"rsultat"},{"level":2,"title":"Vous en pensez quoi ? On va où après ?","id":"vous-en-pensez-quoi-on-va-o-aprs"}],"directory":"Black hole/Passer de Ralph a Eric","relativePath":"Black hole/Passer de Ralph a Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Passer de Ralph a Eric/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"}]}}]
+6:["$","$Le",null,{"categoryData":{"slug":"black-hole","title":"Black hole","description":"Everything goes in here and (hopefully ?) never escapes !","directory":"Black hole","content":"\nIT's the watercooler space, usually way darker though, and with a lot more swearing.\n\nI won't be held responsible for any form of spaghetification !\n","posts":[{"slug":"black-hole-the-ai-debate-is-missing-the-point-and-so-are-you","title":"The AI Debate Is Missing the Point (And So Are You)","description":"The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app","date":"$D2026-01-30T23:01:00.000Z","category":"General","tags":["AI"],"content":"$f","readTime":15,"toc":[{"level":2,"title":"Who am I to talk about this ?","id":"who-am-i-to-talk-about-this"},{"level":2,"title":"Bubble go pop, AI go bye bye ?","id":"bubble-go-pop-ai-go-bye-bye"},{"level":3,"title":"Open source changed the game","id":"open-source-changed-the-game"},{"level":3,"title":"The Chinese wild card","id":"the-chinese-wild-card"},{"level":2,"title":"\"It's just crypto all over again !\"","id":"its-just-crypto-all-over-again"},{"level":3,"title":"Even if it IS a fad...","id":"even-if-it-is-a-fad"},{"level":3,"title":"It's not a fad","id":"its-not-a-fad"},{"level":2,"title":"You're confusing the gimmick with the tool !","id":"youre-confusing-the-gimmick-with-the-tool"},{"level":3,"title":"What it actually did for me","id":"what-it-actually-did-for-me"},{"level":3,"title":"What it could do for you","id":"what-it-could-do-for-you"},{"level":2,"title":"The great (job) replacement","id":"the-great-job-replacement"},{"level":3,"title":"\"Hey, I still would like a job !\"","id":"hey-i-still-would-like-a-job"},{"level":3,"title":"We will still need humans though !","id":"we-will-still-need-humans-though"},{"level":2,"title":"It's not about jobs, it's about society","id":"its-not-about-jobs-its-about-society"},{"level":3,"title":"UBI won't cut it !","id":"ubi-wont-cut-it"},{"level":2,"title":"How I (why not you ?) actually use this stuff","id":"how-i-why-not-you-actually-use-this-stuff"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"So, what now ?","id":"so-what-now"}],"directory":"Black hole/The AI Debate Is Missing the Point (And So Are You)","relativePath":"Black hole/The AI Debate Is Missing the Point (And So Are You)/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/The AI Debate Is Missing the Point (And So Are You)/index.md","isCategory":false,"ogImage":"$undefined"},{"slug":"black-hole-le-dbat-autour-de-l-ia-est-a-cote-de-la-plaque-toi-aussi","title":"Le débat autour de l'IA est à cote de la plaque (toi aussi)","description":"La bulle IA va éclater, ça arrêtera pas l'IA. Ton refus d'utiliser l'IA empêchera pas ton job d'être remplacé. ChatGPT n'est pas la killer app de l'IA","date":"$D2026-01-30T22:50:00.000Z","category":"General","tags":["AI"],"content":"$10","readTime":15,"toc":[{"level":2,"title":"Auto validation sur pourquoi je parle de ca","id":"auto-validation-sur-pourquoi-je-parle-de-ca"},{"level":2,"title":"La bulle pète et l'IA crève ?","id":"la-bulle-pte-et-lia-crve"},{"level":3,"title":"L'open source a changé la donne","id":"lopen-source-a-chang-la-donne"},{"level":3,"title":"La wildcard chinoise","id":"la-wildcard-chinoise"},{"level":2,"title":"\"C'est juste la crypto bis !\"","id":"cest-juste-la-crypto-bis"},{"level":3,"title":"Même si c'EST une mode...","id":"mme-si-cest-une-mode"},{"level":3,"title":"C'est pas une mode","id":"cest-pas-une-mode"},{"level":2,"title":"Tu confonds le gadget avec l'outil !","id":"tu-confonds-le-gadget-avec-loutil"},{"level":3,"title":"Ce que ça m'a vraiment apporté","id":"ce-que-a-ma-vraiment-apport"},{"level":3,"title":"Ce que ça pourrait te faire","id":"ce-que-a-pourrait-te-faire"},{"level":2,"title":"Le grand remplacement (de l'emploi)","id":"le-grand-remplacement-de-lemploi"},{"level":3,"title":"\"Hé, j'aimerais quand même avoir un travail !\"","id":"h-jaimerais-quand-mme-avoir-un-travail"},{"level":3,"title":"On aura quand même besoin d'humains !","id":"on-aura-quand-mme-besoin-dhumains"},{"level":2,"title":"C'est pas une question d'emplois, c'est une question de société","id":"cest-pas-une-question-demplois-cest-une-question-de-socit"},{"level":3,"title":"Le UBI suffira pas !","id":"le-ubi-suffira-pas"},{"level":2,"title":"Comment j'utilise (pourquoi pas toi aussi ?) vraiment ces trucs","id":"comment-jutilise-pourquoi-pas-toi-aussi-vraiment-ces-trucs"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"Donc, c'est quoi la suite ?","id":"donc-cest-quoi-la-suite"}],"directory":"Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)","relativePath":"Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)/index.md","isCategory":false,"ogImage":"$undefined"},{"slug":"black-hole-from-ralph-to-eric","title":"From Ralph to Eric","description":"Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !","date":"$D2026-01-16T23:01:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$11","readTime":15,"toc":[{"level":2,"title":"The Eric Loop","id":"the-eric-loop"},{"level":2,"title":"But, Why... ?","id":"but-why"},{"level":2,"title":"What would it look like ?","id":"what-would-it-look-like"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Let's get this rolling","id":"lets-get-this-rolling"},{"level":4,"title":"Initialisation and bootstrapping","id":"initialisation-and-bootstrapping"},{"level":4,"title":"Document the requirements of your project","id":"document-the-requirements-of-your-project"},{"level":4,"title":"Petrol is not the only thing that needs refining !","id":"petrol-is-not-the-only-thing-that-needs-refining"},{"level":4,"title":"Touching up and go","id":"touching-up-and-go"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Time to let Eric loose...","id":"time-to-let-eric-loose"},{"level":3,"title":"What's the result","id":"whats-the-result"},{"level":2,"title":"What do you think ? Where do we go from here ?","id":"what-do-you-think-where-do-we-go-from-here"}],"directory":"Black hole/From ralph to Eric","relativePath":"Black hole/From ralph to Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/From ralph to Eric/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"},{"slug":"black-hole-passer-de-ralph-a-eric","title":"Passer de Ralph a Eric","description":"Tout le monde ne parle que de la 'Ralph loop', et le principe est cool, mais je pense qu'on peut faire mieux grace au concept de la Boucle a Eric !","date":"$D2026-01-16T23:00:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$12","readTime":16,"toc":[{"level":2,"title":"La boucle Eric","id":"la-boucle-eric"},{"level":2,"title":"Mais, Pourquoi... ?","id":"mais-pourquoi"},{"level":2,"title":"A quoi ça ressemblerait ?","id":"a-quoi-a-ressemblerait"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Allons-y","id":"allons-y"},{"level":4,"title":"Initialisation et bootstrap","id":"initialisation-et-bootstrap"},{"level":4,"title":"Documenter les requis de votre projet","id":"documenter-les-requis-de-votre-projet"},{"level":4,"title":"L'essence n'est pas la seule chose qui doit être raffinée !","id":"lessence-nest-pas-la-seule-chose-qui-doit-tre-raffine"},{"level":4,"title":"Les petites retouches et c'est parti","id":"les-petites-retouches-et-cest-parti"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Et maintenant, on fait rouler Eric...","id":"et-maintenant-on-fait-rouler-eric"},{"level":3,"title":"Résultat","id":"rsultat"},{"level":2,"title":"Vous en pensez quoi ? On va où après ?","id":"vous-en-pensez-quoi-on-va-o-aprs"}],"directory":"Black hole/Passer de Ralph a Eric","relativePath":"Black hole/Passer de Ralph a Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Passer de Ralph a Eric/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"}]}}]
 c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
 8:null

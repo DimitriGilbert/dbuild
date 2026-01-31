@@ -1,0 +1,313 @@
+1:"$Sreact.fragment"
+2:I[22304,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","177","static/chunks/app/layout-8f6931abe4e72e4f.js"],"ThemeProvider"]
+3:I[71000,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","177","static/chunks/app/layout-8f6931abe4e72e4f.js"],"FloatingNavigation"]
+4:I[13842,[],""]
+5:I[86880,[],""]
+7:I[25803,[],"OutletBoundary"]
+9:I[25803,[],"MetadataBoundary"]
+b:I[25803,[],"ViewportBoundary"]
+d:I[16773,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/50152c3edddaf6a5.css","style"]
+0:{"P":null,"b":"GOksvsvJQL1USwWsIhjM8","p":"","c":["","blog","black-hole-the-ai-debate-is-missing-the-point-and-so-are-you",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","black-hole-the-ai-debate-is-missing-the-point-and-so-are-you","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/50152c3edddaf6a5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","black-hole-the-ai-debate-is-missing-the-point-and-so-are-you","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","z9oawQqvzJbedtkhBvCBH",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[86907,["239","static/chunks/239-c47e640cea1e8478.js","913","static/chunks/913-dae07b9fbc51ebae.js","953","static/chunks/app/blog/%5Bslug%5D/page-bc85e6f2f2452701.js"],"PrefetchLink"]
+f:I[28492,["239","static/chunks/239-c47e640cea1e8478.js","913","static/chunks/913-dae07b9fbc51ebae.js","953","static/chunks/app/blog/%5Bslug%5D/page-bc85e6f2f2452701.js"],"TableOfContents"]
+10:I[49424,["239","static/chunks/239-c47e640cea1e8478.js","913","static/chunks/913-dae07b9fbc51ebae.js","953","static/chunks/app/blog/%5Bslug%5D/page-bc85e6f2f2452701.js"],"MarkdownRenderer"]
+11:T3b43,
+"The bubble popping is gonna kill AI !" / "it is not a bubble, it will never stop !"
+
+"It's just a useless fad, AI and its chatbots are not the future !" / "Humans are useless now ! AI can do it all !"
+
+"I will never use AI, it is dumb and make people dumber !" / "AI AI AI AI AI AI AI **AAAAAAAAA**...**IIIIIIIIIII** !!!"
+
+"AI is going to destroy jobs and that is a problem !" / "UBI UBI UBI UBI !!!"
+
+**Oh boy**...
+
+If you have been watching or reading tech/business/economics content in the last few months you'll have seen this ...canyon forming with very few people standing in between !
+
+Both side being very absolutist, and IMO, both sides being incredibly stupid... (or maybe i'm the stupid one... but something's got to give !)
+
+## Who am I to talk about this ?
+
+I am an old and cranky (and sick) developer and I've been using AI since the early days of ChatGPT, and I've seen it evolve a lot.
+
+I was one of those AI bros that started fairly early, went heavy on AI usage with Cursor first, then built [Litechat](https://litechat.dev) using [T3 chat](https://t3.chat) cause I wanted to learn more about how AI worked (Cursor hid that from me a bit too much because it was too fast !).
+
+So, I'm heavily biased here, account for that, but I also tried very hard not to fall too much into the hype... all in all, I think I'm not that far from some sort of reasonable truth.
+
+Oh, and I digress, sometimes a lot, so there might be some of that coming ahead ^^
+
+---
+
+## Bubble go pop, AI go bye bye ?
+
+Is there an AI bubble ? Yes, yes there absolutely is an AI bubble of stupid proportion !
+
+Between the circular financing, the nonsensical company valuations and their all around lack of profitability, it's a bubble for sure !
+
+So, that's it, bubble, burst, AI dead ? Meeeh, not so sure about that !
+
+### Open source changed the game
+
+If we'd be in a fully closed ecosystem, you would be right I think, but have you seen or used the open source models recently ?
+
+If not and you are using only closed SOTA models, you might be burning a big bunch of cash for not much ! And more to the point, they are virtually on par with their closed source counterparts !
+
+This, I think, is both why the bubble is going to go critical, but also why it is not the end for AI.
+
+If anything, companies cutting cost and dumping hardware might actually speed up evolution when it comes to smaller labs/models !
+
+### The Chinese wild card
+
+I also don't think that the burst will even stop how fast AI is evolving ! And it's because all major open source/weights labs are not in the US... they are Chinese !
+
+Not that they won't feel the squeeze, but they are not bound to the same constraints as US companies
+
+And here is a wild idea... (kind of...) What if they are pulling the same kind of trick the US did to the USSR with the moon program...
+
+I am not a planificator for the Party but my guess would be that what is happening in the Chinese open AI ecosystem is not by chance, but by design ! Dangle AGI and watch your competitors burn cash...
+
+I might be wrong though, and maybe Chinese hedge funds fueling AI companies are actually doing it for the most altruistic of reasons... (as is always the case with Humanity's actions... who knows ey' !?)
+
+---
+
+## "It's just crypto all over again !"
+
+I'd argue crypto is not dead, it might even become useful at some point and not just be a hoarding nonsense... but we are not talking about that, we are talking about AI !
+
+And, contrary to crypto, AI is :
+
+1. not a fad
+2. actively being used daily by 100k+ to millions of people working with it
+3. actually useful (for those many people using it for work)
+
+Developer, accounting, HR, marketing, sales, customer support, medicine, etc... I could make a whole list of where AI is actively (and somewhat succesfully) used, but this ain't a listicle !
+
+### Even if it IS a fad...
+
+And in the very off-chance I'd be wrong, and it is a fad, the repercussions will not be !
+
+Many human work was already obsolete and only protected by the cost of automating it...
+
+Every tool created or slop video out there will remain, for better or for worse !
+
+### It's not a fad
+
+I know of many a devs that will **never** write code the same way we did before ! I am one of them, and we are legion !
+
+What about medical image analysis on par to better than humans ? or "self driving"ish vehicles ?
+
+Once you find real tangible use cases, it so drastically changes the way you think about those tasks that there is **no** going back possible !
+
+There is definitely a hype component around AI (naming your computer or program "AI mega something giga stuff" for example...), and it might close your brain to the real changes, but said changes are happening, and faster than you might think !
+
+---
+
+## You're confusing the gimmick with the tool !
+
+This is probably the biggest mistake I see people make, and it drives me nuts !
+
+Gimli-izing your profile picture or nuding out people (this is **BAD** ! **DON'T DO IT** !) IS a fad !
+
+It's a gimmick that has/will die out, but these are usages of the tool, not the tool itself !
+
+Way too often I hear, even smart (or close enough to that) people say "Uh, it's just used for X/Y/Z so it's completely useless"...
+
+The fact that "you" did not find a use case and are just faffing around with it, does not mean it is useless !
+
+### What it actually did for me
+
+As a (mediocrely talented) developer with disabilities, I was able to find good use cases from the very beginning of this AI spring !
+
+I was in the Copilot preview and a paid customer of it for a few months and it changed my relation to code !
+
+Not having to type all your code, even for a fraction of it, was a game changer for me ! Less pain, more "time to" think and plan !
+
+It was a net positive from the start !
+
+### What it could do for you
+
+You might not realise it, but it might also be true for you, even if you do not code !
+
+How many repetitive tasks are you doing in a day ? A week ? And so on !
+
+Even if AI "can't do it", it might help you **create** the tools that will (at least in part) ! And, once you do that, you might see that so many of your tasks could be, in part, taken care of by new tools !
+
+AI, as we call it, is not the end all be all ! It is a facilitator ! Think of having your own personal technical butler/teacher/assistant !
+
+Don't think of it like it is doing the work, think of it as a tool to create tools that **will** do the work ! I'll give you some concrete examples of what I built with it later on ;)
+
+---
+
+## The great (job) replacement
+
+This I think is the biggest fear of many, and, within the current economic/societal system... I get it !
+
+But, once again, I think we are missing the point !
+
+### "Hey, I still would like a job !"
+
+Or do you ? Really, like, do you **REALLY** want a job ?
+
+Or do you want the money you get doing said job ?
+
+In my experience, there are a vast majority of people that **utterly hate** their job ! Like, viscerally !
+
+The only reason most of us are still participating in said jobs is our need for coins !! _(You might not feel like that, but ask around: "are you doing your job cause you love it or for the money ?" to get a real feel on that)_
+
+Some influencers and "thinkers" that talk about job displacement forget about that, as most of them do **love** theirs !
+
+But for the normal average Joe ? You'd have to convince me they do ! And it is going to be tough !
+
+And, in the long run, do you want to do the work a machine could do ? Most of the time, better than you do ?
+
+### We will still need humans though !
+
+For so many reasons, and in so many aspects, there are so many things that will require humans to do all or part of work !
+
+Even with "AGI" and robots, some things are inherently not doable by machines !
+
+From care to teaching, to artistic expression and much more ! So many things will need a human part to it.
+
+So, what is the real question IMO ?
+
+---
+
+## It's not about jobs, it's about society
+
+This, this is the biggest question on the book !
+
+How do we, as a society, organise ourselves when the need for human labor is drastically reduced ?
+
+Who will possess the new "means of production" ?
+
+How do we share the wealth created by said tools ?
+
+You might say "It's several questions !", you would be right... "How do we organise society ?" is an all encompassing and terrifying question that unfortunately cannot be answered by a single entity with "42"...
+
+What do I think ? ...huuum, unfortunately, I only have parts of ideas that sound like I am a degenerate communist drone.
+
+They have no room in this brain-fart (I might do a separate piece on that at some point in the future) and would only taint the discussion/question-raising part of this piece.
+
+### UBI won't cut it !
+
+Believe it or not, I don't think Universal Basic Income is the answer to all of this. Not in the long run !
+
+I am not an economist and this article is not about that but a condensed version of my thought on the matter goes as follows...
+
+It won't solve the concentration of wealth and power, nor will it solve the repartition of work that is not automatable.
+
+And I am not even talking about the whole inflationary dynamics that this might cause !
+
+Stupid examples coming, but, what if everyone has 1k income, why wouldn't a single bedroom flat be 1k as well ? And a pizza 33 ? Or a movie ticket 70 ?
+
+How would you solve that ? You would regulate prices ? Outlaw pizzas ? Cause this certainly sounds like a degenerate communist take on the thing... you know...
+
+Adding more and more band-aids to a rotting wooden leg with bureaucracy and regulation without any certainty that this would not be sent to oblivion whenever the persons in charge feel like it...
+
+This ties back to who would do the non-automatable (shity/dangerous/...) work ? How would they be compensated, and so on...
+
+Once again, I don't "really" know... I am (again) not an economist but this feel wrong and as far as ideas go, I have hints that I find too imperfect to even voice aloud...
+
+---
+
+## How I (why not you ?) actually use this stuff
+
+That was heavy, ey ? You know what is not ? My dumb experiments with AI !
+
+So here is a selection that might relieve some of the existential dread you should feel right now :D
+
+### Litechat
+
+I was high on auto-complete but wary of agent for a big while, but a year ago, things changed for me.
+
+After Copilot, I used Cursor... and gods damn it ! It was an even more massive shock to me than the AI completion !
+
+It was so fast indeed, that I had to create something, with the wrong tool for the job, so I could wrap my brain around how it works...
+
+So, I built [Litechat](https://litechat.dev) ! Using another (fantastic) AI chat, [T3 chat](https://t3.chat).
+
+Yes, I copy/pasted everything from my text editor to the chat interface, joining files manually, feeding back errors and bugs and all that... by hand, like a big fat dumb dumb !
+
+I "took advantage" (sorry again Theo... ^^') of the fantastic deal of [T3 chat](https://t3.chat) to use Gemini 2.5 and Sonnet 3.5 (more or less unlimited) for $8/mo to create my own AI chat interface.
+
+95+% of the whole thing is AI generated (and me copy/pasted) ! Though after a while I ended up on Cursor again (cause it was getting too hard to manage the contexts and conversations XD)
+
+I touched up a few things in the code, of course, but absolute most of it is AI generated !
+
+Was I faster than if i had to write it all ? maybe.. I don't know :P
+
+What I know though is that this exists only because of AI ! So many things were fixed because I didn't have to fix them myself ! (and before you ask, yes, some problems would have arose even if i didn't use AI !)
+
+### Formedible
+
+I hate Forms, with a passion !
+
+After doing web stuff (and many others too) you spend most of your time dealing with forms !
+
+How they look, how they validate, what fields you have... I HATE IT !
+
+So, being a pain point, I created a tool to help me with that !
+
+I attempted that half a dozen times already over the years, and every time I ended up dropping the idea as it gets complicated way faster than you'd think (ok.. ok !, than I'd think...)
+
+With AI ? Has it been less complicated ?? NOPE, absolutely not, but instead of looking at weeks (months !) to do the things, it took less weeks !
+
+I've been using [Formedible](https://formedible.dev) for a while now, in all my projects if I can !
+
+Is it great code ? Hell no ! but it mostly does the job and i never have to think of those nightmare forms ever again ! (until i work on formedible, then it is only forms... did i just f-ed myself ? Damn...)
+
+### Task-o-matic
+
+After a while using AI, you end up understanding that organisation is the key !
+
+The better you are organised, the better the tool will work.
+
+It will stay more focused. It will be easier to stop and start again.
+
+It can even help in being more efficient by using better models for certain tasks.
+
+I used [Task Master](https://task-master.dev) for a while, but I was not satisfied, and, I do like having my own set of wheels !
+
+So, I created [Task-o-matic](https://task-o-matic.dev) ! It does the same, and a bit more !
+
+You can create Product Requirement Documents, split them into tasks and subtask, plan, execute and verify the work to be done, all from the command line, all using your favourite TUI/CLI harnesses !
+
+In order to test that, I created [Tiny-till](https://github.com/DimitriGilbert/tiny-till) using GLM, and another one that'll come out soon.
+
+Is the result perfect ? no !
+
+Is it entirely autonomous ? not really !
+
+What it gets is 90%+ of the way there with work counted in hours and not weeks/months !
+
+---
+
+## So, what now ?
+
+That is a fucking great question indeed, my dear Watson !
+
+So many things can go horribly wrong, but how couldn't we not hope they would go incredibly right ?
+
+To be honest, I am both fascinated, terrified and exhilarated about this whole thing !
+
+I am in a quantum state of both Hyper-techno-optimism and Mega-doom-judgementDay-dread, this, in a very fast oscillation (as I am an observer, so the states are set... you know, quantum shyte !)
+
+So... is there any side of this rift that is right ? Nooope, i really think both side have very valid point, but both focus on the wrong things, and the proposed solutions s\*ck4ss most of the time...
+
+I think a calm and composed discussion, far from ideology, rhetoric and fearmongering is needed... for real, we need to talk about this !
+
+But to have an informed and fair discussion, we need to understand what is happening and what those tools can do !
+
+I would encourage each and every one of you to use them for something real ! Not just the small and dumb 1 minute experiment, but frfr !
+
+Build something ! Break something ! Get better at your job by learning ! Or get better at another job because you hate the one you have !
+
+I don’t know if we end up with fully automated luxury communism or cyber-feudalism. But I know that pretending the tools don’t work (or that they work for everyone equally) is a lie that serves only the people selling the shovels.
+
+Use the damn things. See for yourself. Then we can argue about how we go about building the future.
+6:["$","div",null,{"className":"min-h-screen pt-20","children":["$","div",null,{"className":"container mx-auto px-4 py-12","children":["$","div",null,{"className":"max-w-7xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-4","children":[["$","$Le",null,{"href":"/blog","className":"hover:text-primary transition-colors","children":"Blog"}],[["$","span",null,{"children":"/"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-folder-open w-4 h-4","children":[["$","path","usdka0",{"d":"m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2"}],"$undefined"]}],["$","span",null,{"children":"Black hole/The AI Debate Is Missing the Point (And So Are You)"}]]]}],["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"The AI Debate Is Missing the Point (And So Are You)"}],["$","p",null,{"className":"text-xl text-muted-foreground mb-6","children":"The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app"}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-muted-foreground","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"1/31/2026"}]]}],["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[15," min read"]}]]}]]}],["$","div",null,{"className":"flex flex-wrap gap-2 mt-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[["$","$Le","AI",{"href":"/blog/tags/ai","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"AI"}]}]]]}]]}],["$","div",null,{"className":"grid lg:grid-cols-4 gap-8","children":[["$","div",null,{"className":"lg:col-span-1","children":["$","div",null,{"className":"sticky top-24","children":["$","$Lf",null,{"toc":[{"level":2,"title":"Who am I to talk about this ?","id":"who-am-i-to-talk-about-this"},{"level":2,"title":"Bubble go pop, AI go bye bye ?","id":"bubble-go-pop-ai-go-bye-bye"},{"level":3,"title":"Open source changed the game","id":"open-source-changed-the-game"},{"level":3,"title":"The Chinese wild card","id":"the-chinese-wild-card"},{"level":2,"title":"\"It's just crypto all over again !\"","id":"its-just-crypto-all-over-again"},{"level":3,"title":"Even if it IS a fad...","id":"even-if-it-is-a-fad"},{"level":3,"title":"It's not a fad","id":"its-not-a-fad"},{"level":2,"title":"You're confusing the gimmick with the tool !","id":"youre-confusing-the-gimmick-with-the-tool"},{"level":3,"title":"What it actually did for me","id":"what-it-actually-did-for-me"},{"level":3,"title":"What it could do for you","id":"what-it-could-do-for-you"},{"level":2,"title":"The great (job) replacement","id":"the-great-job-replacement"},{"level":3,"title":"\"Hey, I still would like a job !\"","id":"hey-i-still-would-like-a-job"},{"level":3,"title":"We will still need humans though !","id":"we-will-still-need-humans-though"},{"level":2,"title":"It's not about jobs, it's about society","id":"its-not-about-jobs-its-about-society"},{"level":3,"title":"UBI won't cut it !","id":"ubi-wont-cut-it"},{"level":2,"title":"How I (why not you ?) actually use this stuff","id":"how-i-why-not-you-actually-use-this-stuff"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"So, what now ?","id":"so-what-now"}]}]}]}],["$","article",null,{"className":"lg:col-span-3","children":["$","$L10",null,{"content":"$11"}]}]]}]]}]}]}]
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"The AI Debate Is Missing the Point (And So Are You) | Dbuild.dev"}],["$","meta","2",{"name":"description","content":"The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"The AI Debate Is Missing the Point (And So Are You) | Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/blog/black-hole-the-ai-debate-is-missing-the-point-and-so-are-you/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"The AI Debate Is Missing the Point (And So Are You)"}],["$","meta","15",{"property":"og:type","content":"article"}],["$","meta","16",{"property":"article:published_time","content":"Sat Jan 31 2026 00:01:00 GMT+0100 (Central European Standard Time)"}],["$","meta","17",{"property":"article:tag","content":"AI"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"The AI Debate Is Missing the Point (And So Are You) | Dbuild.dev"}],["$","meta","20",{"name":"twitter:description","content":"The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app"}],["$","meta","21",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","22",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
+8:null
