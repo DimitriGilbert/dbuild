@@ -4,6 +4,7 @@ date: 2026-01-31T00:01:00+01:00
 tags: ["AI"]
 summary: "The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app"
 slug: "index"
+og-image: "/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black.webp"
 ---
 
 "The bubble popping is gonna kill AI !" / "it is not a bubble, it will never stop !"
@@ -19,6 +20,8 @@ slug: "index"
 If you have been watching or reading tech/business/economics content in the last few months you'll have seen this ...canyon forming with very few people standing in between !
 
 Both side being very absolutist, and IMO, both sides being incredibly stupid... (or maybe i'm the stupid one... but something's got to give !)
+
+![2 bad choices](/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black.webp)
 
 ## Who am I to talk about this ?
 
@@ -232,13 +235,15 @@ Was I faster than if i had to write it all ? maybe.. I don't know :P
 
 What I know though is that this exists only because of AI ! So many things were fixed because I didn't have to fix them myself ! (and before you ask, yes, some problems would have arose even if i didn't use AI !)
 
+It is now my main chat interface ! Local first without servers and 100% private :D
+
 ### Formedible
 
 I hate Forms, with a passion !
 
-After doing web stuff (and many others too) you spend most of your time dealing with forms !
+After doing web stuff for a long while (and other things too), you realise that you spend most of your time dealing with forms !
 
-How they look, how they validate, what fields you have... I HATE IT !
+How they look, how they validate, what fields go where, error messages, accessibility, ... I HATE IT !
 
 So, being a pain point, I created a tool to help me with that !
 
@@ -272,7 +277,7 @@ Is the result perfect ? no !
 
 Is it entirely autonomous ? not really !
 
-What it gets is 90%+ of the way there with work counted in hours and not weeks/months !
+What it gets is 90%+ of the way there with work counted in hours and not weeks/months ! (see, the tool that creates tool that do the work i was talking about ?)
 
 ---
 
