@@ -4,7 +4,7 @@ date: 2026-01-31T00:01:00+01:00
 tags: ["AI"]
 summary: "The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app"
 slug: "index"
-og-image: "/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black.webp"
+og-image: "/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp"
 ---
 
 "The bubble popping is gonna kill AI !" / "it is not a bubble, it will never stop !"

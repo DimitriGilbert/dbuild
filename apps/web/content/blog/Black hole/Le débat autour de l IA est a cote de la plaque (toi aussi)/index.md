@@ -4,6 +4,7 @@ date: 2026-01-31T00:50:00+02:00
 tags: ["AI"]
 summary: "La bulle IA va éclater, ça arrêtera pas l'IA. Ton refus d'utiliser l'IA empêchera pas ton job d'être remplacé. ChatGPT n'est pas la killer app de l'IA"
 slug: "index"
+og-image: "/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp"
 ---
 
 "La bulle qui éclate va tuer l'IA !" / "c'est pas une bulle, ça s'arrêtera jamais !"
@@ -19,6 +20,8 @@ slug: "index"
 Si t'as regardé ou lu du contenu tech/business/économie ces derniers mois, t'as vu ce ...canyon se former avec très peu de gens au milieu !
 
 Les deux camps sont jusque-boutistes, et à mon avis, les deux sont complètement stupides... (ou peut-être que c'est moi le con... mais un truc doit lacher !)
+
+![2 bad choices](/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black.webp)
 
 ## Auto validation sur pourquoi je parle de ca
 

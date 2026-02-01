@@ -75,12 +75,8 @@ check_dependencies() {
         missing+=("cwebp (webp package)")
     fi
     
-    if ! command -v convert &> /dev/null; then
-        missing+=("convert (imagemagick)")
-    fi
-    
-    if ! command -v identify &> /dev/null; then
-        missing+=("identify (imagemagick)")
+    if ! command -v magick &> /dev/null; then
+        missing+=("magick (imagemagick v7)")
     fi
     
     if [ ${#missing[@]} -gt 0 ]; then
@@ -154,7 +150,7 @@ optimize_image() {
     [ "$VERBOSE" = true ] && log_info "Original size: $(format_size $original_size)"
     
     # Get image dimensions
-    local dimensions=$(identify -format "%wx%h" "$input_file" 2>/dev/null)
+    local dimensions=$(magick identify -format "%wx%h" "$input_file" 2>/dev/null)
     local width=$(echo "$dimensions" | cut -d'x' -f1)
     local height=$(echo "$dimensions" | cut -d'x' -f2)
     
@@ -164,30 +160,30 @@ optimize_image() {
     local temp_file=$(mktemp /tmp/optimize_XXXXXX.png)
     trap "rm -f '$temp_file'" EXIT
     
-    # Build ImageMagick convert command
-    local convert_args=("$input_file")
+    # Build ImageMagick command
+    local magick_args=("$input_file")
     
     # Strip metadata if requested
     if [ "$STRIP_METADATA" = true ]; then
-        convert_args+=("-strip")
+        magick_args+=("-strip")
     fi
     
     # Resize if requested and image exceeds max dimensions
     if [ "$RESIZE" = true ]; then
         if [ "$width" -gt "$MAX_WIDTH" ] || [ "$height" -gt "$MAX_HEIGHT" ]; then
-            convert_args+=("-resize" "${MAX_WIDTH}x${MAX_HEIGHT}>")
+            magick_args+=("-resize" "${MAX_WIDTH}x${MAX_HEIGHT}>")
             [ "$VERBOSE" = true ] && log_info "Resizing to max ${MAX_WIDTH}x${MAX_HEIGHT}"
         fi
     fi
     
     # Auto-orient based on EXIF data
-    convert_args+=("-auto-orient")
+    magick_args+=("-auto-orient")
     
     # Convert to intermediate PNG for cwebp
-    convert_args+=("$temp_file")
+    magick_args+=("$temp_file")
     
     log_info "Preprocessing image..."
-    convert "${convert_args[@]}"
+    magick "${magick_args[@]}"
     
     # Convert to WebP using cwebp for best optimization
     log_info "Converting to WebP with quality $QUALITY..."
@@ -224,7 +220,7 @@ optimize_image() {
     local percent=$(echo "scale=1; ($saved * 100) / $original_size" | bc)
     
     # Get new dimensions
-    local new_dimensions=$(identify -format "%wx%h" "$output_file" 2>/dev/null)
+    local new_dimensions=$(magick identify -format "%wx%h" "$output_file" 2>/dev/null)
     
     echo ""
     log_success "Optimization complete!"
