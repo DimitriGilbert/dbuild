@@ -29,12 +29,18 @@ export function Navigation() {
   }, [])
 
   return (
-    <nav className={cn(
-      "fixed top-0 w-full border-b border-border z-50 transition-all duration-300",
-      scrolled 
-        ? "bg-background/95 backdrop-blur-xl shadow-sm" 
-        : "bg-background/80 backdrop-blur-md"
-    )}>
+    <nav 
+      className={cn(
+        "fixed top-0 w-full border-b border-border z-50 transition-all duration-300",
+        scrolled 
+          ? "bg-background/95 shadow-sm" 
+          : "bg-background/80"
+      )}
+      style={{
+        backdropFilter: scrolled ? 'blur(24px)' : 'blur(12px)',
+        WebkitBackdropFilter: scrolled ? 'blur(24px)' : 'blur(12px)',
+      }}
+    >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center font-bold text-xl text-primary">
