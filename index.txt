@@ -1,16 +1,88 @@
 1:"$Sreact.fragment"
-2:I[22304,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","177","static/chunks/app/layout-8f6931abe4e72e4f.js"],"ThemeProvider"]
-3:I[71000,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","177","static/chunks/app/layout-8f6931abe4e72e4f.js"],"FloatingNavigation"]
-4:I[13842,[],""]
-5:I[86880,[],""]
-6:I[31494,["239","static/chunks/239-c47e640cea1e8478.js","802","static/chunks/802-cb271f7d125031e5.js","608","static/chunks/608-2b691ad71583a2ff.js","974","static/chunks/app/page-574755981f841de1.js"],"HomePageContent"]
-d:I[25803,[],"OutletBoundary"]
-f:I[25803,[],"MetadataBoundary"]
-11:I[25803,[],"ViewportBoundary"]
-13:I[16773,[],""]
+2:I[76592,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","177","static/chunks/app/layout-29a4018f7af1798a.js"],"ThemeProvider"]
+3:I[27890,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","177","static/chunks/app/layout-29a4018f7af1798a.js"],"FloatingNavigation"]
+4:I[91080,[],""]
+5:I[32670,[],""]
+6:I[54495,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","486","static/chunks/486-69c1f4cca97f7e59.js","974","static/chunks/app/page-6df6577187ef57d5.js"],"HomePageContent"]
+d:I[29001,[],"OutletBoundary"]
+f:I[29001,[],"MetadataBoundary"]
+11:I[29001,[],"ViewportBoundary"]
+13:I[32215,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/50152c3edddaf6a5.css","style"]
-7:T3c82,
+:HL["/_next/static/css/92cc7a7f172cffde.css","style"]
+7:Te2b,
+## AI Skills
+
+### What they are
+
+In the grand scheme of things, skills are just a markdown file that you give the AI agent when you need it to follow the instructions in the markdown.
+
+That's it, like comment and subscribe, bye !
+
+Ok ok, there might be more to that, it can actually come with other markdown files and even scripts ! But I promise you now, that is it !
+
+And if you are thinking "duh, how could a markdown file make that much difference" right now... i hear you, i was the same, but boy O boy was i bloody wrong about that !
+
+But first thing first, you gotta get yourself some skills !
+
+### apt install skillz
+
+Since i saw Matrix the first time, I cant shake the **"I want THAT !!"** feeling i felt at the sound of "I know Kung-fu" and skills are the closest I came to to date !
+
+And just like in the movie, nothing fancy about the process here `npx skills add <github repo shorthand/repo url/local folder>`, a bit of interactive CLI and you are done.
+
+And "where do i find those...'Skills' ?" i hear you say ... [skills.sh](https://skills.sh) is the main hub for that.
+
+It's built by vercel, so it won't go anywhere and it uses telemetry from `npx skills` command to track skills installed by users so the list is **VERY** thorough...
+
+And if you didn't find what you were looking for there, you can always go on the hunt on github (or any other git provider)
+
+### BE CAREFUL
+
+I can't stress it out more, and that is why this section is before the usage one !
+
+READ THE DAMN SKILL ! don't just wing it like a mupet ! Skills are a direct path to your AI assistant, and just like packages and modules of the past, you should be concious of what you are installing and the instructions it gives out.
+
+Prompt injection is a real threat that can lead to data exfiltration and other malicious activities, so once again **READ THE DAMN SKILLS !** or you'll come back crying your API keys are in the wild or your bitcoin wallet is empty !
+
+### I haz uze skill
+
+After that preventative scolding, it is time to use said skills... this section is going to be really fast, are you ready ?
+
+`Load the <your skill name> skill.`
+
+Tell you agent that, in any decent AI coding harness and you are good.
+
+I know, it was the hardest part so far, but it has to be done.
+
+Joke aside, just tell your agent to load the skill naturally and go on prompting like you would otherwise, that's it !
+
+Sure some harness come with `/` commands to load things up and all, but i switch constently and i actaully don't see the point of those.
+
+LLMs process natural language just fine... like they were meant for that :D
+
+### Make your own
+
+This is where things get better ! using someone else's stuff is good, but if you've read a few of my post here, you know that I like to have my own set of wheels.
+
+And in this case, you can very easily get your own too !
+
+To start with, you are going to need the [skill-creator skill](https://skills.sh/anthropics/skills/skill-creator) from Anthropic themeselve:
+
+```bash
+npx skills add 
+```
+
+## My skills
+
+Over the last couple months, i have been either adding skills to existing project or creating new ones from scratch for specific needs.
+
+The project ones are obvious, they are to help you using those with AI ! I added them to [Formedible](https://github.com/DimitriGilbert/formedible), [parseArger](https://github.com/DimitriGilbert/parseArger) and [task-o-matic](https://github.com/DimitriGilbert/task-o-matic) so far.
+
+Nothing fancy here, just packaged information from documentation and readme in a standardized format for the toasters.
+
+Not that they aren't useful, but there is not much going
+8:T3c82,
 "The bubble popping is gonna kill AI !" / "it is not a bubble, it will never stop !"
 
 "It's just a useless fad, AI and its chatbots are not the future !" / "Humans are useless now ! AI can do it all !"
@@ -308,7 +380,7 @@ Build something ! Break something ! Get better at your job by learning ! Or get 
 I don’t know if we end up with fully automated luxury communism or cyber-feudalism. But I know that pretending the tools don’t work (or that they work for everyone equally) is a lie that serves only the people selling the shovels.
 
 Use the damn things. See for yourself. Then we can argue about how we go about building the future.
-8:T43fb,
+9:T43fb,
 "La bulle qui éclate va tuer l'IA !" / "c'est pas une bulle, ça s'arrêtera jamais !"
 
 "C'est juste une mode inutile, l'IA et ses chatbots c'est pas le futur !" / "Les humains servent plus à rien ! L'IA peut tout faire !"
@@ -604,7 +676,7 @@ Construis quelque chose ! Casse quelque chose ! Deviens meilleur à ton taf en a
 Je sais pas si on finit avec du communisme de luxe entièrement automatisé ou du cyber-féodalisme. Mais je sais que faire comme si les outils marchaient pas (ou qu'ils marchent pareil pour tout le monde) c'est un mensonge qui sert que les gens qui vendent les pelles.
 
 Utilise ces fichus trucs. Vois par toi-même. Ensuite on pourra débattre de comment on construit le futur.
-9:T45f9,
+a:T45f9,
 _TLDR; Eric loop is a concept that upgrades Ralph loop by adding more complexity and depth to the idea of managing AI systems, [bash version of the article](/assets/blackhole/from_ralph_to_eric/bashticle.sh)_
 
 I wont reintroduce the concept of Ralph loop, if you have been anywhere near AI in the first half of January 2026, you have heard of it ! If not, you should go and watch [Theo's video](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (or someone else's but this is a good !)
@@ -937,7 +1009,7 @@ use the --help command of task-o-matic if you need any doc !
 [this being the result](/assets/blackhole/from_ralph_to_eric/eric_loop.sh), your own Eric Loop, ain't life beautiful ?
 
 Hope you enjoyed, I'll see you around
-a:T4c72,
+b:T4c72,
 Je vais pas re-introduire le concept de Ralph loop, si vous avez été a côté de l'IA dans la première moitié de janvier 2026, vous en avez entendu parler ! Si non, vous devriez aller voir la vidéo de [Theo](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (ou quelqu'un d'autre mais celle-la est bonne !)
 
 Vous savez probablement quel personnage de comics Ralph référence, mais Eric... ca pourrait être qui ?
@@ -1272,7 +1344,7 @@ utilise la commande --help de task-o-matic si t'as besoin de doc !
 [voici le résultat](/assets/blackhole/from_ralph_to_eric/eric_loop.sh), votre Eric Loop a vous, elle est pas belle la vie ?!
 
 Hope you enjoyed, I'll see you around
-b:T2f74,
+c:T2f74,
 ## Why ?
 
 I looked for something like that and did not find any, so I am building one !
@@ -1515,262 +1587,7 @@ Covering me with joy and warm for my app worked like a charm
 An innocent small idea that would become ...[find me a noun of something bad finishing by the sound a, i need a rhyme]
 
 In the mean time, here is the [demo](https://cn-registry.dev) and the [repo](https://github.com/DimitriGilbert/cn-registry), feedback greatly appreciated as always !
-c:T3674,
-## Pourquoi ?
-
-J'ai cherché un truc comme ça et j'ai rien trouvé, alors je le construis !
-
-Je vais en profiter pour le construire en public, autant que faire se peut ! Ca veuut dire que la plupart des prompts et des conversations seront disponibles pour les lire et s'en inspirer !
-
-Pourquoi pas toutes les conversations ? Euuuh alors... bon... parfois, j'oublie. Eeeet euuuh d'autres fois... disons que c'est pas tellement family friendly ^^ ! (Je suis grincheux et irritable par défaut, quand j'ai mal, c'est pire... en ce moment, ca oscille entre 2 et 5 sur 10 ^^)
-
-Je veux aussi montrer/prouver a d'autres qu'il est possible d'utiliser l'IA pour generer la majorité du code avec une "orchestration" minutieuse.
-
-Est-ce que ce sera parfait ? XD quelle question stupide ! NON ! Bien sûr que non !
-
-Est-ce que ça va faire le travail ? J'espère bien !
-
-## Qu'est-ce que c'est déjà ?
-
-C'est une bibliothèque/un marketplace de composants Shadcn ! J'en avais marre de chercher des composants et des blocs sympas un peu partout sur Internet !
-
-Entre la SEO médiocre de GitHub et celle encore pires des sites de développeurs, c'est vraiment pas facile de tomber sur de nouveaux composants, et c'est dommage car certains sont fantastiques !
-
-En plus, en tant que créateur de composants (avec des sites... dont le SEO est affreux...), je me sens un peu invisible, alors [cn-registry.dev](https://cn-registry.dev) est né !
-
-## Le processus
-
-Comme je l'ai dit, il s'agit d'une build in public, alors je vais partager avec vous ce que j'apprends (et mon futur moi si ce con se met a ecouter !).
-
-Comment j'ai fait, ce qui a fonctionné, ou pas, mes conneries, mes espoirs et mes illusions...
-
-En gros, je vais faire des erreurs et avoir l'air d'un idiot pour que vous n'ayez pas à le faire !
-
-Commençons par le début...
-
-### L'idée
-
-C'est souventque je vois des gens demander des idées sur quoi construire, à d'autres, ou pire, à l'IA...
-
-Non... s'il vous plaît, pas ici !
-
-En vrai, l'idéation (oh je vais pas traduire un mot qu'existe pas non plus !) est **la** chose qui nous resteras face machines pour encore un moment ! Faut pas déléguer ca !
-
-"Mais comment trouver des idées alors ?" pourrait me demander mon lecteur astucieux ! Et vous auriez tout à fait raison de le faire !
-
-Alors laissez-moi vous répondre par une question qui pourrait déclencher un peu d'idéation !
-
-Y a-t-il des problèmes à résoudre, là où vous vivez ?
-
-_les 3 phrases d'avant marche tellement pas en francais, mais je les laisse tellement la traduction est moisie x-)_
-
-Traduction en carton à part, résous un de **tes** problèmes mec (ou meuf, z'êtes également les bienvenus !) !
-
-Comme ca, même si personne s'en sert, t'auras résolu un de tes problèmes !
-
-Pour moi, le problème était "dev faignasse chereche composant shadcn facilement" ! Et voila, maintaint, comment on s'occupe de ca ?!
-
-### Plan initial
-
-Rien de révolutionnaire ou de génial, un bete annuaire ferait l'affaire... mais ca manque un peu de pepse... non ?
-
-Problème simple ne signifie pas nécessairement solution simpliste et j'aime deja bien les usines a gaz alors, allons-y !
-
-Pourquoi ne pas ajouter un peu de social ? C'est pas parce que je suis incompétent (ca marche aussi en 2 mots) sociales que les autres le sont !
-
-Comptes utilisateurs, likes, commentaires ! Et hop, maintenant on socialise !
-
-Bon, on a l'idée de base en entier ? Oui ?
-
-Oui ! Et bhe y'a plus qu'a aller embêter une IA avec ça !
-
-### A vos marques, pret, proomptez !
-
-Oui, les prompts sont encores en anglais, ca marche mieux. vraiment !
-
-```
-I want to build a website using nextjs 15 and shadcn  (i got the stack figured out !) and I need a complete plan to create the front end !
-the project is called "cn-registry" and it will be a registry of shadcn components and tools, because hunting for them feels like a full time job.
-I want you to plan the needed components and pages, I aim for maximum reusability so if something make sense standalone, it should be ! i do not want you to create code, just the plan !
-I want a home page with carousels, one with the 10 latest components, one with the trending one
-components will have a name, a description, a repo link, a website, an installation url, categories and each should have a dedicated page with the copiable install command, the repo readme and github info, some showcase with code toggles
-Tools will be the same but the install url might be for an npm package or not exists
-I want a search page with card or list results and filters on categories
-same for tools but on a different page
-I want to have a star rating system and user account where user can see the components they stared
-User will be able to comment on components
-```
-
-Commeon peut le voir, simple, (in)efficace, (dés)organisé ! Et quelques raffinements plus tard, j'ai mon prompt intermédiaire pour V0 !
-
-Je ne vais pas vous ennuyer avec le prompt interminable (vous avez le lien de conversation dans le repo ^^), mais il était interminable et j'ai pas beaucoup changé de choses !
-
-Apres le passage chez V0, j'avais un prototype de front-end avec des données simulées pour... Mais je vais le mettre où ça moi... ?!
-
-### Sélectionnez votre stack
-
-Perso, je l'ai déjà fait, et vous devriez probablement y penser avant de prompt en vrai ! Pour moi, c'était facile, j'ai pris ma stack par défaut du moment : Nextjs front et back, trpc, tailwind et shadcn.
-
-Oui, c'est ennuyeux. Oui, tout le monde fait la même chose. Je m'en tape le coquillard !
-
-Je commence un milliard de projets (et demi) chaque mois parce que je suis incapable de me concentrer sur une seule chose à la fois, ca veut pas dire que j'ai la de bande pasaante pour apprendre de nouvelles choses à chaque fois !
-
-Il y a aussi pas mal de bonnes docs et ressources pour toutes ces technos, ca facilite le travail meme sans trop d'expérience préalable.
-
-Et pour rien gacher, un gros, Gros (mais genre GROS) bonus : Cela fonctionne bien avec l'IA ! (enfin, des fois, un peu)
-
-Est-ce que je dis que vous devriez choisir cette stack ? Si vous l'aimez, oui, sinon, je m'en fiche complètement !
-
-Choisissez ce que vous connaissez, la nouvelle stack à la mode ou ce qui vous titille ! Vraiment, je m'en fiche complètement, mais je me soucie que vous le fassiez correctement ! Utilisez [better-t-stack](https://better-t-stack.dev) !
-
-Oui, c'est autoritaire, mais si votre stack est dedans, utilisez ca ! 1 commande, boom, projet tout chaud et prêt à decoller en quelques secondes (remercie moi plus tard)
-
-### Laissez la musique commencer !
-
-```markdown
-[x] Idée
-[x] Concept
-[x] projet initialisé
-[x] prototype frontend
-[ ] plan approprié
-```
-
-Ooooh ? Vous pensiez... ? vous pensiez que j'allais ouvrir mon agent IA préféré et commencer à vibe coder ?
-
-uuuhh non non non ! pas la, pas encore ! la, on retourne à notre premier pote qu'on a utilisé pour le plan du front-end et on va lui demander un autre plan !
-
-```markdown
-I am using the latest version of drizzle orm and postgres so i would like you to carefully plan the whole complete data model I will need,
-including user setting and admin/creator utilities table tha migth be needed in the project. we will iterate to align with my goal but try to makee it very comphrehensive
-```
-
-Comme j'ai deja reorientez les choses pour le front end, j'ai eu le droit a un joli plan en one shot, donc...
-
-```
-cd workspace/Code/cn-registry;
-claude
-"I want you to implement the server complete side of the project following this :
-  **cn-registry Complete Data Model Plan**
-...
-  better auth is already setup and running,
-  I want schema definition and trpc routes with complete access management for security.
-  make sure the apps build when you are done with the backend.
-"
-```
-
-Et en voiture Simone !
-
-Mis à part les petites reorientations, ca m'a donné un backend "fonctionnel" (a une vache pres !) donc j'ai demandé à l'agent de connecter ca au frontend.
-
-### C'est Bestel, il a mis la cassette et puis pouf !
-
-Vous l'attendiez ? Pour être tout à fait honnête, je ne pensais pas que ce serait si tôt... mais oui, aucun plan ne survit au contact de l'ennemi.
-
-Quel ennemi ? Trpc ! Non non ! pas trpc trpc (c'est très bien trpc !), la version de trpc et le fait qu'une révision majeure est sortie entre la date de coupure d'entrainement de claude et maintenant......
-
-Qu'est ce que donc que ca pourrait il vouloir bien dire toussa ? Les LLMs suivent des schémas qu'elles "connaissent", et devinez ce qu'elles font quand elles connaîssentt pas les schémas ?
-
-Ouep, c'est ca, elles "hallucinent" leurs mamies ! Wooooooot Wooooooot ! -\_- J'espere que vous sentez la douleur !
-
-Mais pour un méchant dans l'histoire, un Héros se présentera un beau soir
-
-Un héros pour aider les dragons à être tués, et son nom est LLM point txt
-
-_eeeett vous savez a quoi on reconnaît des bonnes ryhmes ? elles se traduisent toutes seules!_
-
-```markdown
-my stack is using the following package.json files
-Agents often fails on trpc usage because their knowledge is out of date.
-I would like you to fetch the lates trpc docs and prepare a comprhensive but concise llm.txt for my agents to work with.
-it is only destined towards LLM so you can forgo absolutely all the fluff and present information in the best possible way for you to ingest it efficiently
-```
-
-J'ai gavé la réponse à mon agent, et après quelques prompts, on m'a servi le cœur du dragon pour le dîner !
-
-### encore, Encore, ENCOOORE
-
-Vous sentez la puissance monter ? L'exaltation de l'accélération par l'IA ? Votre cerveau est-il déjà accro ? Non ? Eh bhe on va devoir travailler là-dessus !
-
-Manque de la doc peut etre ?
-
-Mais tout a fait tout a fait, allons voir ce bon vieux gemini !
-
-je n'ai plus ce prompt, mais c'était quelque chose comme :
-
-```
-I am working on this project [description]
-the front and backend are prototyped, the apps build but i did not test anything yet.
-I would like you to analyze it very (very ! VERY !!) carefully !
-you have to open many files to make sure you understand the app and how it is built.
-once done, please create some documentation about that.
-```
-
-que j'ai invariablement dû compléter après la première réponse par un joyeux (paraphrase exacte)
-
-```
-oooOOOOH FFS ! HOW THE F DO YOU WANT TO UNDERSTAND ANYTHING, YOU OPENED 5 FILES, 2 OF THEM WERE PACKAGE.JSON ! OPEN ALL THE FILES ! **ALL OF THEM**
-```
-
-Sérieusement, qui arrive a bosser avec gemini (vrais question !) ? Bon apres cette petite sceance de fouettage gemini m'as finalement pondus une doc correct !
-
-De quoi, quoi ? Pourquoi j'ai fait documenter le taf par l'IA ?
-
-```
-Good. now that you have a complete understanding of the full project, i want you to create a plan to finish the implementation of the existing base.
-then, I want you to create a plan in better.md that outlines possible enhancement to the base application.
-One I want is a cart system so a user can add component to it and get a complete install command for all the components he selected.
-be creative and come up with functionalities that would make this platform stand out
-```
-
-Voilà pourquoi ! Pour bien bosser les LLM ont besoin de plus de 2 phrases de contexte, avec une vision plus précise du code, l'IA pourra planifier plus efficacement !
-
-Quelles fonctionnalités et architectures sont utilisé dans des logiciels similaires ? Il le saura ! Z'aurez plus qu'as faire vos emplettes et ca pourras meme debloquer d'autres idées !
-
-### Vous en avez mare de ces details ? et bhe on va vous en débarrasser
-
-Armés de l'étude de gemini sur mon code, j'ai demandé à claude de faire le travail (Faudrais me payer pour laisser gemini s'approcher de ma codebase en ecriture !).
-
-Une fois finis, je luiai demandé de créer un plan plus precis pour les fonctionnalités supplémentaires que j'ai choisies
-
-- système de panier
-- système de projet
-- intégration GitHub
-- profils créateurs
-
-Il l'a tres grâcieusement fait pendant que je commençais à tester l'application.
-
-Click frenetique et topotage systématiques, passage d'erreur en erreur, indexation par petits groupes, envoyé a l'agent qui n'en fait qu'une bouchée !
-
-C'est l'occasion parfaite pour commencer à examiner le code... oui oui, que maintenant.
-
-En vrai, J'y etais depuis moins de 3 heures et j'ai commancé ma carriere a une époque où tout mettre en place pour dev une application prenait probablement aussi longtemps donc...
-
-je ne dis pas que c'est bien, mais ca fait une bonne douzaine de fois que je commence du dev comme ca et je sais à quoi m'attendre en terme de code.
-
-La chasse aux bugs a pris environ une heure, rien de majeur, "use client" manquant, mauvaise gestion d'état, logique trop compliquée, un tas d'alertes et de prompts, en bref, les spécialités de claude (et j'ai pas subi les gradients bleu violacé cette fois-ci ...)
-
-L'implémentation du plan d'amélioration ? Pareil, simple efficace, en 3-4h de plus :
-
-```
-dans @improvements.md implémenter la phase/partie ...
-```
-
-### Un jour à la fois
-
-Bon... ce post devient long, et comme c'est la fin du jour 1, je vais m'arrêter ici :D !
-
-À ce moment-là, j'avais une app quasi fonctionnelle, avec un côté admin, les composants et les outils pouvaient être ajoutés.
-
-_je vais les laisser comme ca aussi les suivantes, le jours ou l'IA traduit les ryhmes, on est cuit les lapins!_
-
-Et alors que mes yeux se fermaient tous, je ne pouvais pas voir les ombres qui se formaient.
-
-Me couvrant de joie et de chaleur pour mon application qui fonctionnait comme un charme.
-
-Une petite idée innocente qui deviendrait... [trouvez-moi un nom de quelque chose de mauvais se terminant par le son a, j'ai besoin d'une rime].
-
-En attendant, voici la [démo](https://cn-registry.dev) et le [dépôt](https://github.com/DimitriGilbert/cn-registry). Vos retours sont, comme toujours, grandement appréciés !
-0:{"P":null,"b":"aq2ZQbdESXkmLl7zlKqb3","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/50152c3edddaf6a5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"projects":[{"id":"LiteChat","name":"LiteChat","description":"A modern, local first AI chat app for your browser.","image":"/images/litechat/project.jpg","repo":"https://github.com/DimitriGilbert/LiteChat","site":"https://litechat.dbuild.dev","tags":["pwa","ai","chat-application","agents","llm","local-llm"]},{"id":"FormEdible","name":"FormEdible","description":"A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.","image":"/images/FormEdible/project.jpg","repo":"https://github.com/DimitriGilbert/FormEdible","site":"https://dimitrigilbert.github.io/Formedible/","tags":["Shadcn","Registry","form","hook","react","typescript","zod"]},{"id":"cn-registry","name":"cn-registry.dev","description":"A hub for Shadcn components and tools.","image":"/images/cn-registry.dev/project.jpg","repo":"https://github.com/DimitriGilbert/cn-registry.dev","site":"https://cn-registry.dev","tags":["Shadcn","Registry"]},{"id":"parseArger","name":"parseArger","description":"Standalone bash argument parsing code generator.","image":"/images/parsearger/project.jpg","repo":"https://github.com/DimitriGilbert/parseArger","site":"https://dimitrigilbert.github.io/parseArger/","tags":[]},{"id":"TerMinable","name":"TerMinable","description":"A demonstration terminal for you projects (or mine).","image":"/images/terminable/project.jpg","repo":"https://github.com/DimitriGilbert/TerMinable","site":"https://terminable.dbuild.dev/","tags":["Shadcn","Registry","Terminal","React","Typescript"]},{"id":"sshm0","name":"sshm0","description":"A simple CLI ssh connection manager","image":"/images/sshm0/project.jpg","repo":"https://github.com/DimitriGilbert/sshm0","site":"https://github.com/DimitriGilbert/sshm0","tags":["ssh","bash","cli","parseArger"]},{"id":"AI-gents","name":"AI-gents","description":"AI-gents. A simple format for AI agents.","image":"/images/ai-gents/project.jpg","repo":"https://github.com/DimitriGilbert/AI-gents","site":"ai-gents.dbuild.dev/","tags":["bash","cli","parseArger","ai","agents"]},{"id":"StationIO-Station","name":"StationIO","description":"Arduino framework-ish that handle the basics (wifi, ota, etc.)","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/StationIO-Station","site":"dimitrigilbert.github.io/StationIO-Station/","tags":["arduino","esp8266","esp32"]},{"id":"RaceBench","name":"RaceBench","description":"Benchmarking LLMs on real JavaScript code generation tasks with executable results.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/racebench","site":"https://dimitrigilbert.github.io/racebench/scroller/index.html","tags":["benchmark","llm","ai","testing","javascript","three.js"]},{"id":"Task-O-Matic","name":"Task-O-Matic","description":"AI-powered task management system transforming chaotic ideas into structured, executable task lists.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/task-o-matic","site":"https://github.com/DimitriGilbert/task-o-matic","tags":["ai","task-management","cli","productivity","typescript","bun"]},{"id":"Sprynge","name":"Sprynge","description":"Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/sprynge-next","site":"https://github.com/DimitriGilbert/sprynge-next","tags":["community","help","nextjs","convex","real-time","gamification"]},{"id":"git-moar","name":"git-moar","description":"Advanced Git repository analytics and reporting CLI tool with beautiful HTML reports and visualizations.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/git-report","site":"https://github.com/DimitriGilbert/git-report","tags":["git","analytics","cli","visualization","javascript","nodejs"]}],"projectTags":["React","Registry","Shadcn","Terminal","Typescript","agents","ai","analytics","arduino","bash","benchmark","bun","chat-application","cli","community","convex","esp32","esp8266","form","gamification","git","help","hook","javascript","llm","local-llm","nextjs","nodejs","parseArger","productivity","pwa","react","real-time","ssh","task-management","testing","three.js","typescript","visualization","zod"],"recentPosts":[{"slug":"black-hole-the-ai-debate-is-missing-the-point-and-so-are-you","title":"The AI Debate Is Missing the Point (And So Are You)","description":"The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app","date":"$D2026-01-30T23:01:00.000Z","category":"General","tags":["AI"],"content":"$7","readTime":15,"toc":[{"level":2,"title":"Who am I to talk about this ?","id":"who-am-i-to-talk-about-this"},{"level":2,"title":"Bubble go pop, AI go bye bye ?","id":"bubble-go-pop-ai-go-bye-bye"},{"level":3,"title":"Open source changed the game","id":"open-source-changed-the-game"},{"level":3,"title":"The Chinese wild card","id":"the-chinese-wild-card"},{"level":2,"title":"\"It's just crypto all over again !\"","id":"its-just-crypto-all-over-again"},{"level":3,"title":"Even if it IS a fad...","id":"even-if-it-is-a-fad"},{"level":3,"title":"It's not a fad","id":"its-not-a-fad"},{"level":2,"title":"You're confusing the gimmick with the tool !","id":"youre-confusing-the-gimmick-with-the-tool"},{"level":3,"title":"What it actually did for me","id":"what-it-actually-did-for-me"},{"level":3,"title":"What it could do for you","id":"what-it-could-do-for-you"},{"level":2,"title":"The great (job) replacement","id":"the-great-job-replacement"},{"level":3,"title":"\"Hey, I still would like a job !\"","id":"hey-i-still-would-like-a-job"},{"level":3,"title":"We will still need humans though !","id":"we-will-still-need-humans-though"},{"level":2,"title":"It's not about jobs, it's about society","id":"its-not-about-jobs-its-about-society"},{"level":3,"title":"UBI won't cut it !","id":"ubi-wont-cut-it"},{"level":2,"title":"How I (why not you ?) actually use this stuff","id":"how-i-why-not-you-actually-use-this-stuff"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"So, what now ?","id":"so-what-now"}],"directory":"Black hole/The AI Debate Is Missing the Point (And So Are You)","relativePath":"Black hole/The AI Debate Is Missing the Point (And So Are You)/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/The AI Debate Is Missing the Point (And So Are You)/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp"},{"slug":"black-hole-le-dbat-autour-de-l-ia-est-a-cote-de-la-plaque-toi-aussi","title":"Le débat autour de l'IA est à cote de la plaque (toi aussi)","description":"La bulle IA va éclater, ça arrêtera pas l'IA. Ton refus d'utiliser l'IA empêchera pas ton job d'être remplacé. ChatGPT n'est pas la killer app de l'IA","date":"$D2026-01-30T22:50:00.000Z","category":"General","tags":["AI"],"content":"$8","readTime":15,"toc":[{"level":2,"title":"Auto validation sur pourquoi je parle de ca","id":"auto-validation-sur-pourquoi-je-parle-de-ca"},{"level":2,"title":"La bulle pète et l'IA crève ?","id":"la-bulle-pte-et-lia-crve"},{"level":3,"title":"L'open source a changé la donne","id":"lopen-source-a-chang-la-donne"},{"level":3,"title":"La wildcard chinoise","id":"la-wildcard-chinoise"},{"level":2,"title":"\"C'est juste la crypto bis !\"","id":"cest-juste-la-crypto-bis"},{"level":3,"title":"Même si c'EST une mode...","id":"mme-si-cest-une-mode"},{"level":3,"title":"C'est pas une mode","id":"cest-pas-une-mode"},{"level":2,"title":"Tu confonds le gadget avec l'outil !","id":"tu-confonds-le-gadget-avec-loutil"},{"level":3,"title":"Ce que ça m'a vraiment apporté","id":"ce-que-a-ma-vraiment-apport"},{"level":3,"title":"Ce que ça pourrait te faire","id":"ce-que-a-pourrait-te-faire"},{"level":2,"title":"Le grand remplacement (de l'emploi)","id":"le-grand-remplacement-de-lemploi"},{"level":3,"title":"\"Hé, j'aimerais quand même avoir un travail !\"","id":"h-jaimerais-quand-mme-avoir-un-travail"},{"level":3,"title":"On aura quand même besoin d'humains !","id":"on-aura-quand-mme-besoin-dhumains"},{"level":2,"title":"C'est pas une question d'emplois, c'est une question de société","id":"cest-pas-une-question-demplois-cest-une-question-de-socit"},{"level":3,"title":"Le UBI suffira pas !","id":"le-ubi-suffira-pas"},{"level":2,"title":"Comment j'utilise (pourquoi pas toi aussi ?) vraiment ces trucs","id":"comment-jutilise-pourquoi-pas-toi-aussi-vraiment-ces-trucs"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"Donc, c'est quoi la suite ?","id":"donc-cest-quoi-la-suite"}],"directory":"Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)","relativePath":"Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp"},{"slug":"black-hole-from-ralph-to-eric","title":"From Ralph to Eric","description":"Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !","date":"$D2026-01-16T23:01:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$9","readTime":15,"toc":[{"level":2,"title":"The Eric Loop","id":"the-eric-loop"},{"level":2,"title":"But, Why... ?","id":"but-why"},{"level":2,"title":"What would it look like ?","id":"what-would-it-look-like"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Let's get this rolling","id":"lets-get-this-rolling"},{"level":4,"title":"Initialisation and bootstrapping","id":"initialisation-and-bootstrapping"},{"level":4,"title":"Document the requirements of your project","id":"document-the-requirements-of-your-project"},{"level":4,"title":"Petrol is not the only thing that needs refining !","id":"petrol-is-not-the-only-thing-that-needs-refining"},{"level":4,"title":"Touching up and go","id":"touching-up-and-go"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Time to let Eric loose...","id":"time-to-let-eric-loose"},{"level":3,"title":"What's the result","id":"whats-the-result"},{"level":2,"title":"What do you think ? Where do we go from here ?","id":"what-do-you-think-where-do-we-go-from-here"}],"directory":"Black hole/From ralph to Eric","relativePath":"Black hole/From ralph to Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/From ralph to Eric/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"},{"slug":"black-hole-passer-de-ralph-a-eric","title":"Passer de Ralph a Eric","description":"Tout le monde ne parle que de la 'Ralph loop', et le principe est cool, mais je pense qu'on peut faire mieux grace au concept de la Boucle a Eric !","date":"$D2026-01-16T23:00:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$a","readTime":16,"toc":[{"level":2,"title":"La boucle Eric","id":"la-boucle-eric"},{"level":2,"title":"Mais, Pourquoi... ?","id":"mais-pourquoi"},{"level":2,"title":"A quoi ça ressemblerait ?","id":"a-quoi-a-ressemblerait"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Allons-y","id":"allons-y"},{"level":4,"title":"Initialisation et bootstrap","id":"initialisation-et-bootstrap"},{"level":4,"title":"Documenter les requis de votre projet","id":"documenter-les-requis-de-votre-projet"},{"level":4,"title":"L'essence n'est pas la seule chose qui doit être raffinée !","id":"lessence-nest-pas-la-seule-chose-qui-doit-tre-raffine"},{"level":4,"title":"Les petites retouches et c'est parti","id":"les-petites-retouches-et-cest-parti"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Et maintenant, on fait rouler Eric...","id":"et-maintenant-on-fait-rouler-eric"},{"level":3,"title":"Résultat","id":"rsultat"},{"level":2,"title":"Vous en pensez quoi ? On va où après ?","id":"vous-en-pensez-quoi-on-va-o-aprs"}],"directory":"Black hole/Passer de Ralph a Eric","relativePath":"Black hole/Passer de Ralph a Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Passer de Ralph a Eric/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"},{"slug":"projects-cn-registry-devlog-1-the-illusion-of-victory","title":"cn-registry devlog 1 - The illusion of victory","description":"Follow me on a journey of failure and foolishness, en route to master the current crop of AI.","date":"$D2025-07-24T14:00:17.000Z","category":"General","tags":["shadcn","devlog","cn-registry"],"content":"$b","readTime":12,"toc":[{"level":2,"title":"Why ?","id":"why"},{"level":2,"title":"What is it already ?","id":"what-is-it-already"},{"level":2,"title":"The process","id":"the-process"},{"level":3,"title":"The Idea","id":"the-idea"},{"level":3,"title":"Initial plan","id":"initial-plan"},{"level":3,"title":"Start proompting","id":"start-proompting"},{"level":3,"title":"Select your stack","id":"select-your-stack"},{"level":3,"title":"Let the music start !","id":"let-the-music-start"},{"level":3,"title":"Broken string and other misadventures...","id":"broken-string-and-other-misadventures"},{"level":3,"title":"more, More, MOOOOAR","id":"more-more-mooooar"},{"level":3,"title":"Tidy up and go forward","id":"tidy-up-and-go-forward"},{"level":3,"title":"One day at a time","id":"one-day-at-a-time"}],"directory":"Projects/cn-registry/devlog 1 : The Illusion of Victory","relativePath":"Projects/cn-registry/devlog 1 : The Illusion of Victory/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/cn-registry/devlog 1 : The Illusion of Victory/index.md","isCategory":false,"ogImage":"$undefined"},{"slug":"projects-cn-registry-devlog-1-une-illusion-de-victoire","title":"cn-registry devlog 1 -Une illusion de victoire","description":"Suivez-moi dans un voyage d'échecs et de folie, en route pour maîtriser la nouvelle génération d'IA.","date":"$D2025-07-24T14:00:17.000Z","category":"General","tags":["shadcn","devlog","cn-registry"],"content":"$c","readTime":13,"toc":[{"level":2,"title":"Pourquoi ?","id":"pourquoi"},{"level":2,"title":"Qu'est-ce que c'est déjà ?","id":"quest-ce-que-cest-dj"},{"level":2,"title":"Le processus","id":"le-processus"},{"level":3,"title":"L'idée","id":"lide"},{"level":3,"title":"Plan initial","id":"plan-initial"},{"level":3,"title":"A vos marques, pret, proomptez !","id":"a-vos-marques-pret-proomptez"},{"level":3,"title":"Sélectionnez votre stack","id":"slectionnez-votre-stack"},{"level":3,"title":"Laissez la musique commencer !","id":"laissez-la-musique-commencer"},{"level":3,"title":"C'est Bestel, il a mis la cassette et puis pouf !","id":"cest-bestel-il-a-mis-la-cassette-et-puis-pouf"},{"level":3,"title":"encore, Encore, ENCOOORE","id":"encore-encore-encooore"},{"level":3,"title":"Vous en avez mare de ces details ? et bhe on va vous en débarrasser","id":"vous-en-avez-mare-de-ces-details-et-bhe-on-va-vous-en-dbarrasser"},{"level":3,"title":"Un jour à la fois","id":"un-jour-la-fois"}],"directory":"Projects/cn-registry/devlog 1 : Une illusion de victoire","relativePath":"Projects/cn-registry/devlog 1 : Une illusion de victoire/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/cn-registry/devlog 1 : Une illusion de victoire/index.md","isCategory":false,"ogImage":"$undefined"}],"blogTags":["AI","Eric loop","Ralph lopp","ai","analytics","bash","benchmark","chat","cli","cn-registry","devlog","form","french","git","homelab","llm","local","mdd","parseArger","parsearger","productivity","react","rpi","scripting","server","shadcn","tanstack","task-management","task-o-matic","terminal","testing","tutorial","typescript","visualization","zod"],"totalPosts":24}],null,["$","$Ld",null,{"children":"$Le"}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","rtVBB1oRh0NUfHV00ibwq",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","$L11",null,{"children":"$L12"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"O8QduRryMK73UTMWVm2Vs","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92cc7a7f172cffde.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"projects":[{"id":"LiteChat","name":"LiteChat","description":"A modern, local first AI chat app for your browser.","image":"/images/litechat/project.jpg","repo":"https://github.com/DimitriGilbert/LiteChat","site":"https://litechat.dbuild.dev","tags":["pwa","ai","chat-application","agents","llm","local-llm"]},{"id":"FormEdible","name":"FormEdible","description":"A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.","image":"/images/FormEdible/project.jpg","repo":"https://github.com/DimitriGilbert/FormEdible","site":"https://dimitrigilbert.github.io/Formedible/","tags":["Shadcn","Registry","form","hook","react","typescript","zod"]},{"id":"cn-registry","name":"cn-registry.dev","description":"A hub for Shadcn components and tools.","image":"/images/cn-registry.dev/project.jpg","repo":"https://github.com/DimitriGilbert/cn-registry.dev","site":"https://cn-registry.dev","tags":["Shadcn","Registry"]},{"id":"parseArger","name":"parseArger","description":"Standalone bash argument parsing code generator.","image":"/images/parsearger/project.jpg","repo":"https://github.com/DimitriGilbert/parseArger","site":"https://dimitrigilbert.github.io/parseArger/","tags":[]},{"id":"TerMinable","name":"TerMinable","description":"A demonstration terminal for you projects (or mine).","image":"/images/terminable/project.jpg","repo":"https://github.com/DimitriGilbert/TerMinable","site":"https://terminable.dbuild.dev/","tags":["Shadcn","Registry","Terminal","React","Typescript"]},{"id":"sshm0","name":"sshm0","description":"A simple CLI ssh connection manager","image":"/images/sshm0/project.jpg","repo":"https://github.com/DimitriGilbert/sshm0","site":"https://github.com/DimitriGilbert/sshm0","tags":["ssh","bash","cli","parseArger"]},{"id":"AI-gents","name":"AI-gents","description":"AI-gents. A simple format for AI agents.","image":"/images/ai-gents/project.jpg","repo":"https://github.com/DimitriGilbert/AI-gents","site":"ai-gents.dbuild.dev/","tags":["bash","cli","parseArger","ai","agents"]},{"id":"StationIO-Station","name":"StationIO","description":"Arduino framework-ish that handle the basics (wifi, ota, etc.)","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/StationIO-Station","site":"dimitrigilbert.github.io/StationIO-Station/","tags":["arduino","esp8266","esp32"]},{"id":"RaceBench","name":"RaceBench","description":"Benchmarking LLMs on real JavaScript code generation tasks with executable results.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/racebench","site":"https://dimitrigilbert.github.io/racebench/scroller/index.html","tags":["benchmark","llm","ai","testing","javascript","three.js"]},{"id":"Task-O-Matic","name":"Task-O-Matic","description":"AI-powered task management system transforming chaotic ideas into structured, executable task lists.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/task-o-matic","site":"https://github.com/DimitriGilbert/task-o-matic","tags":["ai","task-management","cli","productivity","typescript","bun"]},{"id":"Sprynge","name":"Sprynge","description":"Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/sprynge-next","site":"https://github.com/DimitriGilbert/sprynge-next","tags":["community","help","nextjs","convex","real-time","gamification"]},{"id":"git-moar","name":"git-moar","description":"Advanced Git repository analytics and reporting CLI tool with beautiful HTML reports and visualizations.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/git-report","site":"https://github.com/DimitriGilbert/git-report","tags":["git","analytics","cli","visualization","javascript","nodejs"]}],"projectTags":["React","Registry","Shadcn","Terminal","Typescript","agents","ai","analytics","arduino","bash","benchmark","bun","chat-application","cli","community","convex","esp32","esp8266","form","gamification","git","help","hook","javascript","llm","local-llm","nextjs","nodejs","parseArger","productivity","pwa","react","real-time","ssh","task-management","testing","three.js","typescript","visualization","zod"],"recentPosts":[{"slug":"projects-ai-skills-skills-are-the-dry-of-prompt-engineering","title":"Skills are the DRY of prompt engineering and you should use them and create your own","description":"Just like I use to create my own libraries and helpers I reused in most my projects, I now create skills so i don't rewrite the same prompts other and other again","date":"$D2026-03-03T14:00:00.000Z","category":"General","tags":["ai","skills"],"content":"$7","readTime":4,"toc":[{"level":2,"title":"AI Skills","id":"ai-skills"},{"level":3,"title":"What they are","id":"what-they-are"},{"level":3,"title":"apt install skillz","id":"apt-install-skillz"},{"level":3,"title":"BE CAREFUL","id":"be-careful"},{"level":3,"title":"I haz uze skill","id":"i-haz-uze-skill"},{"level":3,"title":"Make your own","id":"make-your-own"},{"level":2,"title":"My skills","id":"my-skills"}],"directory":"Projects/ai-skills/Skills are the DRY of prompt engineering","relativePath":"Projects/ai-skills/Skills are the DRY of prompt engineering/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/ai-skills/Skills are the DRY of prompt engineering/index.md","isCategory":false,"ogImage":"$undefined"},{"slug":"black-hole-the-ai-debate-is-missing-the-point-and-so-are-you","title":"The AI Debate Is Missing the Point (And So Are You)","description":"The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app","date":"$D2026-01-30T23:01:00.000Z","category":"General","tags":["AI"],"content":"$8","readTime":15,"toc":[{"level":2,"title":"Who am I to talk about this ?","id":"who-am-i-to-talk-about-this"},{"level":2,"title":"Bubble go pop, AI go bye bye ?","id":"bubble-go-pop-ai-go-bye-bye"},{"level":3,"title":"Open source changed the game","id":"open-source-changed-the-game"},{"level":3,"title":"The Chinese wild card","id":"the-chinese-wild-card"},{"level":2,"title":"\"It's just crypto all over again !\"","id":"its-just-crypto-all-over-again"},{"level":3,"title":"Even if it IS a fad...","id":"even-if-it-is-a-fad"},{"level":3,"title":"It's not a fad","id":"its-not-a-fad"},{"level":2,"title":"You're confusing the gimmick with the tool !","id":"youre-confusing-the-gimmick-with-the-tool"},{"level":3,"title":"What it actually did for me","id":"what-it-actually-did-for-me"},{"level":3,"title":"What it could do for you","id":"what-it-could-do-for-you"},{"level":2,"title":"The great (job) replacement","id":"the-great-job-replacement"},{"level":3,"title":"\"Hey, I still would like a job !\"","id":"hey-i-still-would-like-a-job"},{"level":3,"title":"We will still need humans though !","id":"we-will-still-need-humans-though"},{"level":2,"title":"It's not about jobs, it's about society","id":"its-not-about-jobs-its-about-society"},{"level":3,"title":"UBI won't cut it !","id":"ubi-wont-cut-it"},{"level":2,"title":"How I (why not you ?) actually use this stuff","id":"how-i-why-not-you-actually-use-this-stuff"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"So, what now ?","id":"so-what-now"}],"directory":"Black hole/The AI Debate Is Missing the Point (And So Are You)","relativePath":"Black hole/The AI Debate Is Missing the Point (And So Are You)/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/The AI Debate Is Missing the Point (And So Are You)/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp"},{"slug":"black-hole-le-dbat-autour-de-l-ia-est-a-cote-de-la-plaque-toi-aussi","title":"Le débat autour de l'IA est à cote de la plaque (toi aussi)","description":"La bulle IA va éclater, ça arrêtera pas l'IA. Ton refus d'utiliser l'IA empêchera pas ton job d'être remplacé. ChatGPT n'est pas la killer app de l'IA","date":"$D2026-01-30T22:50:00.000Z","category":"General","tags":["AI"],"content":"$9","readTime":15,"toc":[{"level":2,"title":"Auto validation sur pourquoi je parle de ca","id":"auto-validation-sur-pourquoi-je-parle-de-ca"},{"level":2,"title":"La bulle pète et l'IA crève ?","id":"la-bulle-pte-et-lia-crve"},{"level":3,"title":"L'open source a changé la donne","id":"lopen-source-a-chang-la-donne"},{"level":3,"title":"La wildcard chinoise","id":"la-wildcard-chinoise"},{"level":2,"title":"\"C'est juste la crypto bis !\"","id":"cest-juste-la-crypto-bis"},{"level":3,"title":"Même si c'EST une mode...","id":"mme-si-cest-une-mode"},{"level":3,"title":"C'est pas une mode","id":"cest-pas-une-mode"},{"level":2,"title":"Tu confonds le gadget avec l'outil !","id":"tu-confonds-le-gadget-avec-loutil"},{"level":3,"title":"Ce que ça m'a vraiment apporté","id":"ce-que-a-ma-vraiment-apport"},{"level":3,"title":"Ce que ça pourrait te faire","id":"ce-que-a-pourrait-te-faire"},{"level":2,"title":"Le grand remplacement (de l'emploi)","id":"le-grand-remplacement-de-lemploi"},{"level":3,"title":"\"Hé, j'aimerais quand même avoir un travail !\"","id":"h-jaimerais-quand-mme-avoir-un-travail"},{"level":3,"title":"On aura quand même besoin d'humains !","id":"on-aura-quand-mme-besoin-dhumains"},{"level":2,"title":"C'est pas une question d'emplois, c'est une question de société","id":"cest-pas-une-question-demplois-cest-une-question-de-socit"},{"level":3,"title":"Le UBI suffira pas !","id":"le-ubi-suffira-pas"},{"level":2,"title":"Comment j'utilise (pourquoi pas toi aussi ?) vraiment ces trucs","id":"comment-jutilise-pourquoi-pas-toi-aussi-vraiment-ces-trucs"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"Donc, c'est quoi la suite ?","id":"donc-cest-quoi-la-suite"}],"directory":"Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)","relativePath":"Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp"},{"slug":"black-hole-from-ralph-to-eric","title":"From Ralph to Eric","description":"Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !","date":"$D2026-01-16T23:01:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$a","readTime":15,"toc":[{"level":2,"title":"The Eric Loop","id":"the-eric-loop"},{"level":2,"title":"But, Why... ?","id":"but-why"},{"level":2,"title":"What would it look like ?","id":"what-would-it-look-like"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Let's get this rolling","id":"lets-get-this-rolling"},{"level":4,"title":"Initialisation and bootstrapping","id":"initialisation-and-bootstrapping"},{"level":4,"title":"Document the requirements of your project","id":"document-the-requirements-of-your-project"},{"level":4,"title":"Petrol is not the only thing that needs refining !","id":"petrol-is-not-the-only-thing-that-needs-refining"},{"level":4,"title":"Touching up and go","id":"touching-up-and-go"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Time to let Eric loose...","id":"time-to-let-eric-loose"},{"level":3,"title":"What's the result","id":"whats-the-result"},{"level":2,"title":"What do you think ? Where do we go from here ?","id":"what-do-you-think-where-do-we-go-from-here"}],"directory":"Black hole/From ralph to Eric","relativePath":"Black hole/From ralph to Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/From ralph to Eric/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"},{"slug":"black-hole-passer-de-ralph-a-eric","title":"Passer de Ralph a Eric","description":"Tout le monde ne parle que de la 'Ralph loop', et le principe est cool, mais je pense qu'on peut faire mieux grace au concept de la Boucle a Eric !","date":"$D2026-01-16T23:00:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$b","readTime":16,"toc":[{"level":2,"title":"La boucle Eric","id":"la-boucle-eric"},{"level":2,"title":"Mais, Pourquoi... ?","id":"mais-pourquoi"},{"level":2,"title":"A quoi ça ressemblerait ?","id":"a-quoi-a-ressemblerait"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Allons-y","id":"allons-y"},{"level":4,"title":"Initialisation et bootstrap","id":"initialisation-et-bootstrap"},{"level":4,"title":"Documenter les requis de votre projet","id":"documenter-les-requis-de-votre-projet"},{"level":4,"title":"L'essence n'est pas la seule chose qui doit être raffinée !","id":"lessence-nest-pas-la-seule-chose-qui-doit-tre-raffine"},{"level":4,"title":"Les petites retouches et c'est parti","id":"les-petites-retouches-et-cest-parti"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Et maintenant, on fait rouler Eric...","id":"et-maintenant-on-fait-rouler-eric"},{"level":3,"title":"Résultat","id":"rsultat"},{"level":2,"title":"Vous en pensez quoi ? On va où après ?","id":"vous-en-pensez-quoi-on-va-o-aprs"}],"directory":"Black hole/Passer de Ralph a Eric","relativePath":"Black hole/Passer de Ralph a Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Passer de Ralph a Eric/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"},{"slug":"projects-cn-registry-devlog-1-the-illusion-of-victory","title":"cn-registry devlog 1 - The illusion of victory","description":"Follow me on a journey of failure and foolishness, en route to master the current crop of AI.","date":"$D2025-07-24T14:00:17.000Z","category":"General","tags":["shadcn","devlog","cn-registry"],"content":"$c","readTime":12,"toc":[{"level":2,"title":"Why ?","id":"why"},{"level":2,"title":"What is it already ?","id":"what-is-it-already"},{"level":2,"title":"The process","id":"the-process"},{"level":3,"title":"The Idea","id":"the-idea"},{"level":3,"title":"Initial plan","id":"initial-plan"},{"level":3,"title":"Start proompting","id":"start-proompting"},{"level":3,"title":"Select your stack","id":"select-your-stack"},{"level":3,"title":"Let the music start !","id":"let-the-music-start"},{"level":3,"title":"Broken string and other misadventures...","id":"broken-string-and-other-misadventures"},{"level":3,"title":"more, More, MOOOOAR","id":"more-more-mooooar"},{"level":3,"title":"Tidy up and go forward","id":"tidy-up-and-go-forward"},{"level":3,"title":"One day at a time","id":"one-day-at-a-time"}],"directory":"Projects/cn-registry/devlog 1 : The Illusion of Victory","relativePath":"Projects/cn-registry/devlog 1 : The Illusion of Victory/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/cn-registry/devlog 1 : The Illusion of Victory/index.md","isCategory":false,"ogImage":"$undefined"}],"blogTags":["AI","Eric loop","Ralph lopp","ai","analytics","bash","benchmark","chat","cli","cn-registry","devlog","form","french","git","homelab","llm","local","mdd","parseArger","parsearger","productivity","react","rpi","scripting","server","shadcn","skills","tanstack","task-management","task-o-matic","terminal","testing","tutorial","typescript","visualization","zod"],"totalPosts":25}],null,["$","$Ld",null,{"children":"$Le"}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","IvtubliJ0DnWwu45RsozI",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","$L11",null,{"children":"$L12"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
 12:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
 e:null

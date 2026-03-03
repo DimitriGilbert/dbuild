@@ -1,0 +1,89 @@
+1:"$Sreact.fragment"
+2:I[76592,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","177","static/chunks/app/layout-29a4018f7af1798a.js"],"ThemeProvider"]
+3:I[27890,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","177","static/chunks/app/layout-29a4018f7af1798a.js"],"FloatingNavigation"]
+4:I[91080,[],""]
+5:I[32670,[],""]
+7:I[29001,[],"OutletBoundary"]
+9:I[29001,[],"MetadataBoundary"]
+b:I[29001,[],"ViewportBoundary"]
+d:I[32215,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/92cc7a7f172cffde.css","style"]
+0:{"P":null,"b":"O8QduRryMK73UTMWVm2Vs","p":"","c":["","blog","tags","skills",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","skills","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92cc7a7f172cffde.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","skills","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","20vl4Hv4ESBnSav3SBRvC",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[54528,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-12faf53037c3b929.js"],"TagDetailContent"]
+f:Te2b,
+## AI Skills
+
+### What they are
+
+In the grand scheme of things, skills are just a markdown file that you give the AI agent when you need it to follow the instructions in the markdown.
+
+That's it, like comment and subscribe, bye !
+
+Ok ok, there might be more to that, it can actually come with other markdown files and even scripts ! But I promise you now, that is it !
+
+And if you are thinking "duh, how could a markdown file make that much difference" right now... i hear you, i was the same, but boy O boy was i bloody wrong about that !
+
+But first thing first, you gotta get yourself some skills !
+
+### apt install skillz
+
+Since i saw Matrix the first time, I cant shake the **"I want THAT !!"** feeling i felt at the sound of "I know Kung-fu" and skills are the closest I came to to date !
+
+And just like in the movie, nothing fancy about the process here `npx skills add <github repo shorthand/repo url/local folder>`, a bit of interactive CLI and you are done.
+
+And "where do i find those...'Skills' ?" i hear you say ... [skills.sh](https://skills.sh) is the main hub for that.
+
+It's built by vercel, so it won't go anywhere and it uses telemetry from `npx skills` command to track skills installed by users so the list is **VERY** thorough...
+
+And if you didn't find what you were looking for there, you can always go on the hunt on github (or any other git provider)
+
+### BE CAREFUL
+
+I can't stress it out more, and that is why this section is before the usage one !
+
+READ THE DAMN SKILL ! don't just wing it like a mupet ! Skills are a direct path to your AI assistant, and just like packages and modules of the past, you should be concious of what you are installing and the instructions it gives out.
+
+Prompt injection is a real threat that can lead to data exfiltration and other malicious activities, so once again **READ THE DAMN SKILLS !** or you'll come back crying your API keys are in the wild or your bitcoin wallet is empty !
+
+### I haz uze skill
+
+After that preventative scolding, it is time to use said skills... this section is going to be really fast, are you ready ?
+
+`Load the <your skill name> skill.`
+
+Tell you agent that, in any decent AI coding harness and you are good.
+
+I know, it was the hardest part so far, but it has to be done.
+
+Joke aside, just tell your agent to load the skill naturally and go on prompting like you would otherwise, that's it !
+
+Sure some harness come with `/` commands to load things up and all, but i switch constently and i actaully don't see the point of those.
+
+LLMs process natural language just fine... like they were meant for that :D
+
+### Make your own
+
+This is where things get better ! using someone else's stuff is good, but if you've read a few of my post here, you know that I like to have my own set of wheels.
+
+And in this case, you can very easily get your own too !
+
+To start with, you are going to need the [skill-creator skill](https://skills.sh/anthropics/skills/skill-creator) from Anthropic themeselve:
+
+```bash
+npx skills add 
+```
+
+## My skills
+
+Over the last couple months, i have been either adding skills to existing project or creating new ones from scratch for specific needs.
+
+The project ones are obvious, they are to help you using those with AI ! I added them to [Formedible](https://github.com/DimitriGilbert/formedible), [parseArger](https://github.com/DimitriGilbert/parseArger) and [task-o-matic](https://github.com/DimitriGilbert/task-o-matic) so far.
+
+Nothing fancy here, just packaged information from documentation and readme in a standardized format for the toasters.
+
+Not that they aren't useful, but there is not much going
+6:["$","$Le",null,{"tag":"skills","posts":[{"slug":"projects-ai-skills-skills-are-the-dry-of-prompt-engineering","title":"Skills are the DRY of prompt engineering and you should use them and create your own","description":"Just like I use to create my own libraries and helpers I reused in most my projects, I now create skills so i don't rewrite the same prompts other and other again","date":"$D2026-03-03T14:00:00.000Z","category":"General","tags":["ai","skills"],"content":"$f","readTime":4,"toc":[{"level":2,"title":"AI Skills","id":"ai-skills"},{"level":3,"title":"What they are","id":"what-they-are"},{"level":3,"title":"apt install skillz","id":"apt-install-skillz"},{"level":3,"title":"BE CAREFUL","id":"be-careful"},{"level":3,"title":"I haz uze skill","id":"i-haz-uze-skill"},{"level":3,"title":"Make your own","id":"make-your-own"},{"level":2,"title":"My skills","id":"my-skills"}],"directory":"Projects/ai-skills/Skills are the DRY of prompt engineering","relativePath":"Projects/ai-skills/Skills are the DRY of prompt engineering/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/ai-skills/Skills are the DRY of prompt engineering/index.md","isCategory":false,"ogImage":"$undefined"}]}]
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
+8:null
