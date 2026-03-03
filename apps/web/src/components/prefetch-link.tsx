@@ -17,7 +17,7 @@ export function PrefetchLink({
   children, 
   className, 
   prefetch = true 
-}: PrefetchLinkProps) {
+}: PrefetchLinkProps): ReactNode {
   const router = useRouter()
 
   const handleMouseEnter = useCallback(() => {
@@ -31,7 +31,7 @@ export function PrefetchLink({
       href={href} 
       className={className}
       onMouseEnter={handleMouseEnter}
-      prefetch={false} // Disable automatic prefetch, we control it manually
+      prefetch={false}
     >
       {children}
     </Link>

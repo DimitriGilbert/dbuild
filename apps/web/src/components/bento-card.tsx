@@ -1,7 +1,7 @@
 "use client"
 
-import { motion, useMotionValue, useTransform, MotionValue } from "motion/react"
-import type React from "react"
+import { motion, useMotionValue, useTransform } from "motion/react"
+import React from "react"
 import { cn } from "@/lib/utils"
 
 interface BentoCardProps {
@@ -46,36 +46,36 @@ export function BentoCard({
     "3": "row-span-1 md:row-span-2 lg:row-span-3",
   }
 
-  const content = (
-    <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.5, delay, ease: [0.4, 0, 0.2, 1] }}
-      style={{ rotateX, rotateY }}
-      onMouseMove={(e: React.MouseEvent) => {
+  const content = React.createElement(
+    motion.div,
+    {
+      initial: { opacity: 0, y: 30 },
+      whileInView: { opacity: 1, y: 0 },
+      viewport: { once: true, margin: "-100px" },
+      transition: { duration: 0.5, delay, ease: [0.4, 0, 0.2, 1] },
+      style: { rotateX, rotateY },
+      onMouseMove: (e: React.MouseEvent) => {
         const target = e.currentTarget as HTMLElement
         const rect = target.getBoundingClientRect()
         mouseX.set(e.clientX - rect.left - rect.width / 2)
         mouseY.set(e.clientY - rect.top - rect.height / 2)
-      }}
-      onMouseLeave={() => {
+      },
+      onMouseLeave: () => {
         mouseX.set(0)
         mouseY.set(0)
-      }}
-      className={cn(
+      },
+      className: cn(
         "relative overflow-hidden rounded-2xl p-6",
         "glass-card",
         gridClasses[colSpan],
         rowClasses[rowSpan],
         featured && "border-2 border-accent/50",
         className
-      )}
-      onClick={onClick}
-      whileHover={asLink || onClick ? { scale: 1.02 } : undefined}
-    >
-      {children}
-    </motion.div>
+      ),
+      onClick,
+      whileHover: asLink || onClick ? { scale: 1.02 } : undefined,
+    },
+    children
   )
 
   if (asLink && href) {

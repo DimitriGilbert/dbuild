@@ -1,10 +1,11 @@
 "use client"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X, Code, FileText, User, Sun, Moon, Tag } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useTheme } from "next-themes"
+import { cn } from "@/lib/utils"
 
 const navigation = [
   { name: "Home", href: "/", icon: User },
@@ -15,11 +16,25 @@ const navigation = [
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
   const pathname = usePathname()
   const { theme, setTheme } = useTheme()
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10)
+    }
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
+
   return (
-    <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-md border-b border-border z-50">
+    <nav className={cn(
+      "fixed top-0 w-full border-b border-border z-50 transition-all duration-300",
+      scrolled 
+        ? "bg-background/95 backdrop-blur-xl shadow-sm" 
+        : "bg-background/80 backdrop-blur-md"
+    )}>
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center font-bold text-xl text-primary">
