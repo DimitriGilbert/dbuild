@@ -17,6 +17,7 @@ export interface BlogPost {
   filePath: string
   isCategory?: boolean
   ogImage?: string
+  draft?: boolean
 }
 
 export interface TocItem {
@@ -170,13 +171,14 @@ export function getAllPosts(): BlogPost[] {
         filePath: filePath,
         isCategory: isCategory,
         ogImage: frontmatter.ogImage || frontmatter['og-image'],
+        draft: frontmatter.draft === true,
       }
 
       posts.push(post)
     }
 
     // Sort posts by date (newest first)
-    return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    return posts.filter(post => !post.draft).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   } catch (error) {
     console.error('Error getting all posts:', error)
     return []

@@ -1,0 +1,170 @@
+---
+title: "37K LoC or nothing"
+date: 2026-04-21T00:01:00+01:00
+tags: [
+  "AI",
+  "Clanker"
+]
+summary: "what would make 37K LoC a day acceptable ? Is Garry Tan delusional ? what about the naysayers ?"
+slug: "37KLOC-or-nothing"
+# draft: true
+# og-image: "/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"
+---
+
+Yes, I know, Lines of Code is a stupid measurement of dev output but we all done it! It's easy, it's simple and we all have a feel of what it means.
+
+Garry Tan caught some flack when he came out with that number, from the 100x anti AI hyper-eng to the vibe coder extraordinnaire, everyone and their grandmother had something to say about it
+
+Most of it was stupid
+
+I think Garry jumped the gun a bit, shouting about that when clearly what he created were at best MVPs, a couple more review/fix cycle would have done him and his projects wonders I believe
+
+On the other hand, the geniuses dismissing what was created because AI = SLOP have clearly not used recent tools
+
+and the ones saying "you don't need that much LoC" forgot the linux kernel has roughly 40M of 'em lines of code
+
+Why do I talk about that ?
+
+Well, as it turns out, I too can get 37K LoC a day out of my agents (actually, 45K, but nobody is counting at that point)
+
+In very specific conditions ! If I start multiple new projects, with a clear specs and plans, I will definitely get there
+
+Then comes the actual trick : review and fix roughly make 0 additional LoC for a few days !
+
+How do I know that ? I tried to go through a few project ideas recently 2 were mine and a 3rd was a possible client project !
+
+This is where I realised that after a year of heavy work with AI, I had a well working workflow, there is one major problem though
+
+It is tedious, like Really tedious. I more or less use the same prompts in the same order with the same skills and most of the time spent after the conception part is waiting for the next prompt
+
+So, me being me, you know what this means... right ?
+
+## Clanker: it's a CLI, it's a parser, it's a spec
+
+Yep, a new tool ! but what for ?
+
+Well, I want to standardize what I learned over the last year so I can make things reproducible without having to manage chats and reprompt the same thing over and over !
+
+That, plus the fact that n+1 is the most perfect number of motorcycles, guitars, current projects, agentic harness and workflow manager !
+
+It's naturally that I'm trying to bake my own cake... (like, the guy learns NOTHING apparently...)
+
+So what is it ?
+
+First of all, Clanker is a "spec" more than anything. I did not want to repeat the task-o-matic adventure just yet and spend another month or 2 building something that will get obsolete as a new model drops
+
+What I want here is something you can easily make your own and not strictly dedicated to code like [task-o-matic.dev](https://task-o-matic.dev) was
+
+Also, in this day and age, a good spec is only a few million tokens away from an implementation
+
+And though I'm pretty sure at some point, this could be a skill, we are not there just yet 
+
+there is still too much variability in LLMs output and some form of constraint to tame the probabilistic nature of these beasts seems like the best way forward for now.
+
+this is why I created a simple typescript parser and CLI ! It won't be the end all be all of this project but i'll use it to build on top !
+
+## But... Why ?
+
+Yes, yes... openclaw and hermes kind of do that, stop screaming already, i hear you !
+
+But, you know what ? I'm not a fan of the paradigm !
+
+Like I said in my [previous article](/blog/black-hole-one-year-back-in/), I wanted something portable that could basically run anywhere i need it to, without a big bunch of configuration (including inside those agentic frameworks !)
+
+I also wanted things to be composable without relying on the model to make the decision on what tool to use or what to do while it was working.
+
+This means that I can create workflows programatically or ask an AI to do so without giving up the reins completely !
+
+Of course, I could code that as well using whatever framework out there (langchain or mastra or what not) but this would not be very normie friendly (like... code...) and it would not be easy to GUI-ify it, if I wanted to.
+
+So, a small spec schema will do to start with as YAML/json is easily composable, today's models can create that and respect a spec quiet scrupulously and a simple CRUD UI would work well enough to manage/compose these
+
+A benefit is that every "worth to program in" languages support yaml and json so it would be easy to have it implemented in any of them !
+
+## What would it look like
+
+With the "why" out of the way, we now have to define what shape things are going to have !
+
+Of course, for a workflow, we have the usual `name` and `version` plus a list of `steps`
+
+A step is... well, it's a step in the workflow !
+
+So `name` and `description` are a given, but we also need a `model` and a `prompt` so we can run the step, but that is not enough !
+
+We need to be able to run commands/functions/... before and after the step execution, so we'll have `hooks` for that and to make sure the AI don't slop things out, we'll also have a `qa` system which are just specific hooks with behaviours built in (auto retry, model escalation, Human In the Loop)
+
+And finally, to take advantage of modern AI stack, a step also accept a list of `skills` and a path to an `agent` file.
+
+Yeah, I'm missing a few bits and bobs I won't go into here, but you have the main idea !
+
+Each step is executed using a model to run the prompt with commands running before and after (if needed), so, like I said previously, nothing fancy or complicated.
+
+## I want my 37K LoC, NOW
+
+Sure, let's conceive a workflow that would do that ! ([workflow file](https://github.com/DimitriGilbert/Clanker/blob/main/new-project.yml))
+
+To start with, you will need an idea or the concept of it, i can't help you there unfortunately !
+
+Once you have that, you'll need to define requirements and x://@mattpocockuk has just the skill for you, [write-a-prd](https://skills.sh/mattpocock/skills/write-a-prd)
+
+So the first step in this workflow would be to get a Product Requirement Document from your idea, the skill gets the model to ask you questions and help you define what you want out of your idea.
+
+It's time to bootstrap the project now, do not let the AI scaffold things "manually", this would be a waste of token ! In order to not do that, we'll be using [better-t-stack](https://better-t-stack.dev) and we'll let an AI model pick the different parts of the stack in this step
+
+Depending on your the stack choice, you might have some configuration to finish and a dev server to start
+
+Now equiped with that bootstrapped project and a PRD, you need to make sure your thoughts on what you want done are very clear, once again, Mr Pocock flies to your rescue with his [grill-me](https://skills.sh/mattpocock/skills/grill-me) skill.
+
+Be ready for a nice roasting session with many, Many, MANY questions about the prd and the project, but the better this part is, the better the outcome !
+
+This will give you an updated PRD document that will be used in the next step, the planification ! In order to have efficient execution later on.
+
+We'll use [my subagent-orchestration skill](https://skills.sh/dimitrigilbert/ai-skills/subagent-orchestration) to slice and dice the execution so each part fits comfortably in a subagent. And to make things tidy from the start, we'll also use the [tdd](https://skills.sh/mattpocock/skills/tdd) skills from... Matt Pocock (yes, again ^^)
+
+This will hep us avoid compaction and possibly make execution faster as some parts might be able to run in parallel. This step is also very important and the last one your inputs are required, so don't slack and get the best possible plan out of your LLM
+
+Past here, you are now a slow inconvenience to your agent, as we'll use the [subagent-orchestration skill](https://skills.sh/dimitrigilbert/ai-skills/subagent-orchestration) and [tdd](https://skills.sh/mattpocock/skills/tdd) skills again to perform the execution and commit between each phase.
+
+This skill forces a review of the created code after each sub phase and mandate fixing before continuing, so most of the slop whould be taken care of already...
+
+But to make sure of that, we need a complete review of the project ! This is where my [deep-agent-review skill](https://skills.sh/dimitrigilbert/ai-skills/deep-agent-review) comes in
+
+It will broadly analyse the codebase before dispatching subagent to targeted parts of your app for review, and once this is done, another set of agents are dispatch to verify the validity of the claims from the first batch
+
+It feels overkill ? yes ! Is it overkill ? No !
+
+This helps root out false positive and sometimes un earth a few more problems ! what you get at the end is a set of yaml files containing all the uncovered problems what you need now is a plan to fix everything !
+
+Do you know what we use to get a plan for these fixes ? if you said the same subagent-orchestration skill we used before, you would be super duper right ! so this is naturally the next step
+
+And yes, the next step is again a subagent-orchestration execution run, crazy... right ?
+
+And now... well, now is where you come back and make sure things run properly, for me it usualy take a bit less than an hour to get things running properly as there are always bits and pieces that are not perfect
+
+I'm pretty sure this last part could be, at least partly, automated using agent-browser or playwright, but I don't have enough experience with these tools to claim it will so... i won't include it in the workflow file !
+
+I might be biased, but, this seems like a fairly acceptable way of getting my 37K LoC in a day, don't you think ?
+
+To get the actual clanker [workflow file](https://github.com/DimitriGilbert/Clanker/blob/main/new-project.yml), I just pasted this into opencode and just asked for the file !
+
+## How did I get here, and what is next ?
+
+pretty simply actually, [this is the first claude conversation](https://claude.ai/share/4f5b55d2-0b26-470a-a510-327c1d8a91c2) to refine the idea, and then I jumped in opencode using GLM 5.1 and ran the PRD
+
+It's far from perfect and there are a bunch of things in the spec and implementation i dont necesseraly like, but this is more of a rolling spec and implementation for now as I am yet to use it properly
+
+Things seem to be generic enough to handle a wide variety of tasks, not just code, that follow a given flow but needs adaptation depending on the context.
+
+I don't think markdown is the new python, especially at the moment, when we're experiencing compute shortage, price hikes and model nerfing. It might become true some day, not today nor tomorrow though.
+
+This is where this comes in, it still rely heavily on non probabilistic code execution to constrain LLMs into good behaviour, allowing for guard rails along the way and leaving you in charge of some of the part
+
+So, what's the plan for that next ? Well, that is where you come in ! I'm fairly certain this would cover most my use cases but what about you ?
+
+What would be missing for you to automate your AI workflows ? And I'm not talking about verification or bootstrapping scripts, but core functionalities of the spec ?
+
+I intentionally left out any form of memory and persistance as I think it has nothing to do with the spec, workflows that need multiple run should have dedicated agent file or skills and I don't think inter workflow memory would serve any purpose... But maybe I'm wrong ? What do you think ?
+
+For now, and as I have very subtely inted at before, I'm going to build some form of UI to manage those workflows and I might have an idea on how to integrate that in a promising meta-harness
+
+I'll be dogfooding and use workflow files in order to do that, expect a report on the process and the advancement of the UI in the next article

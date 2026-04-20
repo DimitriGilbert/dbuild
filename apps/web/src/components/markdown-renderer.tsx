@@ -193,6 +193,20 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
               </code>
             )
           },
+          a: ({ href, children, ...props }) => {
+            const isExternal = href?.startsWith("http")
+            return (
+              <a
+                href={href}
+                target={isExternal ? "_blank" : undefined}
+                rel={isExternal ? "noopener noreferrer" : undefined}
+                className="text-primary underline underline-offset-4 hover:text-accent transition-colors"
+                {...props}
+              >
+                {children}
+              </a>
+            )
+          },
           blockquote: ({ children, ...props }) => (
             <blockquote className="border-l-4 border-primary pl-4 italic text-muted-foreground" {...props}>
               {children}

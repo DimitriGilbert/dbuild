@@ -34,18 +34,6 @@
       ]
     },
     {
-      "id": "cn-registry",
-      "name": "cn-registry.dev",
-      "description": "A hub for Shadcn components and tools.",
-      "image": "/images/cn-registry.dev/project.jpg",
-      "repo": "https://github.com/DimitriGilbert/cn-registry.dev",
-      "site": "https://cn-registry.dev",
-      "tags": [
-        "Shadcn",
-        "Registry"
-      ]
-    },
-    {
       "id": "parseArger",
       "name": "parseArger",
       "description": "Standalone bash argument parsing code generator.",
@@ -53,6 +41,52 @@
       "repo": "https://github.com/DimitriGilbert/parseArger",
       "site": "https://dimitrigilbert.github.io/parseArger/",
       "tags": []
+    },
+    {
+      "id": "Task-O-Matic",
+      "name": "Task-O-Matic",
+      "description": "AI-powered task management system transforming chaotic ideas into structured, executable task lists.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/task-o-matic",
+      "site": "https://github.com/DimitriGilbert/task-o-matic",
+      "tags": [
+        "ai",
+        "task-management",
+        "cli",
+        "productivity",
+        "typescript",
+        "bun"
+      ]
+    },
+    {
+      "id": "Sprynge",
+      "name": "Sprynge",
+      "description": "Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/sprynge-next",
+      "site": "https://github.com/DimitriGilbert/sprynge-next",
+      "tags": [
+        "community",
+        "help",
+        "nextjs",
+        "convex",
+        "real-time",
+        "gamification"
+      ]
+    },
+    {
+      "id": "Clanker",
+      "name": "Clanker",
+      "description": "A simple spec, parser and CLI for portable workflows using AI.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "repo": "https://github.com/DimitriGilbert/clanker",
+      "site": null,
+      "tags": [
+        "clanker",
+        "ai",
+        "workflow",
+        "automation"
+      ]
     },
     {
       "id": "TerMinable",
@@ -99,6 +133,18 @@
       ]
     },
     {
+      "id": "cn-registry",
+      "name": "cn-registry.dev",
+      "description": "A hub for Shadcn components and tools.",
+      "image": "/images/cn-registry.dev/project.jpg",
+      "repo": "https://github.com/DimitriGilbert/cn-registry.dev",
+      "site": "https://cn-registry.dev",
+      "tags": [
+        "Shadcn",
+        "Registry"
+      ]
+    },
+    {
       "id": "StationIO-Station",
       "name": "StationIO",
       "description": "Arduino framework-ish that handle the basics (wifi, ota, etc.)",
@@ -125,38 +171,6 @@
         "testing",
         "javascript",
         "three.js"
-      ]
-    },
-    {
-      "id": "Task-O-Matic",
-      "name": "Task-O-Matic",
-      "description": "AI-powered task management system transforming chaotic ideas into structured, executable task lists.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "repo": "https://github.com/DimitriGilbert/task-o-matic",
-      "site": "https://github.com/DimitriGilbert/task-o-matic",
-      "tags": [
-        "ai",
-        "task-management",
-        "cli",
-        "productivity",
-        "typescript",
-        "bun"
-      ]
-    },
-    {
-      "id": "Sprynge",
-      "name": "Sprynge",
-      "description": "Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "repo": "https://github.com/DimitriGilbert/sprynge-next",
-      "site": "https://github.com/DimitriGilbert/sprynge-next",
-      "tags": [
-        "community",
-        "help",
-        "nextjs",
-        "convex",
-        "real-time",
-        "gamification"
       ]
     },
     {
