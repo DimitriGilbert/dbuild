@@ -9,8 +9,402 @@ f:I[29001,[],"MetadataBoundary"]
 11:I[29001,[],"ViewportBoundary"]
 13:I[32215,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/4d47c024c072029d.css","style"]
-7:T2c49,
+:HL["/_next/static/css/02e34dedafeb1648.css","style"]
+7:T335c,
+These are some of the lessons i learnt from a year of coding using AI, but let me give you some context first
+
+So, in 2017, I quit my job in Singapore cause I burned out, badly. I've been living on disability benefit since 2020 as I was diagnosed with Multiple Sclerosis (turns out, the burn out was helped ^^').
+
+To get these things out of the way, yes, I'm very fortunate to live in France and be able to receive disability benefits, I'd probably be dead otherwise.
+
+And if you think MS is not enough to claim disability benefits, I would like to formally request that we swap sides for a month and have a chat after :)
+
+During all that time, I kept learning and trying new things even giving a hand to a couple friends for projects along the way, nothing serious
+
+I jumped on copilot on beta launch and ate at cursor's table quite early, but then again, I was mostly dilettante
+
+But a year (and a month) ago, excited by the amount of work I could do with AI even on my bad days, I decided I wasn't going to be bullied by my body anymore and I'd try to get back to work !
+
+The journey has been tedious and chaotic, but, here is a rundown of what I've done and what I've learned
+
+## LiteChat: learning by building, with the wrong tool
+
+Cursor and sonnet 3.5 is what triggered it for me, this (in some form or another) was the future, but it felt like magic so I did not like that
+
+What if I was building a chat to understand how it works ?
+
+Yes, that would work... But if I was to do it with the magic tool, would I be able to understand what happens... ?
+
+No... unfortunate but, the magic would have clouded everything, but I still wanted the no typi-typi comfort...
+
+What if I built an AI chat in an... AI chat ? Prompt everything, trying to not have a single line of code written by myself !
+
+Stupid ? YES !
+
+A good way to learn ? also yes ! I'd choose every file and feedback needed by the AI to get results and I'd see every output I would be given !
+
+using [t3.chat](https://t3.chat) and gemini 2.5 I built [litechat.dev](https://litechat.dev) ! (yes, I'm one of the reasons you can't have nice things and Thank you Theo for the tokens... ^^')
+
+This was my first AI revelation: context is hard, too little will cause hallucination and too much will cause moronisation.
+
+This was a real hurdle and this was what was taking me the longest, gathering the files the AI would need
+
+It was getting annoying and I felt I had a good understanding of what was happening under the hood
+
+Plus, Sonnet 3.7 was out and reliable tool use was actually a thing now, so back to cursor it was !
+
+## Formedible: a sidequest to let AI build forms on the fly
+
+One of the things I wanted for litechat was a way for AI to easily generate forms to interact with the user in a guided fashion
+
+This was one of the things I missed in t3.chat when working like I did
+
+I did what every sane dev running high on AI would do : I created a shadcn component for that, [formedible.dev](https://formedible.dev)
+
+A schema driven form "builder" so AI could create consistent forms just by outputting json (they were already decent at that)
+
+Another revelation about AI occurred: they like 'em complicated and if you let things go, they are gone, far and fast !
+
+Dumb interface, duplicated code, unoptimized code...have a look at any of the 2000 lines from the use-formedible hook...
+
+The result is a working tool/lib/component but it is far too complex IMO
+
+I'm not happy with it and I will work on making things better at some point, probably starting from scratch !
+
+But still, prompted properly, models were capable of creating complex forms very fast and with ease...
+
+That is when it clicked, you can just explain AI about the tools you created and it will use them... crazy stuff...
+
+To put that to the test and because plain text and forms chats were boring, I added a mermaid visualisation and it worked, so I did the same with chart generation and react flow diagrams and runnable JS or Python block and Strudel music... everything more or less... worked...
+
+So, it's all in [litechat.dev](https://litechat.dev), for free (minus the tokens) and without trackers !
+
+## Sprynge.me : new stack, new workflow, new teammate
+
+The time is Sonnet 4, the new hot thing is Claude Code, MCP is still sexy and I'm starting a new project with @benboarer
+
+The main goal of it being to promote good habit for X growth, just like the other 997 similar projects ^^ 
+
+I was bored of REST API and CRUD boilerplate as I've been doing Web platform things for close to 20 years now, and I've been promised realtime almost 10 of those ago
+
+As it happens Theo was praising [Convex](https://convex.dev) just for this exact feature, so... why the hell not try that
+
+Shake things up o clock it was, as I went for bun + tanstack start + convex in a monorepo (wcpgw ?)
+
+It did bite me later on because of bun lack of support for monorepo and tanstack start beta status so I ended up migrating to npm and nextjs. I would have liked not to but bun refused to bundle the server part of tanstack start, preventing me to use better-auth X login properly AND i was stuck on an old version of better-auth and tanstack start because of the convex integration... this was not a fun week, at all...
+
+Important lesson learned, AI makes adopting a new tech MUCH easier, but edge cases will still be edge cases and no amount of token burn could find and fix them
+
+After around a month or so, we ended up having a working tool that around 100 people enjoyed for a while and I stepped up my AI agentic workflow, but it was not all roses and rainbows !
+
+Rate limits were squeezing me as I was being introduced to [task-master.dev](https://task-master.dev) ! When you just have to execute a plan, your burn through your limits much, Much, MUCH faster
+
+So I set out to find a cheaper complement for Claude and ended up trying z.ai's GLM 4.5, it was brilliant !
+
+Not quite as good, but limits were nonexistent and it was 75% of the way there and things only got better with 4.6 and 4.7
+
+so much so that I just dropped my Claude sub and subscribed to GLM coding plan for a full year
+
+I liked that foray into the world of organised workflows for AI ! Output quality and speed were up and it was less of a faff to keep working on a project when doing that... but...
+
+## task-o-matic.dev : feeling the waters of agents orchestration
+
+task-master was not doing it anymore, I wanted things it could not do and jumping into the codebase was a bit of a faff
+
+what do you do when you are at this point ? Well Pinky, we do as we always do at this point, you forge your own set of wheels !
+
+And forging I did, I wanted a lib, cause as much as I enjoy my terminal window, many muggles are still afraid of it and prefer clickodromic UI
+
+That way, I could have my cake, eat it and share it with others as well !
+
+I went all in on the thing !
+
+Multi model PRD creation, questioning mechanism, multi model PRD improvement, task planification and planning with reconciliation, multiharness execution loop (BTW, multi model generation is also available in [litechat.dev](https://litechat.dev)... in case you were curious ;) )
+
+The. Whole. Shebang !
+
+It could probably have made you a sandwich as well if the cook had an API !
+
+New important knowledge point, don't try to reimplement the harness ! the multi model execution was trying to, but I later found out that it would have been easier just to do that using an existing harness (Claude code, opencode, codex, gemini, ...)
+
+Yes, AI makes you faster, but you know who else is faster because of AI ? The teams of talented people that were already building a harness !
+
+I tried a bunch of things with it and it was a nice tool ! So I proceeded to the next step : a TUI and an app !
+
+Things were going great ! A couple of months in, I had more or less everything clean-and-tidy(-ish) and ready to go...
+
+People around started to talk about skills more and more, I've had a look at them when anthropic put the spec out... md files... whatever !
+
+## subagent-orchestration: 2 months of work replaced by a markdown file
+
+Still, you know, people kept yapping, a lot so... I gave skills a second look
+
+well, the bitter sweetness that ensued was very real... a couple of md files just erased 85% of my last 2 months of work
+
+One side of me was very happy cause it was much more elegant, but the dev side that put 2 months of work in this lib/cli/tui/app was very much not !
+
+"Can this be a skill ?" should now be the default question every builder/founder should ask themselves
+
+contrary to the current psychosis trend, I don't think markdown is the new python but a combination of both is the new killer
+
+the end of year dark days and the growing hints of seasonal depression lead me to a "soul searching rerun binge watching" month or so until something clicked
+
+What can't be replaced by an md file ? I only see 2...
+
+Infrastructure, but that costs money or at least marketing foo that I don't possess
+
+And the second thing, community, the fun of sharing something you enjoy with someone who will do the same...
+
+## arcade-vibe.app: fun and goofy doesn't mean useless
+
+It all started from my personal benchmark, a 5 lines prompt that asks a model to create a vertical scroll shooter, using [litechat.dev](https://litechat.dev) js block (yes litechat again)
+
+Every new model drop, I was running it and then sharing the results with a group of friendly people on discord
+
+until one day, one of them told me I needed some improvement on the prompt to which my first thought was "well, you could do it yourself..."
+
+There it was ! The fun idea ! How good of a game can you create in a single prompt ? And compared to your friend ?
+
+Perfect ! fun and competition ! How could this possibly fail ?! (did I tell you I was a poor marketing person ?) 
+
+You could even argue this is a good way to benchmark models or even improve your prompting foo !
+
+And now I have a bunch of tools in my box to create the MVP ! I'm sure it'll be a couple of days, 4 tops !
+
+There lied the lesson for this part, code is not the bottleneck anymore ! I was 80% of the way there at the end of the week
+
+It still took a month or so for me to ship the darn thing !
+
+Testing and fixing, edge cases discovery and UI tweaks are still the bane of my existence, it just so happens that AI shrinks the time to get there apparently !
+
+If you want to go and have a look at it, whether you play games, create new ones or want to benchmark models, I'll give you credits if you give me feedback :D (and you can also BYOK, just in case you're afraid I might bite) it is all at [arcade-vibe.app](https://arcade-vibe.app)
+
+## Nétwayé, baléyé, astiké... Kaz la toujou penpan !
+
+Cleaning, dusting, polishing... let's keep this house clean
+
+With all that I learned this year about how context Goldielocks' zone matters, the fact that AI will always go for the most over-engineered solution that still fails on edge cases sometimes, or that you are one markdown file away from your project going to the bin, there is One major takeaway
+
+The one thing to remember from this whole year for me, is that my job as a dev will stay exactly the same but in a completely different manner !
+
+My main job of a dev will still be to ship features while keeping the house as clean and tidy as possible, limiting dirty tricks and technical debt, just like before, the only difference is that the house got very big, very fast
+
+I've always been more on the creative side of the dev spectrum, so I will continue to conceive architectures, specify code organisation and test the produced code, not much changed there and it will probably be the case for another year at least.
+
+What will not exist anymore will be the coding grind. I've been on the "if it works well enough" side of things for a while and as much as I love beautiful code, I've learned the hard way it almost never lives long enough to justify its creation
+
+For me this is very important, because it means I can work again ! I can still rake in a few prompts on brain fog days, pain is not stopping me anymore unless it is very bad and even if I can only work for a couple hours before expiring a good amount of work has been done ! AI did not cure my MS, but it made my work possible again !
+
+Some new grind appeared though and I tried to respond to the "proceed to the next task, review, fix this" prompt loop from hell by creating [task-o-matic](https://task-o-matic.dev), but it was the wrong tool
+
+Not leaving you with enough control while requiring constant adjustment is not the best of combos
+
+You probably are screaming OpenClaw or Hermes (you know, those agentic frameworks) behind your screen right now, I understand why, but I don't like the idea !
+
+I want something more portable, that can live outside of a complex harness and fit in my existing workflows without requiring a fat bunch of setup
+
+Ultimately, these should also be able to run in any "Claw framework" as well (remember about the talented people building harnesses from earlier, same jazz here !)
+
+So, that's what I started building and I'll be talking to you about this new project in my next article !
+8:T3b82,
+Voila quelques-unes des lecons que j'ai apprises d'un an de code avec l'IA, mais avant, un peu de contexte
+
+En 2017, j'ai demissioné de mon boulot a Singapour parce que j'ai fait un burn out, un gros. Je vis avec l'AAH depuis 2020 car on m'a diagnostique une Sclerose en Plaques (apparemment, le burn out a eu un coup de main ^^').
+
+Pour mettre les choses a plat direct, oui, j'ai beaucoup de chance de vivre en France et de pouvoir recevoir cette allocation, je serais probablement mort sinon.
+
+Et si tu penses que la SEP c'est pas suffisant pour pretendre a l'AAH, on echange nos places pendant un mois et on re-discute apres, hein ! :)
+
+Pendant tout ce temps là, j'ai continué a apprendre et essayer des nouveaux truc, j'ai aussi filer un coup de main a quelques potes pour des projets a eux en passant, mais, rien de serieux
+
+J'ai saute sur la beta de copilot et j'ai rapidement gouté a cursor, mais encore une fois, surtout dilettante pour m'amuser
+
+Mais il y a un an (et un mois), excité par la quantite de boulot que je pouvais sortir avec l'IA même les mauvais jours, j'ai decidé que je voulais plus me laisser trainer par mon systeme immunitaire et que j'allais retourner au turbin !
+
+Ca a ete fastidieux et chaotique, mais, voici un recap de ce que j'ai fait et de ce que j'ai appris cette derniere année
+
+## LiteChat : apprendre en construisant, avec le mauvais outil
+
+Cursor et sonnet 3.5... c'est ce qui a tout declenche pour moi, ca (sous une forme ou une autre) c'etait le futur ! Le probkème, c'est que ca ressemblait a de la magie et j'aimais pas ce coté la...
+
+Et si je construisais un chat pour comprendre comment ca marche ?
+
+Oui, ca pourrait marcher... Mais si je fais ca avec l'outil magique, est-ce que je pourrais comprendre ce qui se passe... ?
+
+Non... dommage, mais la magie aurait occulté ce qu'il fallait compredre, par contre j'avais bien envie de pas tout pianoter quand meme, profiter du confort un peu !
+
+Et si je construisais un chat IA dans un... chat IA ? Genre, tout prompter et 0 ligne de code ecrite ! 
+
+Possible ? ou pas !
+
+Stupide ? OUI !
+
+Une bonne facon d'apprendre ? Aussi oui ! Je devrait choisir quels fichiers envoyer, et quels feedbacks donner à l'IA pour avoir des resultats et je verrais chaque output qu'elle me donnera !
+
+C'est donc comme ca, en utilisant [t3.chat](https://t3.chat) et gemini 2.5 que j'ai construit [litechat.dev](https://litechat.dev) ! (oui, je suis une des raisons pour lesquelles vous pouvez pas avoir de trucs cool et Merci Theo pour les tokens... ^^')
+
+Ca a ete ma premiere revelation IA : le contexte c'est dur, trop peu et la machine hallucine et trop la rend vraiment neuneu.
+
+C'etait un vrai obstacle et c'est ce qui me prenait le plus de temps, rassembler les fichiers dont l'IA aurait besoin
+
+Ca devenait chiant et je sentais que j'avais une bonne comprehension de ce qui se passait sous le capot
+
+En plus, Sonnet 3.7 etait sorti et l'usage fiable des outils etait devenu une realite, donc retour a cursor !
+
+## Formedible : une quete secondaire pour que l'IA construise des formulaires a la volee
+
+Un des trucs que je voulais pour litechat c'etait un moyen pour l'IA de generer facilement des formulaires pour interagir avec l'utilisateur de facon guidée
+
+C'etait un des trucs qui me manquaient dans [t3.chat](https://t3.chat) quand je bossais comme je le faisais
+
+J'ai donc fait ce que tout bon dev sain d'esprit sous steroide IA ferait : j'ai cree un composant shadcn pour ca, [formedible.dev](https://formedible.dev)
+
+Un "builder" de formulaires piloté par un schema pour que l'IA puisse creer des formulaires consistants juste en sortant du json (elles etaient deja pas mal pour ca)
+
+Nouvelle révélation : L'IA aiment bien les usines a gaz et si tu lache la bride, elles partent loin, et super vite !
+
+Interfaces debiles, code duplique, code optimisable... va jeter un oeil aux 2000 lignes du hook use-formedible... (pardon aux familles, tout ca)
+
+Le resultat c'est un outil/lib/composant qui fonctionne mais bien trop complexe a mon gout
+
+J'suis pas content de la mecanique et je travaillerai a ameliorer ca a un moment, probablement en repartant de zero !
+
+Mais bon, ca fonctionne quand meme, et, bien promptes, les modeles etaient capables de creer des formulaires complexes tres vite et avec facilité...
+
+Et bim, autre declic ! En fait, tu peux juste expliquer a l'IA les outils que t'as crees et elle les utilisera... truc de ouf ! serieux...
+
+Pour mettre ca a l'epreuve et parce que les chats en texte brut et formulaires c'etait chiant, j'ai ajoute une visualisation mermaid et ca marchait, donc j'ai fait pareil avec la generation de graphiques et les diagrammes react flow et puis des blocs JS et Python executables et enfin un support de Strudel pour la musique... tout ca, ben ca... marchait...
+
+Si tu veux voir tout ca, tout est sur [litechat.dev](https://litechat.dev), gratuitement (moins les tokens) et sans trackers !
+
+## Sprynge.me : nouvelle stack, nouveau workflow, nouveau teammate
+
+L'epoque c'est Sonnet 4, la nouveau truc à la mode c'est Claude Code, MCP est encore sexy et je commence un nouveau projet avec @benboarer
+
+Le but principal etant de promouvoir les bonnes habitudes pour la croissance sur X, comme les 997 autres projets similaires ^^ 
+
+J'en avais un peu plein le dos des API REST et du boilerplate CRUD vu que je bosse dans le web depuis presque 20 ans maintenant, et qu'on me promet du temps reel depuis presque 10 de ces annees-la
+
+Comme par hasard Theo vantait [Convex](https://convex.dev) exactement pour ca, donc... pourquoi pas essayer
+
+C'etait l'heure de secouer le cocotier de ma stack, avec un bun + tanstack start + convex en monorepo (pani problem timan !)
+
+Bon... en fait si... problèmes : manque de support de bun pour les monorepos, statut beta de tanstack start... j'ai donc fini par revenir vers npm et nextjs. J'aurais aime ne pas avoir a le faire mais bun refusait de bundler la partie serveur de tanstack start, m'empechant d'utiliser le login X de better-auth correctement ET j'etais coince sur une vieille version de better-auth et tanstack start a cause de l'integration convex... bref, pas une semaine fun, mais genre, pas du tout...
+
+Lecon importante apprise, l'IA rend l'adoption d'une nouvelle tech BEAUCOUP plus facile, mais les edge case en resteront et t'as beau cramé du tokens et lire de la docs, ca resoudra pas forcement le probleme !
+
+Apres environ un mois, on a fini par avoir un outil fonctionnel qu'une centaine de personnes ont apprecie pendant un moment et j'ai monte en gamme mon workflow agentique, mais c'etait pas tout roses non plus !
+
+Les rate limits me demonté mes session de taf juste au moment ou on m'a presenté [task-master.dev](https://task-master.dev) ! Quand tu dois juste executer un plan, tu brules du token beaucoup, Beaucoup, BEAUCOUP plus vite
+
+Je me suis donc mis en quete d'un complement moins cher/plus ample pour Claude et j'ai fini par essayer GLM 4.5 de z.ai, c'etait brillant !
+
+Pas tout a fait aussi bon, mais les limites etaient inexistantes et c'etais au 3/4 aussi bon et les choses ont fait que s'ameliorer avec 4.6 et 4.7
+
+Tellement que j'ai abandonné mon abonnement Claude et je me suis inscrit au plan GLM coding pour un an complet
+
+La petite excursion dans le monde des workflows organises pour l'IA m'a vraiment plu ! Autant pour La qualite que la vitesse de dev qui etaient en hausse et c'etait tellement moins galere de continuer a bosser sur un projet en faisant ca... mais...
+
+## task-o-matic.dev : le gros orteil dans le bain de l'orchestration agentic
+
+task-master ne suffisait plus, je voulais des trucs qu'il ne pouvait pas faire et plonger dans le codebase c'etait une vraie la galere
+
+Donc, tu fais quoi quand t'en es a ce stade ? Et bien Minus, la même chose qu'on fait a chaque fois a ce stade, on fabrique notre propre outil !
+
+Me voila donc repartis a faire un autr outil ! Point important, je voulais une lib, parce qu'autant j'aime bien ma fenetre de terminal, autant la majorité des moldus en ont encore peur et preferent les clickodromes
+
+Avec une lib, je pouvais avoir le beurre ans mon terminal, et l'argent du beurre grace a une GUI pour normie !
+
+Je suis alle au taquet sur le truc !
+
+Creation de PRD multi-modele, mecanisme de questionnement, amelioration de PRD et planification de taches et plan multi-modele avec reconciliation, boucle d'execution multi-harness (claude, codex, opencode gemini) (au fait, la generation multi-modele est aussi dispo sur [litechat.dev](https://litechat.dev)... au cas ou tu serais curieux ;) )
+
+Vario mallossi, pot polini et pedale de lanceur ! Le. Kit. Complet !
+
+Ca t'aurait fait un sandwich aussi si le cuistot avait une API !
+
+Nouveau point de connaissance important: ne pas reimplementer le harness d'IA ! l'execution multi-modele essayait de le faire, mais j'ai decouvert plus tard que ca aurait ete plus simple de faire ca en utilisant un harness existant (Claude code, opencode, codex, gemini, ...)
+
+Oui, l'IA te rend plus rapide, mais tu sais qui d'autre est plus rapide grace a l'IA ? Les equipes de gens talentueux qui construisaient deja un harness !
+
+J'ai essaye plein de trucs avec et c'etait un chouette outil ! Donc j'ai procede a l'etape suivante : un TUI et une app !
+
+Les choses avancaient bien ! Quelques mois plus tard, j'avais un truc plus ou moins clean et pret a partir...
+
+Les gens autour commençaient a parler de plus en plus de skills, j'y avais jete un oeil quand anthropic a sorti la spec... des fichiers md... bof !
+
+## subagent-orchestration : 2 mois de travail remplaces par un fichier markdown
+
+Quand meme, tu sais, les gens continuaient a blablater, et beaucoup... donc j'ai redonne une chance aux skills
+
+bah, le petit gout aigre-doux qui s'en est suivie etait bien reelle... quelques fichiers md viennent d'effacer 85% de mes 2 derniers mois de travail
+
+Un cote de moi etait tres content parce que c'etait nettement plus elegant, mais le cote dev qui a mis 2 mois de travail dans cette lib/cli/tui/app l'etait beaucoup, mais alors beaucoup moins !
+
+"Est-ce que ca peut etre un skill ?" devrait maintenant etre la question par defaut que chaque builder/fondateur devrait se poser
+
+contrairement a la psychose actuelle, je pense pas que le markdown est le nouveau python mais une combinaison des deux... ca c'est le nouveau truc de tueur
+
+les jours sombres de fin d'annee et les indices grandissants de depression saisonniere m'ont mene a un mois de lobotomie a grand coup de series déjà vu jusqu'a ce qu'un truc click
+
+Qu'est-ce qui peut pas etre remplace par un fichier md ? J'en vois que 2...
+
+L'infrastructure, mais ca coute du pognon ou au moins des capacité en marketing que j'ai pas
+
+Et le deuxieme truc, la communauté, le fun de partager quelque chose que tu kiffes avec quelqu'un qui fera pareil...
+
+## arcade-vibe.app : fun et debile veut pas dire inutile
+
+Tout est partis de mon benchmark perso, un prompt de 5 lignes qui demande a un modele de creer un shooter vertical, en utilisant le bloc js de [litechat.dev](https://litechat.dev) (oui encore litechat)
+
+A chaque sortie de nouveau modele, je le lancais et ensuite je partageais les resultats avec un groupe de gens sympas sur discord
+
+jusqu'au jour ou l'un d'eux m'a dit que je devais ameliorer le prompt, ce a quoi ma premiere pensee a ete "bah, tu pourrais le faire toi-meme..."
+
+Et voila ! L'idee fun ! Quel jeu tu peux creer en un seul prompt ? Et comparé a tes potes ?
+
+Parfait ! Fun et compet' ! Comment ca pourrait foirer ?! (je t'ai dit que j'etais une bille en marketing ?)
+
+Tu pourrais meme dire que c'est un bon moyen de benchmarker les modeles ou meme d'ameliorer ton prompting foo !
+
+En plu, maintenant j'ai une boite pleine d'outils pour creer le MVP ! Je suis sur que ca prendra pas 2 jours, 4 grand max !
+
+C'est la que se trouvait la lecon pour cette partie, le code c'est plus le goulot d'etranglement ! J'etais a 80% du chemin a la fin de la semaine
+
+Ca m'a quand meme pris un mois environ pour ship le satane truc !
+
+Les tests et les corrections, la decouverte des edge cases et les ajustements d'UI restent la plaie de mon existence, il se trouve que l'IA retrecit juste le temps pour y arriver, apparemment !
+
+Si tu veux aller jeter un oeil, que ce soit pour jouer, creer de nouveaux jeux ou benchmarker des modeles, je te file des credits si tu me files du feedback :D (et tu peux aussi BYOK, au cas ou t'as peur que je morde) tout est sur [arcade-vibe.app](https://arcade-vibe.app)
+
+## Nétwayé, baléyé, astiké... Kaz la toujou penpan !
+
+La musique dans la peau... ... pardon...
+
+Grace tout ce que j'ai appris cette annee, sur la zone optimale pour le contexte, le fait que l'IA ira toujours vers la solution la plus over-engineered qui quand meme echoue parfois sur les edge cases, ou encore que t'es a un fichier markdown de voir ton projet finir a la poubelle, il y a Une lecon majeure a tirer
+
+La seule chose a retenir de toute cette annee pour moi, c'est que mon taf de dev restera exactement le meme mais d'une maniere completement differente !
+
+Mon taf principal de dev sera toujours de livrer des features tout en gardant la maison la plus propre et rangee possible, en limitant les astuces degueulasses et la dette technique, comme avant, la seule difference c'est que la maison est devenue tres grande, tres vite
+
+J'ai toujours ete plus du cote creatif du spectre dev, donc je continuerai a concevoir des architectures, specifier l'organisation du code et tester le code produit, pas grand-chose a change de ce cote et ca sera probablement le cas pour encore un an au moins.
+
+Ce qui n'existera plus c'est la galere du code. J'ai ete du cote "si ca marche" depuis un bon moment et autant j'aime le beau code, autant j'ai appris a la dure qu'il vit presque jamais assez longtemps pour justifier sa creation
+
+C'est vraiment tres important pour  mon cas perso, parce que ca veut dire que je peux retravailler ! Je peux quand meme lancer quelques prompts les jours de brouillard cerebral, la douleur ne m'arrete plus a moins que ca soit vraiment tres mauvais et meme si je peux bosser que quelques heures avant d'imposer,  une bonne quantite de boulot a ete faite ! L'IA a pas gueri ma SEP, mais elle a rendu mon travail possible a nouveau !
+
+Une nouvelle galere est apparue par contre et j'ai essaye de repondre au cycle de prompts de l'enfer "passe a la tache suivante, review, fix ca" en creant [task-o-matic](https://task-o-matic.dev), mais c'etait le mauvais outil
+
+Ca ne laisser pas assez de controle tout en demandant des ajustements constants... pas le meilleur des combos
+
+Tu es probablement en train de hurler OpenClaw ou Hermes (tu sais, ces frameworks agentiques) derriere ton ecran, je comprends pourquoi, mais j'aime pas l'idee !
+
+Je veux quelque chose de plus portable, qui peut vivre en dehors d'un harness complexe et s'integrer dans mes workflows existants sans necessiter un gros tas de config
+
+Au final, ca devrait aussi pouvoir tourner dans n'importe quel framework "Claw" (tu te souviens des gens talentueux qui construisent des harness de tout a l'heure, meme son de cloche ici !)
+
+Donc, c'est ce que j'ai commence a construire et je te parlerai de ce nouveau projet dans mon prochain article !
+9:T2c49,
 ## AI Skills
 
 Ever typed the same prompt over and over again, reminded your AI assistant how a library works AGAIN or described a workflow more than once ?
@@ -200,7 +594,7 @@ In the coming months, i'll probably go on adding and refining more skills and I 
 This will not solve all the problems we encounter with AI but it is a good way to manage and share what you learn while prompting.
 
 BTW, my github repo is opensource so if you use my skills and encounter any issues, feel free to open an issue or submit a PR !
-8:T33c0,
+a:T33c0,
 ## Les Skills IA
 
 T'as déjà tapé le même prompt encore et encore, rappelé à ton IA comment fonctionne une bibliothèque ENCORE UNE FOIS ou décrit un workflow pour la trouzième fois ?
@@ -392,7 +786,7 @@ Dans les mois à venir, je vais probablement continuer à ajouter et affiner plu
 Ça ne va pas résoudre tous les problèmes qu'on rencontre avec l'IA mais c'est une bonne façon de gérer et partager ce que tu apprends en promptant.
 
 BTW, mon repo github est opensource donc si tu utilises mes skills et que tu rencontres des problèmes, hésite pas à ouvrir une issue ou à soumettre une PR !
-9:T3c82,
+b:T3c82,
 "The bubble popping is gonna kill AI !" / "it is not a bubble, it will never stop !"
 
 "It's just a useless fad, AI and its chatbots are not the future !" / "Humans are useless now ! AI can do it all !"
@@ -690,7 +1084,7 @@ Build something ! Break something ! Get better at your job by learning ! Or get 
 I don’t know if we end up with fully automated luxury communism or cyber-feudalism. But I know that pretending the tools don’t work (or that they work for everyone equally) is a lie that serves only the people selling the shovels.
 
 Use the damn things. See for yourself. Then we can argue about how we go about building the future.
-a:T43fb,
+c:T43fb,
 "La bulle qui éclate va tuer l'IA !" / "c'est pas une bulle, ça s'arrêtera jamais !"
 
 "C'est juste une mode inutile, l'IA et ses chatbots c'est pas le futur !" / "Les humains servent plus à rien ! L'IA peut tout faire !"
@@ -986,675 +1380,7 @@ Construis quelque chose ! Casse quelque chose ! Deviens meilleur à ton taf en a
 Je sais pas si on finit avec du communisme de luxe entièrement automatisé ou du cyber-féodalisme. Mais je sais que faire comme si les outils marchaient pas (ou qu'ils marchent pareil pour tout le monde) c'est un mensonge qui sert que les gens qui vendent les pelles.
 
 Utilise ces fichus trucs. Vois par toi-même. Ensuite on pourra débattre de comment on construit le futur.
-b:T45f9,
-_TLDR; Eric loop is a concept that upgrades Ralph loop by adding more complexity and depth to the idea of managing AI systems, [bash version of the article](/assets/blackhole/from_ralph_to_eric/bashticle.sh)_
-
-I wont reintroduce the concept of Ralph loop, if you have been anywhere near AI in the first half of January 2026, you have heard of it ! If not, you should go and watch [Theo's video](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (or someone else's but this is a good !)
-
-You probably know which comics character Ralph is refering to, but Eric... who could it possibly be ?
-
-If you thought short, fat and angry, you'd be right ! I'm of course talking about Eric Cartman from South Park !
-
-While Ralph is naive and innocent, Eric is calculating and manipulative. Not something I'd look for in a Human, but for managing a bunch of AIs ? HELL YEAH !
-
-![Eric saw Ralph](/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp)
-
-## The Eric Loop
-
-An idea, even if good, always need some work and some back and forth to be implemented. So we first expose the idea to the AI to get an requirement document (PRD) and we work on it !
-
-How ? you'll need to read first ! and straight away update parts you don't agree with or things you need to be more thorough !
-
-Once that is done, ask AI models to ask You questions about the PRD and give all those, the PRD and your replies to another AI for update
-
-Rince, Repeat, until you are satisfied with the document.
-
-You can even get multiple model go at it to then compare and merge the outputs, using AI, of course :D
-
-This is where we start diverging from the basic Ralph loop. instead of just passing that to the AI and hoping tasks will be implemented properly we get an AI to pre split and formalise the tasks and sub tasks into a list !
-
-The rift grows further as we split the task implementation in several steps with:
-* a planning phase that analyzes the requirements for the tasks, existing code, and conduct the needed research
-* an execution phase to do the actual work,
-* an optional automated verification phase (check types, build, tests, ...) with automated feedback to the execution phase in case of errors,
-* an result review phase, that can send back to the execution phase for further refinement.
-
-Once all that is done ? the Eric loop goes on for the next phase of the plan, just like Ralph !
-
-## But, Why... ?
-
-Separation of concerns !
-
-Yes models have gotten smarter, but if you played around with sub agents and skills, you know that prompting is not dead (yet...)
-
-Having a neat separation like that helps you have better prompts for each phase of the task execution.
-
-As a side effect, it mmeans you can control which model is used for which phase maybe you dont need Opus the whole way if it made a banger plan !
-
-## What would it look like ?
-
-We are going to create a small project from an idea I have, you can do it to if you like !
-
-It's called Tiny-till, a small app to have a simple till for itinerant merchants.
-
-But we are going to need a tool to help us ... 
-
-### Task-o-matic
-
-Yep, I already kind of made said tool :D ! [task-o-matic](https://task-o-matic.dev)
-
-I'll write more about it in a future post ! but you already have plenty of content to go through on the site itself.
-
-I made sure to generate a lot of docs and a couple tutorials so you can already give it a try if you'd like !
-
-But in a nutshell, it helps you create PRDs, refine them , split into tasks and subtasks and finally wiring all that to your favorite AI harness !
-
-### Let's get this rolling
-
-For the AI to operate properly, we need a specific stack, that way, we limit hallucination !
-
-#### Initialisation and bootstrapping
-
-Task-o-matic uses [better-t-stack](https://better-t-stack.dev) under the hood to bootstrap the stack so let's do that !
-
-```bash
-npx task-o-matic@latest init init --project-name tiny-till \
-  --frontend tanstack-router \
-  --backend none \
-  --package-manager bun && cd tiny-till
-```
-
-Boom, a monorepo for Tiny-till ! Batteries included : tailwind, shadcn, build script and all :D
-
-Why `init init` ? you might have missed the whole using AI to code whole projects, sometimes... it is not aesthetically pleasing, and you should learn not to care to much (is my take on that... or lazyness...)
-
-You will need a .env file to configure the AI stack.
-
-```ini
-AI_PROVIDER=openrouter
-
-AI_MODEL=nvidia/nemotron-3-nano-30b-a3b:free
-
-OPENROUTER_API_KEY=sk_123456azertPOIUY7890i58008
-```
-
-#### Document the requirements of your project
-
-Now, we tell the AI what we want to do, but why would we limit ourselves to 1 ?
-
-```bash
-npx task-o-matic@latest prd create \
-  --ai-reasoning 4096 \
-  --stream \
-  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096" \
-  --ai "mistralai/devstral-2512:free:free" \
-  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
-  --ai "minimax/minimax-m2.1;reasoning=4096" \
-  --ai "z-ai/glm-4.7;reasoning=4096" \
-  --ai "google/gemini-3-flash-preview;reasoning=4096" \
-  --combine-ai "z-ai/glm-4.7;reasoning=4096" \
-  "i would like to build tiny-till,
-  it will be a small web app, local first (for sparse internet connection) that serve as a very simple till for on the go seller, farmers markets stall, etc...
-  the idea came from me watching my baker who does delivery tour twice a week. she is always fighting here calculator to make the tally and she gromle about it a lot
-  the idea wwould be only a few screens : 
-  - product management (add/remove product, name+price (img optional) ) : a list with action buttons, + or edit happen inline (+ at the top)
-  - a tally page : grid of product for fast and easy access (row of 2 or 3 for mobile, 4 to 6 on tablet, normal/compact variant, control by setting)
-    - clicking on a product adds it to the count
-    - number of this product added appear in the card, click on it trigger an input field to enter value with a remove button
-  - a setting page : theme, display, import/export catalog
-  No saving, it is purely done too calculate the price and is not meant for accounting purposes
-  i am using tanstack-router and the project is already set up with tailwind css typescript and shadcnUI"
-```
-
-Am I using free endpoints for "real" work ? Yes, yes I am ! Does it distort my views on how much AI work should cost ? ... Why would it ? No, no, you just being a killjoy right now !
-
-#### Petrol is not the only thing that needs refining !
-
-A few minutes later... I got myself this (`cat .task-o-matic/prd/prd-master.md`)[/assets/blackhole/from-ralph-to-eric/prd-master.md] it doesn't really need more questions, but let's see what Claude has to say, shall we ?
-
-```bash
-npx task-o-matic@latest prd question  --stream \
-  --file .task-o-matic/prd/prd-master.md \
-  --ai-model anthropic/claude-4.5-sonnet --ai-reasoning 1500
-```
-
-Well, let's answer those... some are pertinant ! I guess that's why we bring out the big guns !
-
-Let's reply !
-
-```bash
-npx task-o-matic@latest prd refine  --stream\
-  --file .task-o-matic/prd/prd-master.md \
-  --ai-model anthropic/claude-4.5-sonnet --ai-reasoning 1500 \
-  --output .task-o-matic/prd/prd-master-refined.md \
-  --questions prd-questions.json
-```
-
-Questions are asked interactivelly ;)
-
-```markdown
-"The PRD mentions using Zustand with persist middleware for the Catalog, but also specifies IndexedDB as the storage layer. Should Zustand's persist middleware be configured to use IndexedDB directly, or will there be a custom sync layer between Zustand and IndexedDB? This affects how image blobs are handled since Zustand persist middleware typically works best with serializable data."
-
-yes, configure Zustand's persist middleware to use IndexedDB directly.
-```
-
-```markdown
-"For the 'Tap Badge to manually enter quantity' feature, what should happen if a user enters invalid input (negative numbers, decimals, non-numeric characters, or zero)? Should zero be treated as 'remove from cart' or should it maintain the item with 0 quantity until explicitly removed?",
-
-zero should be treated as 'remove from cart'.
-```
-
-```markdown
-"The PRD states the tally is 'transient' and held in memory, yet also mentions using sessionStorage. Given that sessionStorage persists across page refreshes within the same tab, this conflicts with the 'privacy and simplicity' goal of resetting on refresh. Should the tally truly reset on refresh (pure memory), or should it survive accidental refreshes during a transaction (sessionStorage)?",
-
-no persistance, this is not for accounting and should only be in memory, when a new tally starts, the previous one does not exist anymore.
-```
-
-```markdown
-"With TanStack Router's file-based routing, how should the navigation structure be organized? Specifically, should the Tally Page be the root route ('/'), and if users are on the Settings or Catalog management page when they refresh, should they be automatically redirected back to the Tally Page to prevent data loss confusion?",
-
-yes, / is the tally page, yes redirect to tally page.
-```
-
-```markdown
-"The image upload feature is marked as 'optional' for products, but the PRD recommends 'no images for MVP' in the risk mitigation. Should image upload functionality be completely excluded from MVP (Phase 1-5), or should the data model and UI be built to accommodate images even if the upload feature is disabled/hidden initially?",
-
-no, i want images, just inforce a strict size limitation, 128*128 px, this is not meant to be a full image gallery, just a thumbnail for display, future improvement maybe to try and resize/optimise bigger image directly on device...but not in MVP !
-```
-
-```markdown
-"For the Import/Export catalog feature, what should happen when importing a JSON file that contains product IDs that conflict with existing products? Should it merge (overwrite matching IDs), append (create duplicates), or prompt the user to choose? Also, should the import validate the JSON schema and handle corrupt/invalid files gracefully?",
-
-overwrite and yes, must validate.
-```
-
-```markdown
-"The 'Compact vs Normal' view toggle affects card size, but how should this interact with the responsive column count? For example, if a tablet user sets 6 columns in Normal view, should switching to Compact view automatically increase columns (e.g., to 8) to utilize the space savings, or should column count remain fixed per the user's explicit setting?",
-
-yes, auto increase, 'tis why we want compact !
-```
-
-```markdown
-"Given the Turborepo setup mentioned in the stack, is this application intended to be part of a monorepo with potential future packages (e.g., a companion admin dashboard, analytics service)? If so, should the data models and storage utilities be architected in a shared package from the start, or is this truly a standalone application for now?"
-
-no, single package for now, we'll see later for the rest. let's keep it simple for now.
-```
-
-Well, this little stunt just costed me a nice 15 cts, more or les 10x more than the first PRD generation...
-
-I don't know what is the most amazing... that 
-
-* 1 call costs more than the 10 previous, 
-* I can complain about a 2 days worth of work document cost 15 cents for only a few seconds of work !
-* a document worth 2 of my days of work costs 15 cents to produce...in only a few seconds...
-
-I haven't decided yet...anywooooooo, time to move on and not get siderated !
-
-#### Touching up and go
-
-When i said seconds, i lied, I spent 5 minutes editing the file. to fix lib versions, marked install and config work as done, and, finally, set expectation for the design.
-
-the last thing we have to do, is ask an AI to split into main tasks.
-
-once again, i wont only do 1, but this time, I'll ask Claude to be the final task creator, from others input !
-
-```bash
-npx task-o-matic@latest prd parse  --ai-reasoning 4096 --stream \
-  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096"\
-  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
-  --ai "z-ai/glm-4.7;reasoning=4096" \
-  --combine-ai "anthropic/claude-4.5-sonnet;reasoning=4096"
-```
-
-And there goes another 8.2 cents burnt for the token Gods, but in return, we get a detailed breakdown of the tasks required to complete the project !
-
-We still have to split those tasks though... To make them more palatable for the current crop of AI models ! 
-
-You should really consider reviewing the tasks in detail before spliting, not vibe planning like a muppet ! (guess what I did ^^)
-
-```bash
-npx task-o-matic@latest tasks split  --all --stream \
-  --reasoning 4096 \
-  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096"\
-  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
-  --ai "z-ai/glm-4.7;reasoning=4096" \
-  --combine-ai "anthropic/claude-4.5-sonnet;reasoning=4096"
-```
-
-I think Claude is not necessary here, but I had me $3 of openrouter credit i have to burn before the end of the month soooooo... big guns it is !
-
-Burnt a tenth of that ! but now... we are actually ready ! Almost...
-
-#### AGENTS.md
-
-Or CLAUDE, or GEMINI, depends on your harness of choice, For me, it is opencode i'am going to run the /init prompt in opencode !
-
-```bash
-opencode run "/init"
-```
-
-it is not mandatory, but it is a good way to prevent dumb mistake and set some proper behavior regarding a few things, for me, i'll add the following
-
-* Not to run the dev server
-* not start background/long running processes
-* not to use `:any`, `as any` or `any` as type, I want a typesafe codebase
-* before claiming success, `bun run check-types` and `bun run build` must both succeed
-* to fix LSP error when they happen
-* use shadcn component has much as possible
-* stay DRY and prefer creating custom components and utilities than repeat code
-* use adapted skills when possible (frontend-design skill is mandatory when working on the frontend)
-* that it is a static app project that will be hosted on github pages
-* to use Context7 MCP in case more documentation or up to date documentation is needed (as the knowledge is certainly behind because of cutoff training date)
-
-```bash
-opencode run "Add the following to the AGENTS.md, remove any conflicting instructions you created, these take precedence : 
-* Not to run the dev server
-* not start background/long running processes
-* not to use `:any`, `as any` or `any` as type, I want a typesafe codebase
-* before claiming success, `bun run check-types` and `bun run build` must both succeed
-* to fix LSP error when they happen
-* use shadcn component has much as possible
-* stay DRY and prefer creating custom components and utilities than repeat code
-* use adapted skills when possible (frontend-design skill is mandatory when working on the frontend)
-* that it is a static app project that will be hosted on github pages
-* to use Context7 MCP in case more documentation or up to date documentation is needed (as the knowledge is certainly behind because of cutoff training date)" -c
-```
-
-I might add more as the agent works if i see reccuring errors and dumb things happening
-
-#### Time to let Eric loose...
-
-Well, guys, stash your parents away cause we are going to let Eric go at it !
-
-Because I am El CheapoDev DelBrokeCasa, i am going to use my GLM coding plan to code, that way, i wont break the bank and it is OK enough for something like that i think !
-
-If you'd rather use claude code, use the `--tool claude` option. (or codex/gemini/kilo) but opencode is nicer as it stream the content out (in part at least) so you see what is happening !
-
-```bash
-npx task-o-matic@latest tasks execute-loop --include-prd \
-  --plan --plan-model zai-coding-plan/glm-4.7 \
-  --review --review-model zai-coding-plan/glm-4.7 \
-  --model zai-coding-plan/glm-4.7 \
-  --validate "npm run check-types && npm run build"
-```
-
-And now, you wait, coffee, snacks, more coffee, diner and breakfast probably, it gonna take a while ^^
-
-### What's the result
-
-Half a day later, Eric has successfully completed the task. yaaay \o/
-
-`npm run dev`, browser to http://localhost:3001 aaaaand, it does not work.... XD
-
-I have a very fancy error page telling me about some kind of "exceeded depth error blablabla"... Zustand... i bloody fucking HATE Zustand !
-
-I could have gone in, open the project, read some of the 35970 lines of... **35970 LINES OF CODE** ??? Naaah, dude, ain't no way i'm even thinking about that !
-
-Of course, i asked GLM to fix this obviously terrible usage of Zustand, and I even have to spend another few minutes screaming about some redirection to the / issue... I still felt like a caveman though !
-
-I mean, having to open a tool ? To do ... **work** ?? Like it's 2022 or something !
-
-I haven't been testing anything yet, so i'm pretty sure there'll be a few more issues, but the dev server runs, i can navigate the app without error (even in console) so it is not bad at all !
-
-I might do a follow up later on, to update you on what i had to do to get it a bit closer to the original idea (if needed ^^)
-
-## What do you think ? Where do we go from here ?
-
-So that's the end (of this article) ! What do you think ? did you try a similar technique ? What's the plan next, cause...
-
-If you are interested, the repo can be found on [github](https://github.com/DimitriGilbert/tiny-till). Is the code great ?
-
-As for [task-o-matic](https://task-o-matic.dev), the [repo is on github](https://github.com/DimitriGilbert/task-o-matic) so feel free to poke around ;)
-
-What about the "Eric Loop", how can you do that yourself ? Well, the beautiful thing with AI is that, you can actually ask it to write code ! So a quick
-
-```markdown
-coudl you create a bash script to have a program that would run the "Eric Loop" with custom options ?
-
-letting me specify the project, what model to use and when, I basically want everything configurable through options !
-
-use the --help command of task-o-matic if you need any doc !
-```
-
-[this being the result](/assets/blackhole/from_ralph_to_eric/eric_loop.sh), your own Eric Loop, ain't life beautiful ?
-
-Hope you enjoyed, I'll see you around
-c:T4c72,
-Je vais pas re-introduire le concept de Ralph loop, si vous avez été a côté de l'IA dans la première moitié de janvier 2026, vous en avez entendu parler ! Si non, vous devriez aller voir la vidéo de [Theo](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (ou quelqu'un d'autre mais celle-la est bonne !)
-
-Vous savez probablement quel personnage de comics Ralph référence, mais Eric... ca pourrait être qui ?
-
-Si vous avez pensé petit, gros et en colère, vous avez raison ! Je parle bien sûr d'Eric Cartman de South Park !
-
-Alors que Ralph est naïf et innocent, Eric est calculateur et manipulateur. Pas quelque chose que je chercherais chez une personne, mais pour gérer un tas d'IA ? Carrément !
-
-![Eric saw Ralph](/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp)
-
-## La boucle Eric
-
-Comme chaque projet ca commence par une idée, 
-
-Et même si elle est bonne, on a toujours besoin de la retravailler, de faire des ajustements, ... pour bien implémentée.
-
-Donc on expose d'abord l'idée à l'IA pour avoir un Product Requirements Document (PRD) et on travaille dessus !
-
-Comment ca, lire ? Et bhe oui, il faut d'abord lire ! et tout de suite mettre à jour les parties avec lesquelles vous n'êtes pas d'accord ou les choses qui doivent être plus approfondies !
-
-Une fois que c'est fait, demandez aux modèles d'IA de vous poser des questions sur le PRD et donnez tout ça, le PRD et vos réponses, à une autre IA pour la mise à jour.
-
-Rincez, Répétez, jusqu'à ce que vous soyez satisfait du document.
-
-Vous pouvez même faire traiter le PRD par plusieurs modèles pour ensuite comparer et fusionner les résultats, en utilisant l'IA, bien sûr :D
-
-C'est là qu'on commence à diverger de la boucle Ralph de base. Au lieu de juste passer ça à l'IA et espérer que les tâches seront bien implémentées, on fait pré-découper et formaliser les tâches et sous-tâches en une liste par une IA !
-
-L'écart grandit encore plus car on sépare l'implémentation des tâches en plusieurs étapes avec :
-* une phase de planification qui analyse les requis pour les tâches, le code existant, et fait les recherches nécessaires
-* une phase d'exécution pour faire le travail réel
-* une phase optionnelle de vérification automatisée (check types, build, tests, ...) avec feedback automatique vers la phase d'exécution en cas d'erreurs
-* une phase de review des résultats, qui peut renvoyer vers la phase d'exécution pour plus de raffinement.
-
-Une fois tout ça fait ? la boucle Eric continue pour la phase suivante du plan, tout comme Ralph !
-
-## Mais, Pourquoi... ?
-
-La séparation des préoccupations !
-
-Oui les modèles sont devenus plus intelligents, mais si vous avez joué avec des sub-agents et des skills, vous savez que le prompting n'est pas mort (pour le moment...)
-
-Avoir une séparation propre comme ça aide à avoir de meilleurs prompts pour chaque phase de l'exécution des tâches.
-
-Comme effet secondaire, ça signifie que vous pouvez contrôler quel modèle est utilisé pour quelle phase, peut-être que vous n'avez pas besoin d'Opus tout le long si "il" a fait un super plan !
-
-## A quoi ça ressemblerait ?
-
-On va créer un petit projet à partir d'une idée que j'ai, vous pouvez le faire aussi si vous voulez !
-
-Il s'appelle Tiny-till, une petite app pour avoir une caisse simple pour marchands ambulants.
-
-Mais on va avoir besoin d'un outil pour nous aider ...
-
-### Task-o-matic
-
-Ouais, j'ai déjà fait l'outil en question :D ! [task-o-matic](https://task-o-matic.dev)
-
-J'écrirai plus à ce sujet dans un futur post ! mais vous avez déjà pas mal de contenu à parcourir sur le site lui-même.
-
-J'ai fait gaffe à générer plein de docs et quelques tutoriels pour que vous puissiez déjà essayer si vous voulez !
-
-Mais en gros, ça aide à créer des PRDs, les raffiner, découper en tâches et sous-tâches et finalement connecter tout ça à votre outil de code assité d'IA préféré !
-
-### Allons-y
-
-Pour que l'IA opère proprement, on a besoin d'une stack spécifique, comme ça, on limite les hallucinations !
-
-#### Initialisation et bootstrap
-
-Task-o-matic utilise [better-t-stack](https://better-t-stack.dev) en interne pour bootstrap la stack donc faisons ça !
-
-```bash
-npx task-o-matic@latest init init --project-name tiny-till \
-  --frontend tanstack-router \
-  --backend none \
-  --package-manager bun && cd tiny-till
-```
-
-Boum, un monorepo pour Tiny-till ! Batteries incluses : tailwind, shadcn, script de build et tout :D
-
-Pourquoi `init init` ? vous avez peut-être raté toute l'histoire de l'IA qui code des projets entiers, parfois... c'est pas esthétique, et vous devriez apprendre à pas trop y faire attention (c'est mon avis la-dessus... ou de la flemme...)
-
-Vous aurez besoin d'un fichier .env pour configurer la stack IA.
-
-```ini
-AI_PROVIDER=openrouter
-
-AI_MODEL=nvidia/nemotron-3-nano-30b-a3b:free
-
-OPENROUTER_API_KEY=sk_123456azertPOIUY7890i58008
-```
-
-#### Documenter les requis de votre projet
-
-Maintenant, on dit à l'IA ce qu'on veut faire, mais pourquoi se limiter à 1 ?
-
-```bash
-npx task-o-matic@latest prd create \
-  --ai-reasoning 4096 \
-  --stream \
-  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096" \
-  --ai "mistralai/devstral-2512:free:free" \
-  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
-  --ai "minimax/minimax-m2.1;reasoning=4096" \
-  --ai "z-ai/glm-4.7;reasoning=4096" \
-  --ai "google/gemini-3-flash-preview;reasoning=4096" \
-  --combine-ai "z-ai/glm-4.7;reasoning=4096" \
-  "i would like to build tiny-till,
-  it will be a small web app, local first (for sparse internet connection) that serve as a very simple till for on the go seller, farmers markets stall, etc...
-  the idea came from me watching my baker who does delivery tour twice a week. she is always fighting here calculator to make the tally and she gromle about it a lot
-  the idea wwould be only a few screens :
-  - product management (add/remove product, name+price (img optional) ) : a list with action buttons, + or edit happen inline (+ at the top)
-  - a tally page : grid of product for fast and easy access (row of 2 or 3 for mobile, 4 to 6 on tablet, normal/compact variant, control by setting)
-    - clicking on a product adds it to the count
-    - number of this product added appear in the card, click on it trigger an input field to enter value with a remove button
-  - a setting page : theme, display, import/export catalog
-  No saving, it is purely done too calculate the price and is not meant for accounting purposes
-  i am using tanstack-router and the project is already set up with tailwind css typescript and shadcnUI"
-```
-
-J'utilise des endpoints gratuits pour du "vrai" travail ? Oui, oui, je fais ! Est-ce que ça fausse ma vision de combien le travail IA devrait coûter ? ... pourquoi ça ferait ça ? Non, non, vous êtes juste en train de gâcher la fête là !
-
-#### L'essence n'est pas la seule chose qui doit être raffinée !
-
-Quelques minutes plus tard... je me suis récupéré ça (`cat .task-o-matic/prd/prd-master.md`)[/assets/blackhole/from-ralph-to-eric/prd-master.md] ça a pas vraiment besoin de plus de questions, mais voyons ce que Claude a a dire, d'accord ?
-
-```bash
-npx task-o-matic@latest prd question  --stream \
-  --file .task-o-matic/prd/prd-master.md \
-  --ai-model anthropic/claude-4.5-sonnet --ai-reasoning 1500
-```
-
-Bon, répondons à ça... certaines sont pertinentes ! je suppose que c'est pour ça qu'on sort les gros canons !
-
-Répondons !
-
-```bash
-npx task-o-matic@latest prd refine  --stream\
-  --file .task-o-matic/prd/prd-master.md \
-  --ai-model anthropic/claude-4.5-sonnet --ai-reasoning 1500 \
-  --output .task-o-matic/prd/prd-master-refined.md \
-  --questions prd-questions.json
-```
-
-Les questions sont posées interactivement ;)
-
-```markdown
-"The PRD mentions using Zustand with persist middleware for the Catalog, but also specifies IndexedDB as the storage layer. Should Zustand's persist middleware be configured to use IndexedDB directly, or will there be a custom sync layer between Zustand and IndexedDB? This affects how image blobs are handled since Zustand persist middleware typically works best with serializable data."
-
-oui, configurer le middleware persist de Zustand pour utiliser IndexedDB directement.
-```
-
-```markdown
-"For the 'Tap Badge to manually enter quantity' feature, what should happen if a user enters invalid input (negative numbers, decimals, non-numeric characters, or zero)? Should zero be treated as 'remove from cart' or should it maintain the item with 0 quantity until explicitly removed?",
-
-zéro doit être traité comme 'retirer du panier'.
-```
-
-```markdown
-"The PRD states the tally is 'transient' and held in memory, yet also mentions using sessionStorage. Given that sessionStorage persists across page refreshes within the same tab, this conflicts with the 'privacy and simplicity' goal of resetting on refresh. Should the tally truly reset on refresh (pure memory), or should it survive accidental refreshes during a transaction (sessionStorage)?",
-
-pas de persistance, c'est pas pour la comptabilité et ça doit être uniquement en mémoire, quand un nouveau tally commence, le précédent n'existe plus.
-```
-
-```markdown
-"With TanStack Router's file-based routing, how should the navigation structure be organized? Specifically, should the Tally Page be the root route ('/'), and if users are on the Settings or Catalog management page when they refresh, should they be automatically redirected back to the Tally Page to prevent data loss confusion?",
-
-oui, / est la page tally, oui rediriger vers la page tally.
-```
-
-```markdown
-"The image upload feature is marked as 'optional' for products, but the PRD recommends 'no images for MVP' in the risk mitigation. Should image upload functionality be completely excluded from MVP (Phase 1-5), or should the data model and UI be built to accommodate images even if the upload feature is disabled/hidden initially?",
-
-non, je veux les images, imposez juste une limitation de taille stricte, 128*128 px, c'est pas fait pour être une galerie d'images complète, juste une miniature pour l'affichage, amélioration future peut-être pour essayer de redimensionner/optimiser des images plus grosses directement sur l'appareil...mais pas en MVP !
-```
-
-```markdown
-"For the Import/Export catalog feature, what should happen when importing a JSON file that contains product IDs that conflict with existing products? Should it merge (overwrite matching IDs), append (create duplicates), or prompt the user to choose? Also, should the import validate the JSON schema and handle corrupt/invalid files gracefully?",
-
-écraser et oui, doit valider.
-```
-
-```markdown
-"The 'Compact vs Normal' view toggle affects card size, but how should this interact with the responsive column count? For example, if a tablet user sets 6 columns in Normal view, should switching to Compact view automatically increase columns (e.g., to 8) to utilize the space savings, or should column count remain fixed per the user's explicit setting?",
-
-oui, augmentation auto, c'est pour ça qu'on veut compact !
-```
-
-```markdown
-"Given the Turborepo setup mentioned in the stack, is this application intended to be part of a monorepo with potential future packages (e.g., a companion admin dashboard, analytics service)? If so, should the data models and storage utilities be architected in a shared package from the start, or is this truly a standalone application for now?",
-
-non, package unique pour l'instant, on verra après pour le reste. gardons ça simple pour l'instant.
-```
-
-Bon, cette petite astuce vient de me coûter un joli 15 cts, plus ou moins 10x plus que la première génération de PRD...
-
-Je sais pas ce qui est le plus incroyable... que
-
-* 1 appel coûte plus que les 10 précédents,
-* je puisse me plaindre qu'un document de 2 jours de travail coûte 15 cents pour seulement quelques secondes de travail !
-* un document qui vaut 2 de mes jours de travail coûte 15 cents à produire...en seulement quelques secondes...
-
-J'ai pas encore décidé...bon bref, passons à la suite et restons pas bloqués !
-
-#### Les petites retouches et c'est parti
-
-Quand j'ai dit secondes, j'ai menti, j'ai passé 5 minutes à éditer le fichier. pour fixer les versions de lib, marquer le travail d'install et de config comme fait, et, enfin, définir les attentes pour le design.
-
-la dernière chose qu'on a a faire, c'est demander à une IA de découper en tâches principales.
-
-encore une fois, je vais pas en faire qu'une seule, mais cette fois, je vais demander à Claude d'être le créateur de tâches final, à partir des entrées des autres !
-
-```bash
-npx task-o-matic@latest prd parse  --ai-reasoning 4096 --stream \
-  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096"\
-  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
-  --ai "z-ai/glm-4.7;reasoning=4096" \
-  --combine-ai "anthropic/claude-4.5-sonnet;reasoning=4096"
-```
-
-Et voila encore 8.2 cents brûlés en offrandes aux dieux du token, mais en retour, on a un découpage détaillé des tâches requises pour finir le projet !
-
-On a encore à découper ces tâches par contre... Pour les rendre plus digérables, même pour les meilleurs modèles IA à l'heure actuelle !
-
-Ca serait une bonne idée de revoir les tâches en détail avant de les découper, pas faire du vibe-planning comme un neuneu ! (devinez ce que j'ai fait ^^)
-
-```bash
-npx task-o-matic@latest tasks split  --all --stream \
-  --reasoning 4096 \
-  --ai "xiaomi/mimo-v2-flash:free;reasoning=4096"\
-  --ai "nvidia/nemotron-3-nano-30b-a3b:free;reasoning=4096" \
-  --ai "z-ai/glm-4.7;reasoning=4096" \
-  --combine-ai "anthropic/claude-4.5-sonnet;reasoning=4096"
-```
-
-Je pense pas que Claude soit nécessaire là, mais j'avais mes $3 de crédit openrouter à brûler avant la fin du mois donc bon... on sort l'artillerie lourde !
-
-Et bim, 30 centimes de plus ! mais maintenant... on est vraiment prêts ! Presque...
-
-#### AGENTS.md
-
-Ou CLAUDE, ou GEMINI, dépend de votre outil de code assité préféré, Pour moi, c'est opencode je vais lancer le prompt /init dans opencode !
-
-```bash
-opencode run "/init"
-```
-
-c'est pas vraiment obligatoire, mais c'est quand meme une bonne histoire d'eviter les plus grosse conneries et de recentrer quelques comportements pour certaines choses, du coup, on rajoute ca :
-
-* Pas lancer le server de dev
-* pas démarrer de processus en arrière-plan/de longue durée
-* pas utiliser `:any`, `as any` ou `any` comme type, je veux une base de code typesafe
-* avant de dire "Jai finiiiii", `bun run check-types` et `bun run build` doivent tous les deux réussir
-* corriger les erreurs LSP quand elles arrivent
-* utiliser les composants shadcn autant que possible
-* rester DRY et préférer créer des composants personnalisés et des utilitaires que répéter du code
-* utiliser les compétences adaptées quand c'est possible (la compétence frontend-design est obligatoire quand on travaille sur le frontend)
-* que c'est un projet d'app statique qui sera hébergé sur github pages
-* utiliser Context7 MCP au cas où plus de documentation ou une documentation à jour est nécessaire (car la connaissance est certainement en retard à cause de la date limite de training)
-
-```bash
-opencode run "Add the following to the AGENTS.md, remove any conflicting instructions you created, these take precedence :
-* Not to run the dev server
-* not start background/long running processes
-* not to use `:any`, `as any` or `any` as type, I want a typesafe codebase
-* before claiming success, `bun run check-types` and `bun run build` must both succeed
-* to fix LSP error when they happen
-* use shadcn component has much as possible
-* stay DRY and prefer creating custom components and utilities than repeat code
-* use adapted skills when possible (frontend-design skill is mandatory when working on the frontend)
-* that it is a static app project that will be hosted on github pages
-* to use Context7 MCP in case more documentation or up to date documentation is needed (as the knowledge is certainly behind because of cutoff training date)" -c
-```
-
-J'ajouterai peut-être plus pendant que l'agent travaille si je vois des erreurs récurrentes et des gourdineries qui arrivent trop souvent (... si je regarde passer le train... c'est pas dit XD)
-
-#### Et maintenant, on fait rouler Eric...
-
-Bon les gars, cachez vos parents car on va laisser Eric y aller !
-
-Parce que je suis El CheapoDev DelBrokeCasa, je vais utiliser mon GLM coding plan pour coder, comme ça, je vais pas eclater ma tirelire et c'est assez intelligent pour un truc comme ça je pense !
-
-Si vous préférez claude code, utilisez l'option `--tool claude`. (ou codex/gemini/kilo) mais opencode est plus sympa car il stream le contenu (en partie en tout cas) donc vous voyez ce qui se passe (meuuuuh !) !
-
-```bash
-npx task-o-matic@latest tasks execute-loop --include-prd \
-  --plan --plan-model zai-coding-plan/glm-4.7 \
-  --review --review-model zai-coding-plan/glm-4.7 \
-  --model zai-coding-plan/glm-4.7 \
-  --validate "npm run check-types && npm run build"
-```
-
-Et maintenant, vous attendez, un café, un gouter, un peu plus de café, le dîner et pis le p'tit déj probablement, ça va prendre un moment ^^
-
-### Résultat
-
-Une demi-journée plus tard, Eric a terminé la tâche avec succès. youhou \o/
-
-`npm run dev`, navigateur vers http://localhost:3001 et eeeet, ça marche pas.... XD
-
-J'ai une super page d'erreur qui me parle d'une sorte de "exceeded depth error blablabla"... Zustand... je déteste PUTAIN Zustand !
-
-J'aurais pu aller ouvrir le projet, lire quelques-unes des 35970 lignes de... **35970 LIGNES DE CODE** ??? Naaah, gros, c'est mort de chez mort !
-
-Bien sûr, j'ai demandé à GLM de corriger l'utilisation degueulasse de Zustand, et j'ai même dû passer quelques minutes à hurler sur un problème de redirection vers /... J'avais l'impression d'être un homme des cavernes quand même !
-
-Je veux dire, devoir ouvrir un outil ? Pour faire... **du travail** ?? Nan mais Allo quoi, c'est 2022 ou quoi ?
-
-J'ai rien testé encore, donc je suis à peu près sûr qu'il y aura quelques autres problèmes, mais le serveur de dev tourne, je peux naviguer dans l'app sans erreur (même en console) donc c'est pas mal du tout !
-
-Je ferai peut-être un autre article plus tard, pour vous tenir au courant de ce que j'ai eu à faire pour rapprocher un peu plus de l'idée originale (si nécessaire ^^)
-
-## Vous en pensez quoi ? On va où après ?
-
-Donc c'est la fin (de cet article) ! Vous en pensez quoi ? vous avez essayé une technique similaire ? C'est quoi le plan après, parce que bon...
-
-Si vous êtes intéressés, le repo peut être trouvé sur [github](https://github.com/DimitriGilbert/tiny-till). Le code est génial ?
-
-Et pour [task-o-matic](https://task-o-matic.dev), le [repo est sur github](https://github.com/DimitriGilbert/task-o-matic) donc n'hésitez pas à faire un tour ;)
-
-Et pour la "Boucle Eric", comment faire vous-même ? Yaka demander à l'IA :D vous pouvez lui demander d'écrire du code ! Donc un petit
-
-```markdown
-tu pourrais créer un script bash qui exécuterait la "Boucle Eric" avec des options personnalisées ?
-
-en me laissant spécifier le projet, quel modèle utiliser et quand, je veux tout pouvoir configurer via des options !
-
-utilise la commande --help de task-o-matic si t'as besoin de doc !
-```
-
-[voici le résultat](/assets/blackhole/from_ralph_to_eric/eric_loop.sh), votre Eric Loop a vous, elle est pas belle la vie ?!
-
-Hope you enjoyed, I'll see you around
-0:{"P":null,"b":"No5TZ1pKF6AVBr5aF3Suz","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4d47c024c072029d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"projects":[{"id":"LiteChat","name":"LiteChat","description":"A modern, local first AI chat app for your browser.","image":"/images/litechat/project.jpg","repo":"https://github.com/DimitriGilbert/LiteChat","site":"https://litechat.dbuild.dev","tags":["pwa","ai","chat-application","agents","llm","local-llm"]},{"id":"FormEdible","name":"FormEdible","description":"A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.","image":"/images/FormEdible/project.jpg","repo":"https://github.com/DimitriGilbert/FormEdible","site":"https://dimitrigilbert.github.io/Formedible/","tags":["Shadcn","Registry","form","hook","react","typescript","zod"]},{"id":"cn-registry","name":"cn-registry.dev","description":"A hub for Shadcn components and tools.","image":"/images/cn-registry.dev/project.jpg","repo":"https://github.com/DimitriGilbert/cn-registry.dev","site":"https://cn-registry.dev","tags":["Shadcn","Registry"]},{"id":"parseArger","name":"parseArger","description":"Standalone bash argument parsing code generator.","image":"/images/parsearger/project.jpg","repo":"https://github.com/DimitriGilbert/parseArger","site":"https://dimitrigilbert.github.io/parseArger/","tags":[]},{"id":"TerMinable","name":"TerMinable","description":"A demonstration terminal for you projects (or mine).","image":"/images/terminable/project.jpg","repo":"https://github.com/DimitriGilbert/TerMinable","site":"https://terminable.dbuild.dev/","tags":["Shadcn","Registry","Terminal","React","Typescript"]},{"id":"sshm0","name":"sshm0","description":"A simple CLI ssh connection manager","image":"/images/sshm0/project.jpg","repo":"https://github.com/DimitriGilbert/sshm0","site":"https://github.com/DimitriGilbert/sshm0","tags":["ssh","bash","cli","parseArger"]},{"id":"AI-gents","name":"AI-gents","description":"AI-gents. A simple format for AI agents.","image":"/images/ai-gents/project.jpg","repo":"https://github.com/DimitriGilbert/AI-gents","site":"ai-gents.dbuild.dev/","tags":["bash","cli","parseArger","ai","agents"]},{"id":"StationIO-Station","name":"StationIO","description":"Arduino framework-ish that handle the basics (wifi, ota, etc.)","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/StationIO-Station","site":"dimitrigilbert.github.io/StationIO-Station/","tags":["arduino","esp8266","esp32"]},{"id":"RaceBench","name":"RaceBench","description":"Benchmarking LLMs on real JavaScript code generation tasks with executable results.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/racebench","site":"https://dimitrigilbert.github.io/racebench/scroller/index.html","tags":["benchmark","llm","ai","testing","javascript","three.js"]},{"id":"Task-O-Matic","name":"Task-O-Matic","description":"AI-powered task management system transforming chaotic ideas into structured, executable task lists.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/task-o-matic","site":"https://github.com/DimitriGilbert/task-o-matic","tags":["ai","task-management","cli","productivity","typescript","bun"]},{"id":"Sprynge","name":"Sprynge","description":"Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/sprynge-next","site":"https://github.com/DimitriGilbert/sprynge-next","tags":["community","help","nextjs","convex","real-time","gamification"]},{"id":"git-moar","name":"git-moar","description":"Advanced Git repository analytics and reporting CLI tool with beautiful HTML reports and visualizations.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/git-report","site":"https://github.com/DimitriGilbert/git-report","tags":["git","analytics","cli","visualization","javascript","nodejs"]}],"projectTags":["React","Registry","Shadcn","Terminal","Typescript","agents","ai","analytics","arduino","bash","benchmark","bun","chat-application","cli","community","convex","esp32","esp8266","form","gamification","git","help","hook","javascript","llm","local-llm","nextjs","nodejs","parseArger","productivity","pwa","react","real-time","ssh","task-management","testing","three.js","typescript","visualization","zod"],"recentPosts":[{"slug":"projects-ai-skills-skills-are-the-dry-of-prompt-engineering","title":"Skills are the DRY of prompt engineering, you should use them and create your own","description":"Just like I use to create my own libraries and helpers I reused in most my projects, I now create skills so i don't rewrite the same prompts over and over again","date":"$D2026-03-03T14:00:00.000Z","category":"General","tags":["ai","skills"],"content":"$7","readTime":10,"toc":[{"level":2,"title":"AI Skills","id":"ai-skills"},{"level":3,"title":"What they are","id":"what-they-are"},{"level":3,"title":"apt install skillz","id":"apt-install-skillz"},{"level":3,"title":"BE CAREFUL","id":"be-careful"},{"level":3,"title":"I haz uze skill","id":"i-haz-uze-skill"},{"level":3,"title":"Make your own","id":"make-your-own"},{"level":2,"title":"My skills","id":"my-skills"},{"level":3,"title":"The Council","id":"the-council"},{"level":3,"title":"not-ai-writer","id":"not-ai-writer"},{"level":3,"title":"subagent-orchestration","id":"subagent-orchestration"},{"level":2,"title":"Skill issues","id":"skill-issues"},{"level":2,"title":"On going process","id":"on-going-process"}],"directory":"Projects/ai-skills/Skills are the DRY of prompt engineering","relativePath":"Projects/ai-skills/Skills are the DRY of prompt engineering/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/ai-skills/Skills are the DRY of prompt engineering/index.md","isCategory":false,"ogImage":"public/images/blog/projects/ai-skills/dry_of_prompting/ai-skills-cover_og.webp"},{"slug":"projects-ai-skills-les-skills-sont-le-dry-du-prompt-engineering","title":"Les Skills sont le DRY du prompt engineering, tu devrais les utiliser et créer les tiennes","description":"Comme j'avais l'habitude de créer mes propres bibliothèques et helpers que je réutilisais dans la plupart de mes projets, je crée maintenant des skills pour ne pas réécrire les mêmes prompts encore et encore","date":"$D2026-03-03T13:59:00.000Z","category":"General","tags":["ai","skills"],"content":"$8","readTime":11,"toc":[{"level":2,"title":"Les Skills IA","id":"les-skills-ia"},{"level":3,"title":"Ce que c'est","id":"ce-que-cest"},{"level":3,"title":"apt install skillz","id":"apt-install-skillz"},{"level":3,"title":"ATTENTION","id":"attention"},{"level":3,"title":"Je utilise skill","id":"je-utilise-skill"},{"level":3,"title":"Crée les tiennes","id":"cre-les-tiennes"},{"level":2,"title":"Mes skills","id":"mes-skills"},{"level":3,"title":"The Council","id":"the-council"},{"level":3,"title":"not-ai-writer","id":"not-ai-writer"},{"level":3,"title":"subagent-orchestration","id":"subagent-orchestration"},{"level":2,"title":"skill issues","id":"skill-issues"},{"level":2,"title":"Processus continu","id":"processus-continu"}],"directory":"Projects/ai-skills/Les Skills sont le DRY du prompt engineering","relativePath":"Projects/ai-skills/Les Skills sont le DRY du prompt engineering/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/ai-skills/Les Skills sont le DRY du prompt engineering/index.md","isCategory":false,"ogImage":"public/images/blog/projects/ai-skills/dry_of_prompting/ai-skills-cover_og.webp"},{"slug":"black-hole-the-ai-debate-is-missing-the-point-and-so-are-you","title":"The AI Debate Is Missing the Point (And So Are You)","description":"The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app","date":"$D2026-01-30T23:01:00.000Z","category":"General","tags":["AI"],"content":"$9","readTime":15,"toc":[{"level":2,"title":"Who am I to talk about this ?","id":"who-am-i-to-talk-about-this"},{"level":2,"title":"Bubble go pop, AI go bye bye ?","id":"bubble-go-pop-ai-go-bye-bye"},{"level":3,"title":"Open source changed the game","id":"open-source-changed-the-game"},{"level":3,"title":"The Chinese wild card","id":"the-chinese-wild-card"},{"level":2,"title":"\"It's just crypto all over again !\"","id":"its-just-crypto-all-over-again"},{"level":3,"title":"Even if it IS a fad...","id":"even-if-it-is-a-fad"},{"level":3,"title":"It's not a fad","id":"its-not-a-fad"},{"level":2,"title":"You're confusing the gimmick with the tool !","id":"youre-confusing-the-gimmick-with-the-tool"},{"level":3,"title":"What it actually did for me","id":"what-it-actually-did-for-me"},{"level":3,"title":"What it could do for you","id":"what-it-could-do-for-you"},{"level":2,"title":"The great (job) replacement","id":"the-great-job-replacement"},{"level":3,"title":"\"Hey, I still would like a job !\"","id":"hey-i-still-would-like-a-job"},{"level":3,"title":"We will still need humans though !","id":"we-will-still-need-humans-though"},{"level":2,"title":"It's not about jobs, it's about society","id":"its-not-about-jobs-its-about-society"},{"level":3,"title":"UBI won't cut it !","id":"ubi-wont-cut-it"},{"level":2,"title":"How I (why not you ?) actually use this stuff","id":"how-i-why-not-you-actually-use-this-stuff"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"So, what now ?","id":"so-what-now"}],"directory":"Black hole/The AI Debate Is Missing the Point (And So Are You)","relativePath":"Black hole/The AI Debate Is Missing the Point (And So Are You)/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/The AI Debate Is Missing the Point (And So Are You)/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp"},{"slug":"black-hole-le-dbat-autour-de-l-ia-est-a-cote-de-la-plaque-toi-aussi","title":"Le débat autour de l'IA est à cote de la plaque (toi aussi)","description":"La bulle IA va éclater, ça arrêtera pas l'IA. Ton refus d'utiliser l'IA empêchera pas ton job d'être remplacé. ChatGPT n'est pas la killer app de l'IA","date":"$D2026-01-30T22:50:00.000Z","category":"General","tags":["AI"],"content":"$a","readTime":15,"toc":[{"level":2,"title":"Auto validation sur pourquoi je parle de ca","id":"auto-validation-sur-pourquoi-je-parle-de-ca"},{"level":2,"title":"La bulle pète et l'IA crève ?","id":"la-bulle-pte-et-lia-crve"},{"level":3,"title":"L'open source a changé la donne","id":"lopen-source-a-chang-la-donne"},{"level":3,"title":"La wildcard chinoise","id":"la-wildcard-chinoise"},{"level":2,"title":"\"C'est juste la crypto bis !\"","id":"cest-juste-la-crypto-bis"},{"level":3,"title":"Même si c'EST une mode...","id":"mme-si-cest-une-mode"},{"level":3,"title":"C'est pas une mode","id":"cest-pas-une-mode"},{"level":2,"title":"Tu confonds le gadget avec l'outil !","id":"tu-confonds-le-gadget-avec-loutil"},{"level":3,"title":"Ce que ça m'a vraiment apporté","id":"ce-que-a-ma-vraiment-apport"},{"level":3,"title":"Ce que ça pourrait te faire","id":"ce-que-a-pourrait-te-faire"},{"level":2,"title":"Le grand remplacement (de l'emploi)","id":"le-grand-remplacement-de-lemploi"},{"level":3,"title":"\"Hé, j'aimerais quand même avoir un travail !\"","id":"h-jaimerais-quand-mme-avoir-un-travail"},{"level":3,"title":"On aura quand même besoin d'humains !","id":"on-aura-quand-mme-besoin-dhumains"},{"level":2,"title":"C'est pas une question d'emplois, c'est une question de société","id":"cest-pas-une-question-demplois-cest-une-question-de-socit"},{"level":3,"title":"Le UBI suffira pas !","id":"le-ubi-suffira-pas"},{"level":2,"title":"Comment j'utilise (pourquoi pas toi aussi ?) vraiment ces trucs","id":"comment-jutilise-pourquoi-pas-toi-aussi-vraiment-ces-trucs"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"Donc, c'est quoi la suite ?","id":"donc-cest-quoi-la-suite"}],"directory":"Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)","relativePath":"Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp"},{"slug":"black-hole-from-ralph-to-eric","title":"From Ralph to Eric","description":"Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !","date":"$D2026-01-16T23:01:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$b","readTime":15,"toc":[{"level":2,"title":"The Eric Loop","id":"the-eric-loop"},{"level":2,"title":"But, Why... ?","id":"but-why"},{"level":2,"title":"What would it look like ?","id":"what-would-it-look-like"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Let's get this rolling","id":"lets-get-this-rolling"},{"level":4,"title":"Initialisation and bootstrapping","id":"initialisation-and-bootstrapping"},{"level":4,"title":"Document the requirements of your project","id":"document-the-requirements-of-your-project"},{"level":4,"title":"Petrol is not the only thing that needs refining !","id":"petrol-is-not-the-only-thing-that-needs-refining"},{"level":4,"title":"Touching up and go","id":"touching-up-and-go"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Time to let Eric loose...","id":"time-to-let-eric-loose"},{"level":3,"title":"What's the result","id":"whats-the-result"},{"level":2,"title":"What do you think ? Where do we go from here ?","id":"what-do-you-think-where-do-we-go-from-here"}],"directory":"Black hole/From ralph to Eric","relativePath":"Black hole/From ralph to Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/From ralph to Eric/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"},{"slug":"black-hole-passer-de-ralph-a-eric","title":"Passer de Ralph a Eric","description":"Tout le monde ne parle que de la 'Ralph loop', et le principe est cool, mais je pense qu'on peut faire mieux grace au concept de la Boucle a Eric !","date":"$D2026-01-16T23:00:00.000Z","category":"General","tags":["AI","Ralph lopp","Eric loop"],"content":"$c","readTime":16,"toc":[{"level":2,"title":"La boucle Eric","id":"la-boucle-eric"},{"level":2,"title":"Mais, Pourquoi... ?","id":"mais-pourquoi"},{"level":2,"title":"A quoi ça ressemblerait ?","id":"a-quoi-a-ressemblerait"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":3,"title":"Allons-y","id":"allons-y"},{"level":4,"title":"Initialisation et bootstrap","id":"initialisation-et-bootstrap"},{"level":4,"title":"Documenter les requis de votre projet","id":"documenter-les-requis-de-votre-projet"},{"level":4,"title":"L'essence n'est pas la seule chose qui doit être raffinée !","id":"lessence-nest-pas-la-seule-chose-qui-doit-tre-raffine"},{"level":4,"title":"Les petites retouches et c'est parti","id":"les-petites-retouches-et-cest-parti"},{"level":4,"title":"AGENTS.md","id":"agentsmd"},{"level":4,"title":"Et maintenant, on fait rouler Eric...","id":"et-maintenant-on-fait-rouler-eric"},{"level":3,"title":"Résultat","id":"rsultat"},{"level":2,"title":"Vous en pensez quoi ? On va où après ?","id":"vous-en-pensez-quoi-on-va-o-aprs"}],"directory":"Black hole/Passer de Ralph a Eric","relativePath":"Black hole/Passer de Ralph a Eric/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Passer de Ralph a Eric/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"}],"blogTags":["AI","Eric loop","Ralph lopp","ai","analytics","bash","benchmark","chat","cli","cn-registry","devlog","form","french","git","homelab","llm","local","mdd","parseArger","parsearger","productivity","react","rpi","scripting","server","shadcn","skills","tanstack","task-management","task-o-matic","terminal","testing","tutorial","typescript","visualization","zod"],"totalPosts":26}],null,["$","$Ld",null,{"children":"$Le"}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","bZwcc9syUFuE5p89Dzzay",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","$L11",null,{"children":"$L12"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"0CGhXrEW6RWmxjz-i5_g-","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/02e34dedafeb1648.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"projects":[{"id":"LiteChat","name":"LiteChat","description":"A modern, local first AI chat app for your browser.","image":"/images/litechat/project.jpg","repo":"https://github.com/DimitriGilbert/LiteChat","site":"https://litechat.dbuild.dev","tags":["pwa","ai","chat-application","agents","llm","local-llm"]},{"id":"FormEdible","name":"FormEdible","description":"A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.","image":"/images/FormEdible/project.jpg","repo":"https://github.com/DimitriGilbert/FormEdible","site":"https://dimitrigilbert.github.io/Formedible/","tags":["Shadcn","Registry","form","hook","react","typescript","zod"]},{"id":"parseArger","name":"parseArger","description":"Standalone bash argument parsing code generator.","image":"/images/parsearger/project.jpg","repo":"https://github.com/DimitriGilbert/parseArger","site":"https://dimitrigilbert.github.io/parseArger/","tags":[]},{"id":"Task-O-Matic","name":"Task-O-Matic","description":"AI-powered task management system transforming chaotic ideas into structured, executable task lists.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/task-o-matic","site":"https://github.com/DimitriGilbert/task-o-matic","tags":["ai","task-management","cli","productivity","typescript","bun"]},{"id":"Sprynge","name":"Sprynge","description":"Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/sprynge-next","site":"https://github.com/DimitriGilbert/sprynge-next","tags":["community","help","nextjs","convex","real-time","gamification"]},{"id":"Clanker","name":"Clanker","description":"A simple spec, parser and CLI for portable workflows using AI.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/clanker","site":null,"tags":["clanker","ai","workflow","automation"]},{"id":"TerMinable","name":"TerMinable","description":"A demonstration terminal for you projects (or mine).","image":"/images/terminable/project.jpg","repo":"https://github.com/DimitriGilbert/TerMinable","site":"https://terminable.dbuild.dev/","tags":["Shadcn","Registry","Terminal","React","Typescript"]},{"id":"sshm0","name":"sshm0","description":"A simple CLI ssh connection manager","image":"/images/sshm0/project.jpg","repo":"https://github.com/DimitriGilbert/sshm0","site":"https://github.com/DimitriGilbert/sshm0","tags":["ssh","bash","cli","parseArger"]},{"id":"AI-gents","name":"AI-gents","description":"AI-gents. A simple format for AI agents.","image":"/images/ai-gents/project.jpg","repo":"https://github.com/DimitriGilbert/AI-gents","site":"ai-gents.dbuild.dev/","tags":["bash","cli","parseArger","ai","agents"]},{"id":"cn-registry","name":"cn-registry.dev","description":"A hub for Shadcn components and tools.","image":"/images/cn-registry.dev/project.jpg","repo":"https://github.com/DimitriGilbert/cn-registry.dev","site":"https://cn-registry.dev","tags":["Shadcn","Registry"]},{"id":"StationIO-Station","name":"StationIO","description":"Arduino framework-ish that handle the basics (wifi, ota, etc.)","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/StationIO-Station","site":"dimitrigilbert.github.io/StationIO-Station/","tags":["arduino","esp8266","esp32"]},{"id":"RaceBench","name":"RaceBench","description":"Benchmarking LLMs on real JavaScript code generation tasks with executable results.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/racebench","site":"https://dimitrigilbert.github.io/racebench/scroller/index.html","tags":["benchmark","llm","ai","testing","javascript","three.js"]},{"id":"git-moar","name":"git-moar","description":"Advanced Git repository analytics and reporting CLI tool with beautiful HTML reports and visualizations.","image":"/placeholder.svg?height=400&width=600","repo":"https://github.com/DimitriGilbert/git-report","site":"https://github.com/DimitriGilbert/git-report","tags":["git","analytics","cli","visualization","javascript","nodejs"]}],"projectTags":["React","Registry","Shadcn","Terminal","Typescript","agents","ai","analytics","arduino","automation","bash","benchmark","bun","chat-application","clanker","cli","community","convex","esp32","esp8266","form","gamification","git","help","hook","javascript","llm","local-llm","nextjs","nodejs","parseArger","productivity","pwa","react","real-time","ssh","task-management","testing","three.js","typescript","visualization","workflow","zod"],"recentPosts":[{"slug":"black-hole-one-year-back-in","title":"One year back in","description":"After 8 years of being pushed around by my disease, AI helped me get back to work, it's been a year, so what did I learn","date":"$D2026-04-13T23:01:00.000Z","category":"General","tags":["AI","work","multiple sclerosis","Clanker"],"content":"$7","readTime":13,"toc":[{"level":2,"title":"LiteChat: learning by building, with the wrong tool","id":"litechat-learning-by-building-with-the-wrong-tool"},{"level":2,"title":"Formedible: a sidequest to let AI build forms on the fly","id":"formedible-a-sidequest-to-let-ai-build-forms-on-the-fly"},{"level":2,"title":"Sprynge.me : new stack, new workflow, new teammate","id":"spryngeme-new-stack-new-workflow-new-teammate"},{"level":2,"title":"task-o-matic.dev : feeling the waters of agents orchestration","id":"task-o-maticdev-feeling-the-waters-of-agents-orchestration"},{"level":2,"title":"subagent-orchestration: 2 months of work replaced by a markdown file","id":"subagent-orchestration-2-months-of-work-replaced-by-a-markdown-file"},{"level":2,"title":"arcade-vibe.app: fun and goofy doesn't mean useless","id":"arcade-vibeapp-fun-and-goofy-doesnt-mean-useless"},{"level":2,"title":"Nétwayé, baléyé, astiké... Kaz la toujou penpan !","id":"ntway-baly-astik-kaz-la-toujou-penpan"}],"directory":"Black hole/One Year back in","relativePath":"Black hole/One Year back in/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/One Year back in/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"black-hole-un-an-de-retour-dans-le-game","title":"Un an de retour dans le game","description":"Apres 8 ans a me faire ballader par ma maladie, l'IA m'a aide a retourner bosser, ca fait un an, alors qu'est-ce que j'ai appris","date":"$D2026-04-13T23:00:59.000Z","category":"General","tags":["AI","work","multiple sclerosis","Clanker"],"content":"$8","readTime":14,"toc":[{"level":2,"title":"LiteChat : apprendre en construisant, avec le mauvais outil","id":"litechat-apprendre-en-construisant-avec-le-mauvais-outil"},{"level":2,"title":"Formedible : une quete secondaire pour que l'IA construise des formulaires a la volee","id":"formedible-une-quete-secondaire-pour-que-lia-construise-des-formulaires-a-la-volee"},{"level":2,"title":"Sprynge.me : nouvelle stack, nouveau workflow, nouveau teammate","id":"spryngeme-nouvelle-stack-nouveau-workflow-nouveau-teammate"},{"level":2,"title":"task-o-matic.dev : le gros orteil dans le bain de l'orchestration agentic","id":"task-o-maticdev-le-gros-orteil-dans-le-bain-de-lorchestration-agentic"},{"level":2,"title":"subagent-orchestration : 2 mois de travail remplaces par un fichier markdown","id":"subagent-orchestration-2-mois-de-travail-remplaces-par-un-fichier-markdown"},{"level":2,"title":"arcade-vibe.app : fun et debile veut pas dire inutile","id":"arcade-vibeapp-fun-et-debile-veut-pas-dire-inutile"},{"level":2,"title":"Nétwayé, baléyé, astiké... Kaz la toujou penpan !","id":"ntway-baly-astik-kaz-la-toujou-penpan"}],"directory":"Black hole/Un an de retour dans le game","relativePath":"Black hole/Un an de retour dans le game/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Un an de retour dans le game/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-ai-skills-skills-are-the-dry-of-prompt-engineering","title":"Skills are the DRY of prompt engineering, you should use them and create your own","description":"Just like I use to create my own libraries and helpers I reused in most my projects, I now create skills so i don't rewrite the same prompts over and over again","date":"$D2026-03-03T14:00:00.000Z","category":"General","tags":["ai","skills"],"content":"$9","readTime":10,"toc":[{"level":2,"title":"AI Skills","id":"ai-skills"},{"level":3,"title":"What they are","id":"what-they-are"},{"level":3,"title":"apt install skillz","id":"apt-install-skillz"},{"level":3,"title":"BE CAREFUL","id":"be-careful"},{"level":3,"title":"I haz uze skill","id":"i-haz-uze-skill"},{"level":3,"title":"Make your own","id":"make-your-own"},{"level":2,"title":"My skills","id":"my-skills"},{"level":3,"title":"The Council","id":"the-council"},{"level":3,"title":"not-ai-writer","id":"not-ai-writer"},{"level":3,"title":"subagent-orchestration","id":"subagent-orchestration"},{"level":2,"title":"Skill issues","id":"skill-issues"},{"level":2,"title":"On going process","id":"on-going-process"}],"directory":"Projects/ai-skills/Skills are the DRY of prompt engineering","relativePath":"Projects/ai-skills/Skills are the DRY of prompt engineering/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/ai-skills/Skills are the DRY of prompt engineering/index.md","isCategory":false,"ogImage":"public/images/blog/projects/ai-skills/dry_of_prompting/ai-skills-cover_og.webp","draft":false},{"slug":"projects-ai-skills-les-skills-sont-le-dry-du-prompt-engineering","title":"Les Skills sont le DRY du prompt engineering, tu devrais les utiliser et créer les tiennes","description":"Comme j'avais l'habitude de créer mes propres bibliothèques et helpers que je réutilisais dans la plupart de mes projets, je crée maintenant des skills pour ne pas réécrire les mêmes prompts encore et encore","date":"$D2026-03-03T13:59:00.000Z","category":"General","tags":["ai","skills"],"content":"$a","readTime":11,"toc":[{"level":2,"title":"Les Skills IA","id":"les-skills-ia"},{"level":3,"title":"Ce que c'est","id":"ce-que-cest"},{"level":3,"title":"apt install skillz","id":"apt-install-skillz"},{"level":3,"title":"ATTENTION","id":"attention"},{"level":3,"title":"Je utilise skill","id":"je-utilise-skill"},{"level":3,"title":"Crée les tiennes","id":"cre-les-tiennes"},{"level":2,"title":"Mes skills","id":"mes-skills"},{"level":3,"title":"The Council","id":"the-council"},{"level":3,"title":"not-ai-writer","id":"not-ai-writer"},{"level":3,"title":"subagent-orchestration","id":"subagent-orchestration"},{"level":2,"title":"skill issues","id":"skill-issues"},{"level":2,"title":"Processus continu","id":"processus-continu"}],"directory":"Projects/ai-skills/Les Skills sont le DRY du prompt engineering","relativePath":"Projects/ai-skills/Les Skills sont le DRY du prompt engineering/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/ai-skills/Les Skills sont le DRY du prompt engineering/index.md","isCategory":false,"ogImage":"public/images/blog/projects/ai-skills/dry_of_prompting/ai-skills-cover_og.webp","draft":false},{"slug":"black-hole-the-ai-debate-is-missing-the-point-and-so-are-you","title":"The AI Debate Is Missing the Point (And So Are You)","description":"The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app","date":"$D2026-01-30T23:01:00.000Z","category":"General","tags":["AI"],"content":"$b","readTime":15,"toc":[{"level":2,"title":"Who am I to talk about this ?","id":"who-am-i-to-talk-about-this"},{"level":2,"title":"Bubble go pop, AI go bye bye ?","id":"bubble-go-pop-ai-go-bye-bye"},{"level":3,"title":"Open source changed the game","id":"open-source-changed-the-game"},{"level":3,"title":"The Chinese wild card","id":"the-chinese-wild-card"},{"level":2,"title":"\"It's just crypto all over again !\"","id":"its-just-crypto-all-over-again"},{"level":3,"title":"Even if it IS a fad...","id":"even-if-it-is-a-fad"},{"level":3,"title":"It's not a fad","id":"its-not-a-fad"},{"level":2,"title":"You're confusing the gimmick with the tool !","id":"youre-confusing-the-gimmick-with-the-tool"},{"level":3,"title":"What it actually did for me","id":"what-it-actually-did-for-me"},{"level":3,"title":"What it could do for you","id":"what-it-could-do-for-you"},{"level":2,"title":"The great (job) replacement","id":"the-great-job-replacement"},{"level":3,"title":"\"Hey, I still would like a job !\"","id":"hey-i-still-would-like-a-job"},{"level":3,"title":"We will still need humans though !","id":"we-will-still-need-humans-though"},{"level":2,"title":"It's not about jobs, it's about society","id":"its-not-about-jobs-its-about-society"},{"level":3,"title":"UBI won't cut it !","id":"ubi-wont-cut-it"},{"level":2,"title":"How I (why not you ?) actually use this stuff","id":"how-i-why-not-you-actually-use-this-stuff"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"So, what now ?","id":"so-what-now"}],"directory":"Black hole/The AI Debate Is Missing the Point (And So Are You)","relativePath":"Black hole/The AI Debate Is Missing the Point (And So Are You)/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/The AI Debate Is Missing the Point (And So Are You)/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp","draft":false},{"slug":"black-hole-le-dbat-autour-de-l-ia-est-a-cote-de-la-plaque-toi-aussi","title":"Le débat autour de l'IA est à cote de la plaque (toi aussi)","description":"La bulle IA va éclater, ça arrêtera pas l'IA. Ton refus d'utiliser l'IA empêchera pas ton job d'être remplacé. ChatGPT n'est pas la killer app de l'IA","date":"$D2026-01-30T22:50:00.000Z","category":"General","tags":["AI"],"content":"$c","readTime":15,"toc":[{"level":2,"title":"Auto validation sur pourquoi je parle de ca","id":"auto-validation-sur-pourquoi-je-parle-de-ca"},{"level":2,"title":"La bulle pète et l'IA crève ?","id":"la-bulle-pte-et-lia-crve"},{"level":3,"title":"L'open source a changé la donne","id":"lopen-source-a-chang-la-donne"},{"level":3,"title":"La wildcard chinoise","id":"la-wildcard-chinoise"},{"level":2,"title":"\"C'est juste la crypto bis !\"","id":"cest-juste-la-crypto-bis"},{"level":3,"title":"Même si c'EST une mode...","id":"mme-si-cest-une-mode"},{"level":3,"title":"C'est pas une mode","id":"cest-pas-une-mode"},{"level":2,"title":"Tu confonds le gadget avec l'outil !","id":"tu-confonds-le-gadget-avec-loutil"},{"level":3,"title":"Ce que ça m'a vraiment apporté","id":"ce-que-a-ma-vraiment-apport"},{"level":3,"title":"Ce que ça pourrait te faire","id":"ce-que-a-pourrait-te-faire"},{"level":2,"title":"Le grand remplacement (de l'emploi)","id":"le-grand-remplacement-de-lemploi"},{"level":3,"title":"\"Hé, j'aimerais quand même avoir un travail !\"","id":"h-jaimerais-quand-mme-avoir-un-travail"},{"level":3,"title":"On aura quand même besoin d'humains !","id":"on-aura-quand-mme-besoin-dhumains"},{"level":2,"title":"C'est pas une question d'emplois, c'est une question de société","id":"cest-pas-une-question-demplois-cest-une-question-de-socit"},{"level":3,"title":"Le UBI suffira pas !","id":"le-ubi-suffira-pas"},{"level":2,"title":"Comment j'utilise (pourquoi pas toi aussi ?) vraiment ces trucs","id":"comment-jutilise-pourquoi-pas-toi-aussi-vraiment-ces-trucs"},{"level":3,"title":"Litechat","id":"litechat"},{"level":3,"title":"Formedible","id":"formedible"},{"level":3,"title":"Task-o-matic","id":"task-o-matic"},{"level":2,"title":"Donc, c'est quoi la suite ?","id":"donc-cest-quoi-la-suite"}],"directory":"Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)","relativePath":"Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Le débat autour de l IA est a cote de la plaque (toi aussi)/index.md","isCategory":false,"ogImage":"/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp","draft":false}],"blogTags":["AI","Clanker","Eric loop","Ralph lopp","ai","analytics","bash","benchmark","chat","cli","cn-registry","devlog","form","french","git","homelab","llm","local","mdd","multiple sclerosis","parseArger","parsearger","productivity","react","rpi","scripting","server","shadcn","skills","tanstack","task-management","task-o-matic","terminal","testing","tutorial","typescript","visualization","work","zod"],"totalPosts":28}],null,["$","$Ld",null,{"children":"$Le"}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","I9ymrQ3-ciLbqnsfdxN93",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","$L11",null,{"children":"$L12"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
 12:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
 e:null

@@ -1,0 +1,411 @@
+1:"$Sreact.fragment"
+2:I[76592,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","177","static/chunks/app/layout-29a4018f7af1798a.js"],"ThemeProvider"]
+3:I[27890,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","177","static/chunks/app/layout-29a4018f7af1798a.js"],"FloatingNavigation"]
+4:I[91080,[],""]
+5:I[32670,[],""]
+7:I[29001,[],"OutletBoundary"]
+9:I[29001,[],"MetadataBoundary"]
+b:I[29001,[],"ViewportBoundary"]
+d:I[32215,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/02e34dedafeb1648.css","style"]
+0:{"P":null,"b":"0CGhXrEW6RWmxjz-i5_g-","p":"","c":["","blog","tags","work",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","work","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/02e34dedafeb1648.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","work","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","qY14Hv5b2DJzxR3eTiNeY",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[54528,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-12faf53037c3b929.js"],"TagDetailContent"]
+f:T335c,
+These are some of the lessons i learnt from a year of coding using AI, but let me give you some context first
+
+So, in 2017, I quit my job in Singapore cause I burned out, badly. I've been living on disability benefit since 2020 as I was diagnosed with Multiple Sclerosis (turns out, the burn out was helped ^^').
+
+To get these things out of the way, yes, I'm very fortunate to live in France and be able to receive disability benefits, I'd probably be dead otherwise.
+
+And if you think MS is not enough to claim disability benefits, I would like to formally request that we swap sides for a month and have a chat after :)
+
+During all that time, I kept learning and trying new things even giving a hand to a couple friends for projects along the way, nothing serious
+
+I jumped on copilot on beta launch and ate at cursor's table quite early, but then again, I was mostly dilettante
+
+But a year (and a month) ago, excited by the amount of work I could do with AI even on my bad days, I decided I wasn't going to be bullied by my body anymore and I'd try to get back to work !
+
+The journey has been tedious and chaotic, but, here is a rundown of what I've done and what I've learned
+
+## LiteChat: learning by building, with the wrong tool
+
+Cursor and sonnet 3.5 is what triggered it for me, this (in some form or another) was the future, but it felt like magic so I did not like that
+
+What if I was building a chat to understand how it works ?
+
+Yes, that would work... But if I was to do it with the magic tool, would I be able to understand what happens... ?
+
+No... unfortunate but, the magic would have clouded everything, but I still wanted the no typi-typi comfort...
+
+What if I built an AI chat in an... AI chat ? Prompt everything, trying to not have a single line of code written by myself !
+
+Stupid ? YES !
+
+A good way to learn ? also yes ! I'd choose every file and feedback needed by the AI to get results and I'd see every output I would be given !
+
+using [t3.chat](https://t3.chat) and gemini 2.5 I built [litechat.dev](https://litechat.dev) ! (yes, I'm one of the reasons you can't have nice things and Thank you Theo for the tokens... ^^')
+
+This was my first AI revelation: context is hard, too little will cause hallucination and too much will cause moronisation.
+
+This was a real hurdle and this was what was taking me the longest, gathering the files the AI would need
+
+It was getting annoying and I felt I had a good understanding of what was happening under the hood
+
+Plus, Sonnet 3.7 was out and reliable tool use was actually a thing now, so back to cursor it was !
+
+## Formedible: a sidequest to let AI build forms on the fly
+
+One of the things I wanted for litechat was a way for AI to easily generate forms to interact with the user in a guided fashion
+
+This was one of the things I missed in t3.chat when working like I did
+
+I did what every sane dev running high on AI would do : I created a shadcn component for that, [formedible.dev](https://formedible.dev)
+
+A schema driven form "builder" so AI could create consistent forms just by outputting json (they were already decent at that)
+
+Another revelation about AI occurred: they like 'em complicated and if you let things go, they are gone, far and fast !
+
+Dumb interface, duplicated code, unoptimized code...have a look at any of the 2000 lines from the use-formedible hook...
+
+The result is a working tool/lib/component but it is far too complex IMO
+
+I'm not happy with it and I will work on making things better at some point, probably starting from scratch !
+
+But still, prompted properly, models were capable of creating complex forms very fast and with ease...
+
+That is when it clicked, you can just explain AI about the tools you created and it will use them... crazy stuff...
+
+To put that to the test and because plain text and forms chats were boring, I added a mermaid visualisation and it worked, so I did the same with chart generation and react flow diagrams and runnable JS or Python block and Strudel music... everything more or less... worked...
+
+So, it's all in [litechat.dev](https://litechat.dev), for free (minus the tokens) and without trackers !
+
+## Sprynge.me : new stack, new workflow, new teammate
+
+The time is Sonnet 4, the new hot thing is Claude Code, MCP is still sexy and I'm starting a new project with @benboarer
+
+The main goal of it being to promote good habit for X growth, just like the other 997 similar projects ^^ 
+
+I was bored of REST API and CRUD boilerplate as I've been doing Web platform things for close to 20 years now, and I've been promised realtime almost 10 of those ago
+
+As it happens Theo was praising [Convex](https://convex.dev) just for this exact feature, so... why the hell not try that
+
+Shake things up o clock it was, as I went for bun + tanstack start + convex in a monorepo (wcpgw ?)
+
+It did bite me later on because of bun lack of support for monorepo and tanstack start beta status so I ended up migrating to npm and nextjs. I would have liked not to but bun refused to bundle the server part of tanstack start, preventing me to use better-auth X login properly AND i was stuck on an old version of better-auth and tanstack start because of the convex integration... this was not a fun week, at all...
+
+Important lesson learned, AI makes adopting a new tech MUCH easier, but edge cases will still be edge cases and no amount of token burn could find and fix them
+
+After around a month or so, we ended up having a working tool that around 100 people enjoyed for a while and I stepped up my AI agentic workflow, but it was not all roses and rainbows !
+
+Rate limits were squeezing me as I was being introduced to [task-master.dev](https://task-master.dev) ! When you just have to execute a plan, your burn through your limits much, Much, MUCH faster
+
+So I set out to find a cheaper complement for Claude and ended up trying z.ai's GLM 4.5, it was brilliant !
+
+Not quite as good, but limits were nonexistent and it was 75% of the way there and things only got better with 4.6 and 4.7
+
+so much so that I just dropped my Claude sub and subscribed to GLM coding plan for a full year
+
+I liked that foray into the world of organised workflows for AI ! Output quality and speed were up and it was less of a faff to keep working on a project when doing that... but...
+
+## task-o-matic.dev : feeling the waters of agents orchestration
+
+task-master was not doing it anymore, I wanted things it could not do and jumping into the codebase was a bit of a faff
+
+what do you do when you are at this point ? Well Pinky, we do as we always do at this point, you forge your own set of wheels !
+
+And forging I did, I wanted a lib, cause as much as I enjoy my terminal window, many muggles are still afraid of it and prefer clickodromic UI
+
+That way, I could have my cake, eat it and share it with others as well !
+
+I went all in on the thing !
+
+Multi model PRD creation, questioning mechanism, multi model PRD improvement, task planification and planning with reconciliation, multiharness execution loop (BTW, multi model generation is also available in [litechat.dev](https://litechat.dev)... in case you were curious ;) )
+
+The. Whole. Shebang !
+
+It could probably have made you a sandwich as well if the cook had an API !
+
+New important knowledge point, don't try to reimplement the harness ! the multi model execution was trying to, but I later found out that it would have been easier just to do that using an existing harness (Claude code, opencode, codex, gemini, ...)
+
+Yes, AI makes you faster, but you know who else is faster because of AI ? The teams of talented people that were already building a harness !
+
+I tried a bunch of things with it and it was a nice tool ! So I proceeded to the next step : a TUI and an app !
+
+Things were going great ! A couple of months in, I had more or less everything clean-and-tidy(-ish) and ready to go...
+
+People around started to talk about skills more and more, I've had a look at them when anthropic put the spec out... md files... whatever !
+
+## subagent-orchestration: 2 months of work replaced by a markdown file
+
+Still, you know, people kept yapping, a lot so... I gave skills a second look
+
+well, the bitter sweetness that ensued was very real... a couple of md files just erased 85% of my last 2 months of work
+
+One side of me was very happy cause it was much more elegant, but the dev side that put 2 months of work in this lib/cli/tui/app was very much not !
+
+"Can this be a skill ?" should now be the default question every builder/founder should ask themselves
+
+contrary to the current psychosis trend, I don't think markdown is the new python but a combination of both is the new killer
+
+the end of year dark days and the growing hints of seasonal depression lead me to a "soul searching rerun binge watching" month or so until something clicked
+
+What can't be replaced by an md file ? I only see 2...
+
+Infrastructure, but that costs money or at least marketing foo that I don't possess
+
+And the second thing, community, the fun of sharing something you enjoy with someone who will do the same...
+
+## arcade-vibe.app: fun and goofy doesn't mean useless
+
+It all started from my personal benchmark, a 5 lines prompt that asks a model to create a vertical scroll shooter, using [litechat.dev](https://litechat.dev) js block (yes litechat again)
+
+Every new model drop, I was running it and then sharing the results with a group of friendly people on discord
+
+until one day, one of them told me I needed some improvement on the prompt to which my first thought was "well, you could do it yourself..."
+
+There it was ! The fun idea ! How good of a game can you create in a single prompt ? And compared to your friend ?
+
+Perfect ! fun and competition ! How could this possibly fail ?! (did I tell you I was a poor marketing person ?) 
+
+You could even argue this is a good way to benchmark models or even improve your prompting foo !
+
+And now I have a bunch of tools in my box to create the MVP ! I'm sure it'll be a couple of days, 4 tops !
+
+There lied the lesson for this part, code is not the bottleneck anymore ! I was 80% of the way there at the end of the week
+
+It still took a month or so for me to ship the darn thing !
+
+Testing and fixing, edge cases discovery and UI tweaks are still the bane of my existence, it just so happens that AI shrinks the time to get there apparently !
+
+If you want to go and have a look at it, whether you play games, create new ones or want to benchmark models, I'll give you credits if you give me feedback :D (and you can also BYOK, just in case you're afraid I might bite) it is all at [arcade-vibe.app](https://arcade-vibe.app)
+
+## Nétwayé, baléyé, astiké... Kaz la toujou penpan !
+
+Cleaning, dusting, polishing... let's keep this house clean
+
+With all that I learned this year about how context Goldielocks' zone matters, the fact that AI will always go for the most over-engineered solution that still fails on edge cases sometimes, or that you are one markdown file away from your project going to the bin, there is One major takeaway
+
+The one thing to remember from this whole year for me, is that my job as a dev will stay exactly the same but in a completely different manner !
+
+My main job of a dev will still be to ship features while keeping the house as clean and tidy as possible, limiting dirty tricks and technical debt, just like before, the only difference is that the house got very big, very fast
+
+I've always been more on the creative side of the dev spectrum, so I will continue to conceive architectures, specify code organisation and test the produced code, not much changed there and it will probably be the case for another year at least.
+
+What will not exist anymore will be the coding grind. I've been on the "if it works well enough" side of things for a while and as much as I love beautiful code, I've learned the hard way it almost never lives long enough to justify its creation
+
+For me this is very important, because it means I can work again ! I can still rake in a few prompts on brain fog days, pain is not stopping me anymore unless it is very bad and even if I can only work for a couple hours before expiring a good amount of work has been done ! AI did not cure my MS, but it made my work possible again !
+
+Some new grind appeared though and I tried to respond to the "proceed to the next task, review, fix this" prompt loop from hell by creating [task-o-matic](https://task-o-matic.dev), but it was the wrong tool
+
+Not leaving you with enough control while requiring constant adjustment is not the best of combos
+
+You probably are screaming OpenClaw or Hermes (you know, those agentic frameworks) behind your screen right now, I understand why, but I don't like the idea !
+
+I want something more portable, that can live outside of a complex harness and fit in my existing workflows without requiring a fat bunch of setup
+
+Ultimately, these should also be able to run in any "Claw framework" as well (remember about the talented people building harnesses from earlier, same jazz here !)
+
+So, that's what I started building and I'll be talking to you about this new project in my next article !
+10:T3b82,
+Voila quelques-unes des lecons que j'ai apprises d'un an de code avec l'IA, mais avant, un peu de contexte
+
+En 2017, j'ai demissioné de mon boulot a Singapour parce que j'ai fait un burn out, un gros. Je vis avec l'AAH depuis 2020 car on m'a diagnostique une Sclerose en Plaques (apparemment, le burn out a eu un coup de main ^^').
+
+Pour mettre les choses a plat direct, oui, j'ai beaucoup de chance de vivre en France et de pouvoir recevoir cette allocation, je serais probablement mort sinon.
+
+Et si tu penses que la SEP c'est pas suffisant pour pretendre a l'AAH, on echange nos places pendant un mois et on re-discute apres, hein ! :)
+
+Pendant tout ce temps là, j'ai continué a apprendre et essayer des nouveaux truc, j'ai aussi filer un coup de main a quelques potes pour des projets a eux en passant, mais, rien de serieux
+
+J'ai saute sur la beta de copilot et j'ai rapidement gouté a cursor, mais encore une fois, surtout dilettante pour m'amuser
+
+Mais il y a un an (et un mois), excité par la quantite de boulot que je pouvais sortir avec l'IA même les mauvais jours, j'ai decidé que je voulais plus me laisser trainer par mon systeme immunitaire et que j'allais retourner au turbin !
+
+Ca a ete fastidieux et chaotique, mais, voici un recap de ce que j'ai fait et de ce que j'ai appris cette derniere année
+
+## LiteChat : apprendre en construisant, avec le mauvais outil
+
+Cursor et sonnet 3.5... c'est ce qui a tout declenche pour moi, ca (sous une forme ou une autre) c'etait le futur ! Le probkème, c'est que ca ressemblait a de la magie et j'aimais pas ce coté la...
+
+Et si je construisais un chat pour comprendre comment ca marche ?
+
+Oui, ca pourrait marcher... Mais si je fais ca avec l'outil magique, est-ce que je pourrais comprendre ce qui se passe... ?
+
+Non... dommage, mais la magie aurait occulté ce qu'il fallait compredre, par contre j'avais bien envie de pas tout pianoter quand meme, profiter du confort un peu !
+
+Et si je construisais un chat IA dans un... chat IA ? Genre, tout prompter et 0 ligne de code ecrite ! 
+
+Possible ? ou pas !
+
+Stupide ? OUI !
+
+Une bonne facon d'apprendre ? Aussi oui ! Je devrait choisir quels fichiers envoyer, et quels feedbacks donner à l'IA pour avoir des resultats et je verrais chaque output qu'elle me donnera !
+
+C'est donc comme ca, en utilisant [t3.chat](https://t3.chat) et gemini 2.5 que j'ai construit [litechat.dev](https://litechat.dev) ! (oui, je suis une des raisons pour lesquelles vous pouvez pas avoir de trucs cool et Merci Theo pour les tokens... ^^')
+
+Ca a ete ma premiere revelation IA : le contexte c'est dur, trop peu et la machine hallucine et trop la rend vraiment neuneu.
+
+C'etait un vrai obstacle et c'est ce qui me prenait le plus de temps, rassembler les fichiers dont l'IA aurait besoin
+
+Ca devenait chiant et je sentais que j'avais une bonne comprehension de ce qui se passait sous le capot
+
+En plus, Sonnet 3.7 etait sorti et l'usage fiable des outils etait devenu une realite, donc retour a cursor !
+
+## Formedible : une quete secondaire pour que l'IA construise des formulaires a la volee
+
+Un des trucs que je voulais pour litechat c'etait un moyen pour l'IA de generer facilement des formulaires pour interagir avec l'utilisateur de facon guidée
+
+C'etait un des trucs qui me manquaient dans [t3.chat](https://t3.chat) quand je bossais comme je le faisais
+
+J'ai donc fait ce que tout bon dev sain d'esprit sous steroide IA ferait : j'ai cree un composant shadcn pour ca, [formedible.dev](https://formedible.dev)
+
+Un "builder" de formulaires piloté par un schema pour que l'IA puisse creer des formulaires consistants juste en sortant du json (elles etaient deja pas mal pour ca)
+
+Nouvelle révélation : L'IA aiment bien les usines a gaz et si tu lache la bride, elles partent loin, et super vite !
+
+Interfaces debiles, code duplique, code optimisable... va jeter un oeil aux 2000 lignes du hook use-formedible... (pardon aux familles, tout ca)
+
+Le resultat c'est un outil/lib/composant qui fonctionne mais bien trop complexe a mon gout
+
+J'suis pas content de la mecanique et je travaillerai a ameliorer ca a un moment, probablement en repartant de zero !
+
+Mais bon, ca fonctionne quand meme, et, bien promptes, les modeles etaient capables de creer des formulaires complexes tres vite et avec facilité...
+
+Et bim, autre declic ! En fait, tu peux juste expliquer a l'IA les outils que t'as crees et elle les utilisera... truc de ouf ! serieux...
+
+Pour mettre ca a l'epreuve et parce que les chats en texte brut et formulaires c'etait chiant, j'ai ajoute une visualisation mermaid et ca marchait, donc j'ai fait pareil avec la generation de graphiques et les diagrammes react flow et puis des blocs JS et Python executables et enfin un support de Strudel pour la musique... tout ca, ben ca... marchait...
+
+Si tu veux voir tout ca, tout est sur [litechat.dev](https://litechat.dev), gratuitement (moins les tokens) et sans trackers !
+
+## Sprynge.me : nouvelle stack, nouveau workflow, nouveau teammate
+
+L'epoque c'est Sonnet 4, la nouveau truc à la mode c'est Claude Code, MCP est encore sexy et je commence un nouveau projet avec @benboarer
+
+Le but principal etant de promouvoir les bonnes habitudes pour la croissance sur X, comme les 997 autres projets similaires ^^ 
+
+J'en avais un peu plein le dos des API REST et du boilerplate CRUD vu que je bosse dans le web depuis presque 20 ans maintenant, et qu'on me promet du temps reel depuis presque 10 de ces annees-la
+
+Comme par hasard Theo vantait [Convex](https://convex.dev) exactement pour ca, donc... pourquoi pas essayer
+
+C'etait l'heure de secouer le cocotier de ma stack, avec un bun + tanstack start + convex en monorepo (pani problem timan !)
+
+Bon... en fait si... problèmes : manque de support de bun pour les monorepos, statut beta de tanstack start... j'ai donc fini par revenir vers npm et nextjs. J'aurais aime ne pas avoir a le faire mais bun refusait de bundler la partie serveur de tanstack start, m'empechant d'utiliser le login X de better-auth correctement ET j'etais coince sur une vieille version de better-auth et tanstack start a cause de l'integration convex... bref, pas une semaine fun, mais genre, pas du tout...
+
+Lecon importante apprise, l'IA rend l'adoption d'une nouvelle tech BEAUCOUP plus facile, mais les edge case en resteront et t'as beau cramé du tokens et lire de la docs, ca resoudra pas forcement le probleme !
+
+Apres environ un mois, on a fini par avoir un outil fonctionnel qu'une centaine de personnes ont apprecie pendant un moment et j'ai monte en gamme mon workflow agentique, mais c'etait pas tout roses non plus !
+
+Les rate limits me demonté mes session de taf juste au moment ou on m'a presenté [task-master.dev](https://task-master.dev) ! Quand tu dois juste executer un plan, tu brules du token beaucoup, Beaucoup, BEAUCOUP plus vite
+
+Je me suis donc mis en quete d'un complement moins cher/plus ample pour Claude et j'ai fini par essayer GLM 4.5 de z.ai, c'etait brillant !
+
+Pas tout a fait aussi bon, mais les limites etaient inexistantes et c'etais au 3/4 aussi bon et les choses ont fait que s'ameliorer avec 4.6 et 4.7
+
+Tellement que j'ai abandonné mon abonnement Claude et je me suis inscrit au plan GLM coding pour un an complet
+
+La petite excursion dans le monde des workflows organises pour l'IA m'a vraiment plu ! Autant pour La qualite que la vitesse de dev qui etaient en hausse et c'etait tellement moins galere de continuer a bosser sur un projet en faisant ca... mais...
+
+## task-o-matic.dev : le gros orteil dans le bain de l'orchestration agentic
+
+task-master ne suffisait plus, je voulais des trucs qu'il ne pouvait pas faire et plonger dans le codebase c'etait une vraie la galere
+
+Donc, tu fais quoi quand t'en es a ce stade ? Et bien Minus, la même chose qu'on fait a chaque fois a ce stade, on fabrique notre propre outil !
+
+Me voila donc repartis a faire un autr outil ! Point important, je voulais une lib, parce qu'autant j'aime bien ma fenetre de terminal, autant la majorité des moldus en ont encore peur et preferent les clickodromes
+
+Avec une lib, je pouvais avoir le beurre ans mon terminal, et l'argent du beurre grace a une GUI pour normie !
+
+Je suis alle au taquet sur le truc !
+
+Creation de PRD multi-modele, mecanisme de questionnement, amelioration de PRD et planification de taches et plan multi-modele avec reconciliation, boucle d'execution multi-harness (claude, codex, opencode gemini) (au fait, la generation multi-modele est aussi dispo sur [litechat.dev](https://litechat.dev)... au cas ou tu serais curieux ;) )
+
+Vario mallossi, pot polini et pedale de lanceur ! Le. Kit. Complet !
+
+Ca t'aurait fait un sandwich aussi si le cuistot avait une API !
+
+Nouveau point de connaissance important: ne pas reimplementer le harness d'IA ! l'execution multi-modele essayait de le faire, mais j'ai decouvert plus tard que ca aurait ete plus simple de faire ca en utilisant un harness existant (Claude code, opencode, codex, gemini, ...)
+
+Oui, l'IA te rend plus rapide, mais tu sais qui d'autre est plus rapide grace a l'IA ? Les equipes de gens talentueux qui construisaient deja un harness !
+
+J'ai essaye plein de trucs avec et c'etait un chouette outil ! Donc j'ai procede a l'etape suivante : un TUI et une app !
+
+Les choses avancaient bien ! Quelques mois plus tard, j'avais un truc plus ou moins clean et pret a partir...
+
+Les gens autour commençaient a parler de plus en plus de skills, j'y avais jete un oeil quand anthropic a sorti la spec... des fichiers md... bof !
+
+## subagent-orchestration : 2 mois de travail remplaces par un fichier markdown
+
+Quand meme, tu sais, les gens continuaient a blablater, et beaucoup... donc j'ai redonne une chance aux skills
+
+bah, le petit gout aigre-doux qui s'en est suivie etait bien reelle... quelques fichiers md viennent d'effacer 85% de mes 2 derniers mois de travail
+
+Un cote de moi etait tres content parce que c'etait nettement plus elegant, mais le cote dev qui a mis 2 mois de travail dans cette lib/cli/tui/app l'etait beaucoup, mais alors beaucoup moins !
+
+"Est-ce que ca peut etre un skill ?" devrait maintenant etre la question par defaut que chaque builder/fondateur devrait se poser
+
+contrairement a la psychose actuelle, je pense pas que le markdown est le nouveau python mais une combinaison des deux... ca c'est le nouveau truc de tueur
+
+les jours sombres de fin d'annee et les indices grandissants de depression saisonniere m'ont mene a un mois de lobotomie a grand coup de series déjà vu jusqu'a ce qu'un truc click
+
+Qu'est-ce qui peut pas etre remplace par un fichier md ? J'en vois que 2...
+
+L'infrastructure, mais ca coute du pognon ou au moins des capacité en marketing que j'ai pas
+
+Et le deuxieme truc, la communauté, le fun de partager quelque chose que tu kiffes avec quelqu'un qui fera pareil...
+
+## arcade-vibe.app : fun et debile veut pas dire inutile
+
+Tout est partis de mon benchmark perso, un prompt de 5 lignes qui demande a un modele de creer un shooter vertical, en utilisant le bloc js de [litechat.dev](https://litechat.dev) (oui encore litechat)
+
+A chaque sortie de nouveau modele, je le lancais et ensuite je partageais les resultats avec un groupe de gens sympas sur discord
+
+jusqu'au jour ou l'un d'eux m'a dit que je devais ameliorer le prompt, ce a quoi ma premiere pensee a ete "bah, tu pourrais le faire toi-meme..."
+
+Et voila ! L'idee fun ! Quel jeu tu peux creer en un seul prompt ? Et comparé a tes potes ?
+
+Parfait ! Fun et compet' ! Comment ca pourrait foirer ?! (je t'ai dit que j'etais une bille en marketing ?)
+
+Tu pourrais meme dire que c'est un bon moyen de benchmarker les modeles ou meme d'ameliorer ton prompting foo !
+
+En plu, maintenant j'ai une boite pleine d'outils pour creer le MVP ! Je suis sur que ca prendra pas 2 jours, 4 grand max !
+
+C'est la que se trouvait la lecon pour cette partie, le code c'est plus le goulot d'etranglement ! J'etais a 80% du chemin a la fin de la semaine
+
+Ca m'a quand meme pris un mois environ pour ship le satane truc !
+
+Les tests et les corrections, la decouverte des edge cases et les ajustements d'UI restent la plaie de mon existence, il se trouve que l'IA retrecit juste le temps pour y arriver, apparemment !
+
+Si tu veux aller jeter un oeil, que ce soit pour jouer, creer de nouveaux jeux ou benchmarker des modeles, je te file des credits si tu me files du feedback :D (et tu peux aussi BYOK, au cas ou t'as peur que je morde) tout est sur [arcade-vibe.app](https://arcade-vibe.app)
+
+## Nétwayé, baléyé, astiké... Kaz la toujou penpan !
+
+La musique dans la peau... ... pardon...
+
+Grace tout ce que j'ai appris cette annee, sur la zone optimale pour le contexte, le fait que l'IA ira toujours vers la solution la plus over-engineered qui quand meme echoue parfois sur les edge cases, ou encore que t'es a un fichier markdown de voir ton projet finir a la poubelle, il y a Une lecon majeure a tirer
+
+La seule chose a retenir de toute cette annee pour moi, c'est que mon taf de dev restera exactement le meme mais d'une maniere completement differente !
+
+Mon taf principal de dev sera toujours de livrer des features tout en gardant la maison la plus propre et rangee possible, en limitant les astuces degueulasses et la dette technique, comme avant, la seule difference c'est que la maison est devenue tres grande, tres vite
+
+J'ai toujours ete plus du cote creatif du spectre dev, donc je continuerai a concevoir des architectures, specifier l'organisation du code et tester le code produit, pas grand-chose a change de ce cote et ca sera probablement le cas pour encore un an au moins.
+
+Ce qui n'existera plus c'est la galere du code. J'ai ete du cote "si ca marche" depuis un bon moment et autant j'aime le beau code, autant j'ai appris a la dure qu'il vit presque jamais assez longtemps pour justifier sa creation
+
+C'est vraiment tres important pour  mon cas perso, parce que ca veut dire que je peux retravailler ! Je peux quand meme lancer quelques prompts les jours de brouillard cerebral, la douleur ne m'arrete plus a moins que ca soit vraiment tres mauvais et meme si je peux bosser que quelques heures avant d'imposer,  une bonne quantite de boulot a ete faite ! L'IA a pas gueri ma SEP, mais elle a rendu mon travail possible a nouveau !
+
+Une nouvelle galere est apparue par contre et j'ai essaye de repondre au cycle de prompts de l'enfer "passe a la tache suivante, review, fix ca" en creant [task-o-matic](https://task-o-matic.dev), mais c'etait le mauvais outil
+
+Ca ne laisser pas assez de controle tout en demandant des ajustements constants... pas le meilleur des combos
+
+Tu es probablement en train de hurler OpenClaw ou Hermes (tu sais, ces frameworks agentiques) derriere ton ecran, je comprends pourquoi, mais j'aime pas l'idee !
+
+Je veux quelque chose de plus portable, qui peut vivre en dehors d'un harness complexe et s'integrer dans mes workflows existants sans necessiter un gros tas de config
+
+Au final, ca devrait aussi pouvoir tourner dans n'importe quel framework "Claw" (tu te souviens des gens talentueux qui construisent des harness de tout a l'heure, meme son de cloche ici !)
+
+Donc, c'est ce que j'ai commence a construire et je te parlerai de ce nouveau projet dans mon prochain article !
+6:["$","$Le",null,{"tag":"work","posts":[{"slug":"black-hole-one-year-back-in","title":"One year back in","description":"After 8 years of being pushed around by my disease, AI helped me get back to work, it's been a year, so what did I learn","date":"$D2026-04-13T23:01:00.000Z","category":"General","tags":["AI","work","multiple sclerosis","Clanker"],"content":"$f","readTime":13,"toc":[{"level":2,"title":"LiteChat: learning by building, with the wrong tool","id":"litechat-learning-by-building-with-the-wrong-tool"},{"level":2,"title":"Formedible: a sidequest to let AI build forms on the fly","id":"formedible-a-sidequest-to-let-ai-build-forms-on-the-fly"},{"level":2,"title":"Sprynge.me : new stack, new workflow, new teammate","id":"spryngeme-new-stack-new-workflow-new-teammate"},{"level":2,"title":"task-o-matic.dev : feeling the waters of agents orchestration","id":"task-o-maticdev-feeling-the-waters-of-agents-orchestration"},{"level":2,"title":"subagent-orchestration: 2 months of work replaced by a markdown file","id":"subagent-orchestration-2-months-of-work-replaced-by-a-markdown-file"},{"level":2,"title":"arcade-vibe.app: fun and goofy doesn't mean useless","id":"arcade-vibeapp-fun-and-goofy-doesnt-mean-useless"},{"level":2,"title":"Nétwayé, baléyé, astiké... Kaz la toujou penpan !","id":"ntway-baly-astik-kaz-la-toujou-penpan"}],"directory":"Black hole/One Year back in","relativePath":"Black hole/One Year back in/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/One Year back in/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"black-hole-un-an-de-retour-dans-le-game","title":"Un an de retour dans le game","description":"Apres 8 ans a me faire ballader par ma maladie, l'IA m'a aide a retourner bosser, ca fait un an, alors qu'est-ce que j'ai appris","date":"$D2026-04-13T23:00:59.000Z","category":"General","tags":["AI","work","multiple sclerosis","Clanker"],"content":"$10","readTime":14,"toc":[{"level":2,"title":"LiteChat : apprendre en construisant, avec le mauvais outil","id":"litechat-apprendre-en-construisant-avec-le-mauvais-outil"},{"level":2,"title":"Formedible : une quete secondaire pour que l'IA construise des formulaires a la volee","id":"formedible-une-quete-secondaire-pour-que-lia-construise-des-formulaires-a-la-volee"},{"level":2,"title":"Sprynge.me : nouvelle stack, nouveau workflow, nouveau teammate","id":"spryngeme-nouvelle-stack-nouveau-workflow-nouveau-teammate"},{"level":2,"title":"task-o-matic.dev : le gros orteil dans le bain de l'orchestration agentic","id":"task-o-maticdev-le-gros-orteil-dans-le-bain-de-lorchestration-agentic"},{"level":2,"title":"subagent-orchestration : 2 mois de travail remplaces par un fichier markdown","id":"subagent-orchestration-2-mois-de-travail-remplaces-par-un-fichier-markdown"},{"level":2,"title":"arcade-vibe.app : fun et debile veut pas dire inutile","id":"arcade-vibeapp-fun-et-debile-veut-pas-dire-inutile"},{"level":2,"title":"Nétwayé, baléyé, astiké... Kaz la toujou penpan !","id":"ntway-baly-astik-kaz-la-toujou-penpan"}],"directory":"Black hole/Un an de retour dans le game","relativePath":"Black hole/Un an de retour dans le game/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Black hole/Un an de retour dans le game/index.md","isCategory":false,"ogImage":"$undefined","draft":false}]}]
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
+8:null
