@@ -12,7 +12,7 @@ slug: "index"
 # og-image: "/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"
 ---
 
-These are some of the lessons i learnt from a year of coding using AI, but let me give you some context first
+These are some of the lessons i learnt from a year of coding using AI, but let me give you some context first.
 
 So, in 2017, I quit my job in Singapore cause I burned out, badly. I've been living on disability benefit since 2020 as I was diagnosed with Multiple Sclerosis (turns out, the burn out was helped ^^').
 
@@ -20,17 +20,17 @@ To get these things out of the way, yes, I'm very fortunate to live in France an
 
 And if you think MS is not enough to claim disability benefits, I would like to formally request that we swap sides for a month and have a chat after :)
 
-During all that time, I kept learning and trying new things even giving a hand to a couple friends for projects along the way, nothing serious
+During all that time, I kept learning and trying new things even giving a hand to a couple friends for projects along the way, nothing serious.
 
 I jumped on copilot on beta launch and ate at cursor's table quite early, but then again, I was mostly dilettante
 
 But a year (and a month) ago, excited by the amount of work I could do with AI even on my bad days, I decided I wasn't going to be bullied by my body anymore and I'd try to get back to work !
 
-The journey has been tedious and chaotic, but, here is a rundown of what I've done and what I've learned
+The journey has been tedious and chaotic, but, here is a rundown of what I've done and what I've learned.
 
 ## LiteChat: learning by building, with the wrong tool
 
-Cursor and sonnet 3.5 is what triggered it for me, this (in some form or another) was the future, but it felt like magic so I did not like that
+Cursor and sonnet 3.5 is what triggered it for me, this (in some form or another) was the future, but it felt like magic so I did not like that.
 
 What if I was building a chat to understand how it works ?
 
@@ -50,7 +50,7 @@ This was my first AI revelation: context is hard, too little will cause hallucin
 
 This was a real hurdle and this was what was taking me the longest, gathering the files the AI would need
 
-It was getting annoying and I felt I had a good understanding of what was happening under the hood
+It was getting annoying and I felt I had a good understanding of what was happening under the hood.
 
 Plus, Sonnet 3.7 was out and reliable tool use was actually a thing now, so back to cursor it was !
 
@@ -86,7 +86,7 @@ The time is Sonnet 4, the new hot thing is Claude Code, MCP is still sexy and I'
 
 The main goal of it being to promote good habit for X growth, just like the other 997 similar projects ^^ 
 
-I was bored of REST API and CRUD boilerplate as I've been doing Web platform things for close to 20 years now, and I've been promised realtime almost 10 of those ago
+I was bored of REST API and CRUD boilerplate as I've been doing Web platform things for close to 20 years now, and I've been promised realtime almost 10 of those ago.
 
 As it happens Theo was praising [Convex](https://convex.dev) just for this exact feature, so... why the hell not try that
 
@@ -94,7 +94,7 @@ Shake things up o clock it was, as I went for bun + tanstack start + convex in a
 
 It did bite me later on because of bun lack of support for monorepo and tanstack start beta status so I ended up migrating to npm and nextjs. I would have liked not to but bun refused to bundle the server part of tanstack start, preventing me to use better-auth X login properly AND i was stuck on an old version of better-auth and tanstack start because of the convex integration... this was not a fun week, at all...
 
-Important lesson learned, AI makes adopting a new tech MUCH easier, but edge cases will still be edge cases and no amount of token burn could find and fix them
+Important lesson learned, AI makes adopting a new tech MUCH easier, but edge cases will still be edge cases and no amount of token burn could find and fix them.
 
 After around a month or so, we ended up having a working tool that around 100 people enjoyed for a while and I stepped up my AI agentic workflow, but it was not all roses and rainbows !
 
@@ -104,17 +104,17 @@ So I set out to find a cheaper complement for Claude and ended up trying z.ai's 
 
 Not quite as good, but limits were nonexistent and it was 75% of the way there and things only got better with 4.6 and 4.7
 
-so much so that I just dropped my Claude sub and subscribed to GLM coding plan for a full year
+so much so that I just dropped my Claude sub and subscribed to GLM coding plan for a full year.
 
 I liked that foray into the world of organised workflows for AI ! Output quality and speed were up and it was less of a faff to keep working on a project when doing that... but...
 
 ## task-o-matic.dev : feeling the waters of agents orchestration
 
-task-master was not doing it anymore, I wanted things it could not do and jumping into the codebase was a bit of a faff
+task-master was not doing it anymore, I wanted things it could not do and jumping into the codebase was a bit of a faff.
 
 what do you do when you are at this point ? Well Pinky, we do as we always do at this point, you forge your own set of wheels !
 
-And forging I did, I wanted a lib, cause as much as I enjoy my terminal window, many muggles are still afraid of it and prefer clickodromic UI
+And forging I did, I wanted a lib, cause as much as I enjoy my terminal window, many muggles are still afraid of it and prefer clickodromic UI.
 
 That way, I could have my cake, eat it and share it with others as well !
 
@@ -140,25 +140,25 @@ People around started to talk about skills more and more, I've had a look at the
 
 Still, you know, people kept yapping, a lot so... I gave skills a second look
 
-well, the bitter sweetness that ensued was very real... a couple of md files just erased 85% of my last 2 months of work
+well, the bitter sweetness that ensued was very real... a couple of md files just erased 85% of my last 2 months of work.
 
 One side of me was very happy cause it was much more elegant, but the dev side that put 2 months of work in this lib/cli/tui/app was very much not !
 
 "Can this be a skill ?" should now be the default question every builder/founder should ask themselves
 
-contrary to the current psychosis trend, I don't think markdown is the new python but a combination of both is the new killer
+contrary to the current psychosis trend, I don't think markdown is the new python but a combination of both is the new killer.
 
-the end of year dark days and the growing hints of seasonal depression lead me to a "soul searching rerun binge watching" month or so until something clicked
+the end of year dark days and the growing hints of seasonal depression lead me to a "soul searching rerun binge watching" month or so until something clicked.
 
 What can't be replaced by an md file ? I only see 2...
 
-Infrastructure, but that costs money or at least marketing foo that I don't possess
+Infrastructure, but that costs money or at least marketing foo that I don't possess.
 
 And the second thing, community, the fun of sharing something you enjoy with someone who will do the same...
 
 ## arcade-vibe.app: fun and goofy doesn't mean useless
 
-It all started from my personal benchmark, a 5 lines prompt that asks a model to create a vertical scroll shooter, using [litechat.dev](https://litechat.dev) js block (yes litechat again)
+It all started from my personal benchmark, a 5 lines prompt that asks a model to create a vertical scroll shooter, using [litechat.dev](https://litechat.dev) js block (yes litechat again).
 
 Every new model drop, I was running it and then sharing the results with a group of friendly people on discord
 
@@ -172,7 +172,7 @@ You could even argue this is a good way to benchmark models or even improve your
 
 And now I have a bunch of tools in my box to create the MVP ! I'm sure it'll be a couple of days, 4 tops !
 
-There lied the lesson for this part, code is not the bottleneck anymore ! I was 80% of the way there at the end of the week
+There lied the lesson for this part, code is not the bottleneck anymore ! I was 80% of the way there at the end of the week.
 
 It still took a month or so for me to ship the darn thing !
 
@@ -182,27 +182,27 @@ If you want to go and have a look at it, whether you play games, create new ones
 
 ## Nétwayé, baléyé, astiké... Kaz la toujou penpan !
 
-Cleaning, dusting, polishing... let's keep this house clean
+Cleaning, dusting, polishing... let's keep this house clean.
 
 With all that I learned this year about how context Goldielocks' zone matters, the fact that AI will always go for the most over-engineered solution that still fails on edge cases sometimes, or that you are one markdown file away from your project going to the bin, there is One major takeaway
 
 The one thing to remember from this whole year for me, is that my job as a dev will stay exactly the same but in a completely different manner !
 
-My main job of a dev will still be to ship features while keeping the house as clean and tidy as possible, limiting dirty tricks and technical debt, just like before, the only difference is that the house got very big, very fast
+My main job of a dev will still be to ship features while keeping the house as clean and tidy as possible, limiting dirty tricks and technical debt, just like before, the only difference is that the house got very big, very fast.
 
 I've always been more on the creative side of the dev spectrum, so I will continue to conceive architectures, specify code organisation and test the produced code, not much changed there and it will probably be the case for another year at least.
 
-What will not exist anymore will be the coding grind. I've been on the "if it works well enough" side of things for a while and as much as I love beautiful code, I've learned the hard way it almost never lives long enough to justify its creation
+What will not exist anymore will be the coding grind. I've been on the "if it works well enough" side of things for a while and as much as I love beautiful code, I've learned the hard way it almost never lives long enough to justify its creation.
 
 For me this is very important, because it means I can work again ! I can still rake in a few prompts on brain fog days, pain is not stopping me anymore unless it is very bad and even if I can only work for a couple hours before expiring a good amount of work has been done ! AI did not cure my MS, but it made my work possible again !
 
 Some new grind appeared though and I tried to respond to the "proceed to the next task, review, fix this" prompt loop from hell by creating [task-o-matic](https://task-o-matic.dev), but it was the wrong tool
 
-Not leaving you with enough control while requiring constant adjustment is not the best of combos
+Not leaving you with enough control while requiring constant adjustment is not the best of combos.
 
 You probably are screaming OpenClaw or Hermes (you know, those agentic frameworks) behind your screen right now, I understand why, but I don't like the idea !
 
-I want something more portable, that can live outside of a complex harness and fit in my existing workflows without requiring a fat bunch of setup
+I want something more portable, that can live outside of a complex harness and fit in my existing workflows without requiring a fat bunch of setup.
 
 Ultimately, these should also be able to run in any "Claw framework" as well (remember about the talented people building harnesses from earlier, same jazz here !)
 
