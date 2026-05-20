@@ -1,6 +1,6 @@
 ---
 title: "FeedElity — Because Your subscriptions Deserve Better Than Algorithmic Soup"
-date: 2025-01-17T10:00:00+01:00
+date: "2026-05-20T10:00:00+01:00"
 summary: "A local-first, video-oriented RSS client for following creators across YouTube, Odysee, and PeerTube from one place. Three columns, no algorithm, no ads. Just your stuff, when you want it."
 tags:
   - rss
@@ -20,7 +20,7 @@ You know what I'm tired of? Algorithms deciding what I should watch. I subscribe
 
 No. I subscribed to people. Show me their stuff. In order. Like a normal feed. Is that so hard?
 
-Well, apparently it is for the major platforms! So I built **[FeedElity](https://github.com/DimitriGilbert/FeedElity)** — a local-first, video-oriented RSS client that follows your creators across YouTube, Odysee, and PeerTube from one place. No algorithm. No ads. No "we think you might also enjoy..." Just your subscriptions, your way.
+Well, apparently it is for the major platforms! So I built **[FeedElity](https://feedelity.dbuild.dev)** — a local-first, video-oriented RSS client that follows your creators across YouTube, Odysee, and PeerTube from one place. No algorithm. No ads. No "we think you might also enjoy..." Just your subscriptions, your way.
 
 ## What is FeedElity?
 

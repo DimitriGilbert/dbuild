@@ -98,7 +98,7 @@ Plus, let's be honest: if you're not building at least one passive-aggressive to
 
 ## Try it
 
-Head over to [GitHub](https://github.com/DimitriGilbert/lmaafy), clone it, run `pnpm install && pnpm dev`, and start generating links that passive-aggressively answer questions for you. Your friends will love it. Or hate it. Probably both.
+Head over to [lmaafy.app](https://lmaafy.app) to try it right now, or clone the [GitHub repo](https://github.com/DimitriGilbert/lmaafy), run `pnpm install && pnpm dev`, and start generating links that passive-aggressively answer questions for you. Your friends will love it. Or hate it. Probably both.
 
 The best part? The whole thing is 100% client-side. No tracking, no cookies, no server. Just pure, unfiltered pettiness delivered directly through a URL.
 

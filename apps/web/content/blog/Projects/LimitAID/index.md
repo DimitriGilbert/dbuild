@@ -1,6 +1,6 @@
 ---
 title: "LimitAID"
-date: 2025-01-17T10:00:00+01:00
+date: "2026-05-20T10:00:00+01:00"
 summary: "A bash CLI that shows your AI provider quotas, balances, and usage limits in one place. Codex, OpenRouter, Z.ai — all your limits, one command."
 tags:
   - bash
@@ -205,6 +205,6 @@ As someone who relies on AI to work because of my MS, knowing exactly how much c
 
 Is it the most impressive project in my portfolio? Absolutely not. But it's the one I use the most. Every single day. Multiple times. And that counts for something.
 
-Source code at [GitHub](https://github.com/DimitriGilbert/LimitAID). PRs welcome, feature requests encouraged, complaints about my bash style will be filed under "thank you, next" ^^
+Source code at [GitHub](https://github.com/DimitriGilbert/LimitAID), docs at [limitaid.dbuild.dev](https://limitaid.dbuild.dev). PRs welcome, feature requests encouraged, complaints about my bash style will be filed under "thank you, next" ^^
 
 {{% goodbye %}}

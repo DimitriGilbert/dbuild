@@ -1,6 +1,6 @@
 ---
 title: "git-snitch"
-date: 2025-01-17T10:00:00+01:00
+date: "2026-05-20T10:00:00+01:00"
 summary: "Your git history has stories to tell. git-snitch turns commit logs into beautiful, standalone HTML reports with quality metrics, contributor analysis, and privacy-first anonymization. No server, no database, just one file."
 tags:
   - git
@@ -166,7 +166,7 @@ pnpm add -D git-snitch
 npx git-snitch repo
 ```
 
-Source code and issues over at [GitHub](https://github.com/DimitriGilbert/git-report).
+Source code and issues over at [GitHub](https://github.com/DimitriGilbert/git-report). Give it a try at [git-snitch.dbuild.dev](https://git-snitch.dbuild.dev).
 
 ## The honest truth
 
