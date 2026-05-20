@@ -8,10 +8,104 @@
 b:I[29001,[],"ViewportBoundary"]
 d:I[32215,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/02e34dedafeb1648.css","style"]
-0:{"P":null,"b":"1uFVeF_trFakCvGfHP4B0","p":"","c":["","blog","tags","tanstack",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","tanstack","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/02e34dedafeb1648.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}],["$","script",null,{"src":"https://chemin.dbuild.dev/script.js","data-id":"7040d34e-b41f-4f20-88d1-b86ac93266c4","data-utcoffset":"2","data-server":"https://chemin.dbuild.dev"}]]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","tanstack","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","4PkahjcHOC-k47GFd2WjO",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+:HL["/_next/static/css/b2352643f982f7b1.css","style"]
+0:{"P":null,"b":"PnmCYn6Of9lwXeYhmzh-6","p":"","c":["","blog","tags","tanstack",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","tanstack","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b2352643f982f7b1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}],["$","script",null,{"src":"https://chemin.dbuild.dev/script.js","data-id":"7040d34e-b41f-4f20-88d1-b86ac93266c4","data-utcoffset":"2","data-server":"https://chemin.dbuild.dev"}]]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","tanstack","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","zWGYKMO1Tm3IQMvQK817d",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
 e:I[54528,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-12faf53037c3b929.js"],"TagDetailContent"]
-f:T257e,
+f:T1239,
+_This content has been generated by GLM 5.1 AI model_
+
+Remember LMGTFY? That beautiful, passive-aggressive little tool where you'd send someone a link that would type their question into Google for them? Yeah, those were simpler times.
+
+Well, someone asked me a question the other day that ChatGPT could've answered in 3 seconds flat, and I felt that old familiar urge... but typing "just ask ChatGPT" felt... incomplete. Lacking in *dramatic flair*.
+
+So I did what any reasonable developer would do: I spent way more time than necessary building a tool to be petty on their behalf.
+
+Enter **[lmaafy](https://github.com/DimitriGilbert/lmaafy)** — Let Me Ask AI For You.
+
+## How it works
+
+The concept is dead simple:
+
+1. Type your prompt and pick an AI provider
+2. Hit generate and copy the link
+3. Send it to whoever deserves it
+
+When they open the link, they see a fake cursor smoothly glide across the screen, click into a chat input, and type the prompt character by character with randomized timing (because we're not savages — the typing needs to feel *human*). Then the cursor clicks send and BAM — redirected to the actual AI provider with the prompt pre-filled and ready to go.
+
+Is it petty? Yes. Is it satisfying? Oh, absolutely.
+
+## The tech
+
+Built with [TanStack Start](https://tanstack.com/start) (React 19 + Vite + file-based routing), Tailwind CSS v4, shadcn/ui, and TypeScript in strict mode. Monorepo setup with pnpm workspaces and Turborepo because... well, because I apparently can't do anything small.
+
+Just two routes:
+
+- **`/`** — The home page with the form card
+- **`/ask?d=<base64>`** — The animation page that does the whole show
+
+No backend. No database. No accounts. Everything lives in the URL as a base64-encoded JSON blob. The prompt and provider ID get packed into `{ p: string, provider: string }`, encoded, and stuffed into a query param. When someone opens the link, it decodes, validates, and the magic begins.
+
+```typescript
+export function encodeLinkData(data: LinkData): string {
+  const json = JSON.stringify(data);
+  const bytes = new TextEncoder().encode(json);
+  let binary = "";
+  for (let i = 0; i < bytes.length; i++) {
+    binary += String.fromCharCode(bytes[i]!);
+  }
+  return btoa(binary);
+}
+```
+
+Yeah, it's base64, not encryption. Anyone *could* decode it. But that's not the point — the point is the punchline isn't staring them in the face from the URL bar. It's about the *reveal* ^^
+
+## The animation engine
+
+This was the fun part. The animation runs through a state machine with phases:
+
+```
+init → move-to-input → click-input → typing → move-to-send → click-send → redirect
+```
+
+The cursor is an SVG arrow that moves using CSS transitions with `cubic-bezier(0.16, 1, 0.3, 1)` for that satisfying ease-out feel. The typing effect uses randomized delays between 30-80ms per character:
+
+```typescript
+const delay = Math.random() * 50 + 30;
+setTimeout(tick, delay);
+```
+
+The fake chat UI is a generic dark-themed interface — not provider-specific — with a chat input bar at the bottom, a send button, and a blinking cursor during typing. The whole animation takes 3-6 seconds depending on prompt length. Just long enough to be satisfying, short enough to not be annoying.
+
+## Supported providers
+
+Only providers that support URL-based prompt pre-filling made the cut:
+
+| Provider | URL Pattern | Notes |
+|----------|-------------|-------|
+| ChatGPT | `chatgpt.com/?q=` | Works like a charm |
+| Claude | `claude.ai/new?q=` | Shows a warning banner (not our fault!) |
+| Grok | `grok.com/?q=` | Pre-fills nicely |
+| Mistral LeChat | `chat.mistral.ai/chat?q=` | Smooth |
+| T3.chat | `t3.chat/new?q=` | Needs verification |
+
+Kimi and DeepSeek don't support URL pre-filling, so they didn't make the cut. No point in a dramatic reveal that ends with... nothing.
+
+## The "why"
+
+Look, I know this is silly. It's a joke tool. But it's also a surprisingly clean exercise in client-side architecture — no backend, everything in the URL, smooth animations, proper TypeScript types, and it actually *works*.
+
+Plus, let's be honest: if you're not building at least one passive-aggressive tool per year, are you even a developer?
+
+## Try it
+
+Head over to [GitHub](https://github.com/DimitriGilbert/lmaafy), clone it, run `pnpm install && pnpm dev`, and start generating links that passive-aggressively answer questions for you. Your friends will love it. Or hate it. Probably both.
+
+The best part? The whole thing is 100% client-side. No tracking, no cookies, no server. Just pure, unfiltered pettiness delivered directly through a URL.
+
+Use it wisely. Or don't. I'm not your boss.
+
+{{% goodbye %}}
+10:T257e,
 _This content has been generated by GLM 4.7 AI model_
 
 So, who here builds **React forms**? And by forms I mean the good kind. With validation, multi-step wizards, conditional logic, and... well, not state of the art things that take you a week to build.
@@ -288,7 +382,7 @@ The repository is [here](https://github.com/DimitriGilbert/formedible) and the d
 Thanks for the read. Hope you found it useful (or at least entertaining :D)
 
 {{% goodbye %}}
-10:T2a1e,
+11:T2a1e,
 _Ce contenu a été généré par le modèle AI GLM 4.7 et not-ai-writer_
 
 Alors, qui ici construit des **formulaires React** ? Et par formulaires, j'entends les bons. Avec validation, assistants multi-étapes, logique conditionnelle, et... enfin, pas des trucs à la pointe de l'art qui vous prennent une semaine à construire.
@@ -565,7 +659,7 @@ Le repo est [ici](https://github.com/DimitriGilbert/formedible) et la documentat
 Merci d'avoir lu. J'espère que vous avez trouvé ça utile (ou au moins divertissant :D)
 
 {{% goodbye %}}
-6:["$","$Le",null,{"tag":"tanstack","posts":[{"slug":"projects-formedible","title":"Formedible, the Ultimate React Form Library for 2025","description":"A sophisticated wrapper around TanStack Form v1 with 22+ built-in field types, multi-step wizards, conditional logic, analytics, and enterprise-grade features. Built with React 19, TypeScript, Zod, and shadcn/ui.","date":"2025-01-17T10:00:00+01:00","category":"General","tags":["form","react","typescript","tanstack","zod"],"content":"$f","readTime":7,"toc":[{"level":2,"title":"Meet Formedible","id":"meet-formedible"},{"level":2,"title":"Quick start","id":"quick-start"},{"level":1,"title":"install the core package","id":"install-the-core-package"},{"level":1,"title":"or if you're feeling fancy and want everything","id":"or-if-youre-feeling-fancy-and-want-everything"},{"level":2,"title":"Under the hood","id":"under-the-hood"},{"level":2,"title":"The field types","id":"the-field-types"},{"level":2,"title":"Multi-page forms","id":"multi-page-forms"},{"level":2,"title":"Conditional logic","id":"conditional-logic"},{"level":2,"title":"Analytics","id":"analytics"},{"level":2,"title":"Persistence","id":"persistence"},{"level":2,"title":"The visual builder","id":"the-visual-builder"},{"level":2,"title":"The AI builder","id":"the-ai-builder"},{"level":2,"title":"What still needs work","id":"what-still-needs-work"},{"level":2,"title":"What now?","id":"what-now"}],"directory":"Projects/Formedible","relativePath":"Projects/Formedible/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/Formedible/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-formedible-fr","title":"Formedible, la Bibliothèque de Formulaires React Ultime pour 2025","description":"Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui.","date":"2025-01-17T10:00:00+01:00","category":"General","tags":["form","react","typescript","tanstack","zod","french"],"content":"$10","readTime":8,"toc":[{"level":2,"title":"Meet Formedible","id":"meet-formedible"},{"level":2,"title":"Démarrage rapide","id":"dmarrage-rapide"},{"level":1,"title":"installer le package core","id":"installer-le-package-core"},{"level":1,"title":"ou si vous vous sentez fantaisiste et que vous voulez tout","id":"ou-si-vous-vous-sentez-fantaisiste-et-que-vous-voulez-tout"},{"level":2,"title":"Sous le capot","id":"sous-le-capot"},{"level":2,"title":"Les types de champs","id":"les-types-de-champs"},{"level":2,"title":"Formulaires multi-pages","id":"formulaires-multi-pages"},{"level":2,"title":"Logique conditionnelle","id":"logique-conditionnelle"},{"level":2,"title":"Analytics","id":"analytics"},{"level":2,"title":"Persistance","id":"persistance"},{"level":2,"title":"Le constructeur visuel","id":"le-constructeur-visuel"},{"level":2,"title":"Le constructeur AI","id":"le-constructeur-ai"},{"level":2,"title":"Ce qui a encore besoin de boulot","id":"ce-qui-a-encore-besoin-de-boulot"},{"level":2,"title":"Et maintenant ?","id":"et-maintenant"}],"directory":"Projects/Formedible-fr","relativePath":"Projects/Formedible-fr/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/Formedible-fr/index.md","isCategory":false,"ogImage":"$undefined","draft":false}]}]
+6:["$","$Le",null,{"tag":"tanstack","posts":[{"slug":"projects-lmaafy","title":"lmaafy — Let Me Ask AI For You","description":"The LMGTFY of the AI age. Generate a link that plays a satisfying typing animation, then redirects to an AI chatbot with your prompt pre-filled. Petty? Maybe. Satisfying? Absolutely.","date":"2026-05-20T10:00:00+01:00","category":"General","tags":["ai","fun","react","tanstack","typescript"],"content":"$f","readTime":4,"toc":[{"level":2,"title":"How it works","id":"how-it-works"},{"level":2,"title":"The tech","id":"the-tech"},{"level":2,"title":"The animation engine","id":"the-animation-engine"},{"level":2,"title":"Supported providers","id":"supported-providers"},{"level":2,"title":"The \"why\"","id":"the-why"},{"level":2,"title":"Try it","id":"try-it"}],"directory":"Projects/lmaafy","relativePath":"Projects/lmaafy/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/lmaafy/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-formedible","title":"Formedible, the Ultimate React Form Library for 2025","description":"A sophisticated wrapper around TanStack Form v1 with 22+ built-in field types, multi-step wizards, conditional logic, analytics, and enterprise-grade features. Built with React 19, TypeScript, Zod, and shadcn/ui.","date":"2025-01-17T10:00:00+01:00","category":"General","tags":["form","react","typescript","tanstack","zod"],"content":"$10","readTime":7,"toc":[{"level":2,"title":"Meet Formedible","id":"meet-formedible"},{"level":2,"title":"Quick start","id":"quick-start"},{"level":1,"title":"install the core package","id":"install-the-core-package"},{"level":1,"title":"or if you're feeling fancy and want everything","id":"or-if-youre-feeling-fancy-and-want-everything"},{"level":2,"title":"Under the hood","id":"under-the-hood"},{"level":2,"title":"The field types","id":"the-field-types"},{"level":2,"title":"Multi-page forms","id":"multi-page-forms"},{"level":2,"title":"Conditional logic","id":"conditional-logic"},{"level":2,"title":"Analytics","id":"analytics"},{"level":2,"title":"Persistence","id":"persistence"},{"level":2,"title":"The visual builder","id":"the-visual-builder"},{"level":2,"title":"The AI builder","id":"the-ai-builder"},{"level":2,"title":"What still needs work","id":"what-still-needs-work"},{"level":2,"title":"What now?","id":"what-now"}],"directory":"Projects/Formedible","relativePath":"Projects/Formedible/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/Formedible/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-formedible-fr","title":"Formedible, la Bibliothèque de Formulaires React Ultime pour 2025","description":"Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui.","date":"2025-01-17T10:00:00+01:00","category":"General","tags":["form","react","typescript","tanstack","zod","french"],"content":"$11","readTime":8,"toc":[{"level":2,"title":"Meet Formedible","id":"meet-formedible"},{"level":2,"title":"Démarrage rapide","id":"dmarrage-rapide"},{"level":1,"title":"installer le package core","id":"installer-le-package-core"},{"level":1,"title":"ou si vous vous sentez fantaisiste et que vous voulez tout","id":"ou-si-vous-vous-sentez-fantaisiste-et-que-vous-voulez-tout"},{"level":2,"title":"Sous le capot","id":"sous-le-capot"},{"level":2,"title":"Les types de champs","id":"les-types-de-champs"},{"level":2,"title":"Formulaires multi-pages","id":"formulaires-multi-pages"},{"level":2,"title":"Logique conditionnelle","id":"logique-conditionnelle"},{"level":2,"title":"Analytics","id":"analytics"},{"level":2,"title":"Persistance","id":"persistance"},{"level":2,"title":"Le constructeur visuel","id":"le-constructeur-visuel"},{"level":2,"title":"Le constructeur AI","id":"le-constructeur-ai"},{"level":2,"title":"Ce qui a encore besoin de boulot","id":"ce-qui-a-encore-besoin-de-boulot"},{"level":2,"title":"Et maintenant ?","id":"et-maintenant"}],"directory":"Projects/Formedible-fr","relativePath":"Projects/Formedible-fr/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/Formedible-fr/index.md","isCategory":false,"ogImage":"$undefined","draft":false}]}]
 c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
 8:null

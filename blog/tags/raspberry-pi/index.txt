@@ -1,0 +1,152 @@
+1:"$Sreact.fragment"
+2:I[76592,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","177","static/chunks/app/layout-29a4018f7af1798a.js"],"ThemeProvider"]
+3:I[27890,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","177","static/chunks/app/layout-29a4018f7af1798a.js"],"FloatingNavigation"]
+4:I[91080,[],""]
+5:I[32670,[],""]
+7:I[29001,[],"OutletBoundary"]
+9:I[29001,[],"MetadataBoundary"]
+b:I[29001,[],"ViewportBoundary"]
+d:I[32215,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/b2352643f982f7b1.css","style"]
+0:{"P":null,"b":"PnmCYn6Of9lwXeYhmzh-6","p":"","c":["","blog","tags","raspberry-pi",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","raspberry-pi","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b2352643f982f7b1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}],["$","script",null,{"src":"https://chemin.dbuild.dev/script.js","data-id":"7040d34e-b41f-4f20-88d1-b86ac93266c4","data-utcoffset":"2","data-server":"https://chemin.dbuild.dev"}]]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","raspberry-pi","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","XrtcfPRB4akoZqz78E0Gf",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[54528,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-12faf53037c3b929.js"],"TagDetailContent"]
+f:T1c3e,
+_This content has been generated by GLM 5.1 AI model_
+
+So, picture this: you've got a Raspberry Pi hooked up to some speakers in your living room. It's running mpv because you're not an animal — you use a proper media player. But every time you want to skip a track, change the volume, or browse your library, you have to SSH into the thing and type commands like some kind of... command line... person.
+
+Yeah, me too. And after the 47th time typing `mpv --no-video /mnt/music/SomeAlbum/song.flac` while my pasta was burning, I decided enough was enough.
+
+**[mpv-web-control](https://github.com/DimitriGilbert/mpv-web-control)** is a web-based remote control for mpv. You open a browser on your phone (or any device on your LAN), and you get a full music player interface — browse your library, queue files and folders, play/pause/skip/seek/volume, save and load playlists. All pointing at mpv running on your Pi.
+
+No native app. No cloud service. No monthly subscription to control your own music on your own speakers. Just a web page on your local network.
+
+## What it does
+
+The feature list is what you'd expect from a music player remote:
+
+- **Browse** your music library by folder (no tagging system, just files)
+- **Queue** individual files or entire folders recursively
+- **Playback controls** — play, pause, next, previous, stop, seek, volume
+- **Queue management** — see what's playing, jump to any track, clear the queue
+- **Playlists** — save your current queue as a JSON file, load it later, append to it, delete it
+
+No database. Playlists are just JSON files on disk. The library is whatever is under your `MUSIC_ROOT` directory. Simple, stupid, and it works.
+
+## The stack
+
+This is a pnpm monorepo with three apps and a shared contract package:
+
+- **Server** — [Hono](https://hono.dev) on Node.js, talks to mpv via JSON IPC over a Unix socket
+- **Client** — React SPA with TanStack Router and TanStack Query, shadcn/ui components
+- **Contract** — Shared TypeScript types between server and client
+- **CLI** — `mpv-web-control` binary with install/uninstall/start/package commands
+
+The server spawns mpv as a child process with `--no-video --idle=yes` and communicates through a Unix socket using mpv's JSON IPC protocol. Every command goes through proper validation with Zod schemas, and path traversal protection ensures nobody can escape the `MUSIC_ROOT` directory (this runs on your LAN, but still — I'm not *that* reckless).
+
+```typescript
+function resolveLibraryPath(inputPath: string): string {
+  if (isAbsolute(inputPath)) {
+    throw new Error('Absolute paths are not allowed')
+  }
+  const absolutePath = resolve(config.musicRoot, inputPath)
+  const relativePath = relative(config.musicRoot, absolutePath)
+  if (relativePath.startsWith('..') || isAbsolute(relativePath)) {
+    throw new Error('Path escapes MUSIC_ROOT')
+  }
+  return absolutePath
+}
+```
+
+The client polls the server every second for player status. TanStack Query handles caching and invalidation — when you queue a file, the status query gets invalidated so the UI updates immediately. Optimistic enough to feel snappy, not so optimistic that it lies to you.
+
+## The mpv communication
+
+This was the interesting part. The `MpvService` class manages the lifecycle:
+
+1. Spawns mpv as a child process
+2. Waits for the IPC socket to appear (polls for 5 seconds)
+3. Connects to the socket
+4. Sends commands as JSON with request IDs
+5. Matches responses back to pending requests
+
+Each command gets a unique request ID and a 5-second timeout. The socket data handler buffers incoming data, splits on newlines, parses JSON, and routes responses to their waiting promises. Classic request-response over a text stream, nothing fancy but it gets the job done.
+
+```typescript
+async status(): Promise<PlayerStatus> {
+  await this.ensureStarted()
+  const [paused, position, duration, volume, playlist, playlistPos] = await Promise.all([
+    this.safeProperty<boolean>('pause'),
+    this.safeProperty<number>('time-pos'),
+    this.safeProperty<number>('duration'),
+    this.safeProperty<number>('volume'),
+    this.safeProperty<MpvPlaylistItem[]>('playlist'),
+    this.safeProperty<number>('playlist-pos'),
+  ])
+  // ... builds the status object
+}
+```
+
+If mpv crashes or the socket dies, the service cleans up and restarts on the next request. Because hardware happens, especially on a Pi ^^
+
+## Installation (the easy way)
+
+```bash
+npm install -g mpv-web-control
+sudo mpv-web-control install --user $USER --music-root /mnt/music --port 3000
+```
+
+That's it. The install command writes the config to `/etc/mpv-web-control/env`, creates a systemd unit, enables it, and starts the service. Your music remote is now available at `http://your-pi:3000` from any device on your network.
+
+```bash
+sudo systemctl status mpv-web-control
+sudo journalctl -u mpv-web-control -f
+```
+
+For uninstalling, `sudo mpv-web-control uninstall` stops the service, disables it, and asks what to do with config and data. It does not delete your Linux user (you're welcome).
+
+## Environment variables
+
+Everything is configurable:
+
+| Variable | Default | What it does |
+|----------|---------|-------------|
+| `HOST` | `0.0.0.0` | Bind address for LAN access |
+| `PORT` | `3000` | Server port |
+| `MUSIC_ROOT` | current directory | Where your music lives |
+| `PLAYLISTS_DIR` | `.mpv-web-control/playlists` | Where playlists get saved |
+| `MPV_SOCKET_PATH` | `/tmp/mpv-web-control.sock` | mpv IPC socket path |
+| `MPV_BIN` | `mpv` | mpv binary path |
+| `MAX_FOLDER_ITEMS` | `5000` | Safety cap for recursive folder queueing |
+
+The `MAX_FOLDER_ITEMS` cap exists because I accidentally tried to queue `/mnt/music` once and... let's just say mpv was not happy about receiving 47,000 files. Safety first, kids.
+
+## The release script
+
+This project even has a release script because apparently I enjoy writing bash almost as much as I enjoy writing TypeScript:
+
+```bash
+bash scripts/release.sh 1.0.0 --dry-run   # preview what would happen
+bash scripts/release.sh 1.0.0             # actually do it
+```
+
+It validates the version, runs typecheck and build, bumps all package.json files, commits, tags, pushes, creates a GitHub Release with a tarball, and publishes to npm. All in one shot. Flags like `--no-gh`, `--no-npm`, and `--dry-run` let you control what runs.
+
+## Security notes
+
+This is designed for trusted LAN use. Path traversal protection is in place (absolute paths and `../` escape attempts get rejected), but there's no authentication. Do NOT expose this directly to the internet. Your music is between you and your speakers, where it belongs.
+
+## Why I built this
+
+Because I was tired of SSH-ing into my Pi to change tracks. That's it. That's the whole reason. Sometimes the best motivation is sheer laziness.
+
+But also? It's a nice example of a full-stack TypeScript project with proper separation of concerns. The shared contract package means the client and server always agree on types. Hono makes the backend lightweight and fast. The React client with TanStack Query handles real-time updates cleanly. And the whole thing installs as a systemd service with one command.
+
+Sometimes the best projects come from the dumbest problems ^^
+
+{{% goodbye %}}
+6:["$","$Le",null,{"tag":"raspberry-pi","posts":[{"slug":"projects-mpv-web-control","title":"mpv-web-control — your music, your phone, your LAN","description":"A web remote for mpv running on a Raspberry Pi. Browse your music library from your phone, control playback, manage playlists. No app, no database, no cloud — just your browser and your speakers.","date":"2026-05-20T11:00:00+01:00","category":"General","tags":["mpv","audio","homelab","raspberry-pi","react","hono","typescript"],"content":"$f","readTime":6,"toc":[{"level":2,"title":"What it does","id":"what-it-does"},{"level":2,"title":"The stack","id":"the-stack"},{"level":2,"title":"The mpv communication","id":"the-mpv-communication"},{"level":2,"title":"Installation (the easy way)","id":"installation-the-easy-way"},{"level":2,"title":"Environment variables","id":"environment-variables"},{"level":2,"title":"The release script","id":"the-release-script"},{"level":2,"title":"Security notes","id":"security-notes"},{"level":2,"title":"Why I built this","id":"why-i-built-this"}],"directory":"Projects/mpv-web-control","relativePath":"Projects/mpv-web-control/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/mpv-web-control/index.md","isCategory":false,"ogImage":"$undefined","draft":false}]}]
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
+8:null
