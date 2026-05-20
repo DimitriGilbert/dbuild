@@ -9,9 +9,103 @@ b:I[29001,[],"ViewportBoundary"]
 d:I[32215,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/css/b2352643f982f7b1.css","style"]
-0:{"P":null,"b":"PnmCYn6Of9lwXeYhmzh-6","p":"","c":["","blog","tags","typescript",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","typescript","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b2352643f982f7b1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}],["$","script",null,{"src":"https://chemin.dbuild.dev/script.js","data-id":"7040d34e-b41f-4f20-88d1-b86ac93266c4","data-utcoffset":"2","data-server":"https://chemin.dbuild.dev"}]]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","typescript","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","coWTeM4n6Xt4fTxss3NRj",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"04UMTp4TBCykGLg4YD47Q","p":"","c":["","blog","tags","typescript",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","typescript","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b2352643f982f7b1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}],["$","script",null,{"src":"https://chemin.dbuild.dev/script.js","data-id":"7040d34e-b41f-4f20-88d1-b86ac93266c4","data-utcoffset":"2","data-server":"https://chemin.dbuild.dev"}]]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","typescript","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","-6EDZS5UijcmcEqoDZ8Cm",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
 e:I[54528,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-12faf53037c3b929.js"],"TagDetailContent"]
-f:T1c3e,
+f:T1490,
+_This content has been generated by GLM 5.1 AI model_
+
+Vous vous souvenez de LMGTFY ? Ce petit outil passif-agressif magnifique où t'envoyais un lien à quelqu'un et ça tapait sa question dans Google à sa place ? Ouais, c'était le bon vieux temps.
+
+Bah, l'autre jour, quelqu'un m'a posé une question que ChatGPT aurait pu régler en 3 secondes chrono, et j'ai ressenti cette vieille envie familière... mais taper "demande juste à ChatGPT" c'était... incomplet. Manquait de *panache dramatique*.
+
+Donc j'ai fait ce que tout développeur raisonnable ferait : j'ai passé nettement plus de temps que nécessaire à construire un outil pour être mesquin à sa place.
+
+Entrez **[lmaafy](https://github.com/DimitriGilbert/lmaafy)** — Let Me Ask AI For You.
+
+## Comment ça marche
+
+Le concept est tout con :
+
+1. Tu tapes ton prompt et tu choisis un fournisseur IA
+2. T'appuies sur générer et tu copies le lien
+3. Tu l'envoies à celui ou celle qui le mérite
+
+Quand la personne ouvre le lien, elle voit un faux curseur glisser doucement sur l'écran, cliquer dans un champ de chat, et taper le prompt caractère par caractère avec un timing randomisé (parce qu'on est pas des bêtes — la frappe doit sembler *humaine*). Ensuite le curseur clique sur envoyer et BAM — redirection vers le vrai fournisseur IA avec le prompt déjà rempli et prêt à dégainer.
+
+C'est mesquin ? Oui. C'est satisfaisant ? Oh, carrément.
+
+## La tech
+
+Construit avec [TanStack Start](https://tanstack.com/start) (React 19 + Vite + routing par fichiers), Tailwind CSS v4, shadcn/ui, et TypeScript en mode strict. Monorepo avec pnpm workspaces et Turborepo parce que... bah, parce que visiblement je sais pas faire les choses à moitié.
+
+Juste deux routes :
+
+- **`/`** — La page d'accueil avec la carte de formulaire
+- **`/ask?d=<base64>`** — La page d'animation qui fait tout le show
+
+Pas de backend. Pas de base de données. Pas de comptes. Tout vit dans l'URL sous forme de blob JSON encodé en base64. Le prompt et l'ID du fournisseur sont empaquetés dans `{ p: string, provider: string }`, encodés, et fourrés dans un query param. Quand quelqu'un ouvre le lien, ça décode, ça valide, et la magie opère.
+
+```typescript
+export function encodeLinkData(data: LinkData): string {
+  const json = JSON.stringify(data);
+  const bytes = new TextEncoder().encode(json);
+  let binary = "";
+  for (let i = 0; i < bytes.length; i++) {
+    binary += String.fromCharCode(bytes[i]!);
+  }
+  return btoa(binary);
+}
+```
+
+Ouais, c'est du base64, pas du chiffrement. N'importe qui *pourrait* le décoder. Mais c'est pas le but — le but c'est que la chute soit pas plantée direct dans la barre d'URL. C'est pour le *reveal* ^^
+
+## Le moteur d'animation
+
+Ça c'était la partie fun. L'animation tourne avec une machine à états :
+
+```
+init → move-to-input → click-input → typing → move-to-send → click-send → redirect
+```
+
+Le curseur est une flèche SVG qui se déplace avec des transitions CSS en `cubic-bezier(0.16, 1, 0.3, 1)` pour cette sensation de ease-out bien agréable. L'effet de frappe utilise des délais randomisés entre 30 et 80 ms par caractère :
+
+```typescript
+const delay = Math.random() * 50 + 30;
+setTimeout(tick, delay);
+```
+
+L'interface de chat factice est une UI dark générique — pas spécifique à un fournisseur — avec une barre de saisie en bas, un bouton envoyer, et un curseur clignotant pendant la frappe. L'animation complète dure entre 3 et 6 secondes selon la longueur du prompt. Assez longue pour être satisfaisante, assez courte pour être pas relou.
+
+## Fournisseurs supportés
+
+Seuls les fournisseurs qui supportent le pré-remplissage de prompt via URL ont fait le cut :
+
+| Fournisseur | Pattern d'URL | Notes |
+|----------|-------------|-------|
+| ChatGPT | `chatgpt.com/?q=` | Marche comme sur des roulettes |
+| Claude | `claude.ai/new?q=` | Affiche un bandeau d'avertissement (c'est pas nous !) |
+| Grok | `grok.com/?q=` | Se remplit nickel |
+| Mistral LeChat | `chat.mistral.ai/chat?q=` | Tout fluide |
+| T3.chat | `t3.chat/new?q=` | Nécessite vérification |
+
+Kimi et DeepSeek supportent pas le pré-remplissage par URL, donc ils sont restés sur le carreau. Pas la peine de faire un truc dramatique qui finit en... rien.
+
+## Le "pourquoi"
+
+Regardez, je sais que c'est con. C'est un outil à la blague. Mais c'est aussi un exercice étonnamment propre d'architecture côté client — pas de backend, tout dans l'URL, des animations fluides, du TypeScript bien typé, et ça *marche* vraiment.
+
+Et puis, soyons honnêtes : si tu construis pas au moins un outil passif-agressif par an, t'es vraiment un développeur ?
+
+## Essaie
+
+File sur [lmaafy.app](https://lmaafy.app) pour tester de suite, ou clone le [repo GitHub](https://github.com/DimitriGilbert/lmaafy), lance `pnpm install && pnpm dev`, et commence à générer des liens qui répondent passif-agressivement aux questions à ta place. Tes potes vont adorer. Ou te détester. Probablement les deux.
+
+Le meilleur dans tout ça ? Le truc est 100% côté client. Pas de tracking, pas de cookies, pas de serveur. Juste de la mesquinerie pure et non filtrée livrée directement par URL.
+
+Utilise-le sagement. Ou pas. Je suis pas ton patron.
+
+{{% goodbye %}}
+10:T1c3e,
 _This content has been generated by GLM 5.1 AI model_
 
 So, picture this: you've got a Raspberry Pi hooked up to some speakers in your living room. It's running mpv because you're not an animal — you use a proper media player. But every time you want to skip a track, change the volume, or browse your library, you have to SSH into the thing and type commands like some kind of... command line... person.
@@ -146,7 +240,142 @@ But also? It's a nice example of a full-stack TypeScript project with proper sep
 Sometimes the best projects come from the dumbest problems ^^
 
 {{% goodbye %}}
-10:T205f,
+11:T1fdc,
+_This content has been generated by GLM 5.1 AI model_
+
+Bon, imagine le truc : t'as un Raspberry Pi branché à des enceintes dans ton salon. Il fait tourner mpv parce que t'es pas un animal — t'utilises un lecteur média qui en vaut la peine. Mais à chaque fois que tu veux passer un morceau, changer le volume ou fouiller dans ta bibliothèque, tu dois te connecter en SSH à la bestiole et taper des commandes comme une espèce de... personne qui tape des commandes... dans un terminal.
+
+Ouais, moi aussi. Et après la 47ème fois que j'ai tapé `mpv --no-video /mnt/music/UnAlbum/chanson.flac` pendant que mes pâtes cramaien, j'ai décidé que ça suffisait.
+
+**[mpv-web-control](https://github.com/DimitriGilbert/mpv-web-control)** c'est une télécommande web pour mpv. Tu ouvres un navigateur sur ton téléphone (ou n'importe quel appareil sur ton réseau local), et t'as une interface complète de lecteur de musique — naviguer dans la bibliothèque, mettre en queue des fichiers et des dossiers, play/pause/suivant/seek/volume, sauvegarder et charger des playlists. Le tout connecté à mpv qui tourne sur ton Pi.
+
+Pas d'app native. Pas de service cloud. Pas d'abonnement mensuel pour contrôler ta propre musique sur tes propres enceintes. Juste une page web sur ton réseau local.
+
+## Ce que ça fait
+
+La liste de fonctionnalités, c'est ce que tu t'attends à trouver dans une télécommande de lecteur musique :
+
+- **Naviguer** dans ta bibliothèque musicale par dossier (pas de système de tags, juste des fichiers)
+- **Queue** des fichiers individuels ou des dossiers entiers en mode récursif
+- **Contrôles de lecture** — play, pause, suivant, précédent, stop, seek, volume
+- **Gestion de la file** — voir ce qui joue, sauter à n'importe quel morceau, vider la file
+- **Playlists** — sauvegarder la file actuelle en JSON, la recharger plus tard, la compléter, la supprimer
+
+Pas de base de données. Les playlists sont juste des fichiers JSON sur le disque. La bibliothèque c'est tout ce qui se trouve sous ton répertoire `MUSIC_ROOT`. Simple, basique, et ça marche.
+
+## La stack
+
+C'est un monorepo pnpm avec trois apps et un package de contrat partagé :
+
+- **Server** — [Hono](https://hono.dev) sur Node.js, discute avec mpv via JSON IPC sur un socket Unix
+- **Client** — SPA React avec TanStack Router et TanStack Query, composants shadcn/ui
+- **Contract** — Types TypeScript partagés entre le serveur et le client
+- **CLI** — Binaire `mpv-web-control` avec les commandes install/uninstall/start/package
+
+Le serveur lance mpv comme processus fils avec `--no-video --idle=yes` et communique à travers un socket Unix en utilisant le protocole JSON IPC de mpv. Chaque commande passe par une validation propre avec des schémas Zod, et la protection contre le path traversal garantit que personne peut s'échapper du répertoire `MUSIC_ROOT` (ça tourne sur ton LAN, mais quand même — je suis pas *ça* inconscient).
+
+```typescript
+function resolveLibraryPath(inputPath: string): string {
+  if (isAbsolute(inputPath)) {
+    throw new Error('Absolute paths are not allowed')
+  }
+  const absolutePath = resolve(config.musicRoot, inputPath)
+  const relativePath = relative(config.musicRoot, absolutePath)
+  if (relativePath.startsWith('..') || isAbsolute(relativePath)) {
+    throw new Error('Path escapes MUSIC_ROOT')
+  }
+  return absolutePath
+}
+```
+
+Le client poll le serveur toutes les secondes pour récupérer le statut du lecteur. TanStack Query gère le cache et l'invalidation — quand tu mets un fichier en queue, la query de statut est invalidée pour que l'UI se mette à jour de suite. Assez optimiste pour être réactif, pas assez pour te mentir.
+
+## La communication avec mpv
+
+Ça c'était la partie intéressante. La classe `MpvService` gère tout le cycle de vie :
+
+1. Lance mpv en tant que processus fils
+2. Attend que le socket IPC apparaisse (poll pendant 5 secondes)
+3. Se connecte au socket
+4. Envoie les commandes en JSON avec des IDs de requête
+5. Fait correspondre les réponses aux requêtes en attente
+
+Chaque commande reçoit un ID unique et un timeout de 5 secondes. Le handler de données du socket bufferise ce qui arrive, split sur les retours à la ligne, parse le JSON, et route les réponses vers leurs promesses en attente. Du classique requête-réponse sur un flux texte, rien de fancy mais ça fait le taf.
+
+```typescript
+async status(): Promise<PlayerStatus> {
+  await this.ensureStarted()
+  const [paused, position, duration, volume, playlist, playlistPos] = await Promise.all([
+    this.safeProperty<boolean>('pause'),
+    this.safeProperty<number>('time-pos'),
+    this.safeProperty<number>('duration'),
+    this.safeProperty<number>('volume'),
+    this.safeProperty<MpvPlaylistItem[]>('playlist'),
+    this.safeProperty<number>('playlist-pos'),
+  ])
+  // ... construit l'objet de statut
+}
+```
+
+Si mpv crash ou que le socket meurt, le service nettoie et redémarre à la prochaine requête. Parce que le hardware fait des siennes, surtout sur un Pi ^^
+
+## Installation (la voie facile)
+
+```bash
+npm install -g mpv-web-control
+sudo mpv-web-control install --user $USER --music-root /mnt/music --port 3000
+```
+
+C'est tout. La commande d'install écrit la config dans `/etc/mpv-web-control/env`, crée une unit systemd, l'active, et démarre le service. Ta télécommande musicale est maintenant dispo sur `http://ton-pi:3000` depuis n'importe quel appareil de ton réseau.
+
+```bash
+sudo systemctl status mpv-web-control
+sudo journalctl -u mpv-web-control -f
+```
+
+Pour désinstaller, `sudo mpv-web-control uninstall` arrête le service, le désactive, et te demande quoi faire de la config et des données. Il supprime pas ton utilisateur Linux (de rien).
+
+## Variables d'environnement
+
+Tout est configurable :
+
+| Variable | Défaut | Ce que ça fait |
+|----------|---------|-------------|
+| `HOST` | `0.0.0.0` | Adresse de bind pour l'accès LAN |
+| `PORT` | `3000` | Port du serveur |
+| `MUSIC_ROOT` | répertoire courant | Où vit ta musique |
+| `PLAYLISTS_DIR` | `.mpv-web-control/playlists` | Où sont sauvegardées les playlists |
+| `MPV_SOCKET_PATH` | `/tmp/mpv-web-control.sock` | Chemin du socket IPC mpv |
+| `MPV_BIN` | `mpv` | Chemin du binaire mpv |
+| `MAX_FOLDER_ITEMS` | `5000` | Plafond de sécurité pour la mise en queue récursive |
+
+Le plafond `MAX_FOLDER_ITEMS` existe parce que j'ai essayé de mettre `/mnt/music` en queue une fois et... disons juste que mpv était pas ravi de recevoir 47 000 fichiers. La sécurité d'abord, les enfants.
+
+## Le script de release
+
+Ce projet a même un script de release parce que visiblement j'aime écrire du bash presque autant que du TypeScript :
+
+```bash
+bash scripts/release.sh 1.0.0 --dry-run   # prévisualiser ce qui va se passer
+bash scripts/release.sh 1.0.0             # le faire pour de vrai
+```
+
+Il valide la version, lance le typecheck et le build, bump tous les package.json, commit, tag, push, crée une GitHub Release avec un tarball, et publie sur npm. Tout d'un coup. Les flags `--no-gh`, `--no-npm` et `--dry-run` te laissent contrôler ce qui tourne.
+
+## Notes de sécurité
+
+C'est conçu pour un usage LAN de confiance. La protection contre le path traversal est en place (les chemins absolus et les tentatives d'évasion en `../` se font jeter), mais y'a pas d'authentification. N'exposez PAS ça directement sur internet. Ta musique, c'est entre toi et tes enceintes, là où elle doit être.
+
+## Pourquoi j'ai fait ça
+
+Parce que j'en avais marre de me SSH-er dans mon Pi pour changer de morceau. C'est tout. C'est la seule raison. Parfois la meilleure motivation, c'est la pure flemme.
+
+Mais aussi ? C'est un chouette exemple de projet full-stack TypeScript avec une vraie séparation des préoccupations. Le package de contrat partagé fait que le client et le serveur sont toujours d'accord sur les types. Hono rend le backend léger et rapide. Le client React avec TanStack Query gère les updates temps temps réel proprement. Et le tout s'installe comme service systemd en une seule commande.
+
+Parfois les meilleurs projets naissent des problèmes les plus cons ^^
+
+{{% goodbye %}}
+12:T205f,
 _This content has been generated by GLM 5.1 AI model_
 
 So here's the thing. Every time a new AI model drops, I run the same stupid benchmark. A five-line prompt asking it to create a vertical scroll shooter. I do it in [litechat.dev](https://litechat.dev)'s JS block (yes, I use my own tools, shocking), then share the results with a bunch of friendly nerds on Discord.
@@ -280,7 +509,141 @@ Also, naming things is still hard. I went with "arcade-vibe" because... vibes? A
 Go forth, write prompts, and may your games be playable!
 
 {{% goodbye %}}
-11:T1239,
+13:T2478,
+_This content has been generated by GLM 5.1 AI model_
+
+Voilà le truc. À chaque fois qu'un nouveau modèle IA sort, je lance le même benchmark débile. Un prompt de cinq lignes qui demande de créer un vertical scroll shooter. Je fais ça dans le bloc JS de [litechat.dev](https://litechat.dev) (oui, j'utilise mes propres outils, choquant), puis je partage les résultats avec une bande de nerds sympas sur Discord.
+
+Un jour, l'un d'eux me dit que je devrais améliorer le prompt. Ma première pensée ? "Bah, tu pourrais le faire toi-même, non... ?"
+
+Et c'est là que l'idée fun m'a frappé. C'est quoi le meilleur jeu que tu peux créer en un seul prompt ? Et le tien, il compare comment avec celui de ton pote ?
+
+**[arcade-vibe](https://github.com/DimitriGilbert/arcade-vibe)** était né. Une plateforme de prompt engineering compétitive déguisée en arcade rétro, où le jeu EST le méta-jeu.
+
+## C'est quoi arcade-vibe ?
+
+Pense-y comme une compétition mensuelle où l'arme c'est pas le code — c'est ta capacité à écrire un prompt. Tu reçois un thème, tu écris un seul prompt, tu choisis ton modèle, et tu regardes ce qui sort. La communauté joue à ton jeu, le note, et le leaderboard décide qui est le meilleur prompt engineer du mois.
+
+La philosophie de base : **Un prompt. Un shot. Un mois pour prouver que t'es le meilleur.**
+
+Ça a l'air simple ? Ça l'est ! ...enfin, genre, à peu près. La formule de scoring récompense la qualité des notes, mais aussi des trucs comme la difficulté du modèle (utiliser un petit modèle te file un multiplicateur de handicap !), la brièveté du prompt (pas question de balancer un bouquin entier pour tricher), et le temps de jeu réel. Ton prompt peut être privé, public en fin de mois, ou complètement public dès le départ.
+
+Et chaque mois, c'est reparti de zéro — nouveau thème, leaderboard clean. Les mois passés deviennent une galerie permanente avec les classements figés.
+
+## Comment ça marche
+
+### Pour les prompt engineers (les joueurs derrière le rideau)
+
+Tu reçois un thème mensuel avec des exigences de base qui changent jamais — système de score, vies, niveaux, responsive, compatible iframe. Tu bricoles un prompt en un seul message, sans contexte, sans historique. De l'instruction pure.
+
+Ensuite tu choisis ton arme :
+
+* **Tier tricheur** : GPT-5.3, Opus-4.6 — la grosse artillerie
+* **Tier normal** : GLM-4.7, Kimi-k2.5 — des modèles solides
+* **Mode hardcore** : Deepseek-3.2, GPT-5.1-mini, Haiku-4.5 — pour la gloire
+* **Impossible** : les tiny models — parce que certains aiment souffrir, visiblement
+
+Tu peux lancer ton prompt sur plusieurs modèles en même temps pour comparer les résultats. Itérer, créer des versions et des forks. Chaque tentative est préservée — ton évolution en tant que prompt engineer est documentée. Quand t'es prêt, tu publies.
+
+### Pour les joueurs (la communauté)
+
+Tu navigues dans l'arcade mensuelle. Chaque jeu affiche son badge de difficulté. Tu joues, tu notes, tu regardes le leaderboard bouger. Si un prompt est public, tu peux voir toute son évolution — chaque fork, chaque ajustement. Tu peux même lancer ce prompt toi-même sur un modèle différent avec ta propre clé API, en contribuant à la méta-analyse de la portabilité des prompts.
+
+### Le cycle mensuel
+
+1. **Semaine 1** : Annonce du thème. Chaos pur. Tout le monde expérimente des idées barrées.
+2. **Semaines 2-3** : Raffinement. Les leaders émergent. Les tests communautaires s'intensifient.
+3. **Semaine 4** : Dernière ligne droite. Le leaderboard se solidifie.
+4. **Fin de mois** : Les classements se figent. Les jeux deviennent des pièces de galerie permanentes. Nouveau thème qui tombe.
+
+## La stack (pour les nerds)
+
+C'est là que ça devient fun. Le tout est bootstrappé avec [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack) et tourne en monorepo avec Turborepo :
+
+* **Frontend** : Next.js (App Router) avec React 19
+* **Couche API** : tRPC v11 — type-safe, pas d'overhead REST, j'adore
+* **Base de données** : Drizzle ORM sur PostgreSQL
+* **Auth** : Better Auth
+* **Styling** : Tailwind v4 + shadcn/ui
+* **Intégration IA** : Vercel AI SDK pour le streaming/la génération
+* **Éditeur de code** : Monaco Editor dans le créateur style IDE
+* **Validation** : Zod partout
+
+La structure du projet ressemble à ça :
+
+```
+arcade-vibe/
+├── apps/
+│   └── web/          # Fullstack Next.js app
+├── packages/
+│   ├── api/          # tRPC routers, business logic
+│   ├── auth/         # Better Auth config
+│   ├── db/           # Drizzle schema & queries
+│   ├── email/        # Email templates
+│   └── env/          # Shared env schemas
+```
+
+La couche API a des routers pour tout — jeux, prompts, thèmes, ratings, leaderboards, billing, crédits, modération, même un SDK pour les jeux. C'est... beaucoup. Mais ça marche !
+
+## Le créateur IDE
+
+Un des trucs dont je suis le plus fier c'est l'interface du créateur. Au lieu d'un formulaire chiant, j'ai construit un IDE inspiré de VS Code où tu gères tes prompts :
+
+```
+┌──────────────┬────────────────────────────┬────────────────┐
+│ Explorer     │ Editor Area                │ Config Panel   │
+│              │                            │                │
+│ ▼ Theme      │ [Tabs: prompt.md | games]  │ Model selector │
+│   ▼ Prompt   │                            │ Game name      │
+│     game1    │   Your prompt here...      │ Visibility     │
+│     game2    │                            │                │
+├──────────────┴────────────────────────────┴────────────────┤
+│ Status Bar: Credits | Ln 42, Col 18 | Ready               │
+└─────────────────────────────────────────────────────────────┘
+```
+
+Raccourcis clavier complets, menus contextuels, gestion des onglets, édition inline, historique des versions... le kit complet. Quand tu génères un jeu, tu vois le raisonnement de l'IA en stream en temps réel, puis le code apparaît. Plusieurs modèles qui tournent en même temps, chacun dans son propre onglet.
+
+## Le design system
+
+Je suis allé à fond sur l'esthétique arcade des années 80. 5 thèmes :
+
+* **Synthwave** — Arrondi, rose néon, gradients, scanlines
+* **Tron** — clip-paths angulaires, néon cyan, perspective
+* **Pixel** — Sharp, ombres dures, bordures de 4px bien grasses, 8-bit
+* **Cabinet** — Grain de bois, lueur verte CRT, scanlines
+* **Vaporwave** — Gradients rose/violet, géométrique
+
+Polices custom (Orbitron pour le display, Space Grotesk pour le body, JetBrains Mono pour le code), effets de néon glow, overlays de lignes CRT, cartes style cabinet, effets de glitch... c'est ridicule et j'adore ça.
+
+Chaque composant utilise des CSS variables donc le système de thèmes marche tout seul — aucune valeur hardcodée nulle part.
+
+## La vérité pure
+
+Regarde, c'est un GROS projet. Bien plus gros que ce que j'avais anticipé (l'histoire de ma vie avec les projets IA, honnêtement). Le code était à 80% en une semaine. Les 20% restants ont pris un mois.
+
+Les tests et les corrections, la découverte des edge cases, les ajustements d'UI — c'est toujours le goulot d'étranglement, même avec l'IA. Elle guérit pas de ce truc-là. Ce qu'elle fait c'est réduire le temps pour y arriver. Un processus qui aurait pris des mois a pris... moins de mois. Ça a quand même pris du temps hein !
+
+Et le marketing ? Je suis une bille. "Viens jouer à des jeux générés par des prompts IA sur un leaderboard compétitif" ça devrait se vendre tout seul, non ? Apparemment je rate un truc ^^'
+
+Si tu veux aller jeter un œil, que ce soit pour jouer, créer de nouveaux jeux ou benchmarker des modèles, je te file des crédits si tu me files du feedback. Tu peux aussi BYOK (amener ta propre clé) si t'as peur que je morde. Tout est sur [arcade-vibe.app](https://arcade-vibe.app).
+
+## La suite
+
+La plateforme est live et fonctionnelle. Les plans futurs incluent des compétitions par équipe, des prompt jams de 24h, un marketplace de prompts, des leaderboards de modèles, et des tags par catégorie pour quand (si !) on atteindra une certaine échelle.
+
+Pour l'instant, c'est gratuit d'essayer, open source, et ça attend des gens qui kiffent autant les jeux que l'art de parler aux machines.
+
+## Ce que j'ai appris
+
+La plus grosse leçon ? Le code c'est plus le goulot d'étranglement. L'IA m'a emmené à 80% du chemin en une semaine. Mais shipper les 20% restants — rendre le truc poli, gérer les edge cases, avoir le bon UX — ça reste très clairement un boulot d'humain.
+
+Aussi, nommer les trucs c'est toujours dur. Je suis parti sur "arcade-vibe" parce que... les vibes ? L'arcade ? C'est un vibe ? Regarde, j'ai jamais prétendu être doué pour nommer les trucs.
+
+Allez, écris des prompts, et que tes jeux soient jouables !
+
+{{% goodbye %}}
+14:T1277,
 _This content has been generated by GLM 5.1 AI model_
 
 Remember LMGTFY? That beautiful, passive-aggressive little tool where you'd send someone a link that would type their question into Google for them? Yeah, those were simpler times.
@@ -367,14 +730,14 @@ Plus, let's be honest: if you're not building at least one passive-aggressive to
 
 ## Try it
 
-Head over to [GitHub](https://github.com/DimitriGilbert/lmaafy), clone it, run `pnpm install && pnpm dev`, and start generating links that passive-aggressively answer questions for you. Your friends will love it. Or hate it. Probably both.
+Head over to [lmaafy.app](https://lmaafy.app) to try it right now, or clone the [GitHub repo](https://github.com/DimitriGilbert/lmaafy), run `pnpm install && pnpm dev`, and start generating links that passive-aggressively answer questions for you. Your friends will love it. Or hate it. Probably both.
 
 The best part? The whole thing is 100% client-side. No tracking, no cookies, no server. Just pure, unfiltered pettiness delivered directly through a URL.
 
 Use it wisely. Or don't. I'm not your boss.
 
 {{% goodbye %}}
-12:T257e,
+15:T257e,
 _This content has been generated by GLM 4.7 AI model_
 
 So, who here builds **React forms**? And by forms I mean the good kind. With validation, multi-step wizards, conditional logic, and... well, not state of the art things that take you a week to build.
@@ -651,7 +1014,7 @@ The repository is [here](https://github.com/DimitriGilbert/formedible) and the d
 Thanks for the read. Hope you found it useful (or at least entertaining :D)
 
 {{% goodbye %}}
-13:T2a1e,
+16:T2a1e,
 _Ce contenu a été généré par le modèle AI GLM 4.7 et not-ai-writer_
 
 Alors, qui ici construit des **formulaires React** ? Et par formulaires, j'entends les bons. Avec validation, assistants multi-étapes, logique conditionnelle, et... enfin, pas des trucs à la pointe de l'art qui vous prennent une semaine à construire.
@@ -928,7 +1291,7 @@ Le repo est [ici](https://github.com/DimitriGilbert/formedible) et la documentat
 Merci d'avoir lu. J'espère que vous avez trouvé ça utile (ou au moins divertissant :D)
 
 {{% goodbye %}}
-6:["$","$Le",null,{"tag":"typescript","posts":[{"slug":"projects-mpv-web-control","title":"mpv-web-control — your music, your phone, your LAN","description":"A web remote for mpv running on a Raspberry Pi. Browse your music library from your phone, control playback, manage playlists. No app, no database, no cloud — just your browser and your speakers.","date":"2026-05-20T11:00:00+01:00","category":"General","tags":["mpv","audio","homelab","raspberry-pi","react","hono","typescript"],"content":"$f","readTime":6,"toc":[{"level":2,"title":"What it does","id":"what-it-does"},{"level":2,"title":"The stack","id":"the-stack"},{"level":2,"title":"The mpv communication","id":"the-mpv-communication"},{"level":2,"title":"Installation (the easy way)","id":"installation-the-easy-way"},{"level":2,"title":"Environment variables","id":"environment-variables"},{"level":2,"title":"The release script","id":"the-release-script"},{"level":2,"title":"Security notes","id":"security-notes"},{"level":2,"title":"Why I built this","id":"why-i-built-this"}],"directory":"Projects/mpv-web-control","relativePath":"Projects/mpv-web-control/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/mpv-web-control/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-arcade-vibe","title":"arcade-vibe — One Prompt, One Shot, May the Best Prompt Win","description":"A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the leaderboard. Fun and goofy doesn't mean useless.","date":"2026-05-20T10:00:00+01:00","category":"General","tags":["ai","gaming","prompt-engineering","nextjs","trpc","typescript"],"content":"$10","readTime":7,"toc":[{"level":2,"title":"What is arcade-vibe?","id":"what-is-arcade-vibe"},{"level":2,"title":"How it works","id":"how-it-works"},{"level":3,"title":"For the prompt engineers (the players behind the curtain)","id":"for-the-prompt-engineers-the-players-behind-the-curtain"},{"level":3,"title":"For the players (the community)","id":"for-the-players-the-community"},{"level":3,"title":"The monthly lifecycle","id":"the-monthly-lifecycle"},{"level":2,"title":"The stack (for the nerds)","id":"the-stack-for-the-nerds"},{"level":2,"title":"The IDE Creator","id":"the-ide-creator"},{"level":2,"title":"The design system","id":"the-design-system"},{"level":2,"title":"The honest truth","id":"the-honest-truth"},{"level":2,"title":"What's next","id":"whats-next"},{"level":2,"title":"Lessons learned","id":"lessons-learned"}],"directory":"Projects/arcade-vibe","relativePath":"Projects/arcade-vibe/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/arcade-vibe/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-lmaafy","title":"lmaafy — Let Me Ask AI For You","description":"The LMGTFY of the AI age. Generate a link that plays a satisfying typing animation, then redirects to an AI chatbot with your prompt pre-filled. Petty? Maybe. Satisfying? Absolutely.","date":"2026-05-20T10:00:00+01:00","category":"General","tags":["ai","fun","react","tanstack","typescript"],"content":"$11","readTime":4,"toc":[{"level":2,"title":"How it works","id":"how-it-works"},{"level":2,"title":"The tech","id":"the-tech"},{"level":2,"title":"The animation engine","id":"the-animation-engine"},{"level":2,"title":"Supported providers","id":"supported-providers"},{"level":2,"title":"The \"why\"","id":"the-why"},{"level":2,"title":"Try it","id":"try-it"}],"directory":"Projects/lmaafy","relativePath":"Projects/lmaafy/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/lmaafy/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-formedible","title":"Formedible, the Ultimate React Form Library for 2025","description":"A sophisticated wrapper around TanStack Form v1 with 22+ built-in field types, multi-step wizards, conditional logic, analytics, and enterprise-grade features. Built with React 19, TypeScript, Zod, and shadcn/ui.","date":"2025-01-17T10:00:00+01:00","category":"General","tags":["form","react","typescript","tanstack","zod"],"content":"$12","readTime":7,"toc":[{"level":2,"title":"Meet Formedible","id":"meet-formedible"},{"level":2,"title":"Quick start","id":"quick-start"},{"level":1,"title":"install the core package","id":"install-the-core-package"},{"level":1,"title":"or if you're feeling fancy and want everything","id":"or-if-youre-feeling-fancy-and-want-everything"},{"level":2,"title":"Under the hood","id":"under-the-hood"},{"level":2,"title":"The field types","id":"the-field-types"},{"level":2,"title":"Multi-page forms","id":"multi-page-forms"},{"level":2,"title":"Conditional logic","id":"conditional-logic"},{"level":2,"title":"Analytics","id":"analytics"},{"level":2,"title":"Persistence","id":"persistence"},{"level":2,"title":"The visual builder","id":"the-visual-builder"},{"level":2,"title":"The AI builder","id":"the-ai-builder"},{"level":2,"title":"What still needs work","id":"what-still-needs-work"},{"level":2,"title":"What now?","id":"what-now"}],"directory":"Projects/Formedible","relativePath":"Projects/Formedible/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/Formedible/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-formedible-fr","title":"Formedible, la Bibliothèque de Formulaires React Ultime pour 2025","description":"Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui.","date":"2025-01-17T10:00:00+01:00","category":"General","tags":["form","react","typescript","tanstack","zod","french"],"content":"$13","readTime":8,"toc":[{"level":2,"title":"Meet Formedible","id":"meet-formedible"},{"level":2,"title":"Démarrage rapide","id":"dmarrage-rapide"},{"level":1,"title":"installer le package core","id":"installer-le-package-core"},{"level":1,"title":"ou si vous vous sentez fantaisiste et que vous voulez tout","id":"ou-si-vous-vous-sentez-fantaisiste-et-que-vous-voulez-tout"},{"level":2,"title":"Sous le capot","id":"sous-le-capot"},{"level":2,"title":"Les types de champs","id":"les-types-de-champs"},{"level":2,"title":"Formulaires multi-pages","id":"formulaires-multi-pages"},{"level":2,"title":"Logique conditionnelle","id":"logique-conditionnelle"},{"level":2,"title":"Analytics","id":"analytics"},{"level":2,"title":"Persistance","id":"persistance"},{"level":2,"title":"Le constructeur visuel","id":"le-constructeur-visuel"},{"level":2,"title":"Le constructeur AI","id":"le-constructeur-ai"},{"level":2,"title":"Ce qui a encore besoin de boulot","id":"ce-qui-a-encore-besoin-de-boulot"},{"level":2,"title":"Et maintenant ?","id":"et-maintenant"}],"directory":"Projects/Formedible-fr","relativePath":"Projects/Formedible-fr/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/Formedible-fr/index.md","isCategory":false,"ogImage":"$undefined","draft":false}]}]
+6:["$","$Le",null,{"tag":"typescript","posts":[{"slug":"projects-lmaafy-fr","title":"lmaafy — Laisse-moi demander à l'IA pour toi","description":"Le LMGTFY de l'ère de l'IA. Un lien qui joue une animation de frappe toute satisfaisante, puis redirige vers un chatbot IA avec ton prompt déjà rempli. Mesquin ? Peut-être. Satisfaisant ? Oh que oui.","date":"2026-05-20T11:00:00+01:00","category":"General","tags":["ai","fun","react","tanstack","typescript"],"content":"$f","readTime":5,"toc":[{"level":2,"title":"Comment ça marche","id":"comment-a-marche"},{"level":2,"title":"La tech","id":"la-tech"},{"level":2,"title":"Le moteur d'animation","id":"le-moteur-danimation"},{"level":2,"title":"Fournisseurs supportés","id":"fournisseurs-supports"},{"level":2,"title":"Le \"pourquoi\"","id":"le-pourquoi"},{"level":2,"title":"Essaie","id":"essaie"}],"directory":"Projects/lmaafy-fr","relativePath":"Projects/lmaafy-fr/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/lmaafy-fr/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-mpv-web-control","title":"mpv-web-control — your music, your phone, your LAN","description":"A web remote for mpv running on a Raspberry Pi. Browse your music library from your phone, control playback, manage playlists. No app, no database, no cloud — just your browser and your speakers.","date":"2026-05-20T11:00:00+01:00","category":"General","tags":["mpv","audio","homelab","raspberry-pi","react","hono","typescript"],"content":"$10","readTime":6,"toc":[{"level":2,"title":"What it does","id":"what-it-does"},{"level":2,"title":"The stack","id":"the-stack"},{"level":2,"title":"The mpv communication","id":"the-mpv-communication"},{"level":2,"title":"Installation (the easy way)","id":"installation-the-easy-way"},{"level":2,"title":"Environment variables","id":"environment-variables"},{"level":2,"title":"The release script","id":"the-release-script"},{"level":2,"title":"Security notes","id":"security-notes"},{"level":2,"title":"Why I built this","id":"why-i-built-this"}],"directory":"Projects/mpv-web-control","relativePath":"Projects/mpv-web-control/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/mpv-web-control/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-mpv-web-control-fr","title":"mpv-web-control — ta musique, ton téléphone, ton réseau local","description":"Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d'app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes.","date":"2026-05-20T11:00:00+01:00","category":"General","tags":["mpv","audio","homelab","raspberry-pi","react","hono","typescript"],"content":"$11","readTime":7,"toc":[{"level":2,"title":"Ce que ça fait","id":"ce-que-a-fait"},{"level":2,"title":"La stack","id":"la-stack"},{"level":2,"title":"La communication avec mpv","id":"la-communication-avec-mpv"},{"level":2,"title":"Installation (la voie facile)","id":"installation-la-voie-facile"},{"level":2,"title":"Variables d'environnement","id":"variables-denvironnement"},{"level":2,"title":"Le script de release","id":"le-script-de-release"},{"level":2,"title":"Notes de sécurité","id":"notes-de-scurit"},{"level":2,"title":"Pourquoi j'ai fait ça","id":"pourquoi-jai-fait-a"}],"directory":"Projects/mpv-web-control-fr","relativePath":"Projects/mpv-web-control-fr/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/mpv-web-control-fr/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-arcade-vibe","title":"arcade-vibe — One Prompt, One Shot, May the Best Prompt Win","description":"A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the leaderboard. Fun and goofy doesn't mean useless.","date":"2026-05-20T10:00:00+01:00","category":"General","tags":["ai","gaming","prompt-engineering","nextjs","trpc","typescript"],"content":"$12","readTime":7,"toc":[{"level":2,"title":"What is arcade-vibe?","id":"what-is-arcade-vibe"},{"level":2,"title":"How it works","id":"how-it-works"},{"level":3,"title":"For the prompt engineers (the players behind the curtain)","id":"for-the-prompt-engineers-the-players-behind-the-curtain"},{"level":3,"title":"For the players (the community)","id":"for-the-players-the-community"},{"level":3,"title":"The monthly lifecycle","id":"the-monthly-lifecycle"},{"level":2,"title":"The stack (for the nerds)","id":"the-stack-for-the-nerds"},{"level":2,"title":"The IDE Creator","id":"the-ide-creator"},{"level":2,"title":"The design system","id":"the-design-system"},{"level":2,"title":"The honest truth","id":"the-honest-truth"},{"level":2,"title":"What's next","id":"whats-next"},{"level":2,"title":"Lessons learned","id":"lessons-learned"}],"directory":"Projects/arcade-vibe","relativePath":"Projects/arcade-vibe/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/arcade-vibe/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-arcade-vibe-fr","title":"arcade-vibe — Un Prompt, Un Shot, Que le Meilleur Prompt Gagne","description":"Une plateforme de prompt engineering compétitive déguisée en arcade rétro. Écris un prompt, choisis ton modèle, et qu'on voie si ton jeu généré par IA grimpe en haut du leaderboard. Fun et débile veut pas dire inutile.","date":"2026-05-20T10:00:00+01:00","category":"General","tags":["ai","gaming","prompt-engineering","nextjs","trpc","typescript"],"content":"$13","readTime":8,"toc":[{"level":2,"title":"C'est quoi arcade-vibe ?","id":"cest-quoi-arcade-vibe"},{"level":2,"title":"Comment ça marche","id":"comment-a-marche"},{"level":3,"title":"Pour les prompt engineers (les joueurs derrière le rideau)","id":"pour-les-prompt-engineers-les-joueurs-derrire-le-rideau"},{"level":3,"title":"Pour les joueurs (la communauté)","id":"pour-les-joueurs-la-communaut"},{"level":3,"title":"Le cycle mensuel","id":"le-cycle-mensuel"},{"level":2,"title":"La stack (pour les nerds)","id":"la-stack-pour-les-nerds"},{"level":2,"title":"Le créateur IDE","id":"le-crateur-ide"},{"level":2,"title":"Le design system","id":"le-design-system"},{"level":2,"title":"La vérité pure","id":"la-vrit-pure"},{"level":2,"title":"La suite","id":"la-suite"},{"level":2,"title":"Ce que j'ai appris","id":"ce-que-jai-appris"}],"directory":"Projects/arcade-vibe-fr","relativePath":"Projects/arcade-vibe-fr/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/arcade-vibe-fr/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-lmaafy","title":"lmaafy — Let Me Ask AI For You","description":"The LMGTFY of the AI age. Generate a link that plays a satisfying typing animation, then redirects to an AI chatbot with your prompt pre-filled. Petty? Maybe. Satisfying? Absolutely.","date":"2026-05-20T10:00:00+01:00","category":"General","tags":["ai","fun","react","tanstack","typescript"],"content":"$14","readTime":4,"toc":[{"level":2,"title":"How it works","id":"how-it-works"},{"level":2,"title":"The tech","id":"the-tech"},{"level":2,"title":"The animation engine","id":"the-animation-engine"},{"level":2,"title":"Supported providers","id":"supported-providers"},{"level":2,"title":"The \"why\"","id":"the-why"},{"level":2,"title":"Try it","id":"try-it"}],"directory":"Projects/lmaafy","relativePath":"Projects/lmaafy/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/lmaafy/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-formedible","title":"Formedible, the Ultimate React Form Library for 2025","description":"A sophisticated wrapper around TanStack Form v1 with 22+ built-in field types, multi-step wizards, conditional logic, analytics, and enterprise-grade features. Built with React 19, TypeScript, Zod, and shadcn/ui.","date":"2025-01-17T10:00:00+01:00","category":"General","tags":["form","react","typescript","tanstack","zod"],"content":"$15","readTime":7,"toc":[{"level":2,"title":"Meet Formedible","id":"meet-formedible"},{"level":2,"title":"Quick start","id":"quick-start"},{"level":1,"title":"install the core package","id":"install-the-core-package"},{"level":1,"title":"or if you're feeling fancy and want everything","id":"or-if-youre-feeling-fancy-and-want-everything"},{"level":2,"title":"Under the hood","id":"under-the-hood"},{"level":2,"title":"The field types","id":"the-field-types"},{"level":2,"title":"Multi-page forms","id":"multi-page-forms"},{"level":2,"title":"Conditional logic","id":"conditional-logic"},{"level":2,"title":"Analytics","id":"analytics"},{"level":2,"title":"Persistence","id":"persistence"},{"level":2,"title":"The visual builder","id":"the-visual-builder"},{"level":2,"title":"The AI builder","id":"the-ai-builder"},{"level":2,"title":"What still needs work","id":"what-still-needs-work"},{"level":2,"title":"What now?","id":"what-now"}],"directory":"Projects/Formedible","relativePath":"Projects/Formedible/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/Formedible/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-formedible-fr","title":"Formedible, la Bibliothèque de Formulaires React Ultime pour 2025","description":"Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui.","date":"2025-01-17T10:00:00+01:00","category":"General","tags":["form","react","typescript","tanstack","zod","french"],"content":"$16","readTime":8,"toc":[{"level":2,"title":"Meet Formedible","id":"meet-formedible"},{"level":2,"title":"Démarrage rapide","id":"dmarrage-rapide"},{"level":1,"title":"installer le package core","id":"installer-le-package-core"},{"level":1,"title":"ou si vous vous sentez fantaisiste et que vous voulez tout","id":"ou-si-vous-vous-sentez-fantaisiste-et-que-vous-voulez-tout"},{"level":2,"title":"Sous le capot","id":"sous-le-capot"},{"level":2,"title":"Les types de champs","id":"les-types-de-champs"},{"level":2,"title":"Formulaires multi-pages","id":"formulaires-multi-pages"},{"level":2,"title":"Logique conditionnelle","id":"logique-conditionnelle"},{"level":2,"title":"Analytics","id":"analytics"},{"level":2,"title":"Persistance","id":"persistance"},{"level":2,"title":"Le constructeur visuel","id":"le-constructeur-visuel"},{"level":2,"title":"Le constructeur AI","id":"le-constructeur-ai"},{"level":2,"title":"Ce qui a encore besoin de boulot","id":"ce-qui-a-encore-besoin-de-boulot"},{"level":2,"title":"Et maintenant ?","id":"et-maintenant"}],"directory":"Projects/Formedible-fr","relativePath":"Projects/Formedible-fr/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/Formedible-fr/index.md","isCategory":false,"ogImage":"$undefined","draft":false}]}]
 c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
 8:null

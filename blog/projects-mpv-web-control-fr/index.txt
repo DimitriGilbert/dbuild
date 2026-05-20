@@ -1,0 +1,154 @@
+1:"$Sreact.fragment"
+2:I[76592,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","177","static/chunks/app/layout-29a4018f7af1798a.js"],"ThemeProvider"]
+3:I[27890,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","177","static/chunks/app/layout-29a4018f7af1798a.js"],"FloatingNavigation"]
+4:I[91080,[],""]
+5:I[32670,[],""]
+7:I[29001,[],"OutletBoundary"]
+9:I[29001,[],"MetadataBoundary"]
+b:I[29001,[],"ViewportBoundary"]
+d:I[32215,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/b2352643f982f7b1.css","style"]
+0:{"P":null,"b":"04UMTp4TBCykGLg4YD47Q","p":"","c":["","blog","projects-mpv-web-control-fr",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","projects-mpv-web-control-fr","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b2352643f982f7b1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}],["$","script",null,{"src":"https://chemin.dbuild.dev/script.js","data-id":"7040d34e-b41f-4f20-88d1-b86ac93266c4","data-utcoffset":"2","data-server":"https://chemin.dbuild.dev"}]]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","projects-mpv-web-control-fr","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","vdfkxq8jc-qExHYxLk3T7",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[98507,["226","static/chunks/226-cb2d72f0fc85cc60.js","241","static/chunks/241-48fa0a9c60c2d446.js","953","static/chunks/app/blog/%5Bslug%5D/page-20049c001b9f033f.js"],"PrefetchLink"]
+f:I[26492,["226","static/chunks/226-cb2d72f0fc85cc60.js","241","static/chunks/241-48fa0a9c60c2d446.js","953","static/chunks/app/blog/%5Bslug%5D/page-20049c001b9f033f.js"],"TableOfContents"]
+10:I[3488,["226","static/chunks/226-cb2d72f0fc85cc60.js","241","static/chunks/241-48fa0a9c60c2d446.js","953","static/chunks/app/blog/%5Bslug%5D/page-20049c001b9f033f.js"],"MarkdownRenderer"]
+11:T1fdc,
+_This content has been generated by GLM 5.1 AI model_
+
+Bon, imagine le truc : t'as un Raspberry Pi branché à des enceintes dans ton salon. Il fait tourner mpv parce que t'es pas un animal — t'utilises un lecteur média qui en vaut la peine. Mais à chaque fois que tu veux passer un morceau, changer le volume ou fouiller dans ta bibliothèque, tu dois te connecter en SSH à la bestiole et taper des commandes comme une espèce de... personne qui tape des commandes... dans un terminal.
+
+Ouais, moi aussi. Et après la 47ème fois que j'ai tapé `mpv --no-video /mnt/music/UnAlbum/chanson.flac` pendant que mes pâtes cramaien, j'ai décidé que ça suffisait.
+
+**[mpv-web-control](https://github.com/DimitriGilbert/mpv-web-control)** c'est une télécommande web pour mpv. Tu ouvres un navigateur sur ton téléphone (ou n'importe quel appareil sur ton réseau local), et t'as une interface complète de lecteur de musique — naviguer dans la bibliothèque, mettre en queue des fichiers et des dossiers, play/pause/suivant/seek/volume, sauvegarder et charger des playlists. Le tout connecté à mpv qui tourne sur ton Pi.
+
+Pas d'app native. Pas de service cloud. Pas d'abonnement mensuel pour contrôler ta propre musique sur tes propres enceintes. Juste une page web sur ton réseau local.
+
+## Ce que ça fait
+
+La liste de fonctionnalités, c'est ce que tu t'attends à trouver dans une télécommande de lecteur musique :
+
+- **Naviguer** dans ta bibliothèque musicale par dossier (pas de système de tags, juste des fichiers)
+- **Queue** des fichiers individuels ou des dossiers entiers en mode récursif
+- **Contrôles de lecture** — play, pause, suivant, précédent, stop, seek, volume
+- **Gestion de la file** — voir ce qui joue, sauter à n'importe quel morceau, vider la file
+- **Playlists** — sauvegarder la file actuelle en JSON, la recharger plus tard, la compléter, la supprimer
+
+Pas de base de données. Les playlists sont juste des fichiers JSON sur le disque. La bibliothèque c'est tout ce qui se trouve sous ton répertoire `MUSIC_ROOT`. Simple, basique, et ça marche.
+
+## La stack
+
+C'est un monorepo pnpm avec trois apps et un package de contrat partagé :
+
+- **Server** — [Hono](https://hono.dev) sur Node.js, discute avec mpv via JSON IPC sur un socket Unix
+- **Client** — SPA React avec TanStack Router et TanStack Query, composants shadcn/ui
+- **Contract** — Types TypeScript partagés entre le serveur et le client
+- **CLI** — Binaire `mpv-web-control` avec les commandes install/uninstall/start/package
+
+Le serveur lance mpv comme processus fils avec `--no-video --idle=yes` et communique à travers un socket Unix en utilisant le protocole JSON IPC de mpv. Chaque commande passe par une validation propre avec des schémas Zod, et la protection contre le path traversal garantit que personne peut s'échapper du répertoire `MUSIC_ROOT` (ça tourne sur ton LAN, mais quand même — je suis pas *ça* inconscient).
+
+```typescript
+function resolveLibraryPath(inputPath: string): string {
+  if (isAbsolute(inputPath)) {
+    throw new Error('Absolute paths are not allowed')
+  }
+  const absolutePath = resolve(config.musicRoot, inputPath)
+  const relativePath = relative(config.musicRoot, absolutePath)
+  if (relativePath.startsWith('..') || isAbsolute(relativePath)) {
+    throw new Error('Path escapes MUSIC_ROOT')
+  }
+  return absolutePath
+}
+```
+
+Le client poll le serveur toutes les secondes pour récupérer le statut du lecteur. TanStack Query gère le cache et l'invalidation — quand tu mets un fichier en queue, la query de statut est invalidée pour que l'UI se mette à jour de suite. Assez optimiste pour être réactif, pas assez pour te mentir.
+
+## La communication avec mpv
+
+Ça c'était la partie intéressante. La classe `MpvService` gère tout le cycle de vie :
+
+1. Lance mpv en tant que processus fils
+2. Attend que le socket IPC apparaisse (poll pendant 5 secondes)
+3. Se connecte au socket
+4. Envoie les commandes en JSON avec des IDs de requête
+5. Fait correspondre les réponses aux requêtes en attente
+
+Chaque commande reçoit un ID unique et un timeout de 5 secondes. Le handler de données du socket bufferise ce qui arrive, split sur les retours à la ligne, parse le JSON, et route les réponses vers leurs promesses en attente. Du classique requête-réponse sur un flux texte, rien de fancy mais ça fait le taf.
+
+```typescript
+async status(): Promise<PlayerStatus> {
+  await this.ensureStarted()
+  const [paused, position, duration, volume, playlist, playlistPos] = await Promise.all([
+    this.safeProperty<boolean>('pause'),
+    this.safeProperty<number>('time-pos'),
+    this.safeProperty<number>('duration'),
+    this.safeProperty<number>('volume'),
+    this.safeProperty<MpvPlaylistItem[]>('playlist'),
+    this.safeProperty<number>('playlist-pos'),
+  ])
+  // ... construit l'objet de statut
+}
+```
+
+Si mpv crash ou que le socket meurt, le service nettoie et redémarre à la prochaine requête. Parce que le hardware fait des siennes, surtout sur un Pi ^^
+
+## Installation (la voie facile)
+
+```bash
+npm install -g mpv-web-control
+sudo mpv-web-control install --user $USER --music-root /mnt/music --port 3000
+```
+
+C'est tout. La commande d'install écrit la config dans `/etc/mpv-web-control/env`, crée une unit systemd, l'active, et démarre le service. Ta télécommande musicale est maintenant dispo sur `http://ton-pi:3000` depuis n'importe quel appareil de ton réseau.
+
+```bash
+sudo systemctl status mpv-web-control
+sudo journalctl -u mpv-web-control -f
+```
+
+Pour désinstaller, `sudo mpv-web-control uninstall` arrête le service, le désactive, et te demande quoi faire de la config et des données. Il supprime pas ton utilisateur Linux (de rien).
+
+## Variables d'environnement
+
+Tout est configurable :
+
+| Variable | Défaut | Ce que ça fait |
+|----------|---------|-------------|
+| `HOST` | `0.0.0.0` | Adresse de bind pour l'accès LAN |
+| `PORT` | `3000` | Port du serveur |
+| `MUSIC_ROOT` | répertoire courant | Où vit ta musique |
+| `PLAYLISTS_DIR` | `.mpv-web-control/playlists` | Où sont sauvegardées les playlists |
+| `MPV_SOCKET_PATH` | `/tmp/mpv-web-control.sock` | Chemin du socket IPC mpv |
+| `MPV_BIN` | `mpv` | Chemin du binaire mpv |
+| `MAX_FOLDER_ITEMS` | `5000` | Plafond de sécurité pour la mise en queue récursive |
+
+Le plafond `MAX_FOLDER_ITEMS` existe parce que j'ai essayé de mettre `/mnt/music` en queue une fois et... disons juste que mpv était pas ravi de recevoir 47 000 fichiers. La sécurité d'abord, les enfants.
+
+## Le script de release
+
+Ce projet a même un script de release parce que visiblement j'aime écrire du bash presque autant que du TypeScript :
+
+```bash
+bash scripts/release.sh 1.0.0 --dry-run   # prévisualiser ce qui va se passer
+bash scripts/release.sh 1.0.0             # le faire pour de vrai
+```
+
+Il valide la version, lance le typecheck et le build, bump tous les package.json, commit, tag, push, crée une GitHub Release avec un tarball, et publie sur npm. Tout d'un coup. Les flags `--no-gh`, `--no-npm` et `--dry-run` te laissent contrôler ce qui tourne.
+
+## Notes de sécurité
+
+C'est conçu pour un usage LAN de confiance. La protection contre le path traversal est en place (les chemins absolus et les tentatives d'évasion en `../` se font jeter), mais y'a pas d'authentification. N'exposez PAS ça directement sur internet. Ta musique, c'est entre toi et tes enceintes, là où elle doit être.
+
+## Pourquoi j'ai fait ça
+
+Parce que j'en avais marre de me SSH-er dans mon Pi pour changer de morceau. C'est tout. C'est la seule raison. Parfois la meilleure motivation, c'est la pure flemme.
+
+Mais aussi ? C'est un chouette exemple de projet full-stack TypeScript avec une vraie séparation des préoccupations. Le package de contrat partagé fait que le client et le serveur sont toujours d'accord sur les types. Hono rend le backend léger et rapide. Le client React avec TanStack Query gère les updates temps temps réel proprement. Et le tout s'installe comme service systemd en une seule commande.
+
+Parfois les meilleurs projets naissent des problèmes les plus cons ^^
+
+{{% goodbye %}}
+6:["$","div",null,{"className":"min-h-screen pt-20","children":["$","div",null,{"className":"container mx-auto px-4 py-12","children":["$","div",null,{"className":"max-w-7xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-center gap-2 text-sm text-muted-foreground mb-4","children":[["$","$Le",null,{"href":"/blog","className":"hover:text-primary transition-colors","children":"Blog"}],[["$","span",null,{"children":"/"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-folder-open w-4 h-4","children":[["$","path","usdka0",{"d":"m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2"}],"$undefined"]}],["$","span",null,{"children":"Projects/mpv-web-control-fr"}]]]}],["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"mpv-web-control — ta musique, ton téléphone, ton réseau local"}],["$","p",null,{"className":"text-xl text-muted-foreground mb-6","children":"Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d'app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes."}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-muted-foreground","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar w-4 h-4","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"5/20/2026"}]]}],["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":[7," min read"]}]]}]]}],["$","div",null,{"className":"flex flex-wrap gap-2 mt-4","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90","children":"General"}],[["$","$Le","mpv",{"href":"/blog/tags/mpv","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"mpv"}]}],["$","$Le","audio",{"href":"/blog/tags/audio","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"audio"}]}],["$","$Le","homelab",{"href":"/blog/tags/homelab","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"homelab"}]}],["$","$Le","raspberry-pi",{"href":"/blog/tags/raspberry-pi","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"raspberry-pi"}]}],["$","$Le","react",{"href":"/blog/tags/react","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"react"}]}],["$","$Le","hono",{"href":"/blog/tags/hono","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"hono"}]}],["$","$Le","typescript",{"href":"/blog/tags/typescript","children":["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground hover:bg-primary hover:text-primary-foreground","children":"typescript"}]}]]]}]]}],["$","div",null,{"className":"grid lg:grid-cols-4 gap-8","children":[["$","div",null,{"className":"lg:col-span-1","children":["$","div",null,{"className":"sticky top-24","children":["$","$Lf",null,{"toc":[{"level":2,"title":"Ce que ça fait","id":"ce-que-a-fait"},{"level":2,"title":"La stack","id":"la-stack"},{"level":2,"title":"La communication avec mpv","id":"la-communication-avec-mpv"},{"level":2,"title":"Installation (la voie facile)","id":"installation-la-voie-facile"},{"level":2,"title":"Variables d'environnement","id":"variables-denvironnement"},{"level":2,"title":"Le script de release","id":"le-script-de-release"},{"level":2,"title":"Notes de sécurité","id":"notes-de-scurit"},{"level":2,"title":"Pourquoi j'ai fait ça","id":"pourquoi-jai-fait-a"}]}]}]}],["$","article",null,{"className":"lg:col-span-3","children":["$","$L10",null,{"content":"$11"}]}]]}]]}]}]}]
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"mpv-web-control — ta musique, ton téléphone, ton réseau local | Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d'app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes."}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"mpv-web-control — ta musique, ton téléphone, ton réseau local | Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d'app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes."}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/blog/projects-mpv-web-control-fr/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"mpv-web-control — ta musique, ton téléphone, ton réseau local"}],["$","meta","15",{"property":"og:type","content":"article"}],["$","meta","16",{"property":"article:published_time","content":"2026-05-20T11:00:00+01:00"}],["$","meta","17",{"property":"article:tag","content":"mpv"}],["$","meta","18",{"property":"article:tag","content":"audio"}],["$","meta","19",{"property":"article:tag","content":"homelab"}],["$","meta","20",{"property":"article:tag","content":"raspberry-pi"}],["$","meta","21",{"property":"article:tag","content":"react"}],["$","meta","22",{"property":"article:tag","content":"hono"}],["$","meta","23",{"property":"article:tag","content":"typescript"}],["$","meta","24",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","25",{"name":"twitter:title","content":"mpv-web-control — ta musique, ton téléphone, ton réseau local | Dbuild.dev"}],["$","meta","26",{"name":"twitter:description","content":"Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d'app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes."}],["$","meta","27",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","28",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
+8:null

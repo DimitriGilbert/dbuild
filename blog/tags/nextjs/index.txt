@@ -9,7 +9,7 @@ b:I[29001,[],"ViewportBoundary"]
 d:I[32215,[],""]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/css/b2352643f982f7b1.css","style"]
-0:{"P":null,"b":"PnmCYn6Of9lwXeYhmzh-6","p":"","c":["","blog","tags","nextjs",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","nextjs","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b2352643f982f7b1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}],["$","script",null,{"src":"https://chemin.dbuild.dev/script.js","data-id":"7040d34e-b41f-4f20-88d1-b86ac93266c4","data-utcoffset":"2","data-server":"https://chemin.dbuild.dev"}]]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","nextjs","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","kgxKQW8uDNf0ULRY-EyUd",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"04UMTp4TBCykGLg4YD47Q","p":"","c":["","blog","tags","nextjs",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","nextjs","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b2352643f982f7b1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"src":"https://cdn.counter.dev/script.js","data-id":"154c6878-7558-4eff-90f9-bd4904015df1","data-utcoffset":"1","async":true}],["$","script",null,{"src":"https://chemin.dbuild.dev/script.js","data-id":"7040d34e-b41f-4f20-88d1-b86ac93266c4","data-utcoffset":"2","data-server":"https://chemin.dbuild.dev"}]]}],["$","body",null,{"className":"__className_f367f3","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","nextjs","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ej1jTyxT2_rhoMqhzZnqO",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
 e:I[54528,["226","static/chunks/226-cb2d72f0fc85cc60.js","75","static/chunks/75-aa926a84f82f8718.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-12faf53037c3b929.js"],"TagDetailContent"]
 f:T205f,
 _This content has been generated by GLM 5.1 AI model_
@@ -145,7 +145,141 @@ Also, naming things is still hard. I went with "arcade-vibe" because... vibes? A
 Go forth, write prompts, and may your games be playable!
 
 {{% goodbye %}}
-6:["$","$Le",null,{"tag":"nextjs","posts":[{"slug":"projects-arcade-vibe","title":"arcade-vibe — One Prompt, One Shot, May the Best Prompt Win","description":"A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the leaderboard. Fun and goofy doesn't mean useless.","date":"2026-05-20T10:00:00+01:00","category":"General","tags":["ai","gaming","prompt-engineering","nextjs","trpc","typescript"],"content":"$f","readTime":7,"toc":[{"level":2,"title":"What is arcade-vibe?","id":"what-is-arcade-vibe"},{"level":2,"title":"How it works","id":"how-it-works"},{"level":3,"title":"For the prompt engineers (the players behind the curtain)","id":"for-the-prompt-engineers-the-players-behind-the-curtain"},{"level":3,"title":"For the players (the community)","id":"for-the-players-the-community"},{"level":3,"title":"The monthly lifecycle","id":"the-monthly-lifecycle"},{"level":2,"title":"The stack (for the nerds)","id":"the-stack-for-the-nerds"},{"level":2,"title":"The IDE Creator","id":"the-ide-creator"},{"level":2,"title":"The design system","id":"the-design-system"},{"level":2,"title":"The honest truth","id":"the-honest-truth"},{"level":2,"title":"What's next","id":"whats-next"},{"level":2,"title":"Lessons learned","id":"lessons-learned"}],"directory":"Projects/arcade-vibe","relativePath":"Projects/arcade-vibe/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/arcade-vibe/index.md","isCategory":false,"ogImage":"$undefined","draft":false}]}]
+10:T2478,
+_This content has been generated by GLM 5.1 AI model_
+
+Voilà le truc. À chaque fois qu'un nouveau modèle IA sort, je lance le même benchmark débile. Un prompt de cinq lignes qui demande de créer un vertical scroll shooter. Je fais ça dans le bloc JS de [litechat.dev](https://litechat.dev) (oui, j'utilise mes propres outils, choquant), puis je partage les résultats avec une bande de nerds sympas sur Discord.
+
+Un jour, l'un d'eux me dit que je devrais améliorer le prompt. Ma première pensée ? "Bah, tu pourrais le faire toi-même, non... ?"
+
+Et c'est là que l'idée fun m'a frappé. C'est quoi le meilleur jeu que tu peux créer en un seul prompt ? Et le tien, il compare comment avec celui de ton pote ?
+
+**[arcade-vibe](https://github.com/DimitriGilbert/arcade-vibe)** était né. Une plateforme de prompt engineering compétitive déguisée en arcade rétro, où le jeu EST le méta-jeu.
+
+## C'est quoi arcade-vibe ?
+
+Pense-y comme une compétition mensuelle où l'arme c'est pas le code — c'est ta capacité à écrire un prompt. Tu reçois un thème, tu écris un seul prompt, tu choisis ton modèle, et tu regardes ce qui sort. La communauté joue à ton jeu, le note, et le leaderboard décide qui est le meilleur prompt engineer du mois.
+
+La philosophie de base : **Un prompt. Un shot. Un mois pour prouver que t'es le meilleur.**
+
+Ça a l'air simple ? Ça l'est ! ...enfin, genre, à peu près. La formule de scoring récompense la qualité des notes, mais aussi des trucs comme la difficulté du modèle (utiliser un petit modèle te file un multiplicateur de handicap !), la brièveté du prompt (pas question de balancer un bouquin entier pour tricher), et le temps de jeu réel. Ton prompt peut être privé, public en fin de mois, ou complètement public dès le départ.
+
+Et chaque mois, c'est reparti de zéro — nouveau thème, leaderboard clean. Les mois passés deviennent une galerie permanente avec les classements figés.
+
+## Comment ça marche
+
+### Pour les prompt engineers (les joueurs derrière le rideau)
+
+Tu reçois un thème mensuel avec des exigences de base qui changent jamais — système de score, vies, niveaux, responsive, compatible iframe. Tu bricoles un prompt en un seul message, sans contexte, sans historique. De l'instruction pure.
+
+Ensuite tu choisis ton arme :
+
+* **Tier tricheur** : GPT-5.3, Opus-4.6 — la grosse artillerie
+* **Tier normal** : GLM-4.7, Kimi-k2.5 — des modèles solides
+* **Mode hardcore** : Deepseek-3.2, GPT-5.1-mini, Haiku-4.5 — pour la gloire
+* **Impossible** : les tiny models — parce que certains aiment souffrir, visiblement
+
+Tu peux lancer ton prompt sur plusieurs modèles en même temps pour comparer les résultats. Itérer, créer des versions et des forks. Chaque tentative est préservée — ton évolution en tant que prompt engineer est documentée. Quand t'es prêt, tu publies.
+
+### Pour les joueurs (la communauté)
+
+Tu navigues dans l'arcade mensuelle. Chaque jeu affiche son badge de difficulté. Tu joues, tu notes, tu regardes le leaderboard bouger. Si un prompt est public, tu peux voir toute son évolution — chaque fork, chaque ajustement. Tu peux même lancer ce prompt toi-même sur un modèle différent avec ta propre clé API, en contribuant à la méta-analyse de la portabilité des prompts.
+
+### Le cycle mensuel
+
+1. **Semaine 1** : Annonce du thème. Chaos pur. Tout le monde expérimente des idées barrées.
+2. **Semaines 2-3** : Raffinement. Les leaders émergent. Les tests communautaires s'intensifient.
+3. **Semaine 4** : Dernière ligne droite. Le leaderboard se solidifie.
+4. **Fin de mois** : Les classements se figent. Les jeux deviennent des pièces de galerie permanentes. Nouveau thème qui tombe.
+
+## La stack (pour les nerds)
+
+C'est là que ça devient fun. Le tout est bootstrappé avec [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack) et tourne en monorepo avec Turborepo :
+
+* **Frontend** : Next.js (App Router) avec React 19
+* **Couche API** : tRPC v11 — type-safe, pas d'overhead REST, j'adore
+* **Base de données** : Drizzle ORM sur PostgreSQL
+* **Auth** : Better Auth
+* **Styling** : Tailwind v4 + shadcn/ui
+* **Intégration IA** : Vercel AI SDK pour le streaming/la génération
+* **Éditeur de code** : Monaco Editor dans le créateur style IDE
+* **Validation** : Zod partout
+
+La structure du projet ressemble à ça :
+
+```
+arcade-vibe/
+├── apps/
+│   └── web/          # Fullstack Next.js app
+├── packages/
+│   ├── api/          # tRPC routers, business logic
+│   ├── auth/         # Better Auth config
+│   ├── db/           # Drizzle schema & queries
+│   ├── email/        # Email templates
+│   └── env/          # Shared env schemas
+```
+
+La couche API a des routers pour tout — jeux, prompts, thèmes, ratings, leaderboards, billing, crédits, modération, même un SDK pour les jeux. C'est... beaucoup. Mais ça marche !
+
+## Le créateur IDE
+
+Un des trucs dont je suis le plus fier c'est l'interface du créateur. Au lieu d'un formulaire chiant, j'ai construit un IDE inspiré de VS Code où tu gères tes prompts :
+
+```
+┌──────────────┬────────────────────────────┬────────────────┐
+│ Explorer     │ Editor Area                │ Config Panel   │
+│              │                            │                │
+│ ▼ Theme      │ [Tabs: prompt.md | games]  │ Model selector │
+│   ▼ Prompt   │                            │ Game name      │
+│     game1    │   Your prompt here...      │ Visibility     │
+│     game2    │                            │                │
+├──────────────┴────────────────────────────┴────────────────┤
+│ Status Bar: Credits | Ln 42, Col 18 | Ready               │
+└─────────────────────────────────────────────────────────────┘
+```
+
+Raccourcis clavier complets, menus contextuels, gestion des onglets, édition inline, historique des versions... le kit complet. Quand tu génères un jeu, tu vois le raisonnement de l'IA en stream en temps réel, puis le code apparaît. Plusieurs modèles qui tournent en même temps, chacun dans son propre onglet.
+
+## Le design system
+
+Je suis allé à fond sur l'esthétique arcade des années 80. 5 thèmes :
+
+* **Synthwave** — Arrondi, rose néon, gradients, scanlines
+* **Tron** — clip-paths angulaires, néon cyan, perspective
+* **Pixel** — Sharp, ombres dures, bordures de 4px bien grasses, 8-bit
+* **Cabinet** — Grain de bois, lueur verte CRT, scanlines
+* **Vaporwave** — Gradients rose/violet, géométrique
+
+Polices custom (Orbitron pour le display, Space Grotesk pour le body, JetBrains Mono pour le code), effets de néon glow, overlays de lignes CRT, cartes style cabinet, effets de glitch... c'est ridicule et j'adore ça.
+
+Chaque composant utilise des CSS variables donc le système de thèmes marche tout seul — aucune valeur hardcodée nulle part.
+
+## La vérité pure
+
+Regarde, c'est un GROS projet. Bien plus gros que ce que j'avais anticipé (l'histoire de ma vie avec les projets IA, honnêtement). Le code était à 80% en une semaine. Les 20% restants ont pris un mois.
+
+Les tests et les corrections, la découverte des edge cases, les ajustements d'UI — c'est toujours le goulot d'étranglement, même avec l'IA. Elle guérit pas de ce truc-là. Ce qu'elle fait c'est réduire le temps pour y arriver. Un processus qui aurait pris des mois a pris... moins de mois. Ça a quand même pris du temps hein !
+
+Et le marketing ? Je suis une bille. "Viens jouer à des jeux générés par des prompts IA sur un leaderboard compétitif" ça devrait se vendre tout seul, non ? Apparemment je rate un truc ^^'
+
+Si tu veux aller jeter un œil, que ce soit pour jouer, créer de nouveaux jeux ou benchmarker des modèles, je te file des crédits si tu me files du feedback. Tu peux aussi BYOK (amener ta propre clé) si t'as peur que je morde. Tout est sur [arcade-vibe.app](https://arcade-vibe.app).
+
+## La suite
+
+La plateforme est live et fonctionnelle. Les plans futurs incluent des compétitions par équipe, des prompt jams de 24h, un marketplace de prompts, des leaderboards de modèles, et des tags par catégorie pour quand (si !) on atteindra une certaine échelle.
+
+Pour l'instant, c'est gratuit d'essayer, open source, et ça attend des gens qui kiffent autant les jeux que l'art de parler aux machines.
+
+## Ce que j'ai appris
+
+La plus grosse leçon ? Le code c'est plus le goulot d'étranglement. L'IA m'a emmené à 80% du chemin en une semaine. Mais shipper les 20% restants — rendre le truc poli, gérer les edge cases, avoir le bon UX — ça reste très clairement un boulot d'humain.
+
+Aussi, nommer les trucs c'est toujours dur. Je suis parti sur "arcade-vibe" parce que... les vibes ? L'arcade ? C'est un vibe ? Regarde, j'ai jamais prétendu être doué pour nommer les trucs.
+
+Allez, écris des prompts, et que tes jeux soient jouables !
+
+{{% goodbye %}}
+6:["$","$Le",null,{"tag":"nextjs","posts":[{"slug":"projects-arcade-vibe","title":"arcade-vibe — One Prompt, One Shot, May the Best Prompt Win","description":"A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the leaderboard. Fun and goofy doesn't mean useless.","date":"2026-05-20T10:00:00+01:00","category":"General","tags":["ai","gaming","prompt-engineering","nextjs","trpc","typescript"],"content":"$f","readTime":7,"toc":[{"level":2,"title":"What is arcade-vibe?","id":"what-is-arcade-vibe"},{"level":2,"title":"How it works","id":"how-it-works"},{"level":3,"title":"For the prompt engineers (the players behind the curtain)","id":"for-the-prompt-engineers-the-players-behind-the-curtain"},{"level":3,"title":"For the players (the community)","id":"for-the-players-the-community"},{"level":3,"title":"The monthly lifecycle","id":"the-monthly-lifecycle"},{"level":2,"title":"The stack (for the nerds)","id":"the-stack-for-the-nerds"},{"level":2,"title":"The IDE Creator","id":"the-ide-creator"},{"level":2,"title":"The design system","id":"the-design-system"},{"level":2,"title":"The honest truth","id":"the-honest-truth"},{"level":2,"title":"What's next","id":"whats-next"},{"level":2,"title":"Lessons learned","id":"lessons-learned"}],"directory":"Projects/arcade-vibe","relativePath":"Projects/arcade-vibe/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/arcade-vibe/index.md","isCategory":false,"ogImage":"$undefined","draft":false},{"slug":"projects-arcade-vibe-fr","title":"arcade-vibe — Un Prompt, Un Shot, Que le Meilleur Prompt Gagne","description":"Une plateforme de prompt engineering compétitive déguisée en arcade rétro. Écris un prompt, choisis ton modèle, et qu'on voie si ton jeu généré par IA grimpe en haut du leaderboard. Fun et débile veut pas dire inutile.","date":"2026-05-20T10:00:00+01:00","category":"General","tags":["ai","gaming","prompt-engineering","nextjs","trpc","typescript"],"content":"$10","readTime":8,"toc":[{"level":2,"title":"C'est quoi arcade-vibe ?","id":"cest-quoi-arcade-vibe"},{"level":2,"title":"Comment ça marche","id":"comment-a-marche"},{"level":3,"title":"Pour les prompt engineers (les joueurs derrière le rideau)","id":"pour-les-prompt-engineers-les-joueurs-derrire-le-rideau"},{"level":3,"title":"Pour les joueurs (la communauté)","id":"pour-les-joueurs-la-communaut"},{"level":3,"title":"Le cycle mensuel","id":"le-cycle-mensuel"},{"level":2,"title":"La stack (pour les nerds)","id":"la-stack-pour-les-nerds"},{"level":2,"title":"Le créateur IDE","id":"le-crateur-ide"},{"level":2,"title":"Le design system","id":"le-design-system"},{"level":2,"title":"La vérité pure","id":"la-vrit-pure"},{"level":2,"title":"La suite","id":"la-suite"},{"level":2,"title":"Ce que j'ai appris","id":"ce-que-jai-appris"}],"directory":"Projects/arcade-vibe-fr","relativePath":"Projects/arcade-vibe-fr/index.md","filePath":"/home/didi/workspace/Code/dbuild.io/apps/web/content/blog/Projects/arcade-vibe-fr/index.md","isCategory":false,"ogImage":"$undefined","draft":false}]}]
 c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Dbuild.dev"}],["$","meta","2",{"name":"description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Dbuild.dev"}],["$","meta","7",{"property":"og:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","8",{"property":"og:url","content":"https://dbuild.dev/"}],["$","meta","9",{"property":"og:site_name","content":"Dbuild.dev"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:image","content":"https://dbuild.dev/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Dbuild.dev - Portfolio and Blog"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Dbuild.dev"}],["$","meta","18",{"name":"twitter:description","content":"Dbuild.dev is a portfolio and blog showcasing projects and insights"}],["$","meta","19",{"name":"twitter:image","content":"https://dbuild.dev/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]
 8:null
