@@ -1,5 +1,5 @@
 User-Agent: *
 Allow: /
-Disallow: /api/
 
 Sitemap: https://dbuild.dev/sitemap.xml
+Sitemap: https://dbuild.dev/sitemap-index.xml

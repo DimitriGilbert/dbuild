@@ -1,0 +1,655 @@
+# Dbuild.dev Full Agent Guide
+
+Portfolio and blog about developer tools, AI, agents, local-first apps, and experiments.
+
+## Discovery
+
+- Site: https://dbuild.dev/
+- Corpus index: https://dbuild.dev/index.json
+- Content index mirror: https://dbuild.dev/api/content/index.json
+- Sitemap: https://dbuild.dev/sitemap.xml
+- Robots: https://dbuild.dev/robots.txt
+
+## Stats
+
+- Projects: 17
+- Articles: 34
+- Tags: 46
+- Languages: en, fr
+
+## Projects
+
+### LiteChat
+
+- URL: https://dbuild.dev/projects/LiteChat/
+- Repository: https://github.com/DimitriGilbert/LiteChat
+- Website: https://litechat.dbuild.dev
+- Tags: pwa, ai, chat-application, agents, llm, local-llm
+- Summary: A modern, local first AI chat app for your browser.
+- Related articles: 2
+  - [LiteChat - A local first and self hostable AI chat app for power user](https://dbuild.dev/blog/projects-litechat-litechat-a-local-first-and-self-hostable-ai-chat-app-for-power-user/)
+  - [LiteChat - Un chat IA local first, auto hebergeable sur un server HTTP](https://dbuild.dev/blog/projects-litechat-litechat-un-chat-ia-local-first-auto-hebergeable-sur-un-server-http/)
+
+### FormEdible
+
+- URL: https://dbuild.dev/projects/FormEdible/
+- Repository: https://github.com/DimitriGilbert/FormEdible
+- Website: https://dimitrigilbert.github.io/Formedible/
+- Tags: Shadcn, Registry, form, hook, react, typescript, zod
+- Summary: A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.
+- Related articles: 2
+  - [Formedible, the Ultimate React Form Library for 2025](https://dbuild.dev/blog/projects-formedible/)
+  - [Formedible, la Bibliothèque de Formulaires React Ultime pour 2025](https://dbuild.dev/blog/projects-formedible-fr/)
+
+### parseArger
+
+- URL: https://dbuild.dev/projects/parseArger/
+- Repository: https://github.com/DimitriGilbert/parseArger
+- Website: https://dimitrigilbert.github.io/parseArger/
+- Tags: none
+- Summary: Standalone bash argument parsing code generator.
+- Related articles: 7
+  - [ParseArger Nested options](https://dbuild.dev/blog/projects-parsearger-nested-options/)
+  - [Story of a simple update](https://dbuild.dev/blog/projects-mdd-story-of-a-simple-update/)
+  - [My markdown tool, a parsearger project](https://dbuild.dev/blog/projects-parsearger-my-markdown-tool-a-parsearger-project/)
+  - [ParseArger, completion, documentation and stuff](https://dbuild.dev/blog/projects-parsearger-completion-documentation-and-stuff/)
+  - [ParseArger, more on Pos Opt and Flag](https://dbuild.dev/blog/projects-parsearger-more-on-pos-opt-and-flag/)
+  - [ParseArger, generate and Parse](https://dbuild.dev/blog/projects-parsearger-generate-and-parse/)
+  - [ParseArger, create bash scripts you'll want to use](https://dbuild.dev/blog/projects-parsearger-create-bash-scripts-youll-want-to-use/)
+
+### Task-O-Matic
+
+- URL: https://dbuild.dev/projects/Task-O-Matic/
+- Repository: https://github.com/DimitriGilbert/task-o-matic
+- Website: https://github.com/DimitriGilbert/task-o-matic
+- Tags: ai, task-management, cli, productivity, typescript, bun
+- Summary: AI-powered task management system transforming chaotic ideas into structured, executable task lists.
+- Related articles: 2
+  - [Task-O-Matic, your AI survival bunker for project chaos](https://dbuild.dev/blog/projects-task-o-matic/)
+  - [Task-O-Matic, votre abri de survie IA pour le chaos des projets](https://dbuild.dev/blog/projects-task-o-matic-fr/)
+
+### Sprynge
+
+- URL: https://dbuild.dev/projects/Sprynge/
+- Repository: https://github.com/DimitriGilbert/sprynge-next
+- Website: https://github.com/DimitriGilbert/sprynge-next
+- Tags: community, help, nextjs, convex, real-time, gamification
+- Summary: Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.
+- Related articles: 0
+
+### Clanker
+
+- URL: https://dbuild.dev/projects/Clanker/
+- Repository: https://github.com/DimitriGilbert/clanker
+- Website: none
+- Tags: clanker, ai, workflow, automation
+- Summary: A simple spec, parser and CLI for portable workflows using AI.
+- Related articles: 2
+  - [One year back in](https://dbuild.dev/blog/black-hole-one-year-back-in/)
+  - [Un an de retour dans le game](https://dbuild.dev/blog/black-hole-un-an-de-retour-dans-le-game/)
+
+### TerMinable
+
+- URL: https://dbuild.dev/projects/TerMinable/
+- Repository: https://github.com/DimitriGilbert/TerMinable
+- Website: https://terminable.dbuild.dev/
+- Tags: Shadcn, Registry, Terminal, React, Typescript
+- Summary: A demonstration terminal for you projects (or mine).
+- Related articles: 0
+
+### sshm0
+
+- URL: https://dbuild.dev/projects/sshm0/
+- Repository: https://github.com/DimitriGilbert/sshm0
+- Website: https://github.com/DimitriGilbert/sshm0
+- Tags: ssh, bash, cli, parseArger
+- Summary: A simple CLI ssh connection manager
+- Related articles: 0
+
+### AI-gents
+
+- URL: https://dbuild.dev/projects/AI-gents/
+- Repository: https://github.com/DimitriGilbert/AI-gents
+- Website: ai-gents.dbuild.dev/
+- Tags: bash, cli, parseArger, ai, agents
+- Summary: AI-gents. A simple format for AI agents.
+- Related articles: 0
+
+### cn-registry.dev
+
+- URL: https://dbuild.dev/projects/cn-registry/
+- Repository: https://github.com/DimitriGilbert/cn-registry.dev
+- Website: https://cn-registry.dev
+- Tags: Shadcn, Registry
+- Summary: A hub for Shadcn components and tools.
+- Related articles: 2
+  - [cn-registry devlog 1 - The illusion of victory](https://dbuild.dev/blog/projects-cn-registry-devlog-1-the-illusion-of-victory/)
+  - [cn-registry devlog 1 -Une illusion de victoire](https://dbuild.dev/blog/projects-cn-registry-devlog-1-une-illusion-de-victoire/)
+
+### StationIO
+
+- URL: https://dbuild.dev/projects/StationIO-Station/
+- Repository: https://github.com/DimitriGilbert/StationIO-Station
+- Website: dimitrigilbert.github.io/StationIO-Station/
+- Tags: arduino, esp8266, esp32
+- Summary: Arduino framework-ish that handle the basics (wifi, ota, etc.)
+- Related articles: 0
+
+### arcade-vibe
+
+- URL: https://dbuild.dev/projects/arcade-vibe/
+- Repository: https://github.com/DimitriGilbert/arcade-vibe
+- Website: https://arcade-vibe.app
+- Tags: ai, gaming, prompt-engineering, nextjs, trpc, typescript, drizzle, postgresql
+- Summary: A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the monthly leaderboard.
+- Related articles: 2
+  - [arcade-vibe — One Prompt, One Shot, May the Best Prompt Win](https://dbuild.dev/blog/projects-arcade-vibe/)
+  - [arcade-vibe — Un Prompt, Un Shot, Que le Meilleur Prompt Gagne](https://dbuild.dev/blog/projects-arcade-vibe-fr/)
+
+### FeedElity
+
+- URL: https://dbuild.dev/projects/FeedElity/
+- Repository: https://github.com/DimitriGilbert/FeedElity
+- Website: https://github.com/DimitriGilbert/FeedElity
+- Tags: rss, youtube, solidjs, local-first, desktop-app, typescript, hono, sqlite
+- Summary: A local-first, video-oriented RSS client for following creators across YouTube, Odysee, and PeerTube from one fast three-column interface.
+- Related articles: 0
+
+### git-snitch
+
+- URL: https://dbuild.dev/projects/git-snitch/
+- Repository: https://github.com/DimitriGilbert/git-report
+- Website: https://github.com/DimitriGilbert/git-report
+- Tags: git, analytics, cli, visualization, typescript, monorepo
+- Summary: Standalone git activity reports — single HTML files with quality metrics, contributor analysis, anonymization, and AI-powered worklogs.
+- Related articles: 0
+
+### LimitAID
+
+- URL: https://dbuild.dev/projects/LimitAID/
+- Repository: https://github.com/DimitriGilbert/LimitAID
+- Website: https://github.com/DimitriGilbert/LimitAID
+- Tags: bash, cli, ai, developer-tools, monitoring, parseArger
+- Summary: A bash CLI that shows quota, balance, and usage limits for AI providers (Codex, OpenRouter, Z.ai) from one place.
+- Related articles: 0
+
+### lmaafy
+
+- URL: https://dbuild.dev/projects/lmaafy/
+- Repository: https://github.com/DimitriGilbert/lmaafy
+- Website: https://github.com/DimitriGilbert/lmaafy
+- Tags: ai, fun, react, tanstack, typescript
+- Summary: The LMGTFY of the AI age — generate a shareable link that plays a typing animation then redirects to an AI chatbot with your prompt pre-filled.
+- Related articles: 2
+  - [lmaafy — Laisse-moi demander à l'IA pour toi](https://dbuild.dev/blog/projects-lmaafy-fr/)
+  - [lmaafy — Let Me Ask AI For You](https://dbuild.dev/blog/projects-lmaafy/)
+
+### mpv-web-control
+
+- URL: https://dbuild.dev/projects/mpv-web-control/
+- Repository: https://github.com/DimitriGilbert/mpv-web-control
+- Website: https://github.com/DimitriGilbert/mpv-web-control
+- Tags: mpv, audio, homelab, raspberry-pi, react, hono, typescript
+- Summary: A local-network web remote for mpv — control your audio playback from any browser on your LAN. Built for Raspberry Pi and homelab setups.
+- Related articles: 2
+  - [mpv-web-control — your music, your phone, your LAN](https://dbuild.dev/blog/projects-mpv-web-control/)
+  - [mpv-web-control — ta musique, ton téléphone, ton réseau local](https://dbuild.dev/blog/projects-mpv-web-control-fr/)
+
+## Articles
+
+### lmaafy — Laisse-moi demander à l'IA pour toi
+
+- URL: https://dbuild.dev/blog/projects-lmaafy-fr/
+- Language: fr
+- Published: 2026-05-20T11:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: ai, fun, react, tanstack, typescript
+- Summary: Le LMGTFY de l'ère de l'IA. Un lien qui joue une animation de frappe toute satisfaisante, puis redirige vers un chatbot IA avec ton prompt déjà rempli. Mesquin ? Peut-être. Satisfaisant ? Oh que oui.
+- Related projects: lmaafy
+- Language alternates: en https://dbuild.dev/blog/projects-lmaafy/, fr https://dbuild.dev/blog/projects-lmaafy-fr/
+
+### mpv-web-control — your music, your phone, your LAN
+
+- URL: https://dbuild.dev/blog/projects-mpv-web-control/
+- Language: en
+- Published: 2026-05-20T11:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: mpv, audio, homelab, raspberry-pi, react, hono, typescript
+- Summary: A web remote for mpv running on a Raspberry Pi. Browse your music library from your phone, control playback, manage playlists. No app, no database, no cloud — just your browser and your speakers.
+- Related projects: mpv-web-control
+- Language alternates: en https://dbuild.dev/blog/projects-mpv-web-control/, fr https://dbuild.dev/blog/projects-mpv-web-control-fr/
+
+### mpv-web-control — ta musique, ton téléphone, ton réseau local
+
+- URL: https://dbuild.dev/blog/projects-mpv-web-control-fr/
+- Language: fr
+- Published: 2026-05-20T11:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: mpv, audio, homelab, raspberry-pi, react, hono, typescript
+- Summary: Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d'app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes.
+- Related projects: mpv-web-control
+- Language alternates: en https://dbuild.dev/blog/projects-mpv-web-control/, fr https://dbuild.dev/blog/projects-mpv-web-control-fr/
+
+### arcade-vibe — One Prompt, One Shot, May the Best Prompt Win
+
+- URL: https://dbuild.dev/blog/projects-arcade-vibe/
+- Language: en
+- Published: 2026-05-20T10:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: ai, gaming, prompt-engineering, nextjs, trpc, typescript
+- Summary: A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the leaderboard. Fun and goofy doesn't mean useless.
+- Related projects: arcade-vibe
+- Language alternates: en https://dbuild.dev/blog/projects-arcade-vibe/, fr https://dbuild.dev/blog/projects-arcade-vibe-fr/
+
+### arcade-vibe — Un Prompt, Un Shot, Que le Meilleur Prompt Gagne
+
+- URL: https://dbuild.dev/blog/projects-arcade-vibe-fr/
+- Language: fr
+- Published: 2026-05-20T10:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: ai, gaming, prompt-engineering, nextjs, trpc, typescript
+- Summary: Une plateforme de prompt engineering compétitive déguisée en arcade rétro. Écris un prompt, choisis ton modèle, et qu'on voie si ton jeu généré par IA grimpe en haut du leaderboard. Fun et débile veut pas dire inutile.
+- Related projects: arcade-vibe
+- Language alternates: en https://dbuild.dev/blog/projects-arcade-vibe/, fr https://dbuild.dev/blog/projects-arcade-vibe-fr/
+
+### lmaafy — Let Me Ask AI For You
+
+- URL: https://dbuild.dev/blog/projects-lmaafy/
+- Language: en
+- Published: 2026-05-20T10:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: ai, fun, react, tanstack, typescript
+- Summary: The LMGTFY of the AI age. Generate a link that plays a satisfying typing animation, then redirects to an AI chatbot with your prompt pre-filled. Petty? Maybe. Satisfying? Absolutely.
+- Related projects: lmaafy
+- Language alternates: en https://dbuild.dev/blog/projects-lmaafy/, fr https://dbuild.dev/blog/projects-lmaafy-fr/
+
+### One year back in
+
+- URL: https://dbuild.dev/blog/black-hole-one-year-back-in/
+- Language: unknown
+- Published: 2026-04-13T23:01:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: AI, work, multiple sclerosis, Clanker
+- Summary: After 8 years of being pushed around by my disease, AI helped me get back to work, it's been a year, so what did I learn
+- Related projects: Clanker
+- Language alternates: none
+
+### Un an de retour dans le game
+
+- URL: https://dbuild.dev/blog/black-hole-un-an-de-retour-dans-le-game/
+- Language: unknown
+- Published: 2026-04-13T23:00:59.000Z
+- Updated: unknown
+- Category: General
+- Tags: AI, work, multiple sclerosis, Clanker
+- Summary: Après 8 ans à me faire ballader par ma maladie, l'IA m'a aidé à retourner bosser, ça fait un an, alors qu'est-ce que j'ai appris
+- Related projects: Clanker
+- Language alternates: none
+
+### Skills are the DRY of prompt engineering, you should use them and create your own
+
+- URL: https://dbuild.dev/blog/projects-ai-skills-skills-are-the-dry-of-prompt-engineering/
+- Language: unknown
+- Published: 2026-03-03T14:00:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: ai, skills
+- Summary: Just like I use to create my own libraries and helpers I reused in most my projects, I now create skills so i don't rewrite the same prompts over and over again
+- Related projects: none
+- Language alternates: none
+
+### Les Skills sont le DRY du prompt engineering, tu devrais les utiliser et créer les tiennes
+
+- URL: https://dbuild.dev/blog/projects-ai-skills-les-skills-sont-le-dry-du-prompt-engineering/
+- Language: unknown
+- Published: 2026-03-03T13:59:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: ai, skills
+- Summary: Comme j'avais l'habitude de créer mes propres bibliothèques et helpers que je réutilisais dans la plupart de mes projets, je crée maintenant des skills pour ne pas réécrire les mêmes prompts encore et encore
+- Related projects: none
+- Language alternates: none
+
+### The AI Debate Is Missing the Point (And So Are You)
+
+- URL: https://dbuild.dev/blog/black-hole-the-ai-debate-is-missing-the-point-and-so-are-you/
+- Language: unknown
+- Published: 2026-01-30T23:01:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: AI
+- Summary: The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app
+- Related projects: none
+- Language alternates: none
+
+### Le débat autour de l'IA est à cote de la plaque (toi aussi)
+
+- URL: https://dbuild.dev/blog/black-hole-le-dbat-autour-de-l-ia-est-a-cote-de-la-plaque-toi-aussi/
+- Language: unknown
+- Published: 2026-01-30T22:50:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: AI
+- Summary: La bulle IA va éclater, ça arrêtera pas l'IA. Ton refus d'utiliser l'IA empêchera pas ton job d'être remplacé. ChatGPT n'est pas la killer app de l'IA
+- Related projects: none
+- Language alternates: none
+
+### From Ralph to Eric
+
+- URL: https://dbuild.dev/blog/black-hole-from-ralph-to-eric/
+- Language: unknown
+- Published: 2026-01-16T23:01:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: AI, Ralph lopp, Eric loop
+- Summary: Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !
+- Related projects: none
+- Language alternates: none
+
+### Passer de Ralph a Eric
+
+- URL: https://dbuild.dev/blog/black-hole-passer-de-ralph-a-eric/
+- Language: unknown
+- Published: 2026-01-16T23:00:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: AI, Ralph lopp, Eric loop
+- Summary: Tout le monde ne parle que de la 'Ralph loop', et le principe est cool, mais je pense qu'on peut faire mieux grace au concept de la Boucle a Eric !
+- Related projects: none
+- Language alternates: none
+
+### cn-registry devlog 1 - The illusion of victory
+
+- URL: https://dbuild.dev/blog/projects-cn-registry-devlog-1-the-illusion-of-victory/
+- Language: unknown
+- Published: 2025-07-24T14:00:17.000Z
+- Updated: unknown
+- Category: General
+- Tags: shadcn, devlog, cn-registry
+- Summary: Follow me on a journey of failure and foolishness, en route to master the current crop of AI.
+- Related projects: cn-registry.dev
+- Language alternates: none
+
+### cn-registry devlog 1 -Une illusion de victoire
+
+- URL: https://dbuild.dev/blog/projects-cn-registry-devlog-1-une-illusion-de-victoire/
+- Language: unknown
+- Published: 2025-07-24T14:00:17.000Z
+- Updated: unknown
+- Category: General
+- Tags: shadcn, devlog, cn-registry
+- Summary: Suivez-moi dans un voyage d'échecs et de folie, en route pour maîtriser la nouvelle génération d'IA.
+- Related projects: cn-registry.dev
+- Language alternates: none
+
+### LiteChat - A local first and self hostable AI chat app for power user
+
+- URL: https://dbuild.dev/blog/projects-litechat-litechat-a-local-first-and-self-hostable-ai-chat-app-for-power-user/
+- Language: unknown
+- Published: 2025-07-04T10:40:17.000Z
+- Updated: unknown
+- Category: General
+- Tags: ai, chat, local, server
+- Summary: A smallish presentation of my project LiteChat !
+- Related projects: LiteChat
+- Language alternates: none
+
+### LiteChat - Un chat IA local first, auto hebergeable sur un server HTTP
+
+- URL: https://dbuild.dev/blog/projects-litechat-litechat-un-chat-ia-local-first-auto-hebergeable-sur-un-server-http/
+- Language: unknown
+- Published: 2025-07-04T10:39:17.000Z
+- Updated: unknown
+- Category: General
+- Tags: ai, chat, local, server
+- Summary: Une petite présentation de mon projet LiteChat, en Français dans le texte !
+- Related projects: LiteChat
+- Language alternates: none
+
+### Formedible, the Ultimate React Form Library for 2025
+
+- URL: https://dbuild.dev/blog/projects-formedible/
+- Language: en
+- Published: 2025-01-17T10:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: form, react, typescript, tanstack, zod
+- Summary: A sophisticated wrapper around TanStack Form v1 with 22+ built-in field types, multi-step wizards, conditional logic, analytics, and enterprise-grade features. Built with React 19, TypeScript, Zod, and shadcn/ui.
+- Related projects: FormEdible
+- Language alternates: en https://dbuild.dev/blog/projects-formedible/, fr https://dbuild.dev/blog/projects-formedible-fr/
+
+### Formedible, la Bibliothèque de Formulaires React Ultime pour 2025
+
+- URL: https://dbuild.dev/blog/projects-formedible-fr/
+- Language: fr
+- Published: 2025-01-17T10:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: form, react, typescript, tanstack, zod, french
+- Summary: Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui.
+- Related projects: FormEdible
+- Language alternates: en https://dbuild.dev/blog/projects-formedible/, fr https://dbuild.dev/blog/projects-formedible-fr/
+
+### RaceBench
+
+- URL: https://dbuild.dev/blog/projects-racebench/
+- Language: en
+- Published: 2025-01-17T09:00:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: benchmark, llm, ai, testing
+- Summary: Racing LLMs against each other to see who writes the best JavaScript. Spoiler: it's chaos out there!
+- Related projects: none
+- Language alternates: en https://dbuild.dev/blog/projects-racebench/, fr https://dbuild.dev/blog/projects-racebench-fr/
+
+### RaceBench fr
+
+- URL: https://dbuild.dev/blog/projects-racebench-fr/
+- Language: fr
+- Published: 2025-01-17T09:00:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: benchmark, llm, ai, testing, french
+- Summary: Faire s'affronter des LLMs pour voir qui écrit le meilleur JavaScript. Spoiler: c'est le chaos complet !
+- Related projects: none
+- Language alternates: en https://dbuild.dev/blog/projects-racebench/, fr https://dbuild.dev/blog/projects-racebench-fr/
+
+### Task-O-Matic, your AI survival bunker for project chaos
+
+- URL: https://dbuild.dev/blog/projects-task-o-matic/
+- Language: en
+- Published: 2025-01-17T10:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: ai, task-management, cli, productivity, task-o-matic
+- Summary: Transform chaotic project ideas into structured, executable task lists through AI assistance. Welcome to the bunker, citizen!
+- Related projects: Task-O-Matic
+- Language alternates: en https://dbuild.dev/blog/projects-task-o-matic/, fr https://dbuild.dev/blog/projects-task-o-matic-fr/
+
+### Task-O-Matic, votre abri de survie IA pour le chaos des projets
+
+- URL: https://dbuild.dev/blog/projects-task-o-matic-fr/
+- Language: fr
+- Published: 2025-01-17T10:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: ai, task-management, cli, productivity, task-o-matic, french
+- Summary: Transformez des idées de projet chaotiques en listes de tâches structurées et exécutables grâce à l'IA. Bienvenue dans le bunker, citoyen !
+- Related projects: Task-O-Matic
+- Language alternates: en https://dbuild.dev/blog/projects-task-o-matic/, fr https://dbuild.dev/blog/projects-task-o-matic-fr/
+
+### git-moar, because git log just wasn't enough
+
+- URL: https://dbuild.dev/blog/projects-git-moar/
+- Language: en
+- Published: 2025-01-17T10:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: git, analytics, cli, visualization
+- Summary: Advanced Git repository analytics and reporting CLI tool with beautiful visualizations, quality metrics, and insights. Transform your git history into something you can actually read!
+- Related projects: none
+- Language alternates: en https://dbuild.dev/blog/projects-git-moar/, fr https://dbuild.dev/blog/projects-git-moar-fr/
+
+### git-moar, parce que git log ne suffisait pas
+
+- URL: https://dbuild.dev/blog/projects-git-moar-fr/
+- Language: fr
+- Published: 2025-01-17T10:00:00+01:00
+- Updated: unknown
+- Category: General
+- Tags: git, analytics, cli, visualization, french
+- Summary: Outil CLI avancé d'analytique et de reporting pour dépôts Git avec de belles visualisations, métriques de qualité et insights. Transformez votre historique git en quelque chose de lisible !
+- Related projects: none
+- Language alternates: en https://dbuild.dev/blog/projects-git-moar/, fr https://dbuild.dev/blog/projects-git-moar-fr/
+
+### ParseArger Nested options
+
+- URL: https://dbuild.dev/blog/projects-parsearger-nested-options/
+- Language: unknown
+- Published: 2024-02-09T10:13:08.000Z
+- Updated: unknown
+- Category: General
+- Tags: bash, terminal, scripting, parsearger, devlog
+- Summary: Option namespace thingy for parseArger
+- Related projects: parseArger
+- Language alternates: none
+
+### Homelab, state of thing and december wishlist
+
+- URL: https://dbuild.dev/blog/projects-homelab-homelab-state-of-thing-of-december-wishlist/
+- Language: unknown
+- Published: 2023-11-16T10:39:17.000Z
+- Updated: unknown
+- Category: General
+- Tags: homelab, rpi
+- Summary: Regroup and look around, wandering is fun, but, sometimes you need to know where you want to go.
+- Related projects: none
+- Language alternates: none
+
+### Story of a simple update
+
+- URL: https://dbuild.dev/blog/projects-mdd-story-of-a-simple-update/
+- Language: unknown
+- Published: 2023-11-08T10:58:02+02:00
+- Updated: unknown
+- Category: General
+- Tags: parseArger, mdd, devlog, bash, terminal, tutorial
+- Summary: No plans survive first contact, the best part is no part, check yo stagin
+- Related projects: parseArger
+- Language alternates: none
+
+### My markdown tool, a parsearger project
+
+- URL: https://dbuild.dev/blog/projects-parsearger-my-markdown-tool-a-parsearger-project/
+- Language: unknown
+- Published: 2023-10-27T00:00:00+02:00
+- Updated: unknown
+- Category: General
+- Tags: bash, terminal, scripting, parsearger, tutorial, devlog
+- Summary: A realistic example is worth days of hello world tutorials !
+- Related projects: parseArger
+- Language alternates: none
+
+### ParseArger, completion, documentation and stuff
+
+- URL: https://dbuild.dev/blog/projects-parsearger-completion-documentation-and-stuff/
+- Language: unknown
+- Published: 2023-10-16T14:58:02+02:00
+- Updated: unknown
+- Category: General
+- Tags: bash, terminal, scripting, parsearger, tutorial
+- Summary: Learn all about the completion, documentation and supporting stuff for your scripts that you can generate with ParseArger.
+- Related projects: parseArger
+- Language alternates: none
+
+### ParseArger, more on Pos Opt and Flag
+
+- URL: https://dbuild.dev/blog/projects-parsearger-more-on-pos-opt-and-flag/
+- Language: unknown
+- Published: 2023-10-13T14:56:33+02:00
+- Updated: unknown
+- Category: General
+- Tags: bash, terminal, scripting, parsearger, tutorial
+- Summary: Options with default values ? Repeatable options or aliases maybe ? This is a deeper dive into parseArger's arguments, options and flags generation.
+- Related projects: parseArger
+- Language alternates: none
+
+### ParseArger, generate and Parse
+
+- URL: https://dbuild.dev/blog/projects-parsearger-generate-and-parse/
+- Language: unknown
+- Published: 2023-10-10T14:55:13+02:00
+- Updated: unknown
+- Category: General
+- Tags: bash, terminal, scripting, parsearger, tutorial
+- Summary: Deeper dive in parseArger generate and parse commands arguments and options.
+- Related projects: parseArger
+- Language alternates: none
+
+### ParseArger, create bash scripts you'll want to use
+
+- URL: https://dbuild.dev/blog/projects-parsearger-create-bash-scripts-youll-want-to-use/
+- Language: unknown
+- Published: 2023-10-08T14:51:25+02:00
+- Updated: unknown
+- Category: General
+- Tags: bash, terminal, scripting, parsearger, tutorial
+- Summary: Generate standalone bash scripts with argument, option and flag parsing, documentation, completion and more !
+- Related projects: parseArger
+- Language alternates: none
+
+## Tags
+
+- [AI](https://dbuild.dev/blog/tags/ai/) (18)
+- [analytics](https://dbuild.dev/blog/tags/analytics/) (2)
+- [audio](https://dbuild.dev/blog/tags/audio/) (2)
+- [bash](https://dbuild.dev/blog/tags/bash/) (7)
+- [benchmark](https://dbuild.dev/blog/tags/benchmark/) (2)
+- [chat](https://dbuild.dev/blog/tags/chat/) (2)
+- [Clanker](https://dbuild.dev/blog/tags/clanker/) (2)
+- [cli](https://dbuild.dev/blog/tags/cli/) (4)
+- [cn-registry](https://dbuild.dev/blog/tags/cn-registry/) (2)
+- [devlog](https://dbuild.dev/blog/tags/devlog/) (5)
+- [Eric loop](https://dbuild.dev/blog/tags/eric-loop/) (2)
+- [form](https://dbuild.dev/blog/tags/form/) (2)
+- [french](https://dbuild.dev/blog/tags/french/) (4)
+- [fun](https://dbuild.dev/blog/tags/fun/) (2)
+- [gaming](https://dbuild.dev/blog/tags/gaming/) (2)
+- [git](https://dbuild.dev/blog/tags/git/) (2)
+- [homelab](https://dbuild.dev/blog/tags/homelab/) (3)
+- [hono](https://dbuild.dev/blog/tags/hono/) (2)
+- [llm](https://dbuild.dev/blog/tags/llm/) (2)
+- [local](https://dbuild.dev/blog/tags/local/) (2)
+- [mdd](https://dbuild.dev/blog/tags/mdd/) (1)
+- [mpv](https://dbuild.dev/blog/tags/mpv/) (2)
+- [multiple sclerosis](https://dbuild.dev/blog/tags/multiple-sclerosis/) (2)
+- [nextjs](https://dbuild.dev/blog/tags/nextjs/) (2)
+- [parseArger](https://dbuild.dev/blog/tags/parsearger/) (7)
+- [productivity](https://dbuild.dev/blog/tags/productivity/) (2)
+- [prompt-engineering](https://dbuild.dev/blog/tags/prompt-engineering/) (2)
+- [Ralph lopp](https://dbuild.dev/blog/tags/ralph-lopp/) (2)
+- [raspberry-pi](https://dbuild.dev/blog/tags/raspberry-pi/) (2)
+- [react](https://dbuild.dev/blog/tags/react/) (6)
+- [rpi](https://dbuild.dev/blog/tags/rpi/) (1)
+- [scripting](https://dbuild.dev/blog/tags/scripting/) (6)
+- [server](https://dbuild.dev/blog/tags/server/) (2)
+- [shadcn](https://dbuild.dev/blog/tags/shadcn/) (2)
+- [skills](https://dbuild.dev/blog/tags/skills/) (2)
+- [tanstack](https://dbuild.dev/blog/tags/tanstack/) (4)
+- [task-management](https://dbuild.dev/blog/tags/task-management/) (2)
+- [task-o-matic](https://dbuild.dev/blog/tags/task-o-matic/) (2)
+- [terminal](https://dbuild.dev/blog/tags/terminal/) (7)
+- [testing](https://dbuild.dev/blog/tags/testing/) (2)
+- [trpc](https://dbuild.dev/blog/tags/trpc/) (2)
+- [tutorial](https://dbuild.dev/blog/tags/tutorial/) (6)
+- [typescript](https://dbuild.dev/blog/tags/typescript/) (8)
+- [visualization](https://dbuild.dev/blog/tags/visualization/) (2)
+- [work](https://dbuild.dev/blog/tags/work/) (2)
+- [zod](https://dbuild.dev/blog/tags/zod/) (2)

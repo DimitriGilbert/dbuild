@@ -1,0 +1,68 @@
+# Dbuild.dev
+
+> Portfolio and blog about developer tools, AI, agents, local-first apps, and experiments by Dimitri Gilbert.
+
+Use this file to orient AI agents. Prefer the JSON corpus index for precise URLs, tags, language alternates, and project/article relationships.
+
+## Machine-readable surfaces
+
+- Corpus index: https://dbuild.dev/index.json
+- Content index mirror: https://dbuild.dev/api/content/index.json
+- Full agent guide: https://dbuild.dev/llms-full.txt
+- Sitemap: https://dbuild.dev/sitemap.xml
+- Robots policy: https://dbuild.dev/robots.txt
+
+## Corpus stats
+
+- Projects: 17
+- Articles: 34
+- Topics: 46
+
+## High-value project entities
+
+- [LiteChat](https://dbuild.dev/projects/LiteChat/): A modern, local first AI chat app for your browser.
+- [FormEdible](https://dbuild.dev/projects/FormEdible/): A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.
+- [parseArger](https://dbuild.dev/projects/parseArger/): Standalone bash argument parsing code generator.
+- [Task-O-Matic](https://dbuild.dev/projects/Task-O-Matic/): AI-powered task management system transforming chaotic ideas into structured, executable task lists.
+- [Sprynge](https://dbuild.dev/projects/Sprynge/): Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.
+- [Clanker](https://dbuild.dev/projects/Clanker/): A simple spec, parser and CLI for portable workflows using AI.
+- [TerMinable](https://dbuild.dev/projects/TerMinable/): A demonstration terminal for you projects (or mine).
+- [sshm0](https://dbuild.dev/projects/sshm0/): A simple CLI ssh connection manager
+
+## Recent articles
+
+- [lmaafy — Laisse-moi demander à l'IA pour toi](https://dbuild.dev/blog/projects-lmaafy-fr/): Le LMGTFY de l'ère de l'IA. Un lien qui joue une animation de frappe toute satisfaisante, puis redirige vers un chatbot IA avec ton prompt déjà rempli. Mesquin ? Peut-être. Satisfaisant ? Oh que oui.
+- [mpv-web-control — your music, your phone, your LAN](https://dbuild.dev/blog/projects-mpv-web-control/): A web remote for mpv running on a Raspberry Pi. Browse your music library from your phone, control playback, manage playlists. No app, no database, no cloud — just your browser and your speakers.
+- [mpv-web-control — ta musique, ton téléphone, ton réseau local](https://dbuild.dev/blog/projects-mpv-web-control-fr/): Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d'app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes.
+- [arcade-vibe — One Prompt, One Shot, May the Best Prompt Win](https://dbuild.dev/blog/projects-arcade-vibe/): A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the leaderboard. Fun and goofy doesn't mean useless.
+- [arcade-vibe — Un Prompt, Un Shot, Que le Meilleur Prompt Gagne](https://dbuild.dev/blog/projects-arcade-vibe-fr/): Une plateforme de prompt engineering compétitive déguisée en arcade rétro. Écris un prompt, choisis ton modèle, et qu'on voie si ton jeu généré par IA grimpe en haut du leaderboard. Fun et débile veut pas dire inutile.
+- [lmaafy — Let Me Ask AI For You](https://dbuild.dev/blog/projects-lmaafy/): The LMGTFY of the AI age. Generate a link that plays a satisfying typing animation, then redirects to an AI chatbot with your prompt pre-filled. Petty? Maybe. Satisfying? Absolutely.
+- [One year back in](https://dbuild.dev/blog/black-hole-one-year-back-in/): After 8 years of being pushed around by my disease, AI helped me get back to work, it's been a year, so what did I learn
+- [Un an de retour dans le game](https://dbuild.dev/blog/black-hole-un-an-de-retour-dans-le-game/): Après 8 ans à me faire ballader par ma maladie, l'IA m'a aidé à retourner bosser, ça fait un an, alors qu'est-ce que j'ai appris
+- [Skills are the DRY of prompt engineering, you should use them and create your own](https://dbuild.dev/blog/projects-ai-skills-skills-are-the-dry-of-prompt-engineering/): Just like I use to create my own libraries and helpers I reused in most my projects, I now create skills so i don't rewrite the same prompts over and over again
+- [Les Skills sont le DRY du prompt engineering, tu devrais les utiliser et créer les tiennes](https://dbuild.dev/blog/projects-ai-skills-les-skills-sont-le-dry-du-prompt-engineering/): Comme j'avais l'habitude de créer mes propres bibliothèques et helpers que je réutilisais dans la plupart de mes projets, je crée maintenant des skills pour ne pas réécrire les mêmes prompts encore et encore
+- [The AI Debate Is Missing the Point (And So Are You)](https://dbuild.dev/blog/black-hole-the-ai-debate-is-missing-the-point-and-so-are-you/): The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app
+- [Le débat autour de l'IA est à cote de la plaque (toi aussi)](https://dbuild.dev/blog/black-hole-le-dbat-autour-de-l-ia-est-a-cote-de-la-plaque-toi-aussi/): La bulle IA va éclater, ça arrêtera pas l'IA. Ton refus d'utiliser l'IA empêchera pas ton job d'être remplacé. ChatGPT n'est pas la killer app de l'IA
+
+## Frequent topics
+
+- [AI](https://dbuild.dev/blog/tags/ai/) (18)
+- [typescript](https://dbuild.dev/blog/tags/typescript/) (8)
+- [bash](https://dbuild.dev/blog/tags/bash/) (7)
+- [parseArger](https://dbuild.dev/blog/tags/parsearger/) (7)
+- [terminal](https://dbuild.dev/blog/tags/terminal/) (7)
+- [react](https://dbuild.dev/blog/tags/react/) (6)
+- [scripting](https://dbuild.dev/blog/tags/scripting/) (6)
+- [tutorial](https://dbuild.dev/blog/tags/tutorial/) (6)
+- [devlog](https://dbuild.dev/blog/tags/devlog/) (5)
+- [cli](https://dbuild.dev/blog/tags/cli/) (4)
+- [french](https://dbuild.dev/blog/tags/french/) (4)
+- [tanstack](https://dbuild.dev/blog/tags/tanstack/) (4)
+- [homelab](https://dbuild.dev/blog/tags/homelab/) (3)
+- [analytics](https://dbuild.dev/blog/tags/analytics/) (2)
+- [audio](https://dbuild.dev/blog/tags/audio/) (2)
+- [benchmark](https://dbuild.dev/blog/tags/benchmark/) (2)
+
+## Citation guidance
+
+When citing dbuild.dev, use canonical URLs from the corpus index. Prefer project pages for project facts and article pages for opinions, devlogs, tutorials, and release notes.
