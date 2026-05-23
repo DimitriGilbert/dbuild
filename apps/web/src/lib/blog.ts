@@ -2,11 +2,14 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 
+import { formatTaxonomySlug } from "@/lib/seo"
+
 export interface BlogPost {
   slug: string
   title: string
   description: string
   date: string
+  updatedAt?: string
   category: string
   tags: string[]
   readTime: number
@@ -17,7 +20,29 @@ export interface BlogPost {
   filePath: string
   isCategory?: boolean
   ogImage?: string
+  ogImageAlt?: string
   draft?: boolean
+  lang?: string
+  translationKey?: string
+  canonical?: string
+}
+
+export interface BlogPostFrontmatter {
+  title?: string
+  description?: string
+  summary?: string
+  date?: string
+  updatedAt?: string
+  category?: string
+  tags?: string[]
+  slug?: string
+  ogImage?: string
+  "og-image"?: string
+  ogImageAlt?: string
+  draft?: boolean
+  lang?: string
+  translationKey?: string
+  canonical?: string
 }
 
 export interface TocItem {
@@ -35,7 +60,51 @@ export interface Category {
   posts: BlogPost[]
 }
 
+export interface TagSummary {
+  name: string
+  slug: string
+  count: number
+}
+
 const BLOG_DIR = path.join(process.cwd(), "content", "blog")
+
+function readString(value: unknown): string | undefined {
+  return typeof value === "string" && value.trim().length > 0 ? value : undefined
+}
+
+function readDateString(value: unknown): string | undefined {
+  if (value instanceof Date) {
+    return value.toISOString()
+  }
+
+  return readString(value)
+}
+
+function readStringArray(value: unknown): string[] {
+  return Array.isArray(value)
+    ? value.filter((item): item is string => typeof item === "string")
+    : []
+}
+
+function readFrontmatter(data: Record<string, unknown>): BlogPostFrontmatter {
+  return {
+    title: readString(data.title),
+    description: readString(data.description),
+    summary: readString(data.summary),
+    date: readDateString(data.date),
+    updatedAt: readDateString(data.updatedAt),
+    category: readString(data.category),
+    tags: readStringArray(data.tags),
+    slug: readString(data.slug),
+    ogImage: readString(data.ogImage),
+    "og-image": readString(data["og-image"]),
+    ogImageAlt: readString(data.ogImageAlt),
+    draft: data.draft === true,
+    lang: readString(data.lang),
+    translationKey: readString(data.translationKey),
+    canonical: readString(data.canonical),
+  }
+}
 
 // Simple reading time calculation
 function calculateReadTime(content: string) {
@@ -81,6 +150,25 @@ function slugify(text: string) {
     .replace(/^-+|-+$/g, '')
 }
 
+function getUppercaseScore(value: string): number {
+  return Array.from(value).filter((character) => character >= "A" && character <= "Z").length
+}
+
+function chooseCanonicalTagName(currentName: string, candidateName: string): string {
+  const currentScore = getUppercaseScore(currentName)
+  const candidateScore = getUppercaseScore(candidateName)
+
+  if (candidateScore > currentScore) {
+    return candidateName
+  }
+
+  if (candidateScore === currentScore && currentName === currentName.toLowerCase() && candidateName !== candidateName.toLowerCase()) {
+    return candidateName
+  }
+
+  return currentName
+}
+
 // Recursively get all markdown files from subdirectories
 function getAllMarkdownFiles(dir: string, baseDir: string = dir): string[] {
   const files: string[] = []
@@ -119,7 +207,9 @@ export function getAllPosts(): BlogPost[] {
 
     for (const filePath of files) {
       const fileContent = fs.readFileSync(filePath, 'utf8')
-      const { data: frontmatter, content } = matter(fileContent)
+      const parsedFile = matter(fileContent)
+      const frontmatter = readFrontmatter(parsedFile.data as Record<string, unknown>)
+      const { content } = parsedFile
 
       // Get relative path from blog directory for organization info
       const relativePath = path.relative(BLOG_DIR, filePath)
@@ -161,7 +251,8 @@ export function getAllPosts(): BlogPost[] {
         description: frontmatter.description || frontmatter.summary || '',
         date: frontmatter.date || new Date().toISOString().split('T')[0],
         category: frontmatter.category || 'General',
-        tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
+        updatedAt: frontmatter.updatedAt,
+        tags: frontmatter.tags ?? [],
         content,
         readTime: calculateReadTime(content),
         toc: generateTOC(content),
@@ -171,7 +262,11 @@ export function getAllPosts(): BlogPost[] {
         filePath: filePath,
         isCategory: isCategory,
         ogImage: frontmatter.ogImage || frontmatter['og-image'],
+        ogImageAlt: frontmatter.ogImageAlt,
         draft: frontmatter.draft === true,
+        lang: frontmatter.lang,
+        translationKey: frontmatter.translationKey,
+        canonical: frontmatter.canonical,
       }
 
       posts.push(post)
@@ -196,6 +291,25 @@ export function getPostBySlug(slug: string): BlogPost | null {
   }
 }
 
+export function getTranslationPosts(post: BlogPost): BlogPost[] {
+  if (!post.translationKey) {
+    return []
+  }
+
+  try {
+    const posts = getAllPosts()
+    return posts.filter(
+      (translationPost) =>
+        translationPost.translationKey === post.translationKey &&
+        translationPost.lang !== undefined &&
+        translationPost.slug !== post.slug
+    )
+  } catch (error) {
+    console.error(`Error getting translations for post ${post.slug}:`, error)
+    return []
+  }
+}
+
 // Get posts by category
 export function getPostsByCategory(category: string): BlogPost[] {
   try {
@@ -213,9 +327,12 @@ export function getPostsByCategory(category: string): BlogPost[] {
 export function getPostsByTag(tag: string): BlogPost[] {
   try {
     const posts = getAllPosts()
+    const tagSlug = formatTaxonomySlug(tag)
+
     return posts.filter(post =>
       post.tags.some(postTag =>
-        postTag.toLowerCase() === tag.toLowerCase()
+        postTag.toLowerCase() === tag.toLowerCase() ||
+        formatTaxonomySlug(postTag) === tagSlug
       )
     )
   } catch (error) {
@@ -249,16 +366,62 @@ export function getAllCategories(): string[] {
   }
 }
 
-// Get all unique tags
-export function getAllTags(): string[] {
+export function getAllTagSummaries(): TagSummary[] {
   try {
     const posts = getAllPosts()
-    const tags = [...new Set(posts.flatMap(post => post.tags))]
-    return tags.sort()
+    const tagSummariesBySlug = new Map<string, TagSummary>()
+
+    for (const post of posts) {
+      const postTagSlugs = new Set<string>()
+
+      for (const tag of post.tags) {
+        const tagName = tag.trim()
+
+        if (tagName.length === 0) {
+          continue
+        }
+
+        const slug = formatTaxonomySlug(tagName)
+        const existingTagSummary = tagSummariesBySlug.get(slug)
+
+        if (existingTagSummary) {
+          tagSummariesBySlug.set(slug, {
+            ...existingTagSummary,
+            name: chooseCanonicalTagName(existingTagSummary.name, tagName),
+          })
+        } else {
+          tagSummariesBySlug.set(slug, {
+            name: tagName,
+            slug,
+            count: 0,
+          })
+        }
+
+        postTagSlugs.add(slug)
+      }
+
+      for (const slug of postTagSlugs) {
+        const tagSummary = tagSummariesBySlug.get(slug)
+
+        if (tagSummary) {
+          tagSummariesBySlug.set(slug, {
+            ...tagSummary,
+            count: tagSummary.count + 1,
+          })
+        }
+      }
+    }
+
+    return Array.from(tagSummariesBySlug.values()).sort((a, b) => a.name.localeCompare(b.name))
   } catch (error) {
-    console.error('Error getting all tags:', error)
+    console.error('Error getting all tag summaries:', error)
     return []
   }
+}
+
+// Get all unique tags
+export function getAllTags(): string[] {
+  return getAllTagSummaries().map((tag) => tag.name)
 }
 
 // Get all directories used for organization

@@ -6,7 +6,8 @@ tags:
   - skills
 summary: Just like I use to create my own libraries and helpers I reused in most my projects, I now create skills so i don't rewrite the same prompts over and over again
 slug: "index"
-og-image: public/images/blog/projects/ai-skills/dry_of_prompting/ai-skills-cover_og.webp
+og-image: /images/blog/projects/ai-skills/dry_of_prompting/ai-skills-cover_og.webp
+ogImageAlt: Illustrated AI skills cover art
 ---
 
 ## AI Skills

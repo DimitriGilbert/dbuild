@@ -1,6 +1,8 @@
 ---
 title: "lmaafy — Laisse-moi demander à l'IA pour toi"
 date: "2026-05-20T11:00:00+01:00"
+lang: "fr"
+translationKey: "project-lmaafy"
 summary: "Le LMGTFY de l'ère de l'IA. Un lien qui joue une animation de frappe toute satisfaisante, puis redirige vers un chatbot IA avec ton prompt déjà rempli. Mesquin ? Peut-être. Satisfaisant ? Oh que oui."
 tags:
   - ai

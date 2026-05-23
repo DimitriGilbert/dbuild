@@ -1,9 +1,7 @@
 "use client"
 
-import { HeroSection } from "@/components/hero-section-new"
+import Link from "next/link"
 import { motion } from "motion/react"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import {
   Calendar,
   Clock,
@@ -19,11 +17,15 @@ import {
   Coffee,
   Hash,
 } from "lucide-react"
-import { PrefetchLink } from "@/components/prefetch-link"
+
 import { BentoCard } from "@/components/bento-card"
-import type { Project } from "@/lib/projects"
+import { HeroSection } from "@/components/hero-section-new"
+import { PrefetchLink } from "@/components/prefetch-link"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 import type { BlogPost } from "@/lib/blog"
-import Link from "next/link"
+import type { Project } from "@/lib/projects"
+import { formatTaxonomySlug } from "@/lib/seo"
 
 interface HomePageContentProps {
   projects: Project[]
@@ -289,7 +291,7 @@ export function HomePageContent({
                             {featuredPost.category}
                           </Badge>
                           {featuredPost.tags.slice(0, 3).map((tag) => (
-                            <PrefetchLink key={tag} href={`/blog/tags/${tag.toLowerCase()}`}>
+                            <PrefetchLink key={tag} href={`/blog/tags/${formatTaxonomySlug(tag)}`}>
                               <Badge
                                 variant="outline"
                                 className="hover:bg-primary hover:text-primary-foreground cursor-pointer font-mono text-xs"
@@ -389,7 +391,7 @@ export function HomePageContent({
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {blogTags.slice(0, 10).map((tag) => (
-                    <PrefetchLink key={tag} href={`/blog/tags/${tag.toLowerCase()}`}>
+                    <PrefetchLink key={tag} href={`/blog/tags/${formatTaxonomySlug(tag)}`}>
                       <Badge
                         variant="outline"
                         className="font-mono text-xs hover:bg-primary hover:text-primary-foreground cursor-pointer transition-all"

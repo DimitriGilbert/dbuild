@@ -1,13 +1,15 @@
 "use client"
 
-import { Badge } from "@/components/ui/badge"
 import { Terminal, Tag, Hash, ArrowRight } from "lucide-react"
-import { PrefetchLink } from "@/components/prefetch-link"
 import { motion } from "motion/react"
+
 import { BentoCard } from "@/components/bento-card"
+import { PrefetchLink } from "@/components/prefetch-link"
+import { Badge } from "@/components/ui/badge"
 
 interface TagWithCount {
   name: string
+  slug: string
   count: number
 }
 
@@ -105,13 +107,13 @@ export function TagsPageContent({ tagsWithCounts, totalTags }: TagsPageContentPr
 
                 return (
                   <BentoCard
-                    key={tag.name}
+                    key={tag.slug}
                     colSpan={size.col}
                     rowSpan={size.row}
                     delay={0.1 * index}
                     featured={isTopTag}
                     asLink
-                    href={`/blog/tags/${tag.name.toLowerCase()}`}
+                    href={`/blog/tags/${tag.slug}`}
                     className="group cursor-pointer"
                   >
                     <div className="h-full flex flex-col justify-between">
@@ -165,13 +167,13 @@ export function TagsPageContent({ tagsWithCounts, totalTags }: TagsPageContentPr
               <div className="flex flex-wrap gap-3">
                 {otherTags.map((tag, index) => (
                   <motion.div
-                    key={tag.name}
+                    key={tag.slug}
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.02 * Math.min(index, 20) }}
                   >
-                    <PrefetchLink href={`/blog/tags/${tag.name.toLowerCase()}`}>
+                    <PrefetchLink href={`/blog/tags/${tag.slug}`}>
                       <div className="glass-card rounded-xl px-4 py-3 group cursor-pointer hover:border-primary/50 flex items-center gap-3">
                         <Hash className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
                         <span className="font-medium group-hover:text-primary transition-colors">

@@ -1,8 +1,5 @@
 "use client"
 
-import type { Category } from "@/lib/blog"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import {
   Calendar,
   Clock,
@@ -15,10 +12,15 @@ import {
   Folder,
   GitBranch,
 } from "lucide-react"
-import { PrefetchLink } from "@/components/prefetch-link"
-import { MarkdownRenderer } from "@/components/markdown-renderer"
 import { motion } from "motion/react"
+
 import { BentoCard } from "@/components/bento-card"
+import { MarkdownRenderer } from "@/components/markdown-renderer"
+import { PrefetchLink } from "@/components/prefetch-link"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import type { Category } from "@/lib/blog"
+import { formatTaxonomySlug } from "@/lib/seo"
 
 interface CategoryPageContentProps {
   categoryData: Category
@@ -233,7 +235,7 @@ export function CategoryPageContent({ categoryData }: CategoryPageContentProps) 
                         {featuredPost.category}
                       </Badge>
                       {featuredPost.tags.slice(0, 3).map((tag) => (
-                        <PrefetchLink key={tag} href={`/blog/tags/${tag.toLowerCase()}`}>
+                        <PrefetchLink key={tag} href={`/blog/tags/${formatTaxonomySlug(tag)}`}>
                           <Badge
                             variant="outline"
                             className="hover:bg-primary hover:text-primary-foreground cursor-pointer font-mono text-xs"
@@ -295,7 +297,7 @@ export function CategoryPageContent({ categoryData }: CategoryPageContentProps) 
 
                       <div className="flex flex-wrap gap-1.5 mb-4">
                         {post.tags.slice(0, 3).map((tag) => (
-                          <PrefetchLink key={tag} href={`/blog/tags/${tag.toLowerCase()}`}>
+                          <PrefetchLink key={tag} href={`/blog/tags/${formatTaxonomySlug(tag)}`}>
                             <Badge
                               variant="outline"
                               className="hover:bg-primary hover:text-primary-foreground cursor-pointer font-mono text-xs"

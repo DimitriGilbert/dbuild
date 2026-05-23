@@ -1,6 +1,8 @@
 ---
 title: "FeedElity — Parce que Tes Abonnements Méritent Mieux Que de la Soupe Algorithmique"
 date: "2026-05-20T10:00:00+01:00"
+lang: "fr"
+translationKey: "project-feedelity"
 summary: "Un client RSS local-first orienté vidéo pour suivre tes créateurs sur YouTube, Odysee et PeerTube depuis un seul endroit. Trois colonnes, pas d'algorithme, pas de pubs. Juste ton contenu, quand tu le veux."
 tags:
   - rss

@@ -1,6 +1,8 @@
 ---
 title: RaceBench fr
 date: 2025-01-17T10:00:00+01:00
+lang: "fr"
+translationKey: "project-racebench"
 summary: "Faire s'affronter des LLMs pour voir qui écrit le meilleur JavaScript. Spoiler: c'est le chaos complet !"
 tags:
   - benchmark

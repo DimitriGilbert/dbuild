@@ -1,5 +1,7 @@
 ---
 date: "2025-01-17T10:00:00+01:00"
+lang: "fr"
+translationKey: "project-task-o-matic"
 title: Task-O-Matic, votre abri de survie IA pour le chaos des projets
 summary: Transformez des idées de projet chaotiques en listes de tâches structurées et exécutables grâce à l'IA. Bienvenue dans le bunker, citoyen !
 tags:

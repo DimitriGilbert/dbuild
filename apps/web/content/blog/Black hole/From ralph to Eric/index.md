@@ -9,6 +9,7 @@ tags: [
 summary: "Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !"
 slug: "index"
 og-image: "/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"
+ogImageAlt: Eric Cartman sees Ralph Wiggum
 ---
 
 _TLDR; Eric loop is a concept that upgrades Ralph loop by adding more complexity and depth to the idea of managing AI systems, [bash version of the article](/assets/blackhole/from_ralph_to_eric/bashticle.sh)_

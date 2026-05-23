@@ -1,5 +1,7 @@
 ---
 date: "2025-01-17T10:00:00+01:00"
+lang: "en"
+translationKey: "project-task-o-matic"
 title: Task-O-Matic, your AI survival bunker for project chaos
 summary: Transform chaotic project ideas into structured, executable task lists through AI assistance. Welcome to the bunker, citizen!
 tags:

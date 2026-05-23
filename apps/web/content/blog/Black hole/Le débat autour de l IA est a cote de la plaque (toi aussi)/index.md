@@ -5,6 +5,7 @@ tags: ["AI"]
 summary: "La bulle IA va éclater, ça arrêtera pas l'IA. Ton refus d'utiliser l'IA empêchera pas ton job d'être remplacé. ChatGPT n'est pas la killer app de l'IA"
 slug: "index"
 og-image: "/images/blog/blackhole/ai_debate_missing_the_point/2_shades_of_black_og.webp"
+ogImageAlt: Deux silhouettes ombrées représentant les débats opposés sur l'IA
 ---
 
 "La bulle qui éclate va tuer l'IA !" / "c'est pas une bulle, ça s'arrêtera jamais !"

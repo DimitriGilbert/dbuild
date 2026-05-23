@@ -1,6 +1,8 @@
 ---
 title: "git-snitch"
 date: "2026-05-20T10:00:00+01:00"
+lang: "fr"
+translationKey: "project-git-snitch"
 summary: "Votre historique git a des histoires à raconter. git-snitch transforme les logs de commit en rapports HTML autonomes et magnifiques, avec des métriques de qualité, l'analyse des contributeurs et de l'anonymisation respectueuse de la vie privée. Pas de serveur, pas de base de données, juste un fichier."
 tags:
   - git

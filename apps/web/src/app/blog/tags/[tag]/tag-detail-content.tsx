@@ -1,12 +1,14 @@
 "use client"
 
-import type { BlogPost } from "@/lib/blog"
+import { Calendar, Clock, ArrowRight, ArrowLeft, Terminal, Hash, BookOpen } from "lucide-react"
+import { motion } from "motion/react"
+
+import { BentoCard } from "@/components/bento-card"
+import { PrefetchLink } from "@/components/prefetch-link"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Calendar, Clock, ArrowRight, ArrowLeft, Terminal, Hash, BookOpen } from "lucide-react"
-import { PrefetchLink } from "@/components/prefetch-link"
-import { motion } from "motion/react"
-import { BentoCard } from "@/components/bento-card"
+import type { BlogPost } from "@/lib/blog"
+import { formatTaxonomySlug } from "@/lib/seo"
 
 interface TagDetailContentProps {
   tag: string
@@ -115,7 +117,7 @@ export function TagDetailContent({ tag, posts }: TagDetailContentProps) {
                       {featuredPost.category}
                     </Badge>
                     {featuredPost.tags.map((postTag) => (
-                      <PrefetchLink key={postTag} href={`/blog/tags/${postTag.toLowerCase()}`}>
+                      <PrefetchLink key={postTag} href={`/blog/tags/${formatTaxonomySlug(postTag)}`}>
                         <Badge
                           variant={postTag.toLowerCase() === tag.toLowerCase() ? "default" : "outline"}
                           className="hover:bg-primary hover:text-primary-foreground cursor-pointer font-mono text-xs"
@@ -184,7 +186,7 @@ export function TagDetailContent({ tag, posts }: TagDetailContentProps) {
                             {post.category}
                           </Badge>
                           {post.tags.slice(0, 4).map((postTag) => (
-                            <PrefetchLink key={postTag} href={`/blog/tags/${postTag.toLowerCase()}`}>
+                            <PrefetchLink key={postTag} href={`/blog/tags/${formatTaxonomySlug(postTag)}`}>
                               <Badge
                                 variant={postTag.toLowerCase() === tag.toLowerCase() ? "default" : "outline"}
                                 className="hover:bg-primary hover:text-primary-foreground cursor-pointer font-mono text-xs"

@@ -1,6 +1,8 @@
 ---
 title: "lmaafy — Let Me Ask AI For You"
 date: "2026-05-20T10:00:00+01:00"
+lang: "en"
+translationKey: "project-lmaafy"
 summary: "The LMGTFY of the AI age. Generate a link that plays a satisfying typing animation, then redirects to an AI chatbot with your prompt pre-filled. Petty? Maybe. Satisfying? Absolutely."
 tags:
   - ai

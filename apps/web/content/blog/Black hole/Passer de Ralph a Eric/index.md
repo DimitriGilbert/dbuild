@@ -9,6 +9,7 @@ tags: [
 summary: "Tout le monde ne parle que de la 'Ralph loop', et le principe est cool, mais je pense qu'on peut faire mieux grace au concept de la Boucle a Eric !"
 slug: "index"
 og-image: "/images/blog/blackhole/from_ralph_to_eric/Eric_saw_Ralph.webp"
+ogImageAlt: Eric Cartman voit Ralph Wiggum
 ---
 
 Je vais pas re-introduire le concept de Ralph loop, si vous avez été a côté de l'IA dans la première moitié de janvier 2026, vous en avez entendu parler ! Si non, vous devriez aller voir la vidéo de [Theo](https://www.youtube.com/watch?v=Yr9O6KFwbW4) (ou quelqu'un d'autre mais celle-la est bonne !)

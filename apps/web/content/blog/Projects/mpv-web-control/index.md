@@ -1,6 +1,8 @@
 ---
 title: "mpv-web-control — your music, your phone, your LAN"
 date: "2026-05-20T11:00:00+01:00"
+lang: "en"
+translationKey: "project-mpv-web-control"
 summary: "A web remote for mpv running on a Raspberry Pi. Browse your music library from your phone, control playback, manage playlists. No app, no database, no cloud — just your browser and your speakers."
 tags:
   - mpv

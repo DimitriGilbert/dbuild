@@ -46,7 +46,7 @@
       "id": "Task-O-Matic",
       "name": "Task-O-Matic",
       "description": "AI-powered task management system transforming chaotic ideas into structured, executable task lists.",
-      "image": "/placeholder.svg?height=400&width=600",
+      "image": "/og-image.jpg",
       "repo": "https://github.com/DimitriGilbert/task-o-matic",
       "site": "https://github.com/DimitriGilbert/task-o-matic",
       "tags": [
@@ -62,7 +62,7 @@
       "id": "Sprynge",
       "name": "Sprynge",
       "description": "Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.",
-      "image": "/placeholder.svg?height=400&width=600",
+      "image": "/og-image.jpg",
       "repo": "https://github.com/DimitriGilbert/sprynge-next",
       "site": "https://github.com/DimitriGilbert/sprynge-next",
       "tags": [
@@ -78,7 +78,7 @@
       "id": "Clanker",
       "name": "Clanker",
       "description": "A simple spec, parser and CLI for portable workflows using AI.",
-      "image": "/placeholder.svg?height=400&width=600",
+      "image": "/og-image.jpg",
       "repo": "https://github.com/DimitriGilbert/clanker",
       "site": null,
       "tags": [
@@ -148,7 +148,7 @@
       "id": "StationIO-Station",
       "name": "StationIO",
       "description": "Arduino framework-ish that handle the basics (wifi, ota, etc.)",
-      "image": "/placeholder.svg?height=400&width=600",
+      "image": "/og-image.jpg",
       "repo": "https://github.com/DimitriGilbert/StationIO-Station",
       "site": "dimitrigilbert.github.io/StationIO-Station/",
       "tags": [

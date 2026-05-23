@@ -1,6 +1,8 @@
 ---
 title: "mpv-web-control — ta musique, ton téléphone, ton réseau local"
 date: "2026-05-20T11:00:00+01:00"
+lang: "fr"
+translationKey: "project-mpv-web-control"
 summary: "Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d'app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes."
 tags:
   - mpv

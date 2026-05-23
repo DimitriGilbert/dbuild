@@ -1,5 +1,7 @@
 ---
 date: "2025-01-17T10:00:00+01:00"
+lang: "en"
+translationKey: "project-formedible"
 title: Formedible, the Ultimate React Form Library for 2025
 summary: A sophisticated wrapper around TanStack Form v1 with 22+ built-in field types, multi-step wizards, conditional logic, analytics, and enterprise-grade features. Built with React 19, TypeScript, Zod, and shadcn/ui.
 tags:

@@ -1,6 +1,8 @@
 ---
 title: "arcade-vibe — Un Prompt, Un Shot, Que le Meilleur Prompt Gagne"
 date: "2026-05-20T10:00:00+01:00"
+lang: "fr"
+translationKey: "project-arcade-vibe"
 summary: "Une plateforme de prompt engineering compétitive déguisée en arcade rétro. Écris un prompt, choisis ton modèle, et qu'on voie si ton jeu généré par IA grimpe en haut du leaderboard. Fun et débile veut pas dire inutile."
 tags:
   - ai

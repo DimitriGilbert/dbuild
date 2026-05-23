@@ -1,27 +1,37 @@
 import type React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "@/index.css";
 import "highlight.js/styles/github-dark.css";
+
+import "@/index.css";
 import { FloatingNavigation } from "@/components/navigation-new";
 import { ThemeProvider } from "@/components/theme-provider";
+import {
+  DEFAULT_DESCRIPTION,
+  DEFAULT_OG_IMAGE,
+  SITE_NAME,
+  SITE_ORIGIN,
+  formatAbsoluteImageUrl,
+  formatCanonicalUrl,
+} from "@/lib/seo";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dbuild.dev",
-  description:
-    "Dbuild.dev is a portfolio and blog showcasing projects and insights",
-  metadataBase: new URL("https://dbuild.dev"),
+  title: SITE_NAME,
+  description: DEFAULT_DESCRIPTION,
+  metadataBase: new URL(SITE_ORIGIN),
+  alternates: {
+    canonical: formatCanonicalUrl(),
+  },
   openGraph: {
-    title: "Dbuild.dev",
-    description:
-      "Dbuild.dev is a portfolio and blog showcasing projects and insights",
-    url: "https://dbuild.dev",
-    siteName: "Dbuild.dev",
+    title: SITE_NAME,
+    description: DEFAULT_DESCRIPTION,
+    url: formatCanonicalUrl(),
+    siteName: SITE_NAME,
     images: [
       {
-        url: "/og-image.jpg",
+        url: formatAbsoluteImageUrl(DEFAULT_OG_IMAGE),
         width: 1200,
         height: 630,
         alt: "Dbuild.dev - Portfolio and Blog",
@@ -32,10 +42,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dbuild.dev",
-    description:
-      "Dbuild.dev is a portfolio and blog showcasing projects and insights",
-    images: ["/og-image.jpg"],
+    title: SITE_NAME,
+    description: DEFAULT_DESCRIPTION,
+    images: [formatAbsoluteImageUrl(DEFAULT_OG_IMAGE)],
   },
   robots: {
     index: true,

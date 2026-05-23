@@ -1,6 +1,8 @@
 ---
 title: "LimitAID"
 date: "2026-05-20T10:00:00+01:00"
+lang: "en"
+translationKey: "project-limitaid"
 summary: "A bash CLI that shows your AI provider quotas, balances, and usage limits in one place. Codex, OpenRouter, Z.ai — all your limits, one command."
 tags:
   - bash

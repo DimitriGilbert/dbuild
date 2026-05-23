@@ -6,7 +6,8 @@ tags:
   - skills
 summary: Comme j'avais l'habitude de créer mes propres bibliothèques et helpers que je réutilisais dans la plupart de mes projets, je crée maintenant des skills pour ne pas réécrire les mêmes prompts encore et encore
 slug: "index"
-og-image: public/images/blog/projects/ai-skills/dry_of_prompting/ai-skills-cover_og.webp
+og-image: /images/blog/projects/ai-skills/dry_of_prompting/ai-skills-cover_og.webp
+ogImageAlt: Illustration de couverture sur les skills IA
 ---
 
 ## Les Skills IA

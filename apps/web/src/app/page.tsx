@@ -1,6 +1,12 @@
 import { HomePageContent } from "@/components/home-page-content"
 import { getAllProjects, getAllProjectTags } from "@/lib/projects"
 import { getAllPosts, getAllTags } from "@/lib/blog"
+import { DEFAULT_DESCRIPTION, createStaticPageMetadata } from "@/lib/seo"
+
+export const metadata = createStaticPageMetadata({
+  description: DEFAULT_DESCRIPTION,
+  imageAlt: "Dbuild.dev - Portfolio and Blog",
+})
 
 export default function HomePage() {
   const projects = getAllProjects()

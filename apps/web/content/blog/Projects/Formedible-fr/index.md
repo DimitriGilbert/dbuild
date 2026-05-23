@@ -1,5 +1,7 @@
 ---
 date: "2025-01-17T10:00:00+01:00"
+lang: "fr"
+translationKey: "project-formedible"
 title: Formedible, la Bibliothèque de Formulaires React Ultime pour 2025
 summary: Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui.
 tags:

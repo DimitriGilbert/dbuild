@@ -1,5 +1,7 @@
 ---
 date: "2025-01-17T10:00:00+01:00"
+lang: "fr"
+translationKey: "project-git-moar"
 title: git-moar, parce que git log ne suffisait pas
 summary: Outil CLI avancé d'analytique et de reporting pour dépôts Git avec de belles visualisations, métriques de qualité et insights. Transformez votre historique git en quelque chose de lisible !
 tags:

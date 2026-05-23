@@ -1,12 +1,14 @@
 "use client"
 
-import type { BlogPost } from "@/lib/blog"
+import { Calendar, Clock, ArrowRight, Terminal, BookOpen, Tag, FolderOpen } from "lucide-react"
+import { motion } from "motion/react"
+
+import { BentoCard } from "@/components/bento-card"
+import { PrefetchLink } from "@/components/prefetch-link"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Calendar, Clock, ArrowRight, Terminal, BookOpen, Tag, FolderOpen } from "lucide-react"
-import { PrefetchLink } from "@/components/prefetch-link"
-import { motion } from "motion/react"
-import { BentoCard } from "@/components/bento-card"
+import type { BlogPost } from "@/lib/blog"
+import { formatTaxonomySlug } from "@/lib/seo"
 
 interface BlogPageContentProps {
   posts: BlogPost[]
@@ -109,7 +111,7 @@ export function BlogPageContent({ posts, tags, categoryPosts }: BlogPageContentP
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ delay: 0.7 + index * 0.03 }}
                     >
-                      <PrefetchLink href={`/blog/tags/${tag.toLowerCase()}`}>
+                      <PrefetchLink href={`/blog/tags/${formatTaxonomySlug(tag)}`}>
                         <Badge
                           variant="outline"
                           className="hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all font-mono text-xs cursor-pointer"
@@ -179,7 +181,7 @@ export function BlogPageContent({ posts, tags, categoryPosts }: BlogPageContentP
                           {featuredPost.category}
                         </Badge>
                         {featuredPost.tags.slice(0, 3).map((tag) => (
-                          <PrefetchLink key={tag} href={`/blog/tags/${tag.toLowerCase()}`}>
+                          <PrefetchLink key={tag} href={`/blog/tags/${formatTaxonomySlug(tag)}`}>
                             <Badge
                               variant="outline"
                               className="hover:bg-primary hover:text-primary-foreground cursor-pointer font-mono text-xs"
@@ -244,7 +246,7 @@ export function BlogPageContent({ posts, tags, categoryPosts }: BlogPageContentP
                             {post.category}
                           </Badge>
                           {post.tags.slice(0, 2).map((tag) => (
-                            <PrefetchLink key={tag} href={`/blog/tags/${tag.toLowerCase()}`}>
+                            <PrefetchLink key={tag} href={`/blog/tags/${formatTaxonomySlug(tag)}`}>
                               <Badge
                                 variant="outline"
                                 className="hover:bg-primary hover:text-primary-foreground cursor-pointer font-mono text-xs"
