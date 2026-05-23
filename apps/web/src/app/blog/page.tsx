@@ -1,4 +1,5 @@
 import { getAllPosts, getAllTags, getAllCategoryPosts } from "@/lib/blog"
+import { getAgentCorpusIndex } from "@/lib/agent-corpus"
 import { createItemListJsonLd, createStaticPageMetadata, serializeJsonLd } from "@/lib/seo"
 
 import { BlogPageContent } from "./blog-page-content"
@@ -17,6 +18,7 @@ export default function BlogPage() {
   const posts = allPosts.filter(post => !post.isCategory)
   const tags = getAllTags()
   const categoryPosts = getAllCategoryPosts()
+  const corpusStats = getAgentCorpusIndex().stats
   const blogJsonLd = createItemListJsonLd(
     "Dbuild.dev Blog Articles",
     "/blog",
@@ -36,6 +38,7 @@ export default function BlogPage() {
         posts={posts}
         tags={tags}
         categoryPosts={categoryPosts}
+        totalArticles={corpusStats.articles}
       />
     </>
   )

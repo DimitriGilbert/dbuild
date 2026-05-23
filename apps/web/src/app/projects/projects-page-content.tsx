@@ -12,6 +12,7 @@ import { useState, useMemo } from "react"
 interface ProjectsPageContentProps {
   projects: Project[]
   allTags: string[]
+  totalProjects: number
 }
 
 function seededRandom(seed: string): number {
@@ -56,7 +57,7 @@ function getBentoSizeFromProject(
   return { col: "1", row: "1" }
 }
 
-export function ProjectsPageContent({ projects, allTags }: ProjectsPageContentProps) {
+export function ProjectsPageContent({ projects, allTags, totalProjects }: ProjectsPageContentProps) {
   const [activeTag, setActiveTag] = useState<string | null>(null)
 
   const filteredProjects = useMemo(() => {
@@ -147,7 +148,7 @@ export function ProjectsPageContent({ projects, allTags }: ProjectsPageContentPr
         >
           <Layers className="w-4 h-4 text-secondary" />
           <span>
-            showing {filteredProjects.length} of {projects.length} projects
+            showing {filteredProjects.length} of {totalProjects} projects
           </span>
         </motion.div>
 

@@ -14,9 +14,10 @@ interface BlogPageContentProps {
   posts: BlogPost[]
   tags: string[]
   categoryPosts: BlogPost[]
+  totalArticles: number
 }
 
-export function BlogPageContent({ posts, tags, categoryPosts }: BlogPageContentProps) {
+export function BlogPageContent({ posts, tags, categoryPosts, totalArticles }: BlogPageContentProps) {
   const featuredPost = posts[0]
   const recentPosts = posts.slice(1, 4)
   const olderPosts = posts.slice(4)
@@ -138,7 +139,7 @@ export function BlogPageContent({ posts, tags, categoryPosts }: BlogPageContentP
                 className="text-center text-muted-foreground font-mono text-xs p-4"
               >
                 <BookOpen className="w-4 h-4 mx-auto mb-2 text-primary" />
-                <span>{posts.length} articles indexed</span>
+                <span>{totalArticles} articles indexed</span>
               </motion.div>
             </div>
           </motion.aside>

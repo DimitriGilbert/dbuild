@@ -135,6 +135,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     url: canonicalUrl,
     imageUrl,
     keywords,
+    inLanguage: post.lang ?? "en",
   });
   const breadcrumbJsonLd = createBreadcrumbListJsonLd([
     { name: "Home", pathname: "/" },

@@ -8,6 +8,9 @@ export const DEFAULT_DESCRIPTION =
   "Dbuild.dev is a portfolio and blog showcasing projects and insights" as const
 export const DEFAULT_OG_IMAGE = "/og-image.jpg" as const
 export const OPEN_GRAPH_LOCALE = "en_US" as const
+const PERSON_ID = `${SITE_ORIGIN}/#person` as const
+const WEBSITE_ID = `${SITE_ORIGIN}/#website` as const
+const DEFAULT_LANGUAGE = "en" as const
 
 const OPEN_GRAPH_LOCALES = new Map<string, string>([
   ["en", "en_US"],
@@ -52,6 +55,7 @@ interface BlogPostingJsonLdInput {
   url: string
   imageUrl: string
   keywords: string[]
+  inLanguage?: string
 }
 
 export interface BreadcrumbItemInput {
@@ -135,12 +139,23 @@ export function createProjectJsonLd({
   return {
     "@context": "https://schema.org",
     "@type": "SoftwareSourceCode",
+    "@id": `${canonicalUrl}#source`,
     name: project.name,
     description: project.description,
     codeRepository: project.repo,
     url: canonicalUrl,
     image: formatAbsoluteImageUrl(project.image),
     keywords: projectTags,
+    author: {
+      "@id": PERSON_ID,
+    },
+    publisher: {
+      "@id": PERSON_ID,
+    },
+    isPartOf: {
+      "@id": WEBSITE_ID,
+    },
+    inLanguage: DEFAULT_LANGUAGE,
     programmingLanguage:
       programmingLanguages.length > 0 ? programmingLanguages : undefined,
     sameAs: project.site ?? undefined,
@@ -171,9 +186,13 @@ export function formatTaxonomySlug(value: string): string {
 export function createBreadcrumbListJsonLd(
   items: readonly BreadcrumbItemInput[]
 ): JsonLdObject {
+  const lastItem = items.at(-1)
+
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${formatCanonicalUrl(lastItem?.pathname ?? "/")}#breadcrumb`,
+    inLanguage: DEFAULT_LANGUAGE,
     itemListElement: items.map((item, index) => ({
       "@type": "ListItem",
       position: index + 1,
@@ -189,19 +208,19 @@ export function createHomeJsonLd(): JsonLdObject {
     "@graph": [
       {
         "@type": "Person",
-        "@id": `${SITE_ORIGIN}/#person`,
+        "@id": PERSON_ID,
         name: "Dimitri Gilbert",
         url: formatCanonicalUrl(),
         sameAs: ["https://github.com/DimitriGilbert"],
       },
       {
         "@type": "WebSite",
-        "@id": `${SITE_ORIGIN}/#website`,
+        "@id": WEBSITE_ID,
         url: formatCanonicalUrl(),
         name: SITE_NAME,
         description: DEFAULT_DESCRIPTION,
         publisher: {
-          "@id": `${SITE_ORIGIN}/#person`,
+          "@id": PERSON_ID,
         },
         inLanguage: ["en", "fr"],
       },
@@ -211,8 +230,15 @@ export function createHomeJsonLd(): JsonLdObject {
         url: formatCanonicalUrl(),
         name: `${SITE_NAME} Home`,
         isPartOf: {
-          "@id": `${SITE_ORIGIN}/#website`,
+          "@id": WEBSITE_ID,
         },
+        author: {
+          "@id": PERSON_ID,
+        },
+        publisher: {
+          "@id": PERSON_ID,
+        },
+        inLanguage: ["en", "fr"],
         about: [
           { "@type": "Thing", name: "AI" },
           { "@type": "Thing", name: "Agents" },
@@ -232,8 +258,19 @@ export function createItemListJsonLd(
   return {
     "@context": "https://schema.org",
     "@type": "ItemList",
+    "@id": `${formatCanonicalUrl(pathname)}#itemlist`,
     name,
     url: formatCanonicalUrl(pathname),
+    isPartOf: {
+      "@id": WEBSITE_ID,
+    },
+    author: {
+      "@id": PERSON_ID,
+    },
+    publisher: {
+      "@id": PERSON_ID,
+    },
+    inLanguage: DEFAULT_LANGUAGE,
     itemListElement: items.map((item, index) => ({
       "@type": "ListItem",
       position: index + 1,
@@ -307,23 +344,25 @@ export function createBlogPostingJsonLd({
   url,
   imageUrl,
   keywords,
+  inLanguage = DEFAULT_LANGUAGE,
 }: BlogPostingJsonLdInput): JsonLdObject {
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+    "@id": `${url}#blogposting`,
     headline,
     description,
     datePublished,
     author: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: SITE_ORIGIN,
+      "@id": PERSON_ID,
     },
     publisher: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: SITE_ORIGIN,
+      "@id": PERSON_ID,
     },
+    isPartOf: {
+      "@id": WEBSITE_ID,
+    },
+    inLanguage,
     url,
     image: [imageUrl],
     keywords,

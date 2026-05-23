@@ -12,9 +12,10 @@ import Link from "next/link"
 
 interface HeroSectionProps {
   projects: Project[]
+  totalProjects: number
 }
 
-export function HeroSection({ projects }: HeroSectionProps) {
+export function HeroSection({ projects, totalProjects }: HeroSectionProps) {
   const [currentProject, setCurrentProject] = useState(0)
 
   useEffect(() => {
@@ -118,7 +119,7 @@ export function HeroSection({ projects }: HeroSectionProps) {
             </motion.div>
 
             <div className="grid grid-cols-3 gap-6 pt-6 border-t border-border/50">
-              <AnimatedStat value={projects.length.toString()} label="Projects" delay={1.2} />
+              <AnimatedStat value={totalProjects.toString()} label="Projects" delay={1.2} />
               <AnimatedStat value="∞" label="Bugs Fixed" delay={1.3} />
               <AnimatedStat value="24/7" label="Coffee" delay={1.4} />
             </div>

@@ -1,4 +1,5 @@
 import { getAllTagSummaries } from "@/lib/blog"
+import { getAgentCorpusIndex } from "@/lib/agent-corpus"
 import { createItemListJsonLd, createStaticPageMetadata, serializeJsonLd } from "@/lib/seo"
 
 import { TagsPageContent } from "./tags-page-content"
@@ -20,6 +21,7 @@ interface TagWithCount {
 
 export default function TagsPage() {
   const tags = getAllTagSummaries()
+  const corpusStats = getAgentCorpusIndex().stats
 
   const tagsWithCounts: TagWithCount[] = tags.map((tag) => ({
     name: tag.name,
@@ -41,7 +43,7 @@ export default function TagsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(tagsJsonLd) }}
       />
-      <TagsPageContent tagsWithCounts={tagsWithCounts} totalTags={tags.length} />
+      <TagsPageContent tagsWithCounts={tagsWithCounts} totalTags={corpusStats.tags} />
     </>
   )
 }

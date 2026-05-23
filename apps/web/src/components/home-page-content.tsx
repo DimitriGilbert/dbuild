@@ -29,18 +29,22 @@ import { formatTaxonomySlug } from "@/lib/seo"
 
 interface HomePageContentProps {
   projects: Project[]
+  totalProjects: number
   projectTags: string[]
   recentPosts: BlogPost[]
   blogTags: string[]
   totalPosts: number
+  totalTags: number
 }
 
 export function HomePageContent({
   projects,
+  totalProjects,
   projectTags,
   recentPosts,
   blogTags,
   totalPosts,
+  totalTags,
 }: HomePageContentProps) {
   const featuredProjects = projects.slice(0, 4)
   const featuredPost = recentPosts[0]
@@ -48,7 +52,7 @@ export function HomePageContent({
 
   return (
     <div className="min-h-screen">
-      <HeroSection projects={projects} />
+      <HeroSection projects={projects} totalProjects={totalProjects} />
 
       {/* Featured Projects Section */}
       <section className="py-24 relative overflow-hidden">
@@ -367,7 +371,7 @@ export function HomePageContent({
                         <div className="text-xs text-muted-foreground font-mono">articles</div>
                       </div>
                       <div>
-                        <div className="text-2xl font-bold text-secondary">{blogTags.length}</div>
+                        <div className="text-2xl font-bold text-secondary">{totalTags}</div>
                         <div className="text-xs text-muted-foreground font-mono">topics</div>
                       </div>
                     </div>

@@ -1,4 +1,5 @@
 import { getAllProjects, getAllProjectTags } from "@/lib/projects"
+import { getAgentCorpusIndex } from "@/lib/agent-corpus"
 import { createItemListJsonLd, createStaticPageMetadata, serializeJsonLd } from "@/lib/seo"
 
 import { ProjectsPageContent } from "./projects-page-content"
@@ -16,6 +17,7 @@ export const metadata = createStaticPageMetadata({
 export default function ProjectsPage() {
   const projects = getAllProjects()
   const allTags = getAllProjectTags()
+  const corpusStats = getAgentCorpusIndex().stats
   const projectsJsonLd = createItemListJsonLd(
     "Dbuild.dev Projects",
     "/projects",
@@ -31,7 +33,7 @@ export default function ProjectsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(projectsJsonLd) }}
       />
-      <ProjectsPageContent projects={projects} allTags={allTags} />
+      <ProjectsPageContent projects={projects} allTags={allTags} totalProjects={corpusStats.projects} />
     </>
   )
 }
