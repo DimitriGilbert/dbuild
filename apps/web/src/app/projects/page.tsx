@@ -1,5 +1,5 @@
 import { getAllProjects, getAllProjectTags } from "@/lib/projects"
-import { createStaticPageMetadata } from "@/lib/seo"
+import { createItemListJsonLd, createStaticPageMetadata, serializeJsonLd } from "@/lib/seo"
 
 import { ProjectsPageContent } from "./projects-page-content"
 
@@ -16,6 +16,22 @@ export const metadata = createStaticPageMetadata({
 export default function ProjectsPage() {
   const projects = getAllProjects()
   const allTags = getAllProjectTags()
+  const projectsJsonLd = createItemListJsonLd(
+    "Dbuild.dev Projects",
+    "/projects",
+    projects.map((project) => ({
+      name: project.name,
+      pathname: `/projects/${project.id}`,
+    }))
+  )
 
-  return <ProjectsPageContent projects={projects} allTags={allTags} />
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(projectsJsonLd) }}
+      />
+      <ProjectsPageContent projects={projects} allTags={allTags} />
+    </>
+  )
 }

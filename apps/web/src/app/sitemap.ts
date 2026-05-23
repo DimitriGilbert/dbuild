@@ -32,6 +32,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: formatCanonicalUrl("/index.json"),
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.4,
+    },
+    {
+      url: formatCanonicalUrl("/llms.txt"),
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.4,
+    },
+    {
+      url: formatCanonicalUrl("/llms-full.txt"),
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.3,
+    },
+    {
+      url: formatCanonicalUrl("/sitemap-index.xml"),
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.3,
+    },
   ]
 
   const posts = getAllPosts().filter((post) => !post.isCategory)

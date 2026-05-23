@@ -1,5 +1,5 @@
 import { getAllPosts, getAllTags, getAllCategoryPosts } from "@/lib/blog"
-import { createStaticPageMetadata } from "@/lib/seo"
+import { createItemListJsonLd, createStaticPageMetadata, serializeJsonLd } from "@/lib/seo"
 
 import { BlogPageContent } from "./blog-page-content"
 
@@ -17,12 +17,26 @@ export default function BlogPage() {
   const posts = allPosts.filter(post => !post.isCategory)
   const tags = getAllTags()
   const categoryPosts = getAllCategoryPosts()
+  const blogJsonLd = createItemListJsonLd(
+    "Dbuild.dev Blog Articles",
+    "/blog",
+    posts.map((post) => ({
+      name: post.title,
+      pathname: `/blog/${post.slug}`,
+    }))
+  )
 
   return (
-    <BlogPageContent
-      posts={posts}
-      tags={tags}
-      categoryPosts={categoryPosts}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(blogJsonLd) }}
+      />
+      <BlogPageContent
+        posts={posts}
+        tags={tags}
+        categoryPosts={categoryPosts}
+      />
+    </>
   )
 }

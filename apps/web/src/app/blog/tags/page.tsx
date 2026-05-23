@@ -1,5 +1,5 @@
 import { getAllTagSummaries } from "@/lib/blog"
-import { createStaticPageMetadata } from "@/lib/seo"
+import { createItemListJsonLd, createStaticPageMetadata, serializeJsonLd } from "@/lib/seo"
 
 import { TagsPageContent } from "./tags-page-content"
 
@@ -26,6 +26,22 @@ export default function TagsPage() {
     slug: tag.slug,
     count: tag.count,
   })).sort((a, b) => b.count - a.count)
+  const tagsJsonLd = createItemListJsonLd(
+    "Dbuild.dev Blog Tags",
+    "/blog/tags",
+    tagsWithCounts.map((tag) => ({
+      name: tag.name,
+      pathname: `/blog/tags/${tag.slug}`,
+    }))
+  )
 
-  return <TagsPageContent tagsWithCounts={tagsWithCounts} totalTags={tags.length} />
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(tagsJsonLd) }}
+      />
+      <TagsPageContent tagsWithCounts={tagsWithCounts} totalTags={tags.length} />
+    </>
+  )
 }
