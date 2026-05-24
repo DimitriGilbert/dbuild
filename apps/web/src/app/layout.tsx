@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
   alternates: {
     canonical: formatCanonicalUrl(),
+    types: {
+      "application/rss+xml": `${SITE_ORIGIN}/feed.xml`,
+    },
   },
   openGraph: {
     title: SITE_NAME,
@@ -64,6 +67,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Dbuild.dev RSS Feed"
+          href="/feed.xml"
+        />
         <script
           src="https://cdn.counter.dev/script.js"
           data-id="154c6878-7558-4eff-90f9-bd4904015df1"

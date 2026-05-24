@@ -56,6 +56,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 0.3,
     },
+    {
+      url: formatCanonicalUrl("/feed.xml"),
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.4,
+    },
   ]
 
   const posts = getAllPosts().filter((post) => !post.isCategory)

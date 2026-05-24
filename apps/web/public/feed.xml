@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dbuild.dev</title>
+    <link>https://dbuild.dev/</link>
+    <atom:link href="https://dbuild.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Dbuild.dev is a portfolio and blog showcasing projects and insights</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 May 2026 10:00:00 GMT</lastBuildDate>
+    <generator>Dbuild.dev RSS Generator</generator>
+    <managingEditor>dimitri@dbuild.dev (Dimitri Gilbert)</managingEditor>
+    <webMaster>dimitri@dbuild.dev (Dimitri Gilbert)</webMaster>
+  <item>
+    <title>lmaafy — Laisse-moi demander à l&apos;IA pour toi</title>
+    <link>https://dbuild.dev/blog/projects-lmaafy-fr/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-lmaafy-fr/</guid>
+    <description>Le LMGTFY de l&apos;ère de l&apos;IA. Un lien qui joue une animation de frappe toute satisfaisante, puis redirige vers un chatbot IA avec ton prompt déjà rempli. Mesquin ? Peut-être. Satisfaisant ? Oh que oui.</description>
+    <pubDate>Wed, 20 May 2026 10:00:00 GMT</pubDate>
+    <category>ai</category>
+    <category>fun</category>
+    <category>react</category>
+    <category>tanstack</category>
+    <category>typescript</category>
+  </item>
+  <item>
+    <title>mpv-web-control — your music, your phone, your LAN</title>
+    <link>https://dbuild.dev/blog/projects-mpv-web-control/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-mpv-web-control/</guid>
+    <description>A web remote for mpv running on a Raspberry Pi. Browse your music library from your phone, control playback, manage playlists. No app, no database, no cloud — just your browser and your speakers.</description>
+    <pubDate>Wed, 20 May 2026 10:00:00 GMT</pubDate>
+    <category>mpv</category>
+    <category>audio</category>
+    <category>homelab</category>
+    <category>raspberry-pi</category>
+    <category>react</category>
+    <category>hono</category>
+    <category>typescript</category>
+  </item>
+  <item>
+    <title>mpv-web-control — ta musique, ton téléphone, ton réseau local</title>
+    <link>https://dbuild.dev/blog/projects-mpv-web-control-fr/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-mpv-web-control-fr/</guid>
+    <description>Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d&apos;app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes.</description>
+    <pubDate>Wed, 20 May 2026 10:00:00 GMT</pubDate>
+    <category>mpv</category>
+    <category>audio</category>
+    <category>homelab</category>
+    <category>raspberry-pi</category>
+    <category>react</category>
+    <category>hono</category>
+    <category>typescript</category>
+  </item>
+  <item>
+    <title>arcade-vibe — One Prompt, One Shot, May the Best Prompt Win</title>
+    <link>https://dbuild.dev/blog/projects-arcade-vibe/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-arcade-vibe/</guid>
+    <description>A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the leaderboard. Fun and goofy doesn&apos;t mean useless.</description>
+    <pubDate>Wed, 20 May 2026 09:00:00 GMT</pubDate>
+    <category>ai</category>
+    <category>gaming</category>
+    <category>prompt-engineering</category>
+    <category>nextjs</category>
+    <category>trpc</category>
+    <category>typescript</category>
+  </item>
+  <item>
+    <title>arcade-vibe — Un Prompt, Un Shot, Que le Meilleur Prompt Gagne</title>
+    <link>https://dbuild.dev/blog/projects-arcade-vibe-fr/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-arcade-vibe-fr/</guid>
+    <description>Une plateforme de prompt engineering compétitive déguisée en arcade rétro. Écris un prompt, choisis ton modèle, et qu&apos;on voie si ton jeu généré par IA grimpe en haut du leaderboard. Fun et débile veut pas dire inutile.</description>
+    <pubDate>Wed, 20 May 2026 09:00:00 GMT</pubDate>
+    <category>ai</category>
+    <category>gaming</category>
+    <category>prompt-engineering</category>
+    <category>nextjs</category>
+    <category>trpc</category>
+    <category>typescript</category>
+  </item>
+  <item>
+    <title>lmaafy — Let Me Ask AI For You</title>
+    <link>https://dbuild.dev/blog/projects-lmaafy/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-lmaafy/</guid>
+    <description>The LMGTFY of the AI age. Generate a link that plays a satisfying typing animation, then redirects to an AI chatbot with your prompt pre-filled. Petty? Maybe. Satisfying? Absolutely.</description>
+    <pubDate>Wed, 20 May 2026 09:00:00 GMT</pubDate>
+    <category>ai</category>
+    <category>fun</category>
+    <category>react</category>
+    <category>tanstack</category>
+    <category>typescript</category>
+  </item>
+  <item>
+    <title>One year back in</title>
+    <link>https://dbuild.dev/blog/black-hole-one-year-back-in/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/black-hole-one-year-back-in/</guid>
+    <description>After 8 years of being pushed around by my disease, AI helped me get back to work, it&apos;s been a year, so what did I learn</description>
+    <pubDate>Mon, 13 Apr 2026 23:01:00 GMT</pubDate>
+    <category>AI</category>
+    <category>work</category>
+    <category>multiple sclerosis</category>
+    <category>Clanker</category>
+  </item>
+  <item>
+    <title>Un an de retour dans le game</title>
+    <link>https://dbuild.dev/blog/black-hole-un-an-de-retour-dans-le-game/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/black-hole-un-an-de-retour-dans-le-game/</guid>
+    <description>Après 8 ans à me faire ballader par ma maladie, l&apos;IA m&apos;a aidé à retourner bosser, ça fait un an, alors qu&apos;est-ce que j&apos;ai appris</description>
+    <pubDate>Mon, 13 Apr 2026 23:00:59 GMT</pubDate>
+    <category>AI</category>
+    <category>work</category>
+    <category>multiple sclerosis</category>
+    <category>Clanker</category>
+  </item>
+  <item>
+    <title>Skills are the DRY of prompt engineering, you should use them and create your own</title>
+    <link>https://dbuild.dev/blog/projects-ai-skills-skills-are-the-dry-of-prompt-engineering/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-ai-skills-skills-are-the-dry-of-prompt-engineering/</guid>
+    <description>Just like I use to create my own libraries and helpers I reused in most my projects, I now create skills so i don&apos;t rewrite the same prompts over and over again</description>
+    <pubDate>Tue, 03 Mar 2026 14:00:00 GMT</pubDate>
+    <category>ai</category>
+    <category>skills</category>
+  </item>
+  <item>
+    <title>Les Skills sont le DRY du prompt engineering, tu devrais les utiliser et créer les tiennes</title>
+    <link>https://dbuild.dev/blog/projects-ai-skills-les-skills-sont-le-dry-du-prompt-engineering/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-ai-skills-les-skills-sont-le-dry-du-prompt-engineering/</guid>
+    <description>Comme j&apos;avais l&apos;habitude de créer mes propres bibliothèques et helpers que je réutilisais dans la plupart de mes projets, je crée maintenant des skills pour ne pas réécrire les mêmes prompts encore et encore</description>
+    <pubDate>Tue, 03 Mar 2026 13:59:00 GMT</pubDate>
+    <category>ai</category>
+    <category>skills</category>
+  </item>
+  <item>
+    <title>The AI Debate Is Missing the Point (And So Are You)</title>
+    <link>https://dbuild.dev/blog/black-hole-the-ai-debate-is-missing-the-point-and-so-are-you/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/black-hole-the-ai-debate-is-missing-the-point-and-so-are-you/</guid>
+    <description>The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won&apos;t stop your job being replaced. ChatGPT is not the AI killer app</description>
+    <pubDate>Fri, 30 Jan 2026 23:01:00 GMT</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Le débat autour de l&apos;IA est à cote de la plaque (toi aussi)</title>
+    <link>https://dbuild.dev/blog/black-hole-le-dbat-autour-de-l-ia-est-a-cote-de-la-plaque-toi-aussi/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/black-hole-le-dbat-autour-de-l-ia-est-a-cote-de-la-plaque-toi-aussi/</guid>
+    <description>La bulle IA va éclater, ça arrêtera pas l&apos;IA. Ton refus d&apos;utiliser l&apos;IA empêchera pas ton job d&apos;être remplacé. ChatGPT n&apos;est pas la killer app de l&apos;IA</description>
+    <pubDate>Fri, 30 Jan 2026 22:50:00 GMT</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>From Ralph to Eric</title>
+    <link>https://dbuild.dev/blog/black-hole-from-ralph-to-eric/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/black-hole-from-ralph-to-eric/</guid>
+    <description>Everyone is going crazy about Ralph loop, and they are cool, but I think we need to upgrade to concept to an Eric loop !</description>
+    <pubDate>Fri, 16 Jan 2026 23:01:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Ralph lopp</category>
+    <category>Eric loop</category>
+  </item>
+  <item>
+    <title>Passer de Ralph a Eric</title>
+    <link>https://dbuild.dev/blog/black-hole-passer-de-ralph-a-eric/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/black-hole-passer-de-ralph-a-eric/</guid>
+    <description>Tout le monde ne parle que de la &apos;Ralph loop&apos;, et le principe est cool, mais je pense qu&apos;on peut faire mieux grace au concept de la Boucle a Eric !</description>
+    <pubDate>Fri, 16 Jan 2026 23:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Ralph lopp</category>
+    <category>Eric loop</category>
+  </item>
+  <item>
+    <title>cn-registry devlog 1 - The illusion of victory</title>
+    <link>https://dbuild.dev/blog/projects-cn-registry-devlog-1-the-illusion-of-victory/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-cn-registry-devlog-1-the-illusion-of-victory/</guid>
+    <description>Follow me on a journey of failure and foolishness, en route to master the current crop of AI.</description>
+    <pubDate>Thu, 24 Jul 2025 14:00:17 GMT</pubDate>
+    <category>shadcn</category>
+    <category>devlog</category>
+    <category>cn-registry</category>
+  </item>
+  <item>
+    <title>cn-registry devlog 1 -Une illusion de victoire</title>
+    <link>https://dbuild.dev/blog/projects-cn-registry-devlog-1-une-illusion-de-victoire/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-cn-registry-devlog-1-une-illusion-de-victoire/</guid>
+    <description>Suivez-moi dans un voyage d&apos;échecs et de folie, en route pour maîtriser la nouvelle génération d&apos;IA.</description>
+    <pubDate>Thu, 24 Jul 2025 14:00:17 GMT</pubDate>
+    <category>shadcn</category>
+    <category>devlog</category>
+    <category>cn-registry</category>
+  </item>
+  <item>
+    <title>LiteChat - A local first and self hostable AI chat app for power user</title>
+    <link>https://dbuild.dev/blog/projects-litechat-litechat-a-local-first-and-self-hostable-ai-chat-app-for-power-user/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-litechat-litechat-a-local-first-and-self-hostable-ai-chat-app-for-power-user/</guid>
+    <description>A smallish presentation of my project LiteChat !</description>
+    <pubDate>Fri, 04 Jul 2025 10:40:17 GMT</pubDate>
+    <category>ai</category>
+    <category>chat</category>
+    <category>local</category>
+    <category>server</category>
+  </item>
+  <item>
+    <title>LiteChat - Un chat IA local first, auto hebergeable sur un server HTTP</title>
+    <link>https://dbuild.dev/blog/projects-litechat-litechat-un-chat-ia-local-first-auto-hebergeable-sur-un-server-http/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-litechat-litechat-un-chat-ia-local-first-auto-hebergeable-sur-un-server-http/</guid>
+    <description>Une petite présentation de mon projet LiteChat, en Français dans le texte !</description>
+    <pubDate>Fri, 04 Jul 2025 10:39:17 GMT</pubDate>
+    <category>ai</category>
+    <category>chat</category>
+    <category>local</category>
+    <category>server</category>
+  </item>
+  <item>
+    <title>Formedible, the Ultimate React Form Library for 2025</title>
+    <link>https://dbuild.dev/blog/projects-formedible/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-formedible/</guid>
+    <description>A sophisticated wrapper around TanStack Form v1 with 22+ built-in field types, multi-step wizards, conditional logic, analytics, and enterprise-grade features. Built with React 19, TypeScript, Zod, and shadcn/ui.</description>
+    <pubDate>Fri, 17 Jan 2025 09:00:00 GMT</pubDate>
+    <category>form</category>
+    <category>react</category>
+    <category>typescript</category>
+    <category>tanstack</category>
+    <category>zod</category>
+  </item>
+  <item>
+    <title>Formedible, la Bibliothèque de Formulaires React Ultime pour 2025</title>
+    <link>https://dbuild.dev/blog/projects-formedible-fr/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-formedible-fr/</guid>
+    <description>Un wrapper sophistiqué autour de TanStack Form v1 avec plus de 22 types de champs intégrés, assistants multi-étapes, logique conditionnelle, analytics et fonctionnalités de niveau entreprise. Construit avec React 19, TypeScript, Zod et shadcn/ui.</description>
+    <pubDate>Fri, 17 Jan 2025 09:00:00 GMT</pubDate>
+    <category>form</category>
+    <category>react</category>
+    <category>typescript</category>
+    <category>tanstack</category>
+    <category>zod</category>
+    <category>french</category>
+  </item>
+  <item>
+    <title>RaceBench</title>
+    <link>https://dbuild.dev/blog/projects-racebench/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-racebench/</guid>
+    <description>Racing LLMs against each other to see who writes the best JavaScript. Spoiler: it&apos;s chaos out there!</description>
+    <pubDate>Fri, 17 Jan 2025 09:00:00 GMT</pubDate>
+    <category>benchmark</category>
+    <category>llm</category>
+    <category>ai</category>
+    <category>testing</category>
+  </item>
+  <item>
+    <title>RaceBench fr</title>
+    <link>https://dbuild.dev/blog/projects-racebench-fr/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-racebench-fr/</guid>
+    <description>Faire s&apos;affronter des LLMs pour voir qui écrit le meilleur JavaScript. Spoiler: c&apos;est le chaos complet !</description>
+    <pubDate>Fri, 17 Jan 2025 09:00:00 GMT</pubDate>
+    <category>benchmark</category>
+    <category>llm</category>
+    <category>ai</category>
+    <category>testing</category>
+    <category>french</category>
+  </item>
+  <item>
+    <title>Task-O-Matic, your AI survival bunker for project chaos</title>
+    <link>https://dbuild.dev/blog/projects-task-o-matic/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-task-o-matic/</guid>
+    <description>Transform chaotic project ideas into structured, executable task lists through AI assistance. Welcome to the bunker, citizen!</description>
+    <pubDate>Fri, 17 Jan 2025 09:00:00 GMT</pubDate>
+    <category>ai</category>
+    <category>task-management</category>
+    <category>cli</category>
+    <category>productivity</category>
+    <category>task-o-matic</category>
+  </item>
+  <item>
+    <title>Task-O-Matic, votre abri de survie IA pour le chaos des projets</title>
+    <link>https://dbuild.dev/blog/projects-task-o-matic-fr/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-task-o-matic-fr/</guid>
+    <description>Transformez des idées de projet chaotiques en listes de tâches structurées et exécutables grâce à l&apos;IA. Bienvenue dans le bunker, citoyen !</description>
+    <pubDate>Fri, 17 Jan 2025 09:00:00 GMT</pubDate>
+    <category>ai</category>
+    <category>task-management</category>
+    <category>cli</category>
+    <category>productivity</category>
+    <category>task-o-matic</category>
+    <category>french</category>
+  </item>
+  <item>
+    <title>git-moar, because git log just wasn&apos;t enough</title>
+    <link>https://dbuild.dev/blog/projects-git-moar/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-git-moar/</guid>
+    <description>Advanced Git repository analytics and reporting CLI tool with beautiful visualizations, quality metrics, and insights. Transform your git history into something you can actually read!</description>
+    <pubDate>Fri, 17 Jan 2025 09:00:00 GMT</pubDate>
+    <category>git</category>
+    <category>analytics</category>
+    <category>cli</category>
+    <category>visualization</category>
+  </item>
+  <item>
+    <title>git-moar, parce que git log ne suffisait pas</title>
+    <link>https://dbuild.dev/blog/projects-git-moar-fr/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-git-moar-fr/</guid>
+    <description>Outil CLI avancé d&apos;analytique et de reporting pour dépôts Git avec de belles visualisations, métriques de qualité et insights. Transformez votre historique git en quelque chose de lisible !</description>
+    <pubDate>Fri, 17 Jan 2025 09:00:00 GMT</pubDate>
+    <category>git</category>
+    <category>analytics</category>
+    <category>cli</category>
+    <category>visualization</category>
+    <category>french</category>
+  </item>
+  <item>
+    <title>ParseArger Nested options</title>
+    <link>https://dbuild.dev/blog/projects-parsearger-nested-options/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-parsearger-nested-options/</guid>
+    <description>Option namespace thingy for parseArger</description>
+    <pubDate>Fri, 09 Feb 2024 10:13:08 GMT</pubDate>
+    <category>bash</category>
+    <category>terminal</category>
+    <category>scripting</category>
+    <category>parsearger</category>
+    <category>devlog</category>
+  </item>
+  <item>
+    <title>Homelab, state of thing and december wishlist</title>
+    <link>https://dbuild.dev/blog/projects-homelab-homelab-state-of-thing-of-december-wishlist/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-homelab-homelab-state-of-thing-of-december-wishlist/</guid>
+    <description>Regroup and look around, wandering is fun, but, sometimes you need to know where you want to go.</description>
+    <pubDate>Thu, 16 Nov 2023 10:39:17 GMT</pubDate>
+    <category>homelab</category>
+    <category>rpi</category>
+  </item>
+  <item>
+    <title>Story of a simple update</title>
+    <link>https://dbuild.dev/blog/projects-mdd-story-of-a-simple-update/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-mdd-story-of-a-simple-update/</guid>
+    <description>No plans survive first contact, the best part is no part, check yo stagin</description>
+    <pubDate>Wed, 08 Nov 2023 08:58:02 GMT</pubDate>
+    <category>parseArger</category>
+    <category>mdd</category>
+    <category>devlog</category>
+    <category>bash</category>
+    <category>terminal</category>
+    <category>tutorial</category>
+  </item>
+  <item>
+    <title>My markdown tool, a parsearger project</title>
+    <link>https://dbuild.dev/blog/projects-parsearger-my-markdown-tool-a-parsearger-project/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-parsearger-my-markdown-tool-a-parsearger-project/</guid>
+    <description>A realistic example is worth days of hello world tutorials !</description>
+    <pubDate>Thu, 26 Oct 2023 22:00:00 GMT</pubDate>
+    <category>bash</category>
+    <category>terminal</category>
+    <category>scripting</category>
+    <category>parsearger</category>
+    <category>tutorial</category>
+    <category>devlog</category>
+  </item>
+  <item>
+    <title>ParseArger, completion, documentation and stuff</title>
+    <link>https://dbuild.dev/blog/projects-parsearger-completion-documentation-and-stuff/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-parsearger-completion-documentation-and-stuff/</guid>
+    <description>Learn all about the completion, documentation and supporting stuff for your scripts that you can generate with ParseArger.</description>
+    <pubDate>Mon, 16 Oct 2023 12:58:02 GMT</pubDate>
+    <category>bash</category>
+    <category>terminal</category>
+    <category>scripting</category>
+    <category>parsearger</category>
+    <category>tutorial</category>
+  </item>
+  <item>
+    <title>ParseArger, more on Pos Opt and Flag</title>
+    <link>https://dbuild.dev/blog/projects-parsearger-more-on-pos-opt-and-flag/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-parsearger-more-on-pos-opt-and-flag/</guid>
+    <description>Options with default values ? Repeatable options or aliases maybe ? This is a deeper dive into parseArger&apos;s arguments, options and flags generation.</description>
+    <pubDate>Fri, 13 Oct 2023 12:56:33 GMT</pubDate>
+    <category>bash</category>
+    <category>terminal</category>
+    <category>scripting</category>
+    <category>parsearger</category>
+    <category>tutorial</category>
+  </item>
+  <item>
+    <title>ParseArger, generate and Parse</title>
+    <link>https://dbuild.dev/blog/projects-parsearger-generate-and-parse/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-parsearger-generate-and-parse/</guid>
+    <description>Deeper dive in parseArger generate and parse commands arguments and options.</description>
+    <pubDate>Tue, 10 Oct 2023 12:55:13 GMT</pubDate>
+    <category>bash</category>
+    <category>terminal</category>
+    <category>scripting</category>
+    <category>parsearger</category>
+    <category>tutorial</category>
+  </item>
+  <item>
+    <title>ParseArger, create bash scripts you&apos;ll want to use</title>
+    <link>https://dbuild.dev/blog/projects-parsearger-create-bash-scripts-youll-want-to-use/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-parsearger-create-bash-scripts-youll-want-to-use/</guid>
+    <description>Generate standalone bash scripts with argument, option and flag parsing, documentation, completion and more !</description>
+    <pubDate>Sun, 08 Oct 2023 12:51:25 GMT</pubDate>
+    <category>bash</category>
+    <category>terminal</category>
+    <category>scripting</category>
+    <category>parsearger</category>
+    <category>tutorial</category>
+  </item>
+  </channel>
+</rss>
