@@ -1,5 +1,9 @@
 User-Agent: *
 Allow: /
+Disallow: /index.xml
+Disallow: /blog/bin
+Disallow: /tags/
+Disallow: /blog/category/general
+Disallow: /home/
 
-Sitemap: https://dbuild.dev/sitemap.xml
 Sitemap: https://dbuild.dev/sitemap-index.xml

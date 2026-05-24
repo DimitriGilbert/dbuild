@@ -110,7 +110,7 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 
 - URL: https://dbuild.dev/projects/AI-gents/
 - Repository: https://github.com/DimitriGilbert/AI-gents
-- Website: ai-gents.dbuild.dev/
+- Website: https://ai-gents.dbuild.dev/
 - Tags: bash, cli, parseArger, ai, agents
 - Summary: AI-gents. A simple format for AI agents.
 - Related articles: 0
@@ -130,7 +130,7 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 
 - URL: https://dbuild.dev/projects/StationIO-Station/
 - Repository: https://github.com/DimitriGilbert/StationIO-Station
-- Website: dimitrigilbert.github.io/StationIO-Station/
+- Website: https://dimitrigilbert.github.io/StationIO-Station/
 - Tags: arduino, esp8266, esp32
 - Summary: Arduino framework-ish that handle the basics (wifi, ota, etc.)
 - Related articles: 0
