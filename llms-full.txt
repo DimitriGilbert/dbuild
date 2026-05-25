@@ -19,17 +19,6 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 
 ## Projects
 
-### LiteChat
-
-- URL: https://dbuild.dev/projects/LiteChat/
-- Repository: https://github.com/DimitriGilbert/LiteChat
-- Website: https://litechat.dbuild.dev
-- Tags: pwa, ai, chat-application, agents, llm, local-llm
-- Summary: A modern, local first AI chat app for your browser.
-- Related articles: 2
-  - [LiteChat - A local first and self hostable AI chat app for power user](https://dbuild.dev/blog/projects-litechat-litechat-a-local-first-and-self-hostable-ai-chat-app-for-power-user/)
-  - [LiteChat - Un chat IA local first, auto hebergeable sur un server HTTP](https://dbuild.dev/blog/projects-litechat-litechat-un-chat-ia-local-first-auto-hebergeable-sur-un-server-http/)
-
 ### FormEdible
 
 - URL: https://dbuild.dev/projects/FormEdible/
@@ -41,12 +30,34 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
   - [Formedible, the Ultimate React Form Library for 2025](https://dbuild.dev/blog/projects-formedible/)
   - [Formedible, la Bibliothèque de Formulaires React Ultime pour 2025](https://dbuild.dev/blog/projects-formedible-fr/)
 
+### LiteChat
+
+- URL: https://dbuild.dev/projects/LiteChat/
+- Repository: https://github.com/DimitriGilbert/LiteChat
+- Website: https://litechat.dbuild.dev
+- Tags: pwa, ai, chat-application, agents, llm, local-llm
+- Summary: A modern, local first AI chat app for your browser.
+- Related articles: 2
+  - [LiteChat - A local first and self hostable AI chat app for power user](https://dbuild.dev/blog/projects-litechat-litechat-a-local-first-and-self-hostable-ai-chat-app-for-power-user/)
+  - [LiteChat - Un chat IA local first, auto hebergeable sur un server HTTP](https://dbuild.dev/blog/projects-litechat-litechat-un-chat-ia-local-first-auto-hebergeable-sur-un-server-http/)
+
+### arcade-vibe
+
+- URL: https://dbuild.dev/projects/arcade-vibe/
+- Repository: https://github.com/DimitriGilbert/arcade-vibe
+- Website: https://arcade-vibe.app
+- Tags: ai, gaming, prompt-engineering, nextjs, trpc, typescript, drizzle, postgresql
+- Summary: A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the monthly leaderboard.
+- Related articles: 2
+  - [arcade-vibe — One Prompt, One Shot, May the Best Prompt Win](https://dbuild.dev/blog/projects-arcade-vibe/)
+  - [arcade-vibe — Un Prompt, Un Shot, Que le Meilleur Prompt Gagne](https://dbuild.dev/blog/projects-arcade-vibe-fr/)
+
 ### parseArger
 
 - URL: https://dbuild.dev/projects/parseArger/
 - Repository: https://github.com/DimitriGilbert/parseArger
 - Website: https://dimitrigilbert.github.io/parseArger/
-- Tags: none
+- Tags: parseArger, bash, cli
 - Summary: Standalone bash argument parsing code generator.
 - Related articles: 7
   - [ParseArger Nested options](https://dbuild.dev/blog/projects-parsearger-nested-options/)
@@ -56,6 +67,64 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
   - [ParseArger, more on Pos Opt and Flag](https://dbuild.dev/blog/projects-parsearger-more-on-pos-opt-and-flag/)
   - [ParseArger, generate and Parse](https://dbuild.dev/blog/projects-parsearger-generate-and-parse/)
   - [ParseArger, create bash scripts you'll want to use](https://dbuild.dev/blog/projects-parsearger-create-bash-scripts-youll-want-to-use/)
+
+### git-snitch
+
+- URL: https://dbuild.dev/projects/git-snitch/
+- Repository: https://github.com/DimitriGilbert/git-report
+- Website: https://github.com/DimitriGilbert/git-report
+- Tags: git, analytics, cli, visualization, typescript, monorepo
+- Summary: Standalone git activity reports — single HTML files with quality metrics, contributor analysis, anonymization, and AI-powered worklogs.
+- Related articles: 0
+
+### lmaafy
+
+- URL: https://dbuild.dev/projects/lmaafy/
+- Repository: https://github.com/DimitriGilbert/lmaafy
+- Website: https://github.com/DimitriGilbert/lmaafy
+- Tags: ai, fun, react, tanstack, typescript
+- Summary: The LMGTFY of the AI age — generate a shareable link that plays a typing animation then redirects to an AI chatbot with your prompt pre-filled.
+- Related articles: 2
+  - [lmaafy — Laisse-moi demander à l'IA pour toi](https://dbuild.dev/blog/projects-lmaafy-fr/)
+  - [lmaafy — Let Me Ask AI For You](https://dbuild.dev/blog/projects-lmaafy/)
+
+### LimitAID
+
+- URL: https://dbuild.dev/projects/LimitAID/
+- Repository: https://github.com/DimitriGilbert/LimitAID
+- Website: https://github.com/DimitriGilbert/LimitAID
+- Tags: bash, cli, ai, developer-tools, monitoring, parseArger
+- Summary: A bash CLI that shows quota, balance, and usage limits for AI providers (Codex, OpenRouter, Z.ai) from one place.
+- Related articles: 0
+
+### sshm0
+
+- URL: https://dbuild.dev/projects/sshm0/
+- Repository: https://github.com/DimitriGilbert/sshm0
+- Website: https://github.com/DimitriGilbert/sshm0
+- Tags: ssh, bash, cli, parseArger
+- Summary: A simple CLI ssh connection manager
+- Related articles: 0
+
+### FeedElity
+
+- URL: https://dbuild.dev/projects/FeedElity/
+- Repository: https://github.com/DimitriGilbert/FeedElity
+- Website: https://github.com/DimitriGilbert/FeedElity
+- Tags: rss, youtube, solidjs, local-first, desktop-app, typescript, hono, sqlite
+- Summary: A local-first, video-oriented RSS client for following creators across YouTube, Odysee, and PeerTube from one fast three-column interface.
+- Related articles: 0
+
+### mpv-web-control
+
+- URL: https://dbuild.dev/projects/mpv-web-control/
+- Repository: https://github.com/DimitriGilbert/mpv-web-control
+- Website: https://github.com/DimitriGilbert/mpv-web-control
+- Tags: mpv, audio, homelab, raspberry-pi, react, hono, typescript
+- Summary: A local-network web remote for mpv — control your audio playback from any browser on your LAN. Built for Raspberry Pi and homelab setups.
+- Related articles: 2
+  - [mpv-web-control — your music, your phone, your LAN](https://dbuild.dev/blog/projects-mpv-web-control/)
+  - [mpv-web-control — ta musique, ton téléphone, ton réseau local](https://dbuild.dev/blog/projects-mpv-web-control-fr/)
 
 ### Task-O-Matic
 
@@ -97,15 +166,6 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 - Summary: A demonstration terminal for you projects (or mine).
 - Related articles: 0
 
-### sshm0
-
-- URL: https://dbuild.dev/projects/sshm0/
-- Repository: https://github.com/DimitriGilbert/sshm0
-- Website: https://github.com/DimitriGilbert/sshm0
-- Tags: ssh, bash, cli, parseArger
-- Summary: A simple CLI ssh connection manager
-- Related articles: 0
-
 ### AI-gents
 
 - URL: https://dbuild.dev/projects/AI-gents/
@@ -134,66 +194,6 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 - Tags: arduino, esp8266, esp32
 - Summary: Arduino framework-ish that handle the basics (wifi, ota, etc.)
 - Related articles: 0
-
-### arcade-vibe
-
-- URL: https://dbuild.dev/projects/arcade-vibe/
-- Repository: https://github.com/DimitriGilbert/arcade-vibe
-- Website: https://arcade-vibe.app
-- Tags: ai, gaming, prompt-engineering, nextjs, trpc, typescript, drizzle, postgresql
-- Summary: A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the monthly leaderboard.
-- Related articles: 2
-  - [arcade-vibe — One Prompt, One Shot, May the Best Prompt Win](https://dbuild.dev/blog/projects-arcade-vibe/)
-  - [arcade-vibe — Un Prompt, Un Shot, Que le Meilleur Prompt Gagne](https://dbuild.dev/blog/projects-arcade-vibe-fr/)
-
-### FeedElity
-
-- URL: https://dbuild.dev/projects/FeedElity/
-- Repository: https://github.com/DimitriGilbert/FeedElity
-- Website: https://github.com/DimitriGilbert/FeedElity
-- Tags: rss, youtube, solidjs, local-first, desktop-app, typescript, hono, sqlite
-- Summary: A local-first, video-oriented RSS client for following creators across YouTube, Odysee, and PeerTube from one fast three-column interface.
-- Related articles: 0
-
-### git-snitch
-
-- URL: https://dbuild.dev/projects/git-snitch/
-- Repository: https://github.com/DimitriGilbert/git-report
-- Website: https://github.com/DimitriGilbert/git-report
-- Tags: git, analytics, cli, visualization, typescript, monorepo
-- Summary: Standalone git activity reports — single HTML files with quality metrics, contributor analysis, anonymization, and AI-powered worklogs.
-- Related articles: 0
-
-### LimitAID
-
-- URL: https://dbuild.dev/projects/LimitAID/
-- Repository: https://github.com/DimitriGilbert/LimitAID
-- Website: https://github.com/DimitriGilbert/LimitAID
-- Tags: bash, cli, ai, developer-tools, monitoring, parseArger
-- Summary: A bash CLI that shows quota, balance, and usage limits for AI providers (Codex, OpenRouter, Z.ai) from one place.
-- Related articles: 0
-
-### lmaafy
-
-- URL: https://dbuild.dev/projects/lmaafy/
-- Repository: https://github.com/DimitriGilbert/lmaafy
-- Website: https://github.com/DimitriGilbert/lmaafy
-- Tags: ai, fun, react, tanstack, typescript
-- Summary: The LMGTFY of the AI age — generate a shareable link that plays a typing animation then redirects to an AI chatbot with your prompt pre-filled.
-- Related articles: 2
-  - [lmaafy — Laisse-moi demander à l'IA pour toi](https://dbuild.dev/blog/projects-lmaafy-fr/)
-  - [lmaafy — Let Me Ask AI For You](https://dbuild.dev/blog/projects-lmaafy/)
-
-### mpv-web-control
-
-- URL: https://dbuild.dev/projects/mpv-web-control/
-- Repository: https://github.com/DimitriGilbert/mpv-web-control
-- Website: https://github.com/DimitriGilbert/mpv-web-control
-- Tags: mpv, audio, homelab, raspberry-pi, react, hono, typescript
-- Summary: A local-network web remote for mpv — control your audio playback from any browser on your LAN. Built for Raspberry Pi and homelab setups.
-- Related articles: 2
-  - [mpv-web-control — your music, your phone, your LAN](https://dbuild.dev/blog/projects-mpv-web-control/)
-  - [mpv-web-control — ta musique, ton téléphone, ton réseau local](https://dbuild.dev/blog/projects-mpv-web-control-fr/)
 
 ## Articles
 

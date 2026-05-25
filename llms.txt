@@ -20,13 +20,13 @@ Use this file to orient AI agents. Prefer the JSON corpus index for precise URLs
 
 ## High-value project entities
 
-- [LiteChat](https://dbuild.dev/projects/LiteChat/): A modern, local first AI chat app for your browser.
 - [FormEdible](https://dbuild.dev/projects/FormEdible/): A React hook for creating schema-driven forms with TanStack Form and shadcn/ui components.
+- [LiteChat](https://dbuild.dev/projects/LiteChat/): A modern, local first AI chat app for your browser.
+- [arcade-vibe](https://dbuild.dev/projects/arcade-vibe/): A competitive prompt engineering platform disguised as a retro arcade. Write one prompt, pick your model, and see if your AI-generated game tops the monthly leaderboard.
 - [parseArger](https://dbuild.dev/projects/parseArger/): Standalone bash argument parsing code generator.
-- [Task-O-Matic](https://dbuild.dev/projects/Task-O-Matic/): AI-powered task management system transforming chaotic ideas into structured, executable task lists.
-- [Sprynge](https://dbuild.dev/projects/Sprynge/): Community-driven help & earn platform with unique reciprocity mechanic: help 2 to unlock posting.
-- [Clanker](https://dbuild.dev/projects/Clanker/): A simple spec, parser and CLI for portable workflows using AI.
-- [TerMinable](https://dbuild.dev/projects/TerMinable/): A demonstration terminal for you projects (or mine).
+- [git-snitch](https://dbuild.dev/projects/git-snitch/): Standalone git activity reports — single HTML files with quality metrics, contributor analysis, anonymization, and AI-powered worklogs.
+- [lmaafy](https://dbuild.dev/projects/lmaafy/): The LMGTFY of the AI age — generate a shareable link that plays a typing animation then redirects to an AI chatbot with your prompt pre-filled.
+- [LimitAID](https://dbuild.dev/projects/LimitAID/): A bash CLI that shows quota, balance, and usage limits for AI providers (Codex, OpenRouter, Z.ai) from one place.
 - [sshm0](https://dbuild.dev/projects/sshm0/): A simple CLI ssh connection manager
 
 ## Recent articles
