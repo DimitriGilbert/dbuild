@@ -15,6 +15,15 @@ interface ProjectsPageContentProps {
   totalProjects: number
 }
 
+type BentoSize = { col: "1" | "2" | "3" | "4"; row: "1" | "2" | "3" }
+
+interface ProjectTile {
+  project: Project
+  size: BentoSize
+}
+
+const DESKTOP_GRID_COLUMNS = 4
+
 function seededRandom(seed: string): number {
   let hash = 0
   for (let i = 0; i < seed.length; i++) {
@@ -29,21 +38,21 @@ function seededRandom(seed: string): number {
 function getBentoSizeFromProject(
   projectId: string,
   index: number,
-  totalCount: number
-): { col: "1" | "2" | "3" | "4"; row: "1" | "2" | "3" } {
+  isFeatured: boolean
+): BentoSize {
   const rand = seededRandom(projectId + index.toString())
   
-  if (index === 0) {
+  if (isFeatured) {
     return { col: "2", row: "2" }
   }
   
-  const sizeOptions: Array<{ col: "1" | "2" | "3" | "4"; row: "1" | "2" | "3"; weight: number }> = [
-    { col: "1", row: "1", weight: 0.35 },
-    { col: "2", row: "1", weight: 0.25 },
-    { col: "1", row: "2", weight: 0.20 },
-    { col: "2", row: "2", weight: 0.12 },
-    { col: "3", row: "1", weight: 0.05 },
-    { col: "2", row: "3", weight: 0.03 },
+  const sizeOptions: Array<BentoSize & { weight: number }> = [
+    { col: "1", row: "1", weight: 0.48 },
+    { col: "1", row: "2", weight: 0.24 },
+    { col: "2", row: "1", weight: 0.14 },
+    { col: "3", row: "1", weight: 0.07 },
+    { col: "2", row: "2", weight: 0.05 },
+    { col: "2", row: "3", weight: 0.02 },
   ]
   
   let cumulative = 0
@@ -57,6 +66,87 @@ function getBentoSizeFromProject(
   return { col: "1", row: "1" }
 }
 
+function getOpenSpan(row: boolean[], column: number): number {
+  let span = 0
+
+  for (let currentColumn = column; currentColumn < DESKTOP_GRID_COLUMNS; currentColumn++) {
+    if (row[currentColumn]) break
+    span++
+  }
+
+  return span
+}
+
+function createEmptyRow(): boolean[] {
+  return Array.from({ length: DESKTOP_GRID_COLUMNS }, () => false)
+}
+
+function findNextOpenCell(occupancy: boolean[][]): { row: number; column: number } {
+  let rowIndex = 0
+
+  while (true) {
+    const row = occupancy[rowIndex] ?? createEmptyRow()
+    occupancy[rowIndex] = row
+    const column = row.findIndex((isOccupied) => !isOccupied)
+
+    if (column !== -1) {
+      return { row: rowIndex, column }
+    }
+
+    rowIndex++
+  }
+}
+
+function reserveGridSpace(
+  occupancy: boolean[][],
+  startRow: number,
+  startColumn: number,
+  colSpan: number,
+  rowSpan: number
+): void {
+  for (let rowOffset = 0; rowOffset < rowSpan; rowOffset++) {
+    const rowIndex = startRow + rowOffset
+    const row = occupancy[rowIndex] ?? createEmptyRow()
+    occupancy[rowIndex] = row
+
+    for (let columnOffset = 0; columnOffset < colSpan; columnOffset++) {
+      row[startColumn + columnOffset] = true
+    }
+  }
+}
+
+function getLayoutAwareProjectTiles(projects: Project[], hasActiveTag: boolean): ProjectTile[] {
+  const occupancy: boolean[][] = []
+  const pendingTiles = projects.map((project, index) => ({
+    project,
+    size: getBentoSizeFromProject(project.id, index, index === 0 && !hasActiveTag),
+  }))
+  const layoutTiles: ProjectTile[] = []
+
+  while (pendingTiles.length > 0) {
+    const { row, column } = findNextOpenCell(occupancy)
+    const openSpan = getOpenSpan(occupancy[row], column)
+    const exactFitIndex = pendingTiles.findIndex((tile) => Number(tile.size.col) === openSpan)
+    const looseFitIndex = pendingTiles.findIndex((tile) => Number(tile.size.col) < openSpan)
+    const shouldPreferExactFit = openSpan !== 2
+    const tileIndex = shouldPreferExactFit && exactFitIndex !== -1 ? exactFitIndex : looseFitIndex !== -1 ? looseFitIndex : exactFitIndex !== -1 ? exactFitIndex : 0
+    const [tile] = pendingTiles.splice(tileIndex, 1)
+    const colSpan = Number(tile.size.col)
+    const rowSpan = Number(tile.size.row)
+
+    layoutTiles.push(tile)
+
+    if (colSpan > openSpan) {
+      reserveGridSpace(occupancy, row, column, openSpan, 1)
+      continue
+    }
+
+    reserveGridSpace(occupancy, row, column, colSpan, rowSpan)
+  }
+
+  return layoutTiles
+}
+
 export function ProjectsPageContent({ projects, allTags, totalProjects }: ProjectsPageContentProps) {
   const [activeTag, setActiveTag] = useState<string | null>(null)
 
@@ -64,6 +154,11 @@ export function ProjectsPageContent({ projects, allTags, totalProjects }: Projec
     if (!activeTag) return projects
     return projects.filter((p) => p.tags.some((t) => t.toLowerCase() === activeTag.toLowerCase()))
   }, [activeTag, projects])
+
+  const projectTiles = useMemo(
+    () => getLayoutAwareProjectTiles(filteredProjects, activeTag !== null),
+    [activeTag, filteredProjects]
+  )
 
   return (
     <div className="min-h-screen pt-20 relative overflow-hidden">
@@ -152,9 +247,8 @@ export function ProjectsPageContent({ projects, allTags, totalProjects }: Projec
           </span>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 auto-rows-[minmax(200px,auto)]">
-          {filteredProjects.map((project, index) => {
-            const size = getBentoSizeFromProject(project.id, index, filteredProjects.length)
+        <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 auto-rows-[minmax(200px,auto)]">
+          {projectTiles.map(({ project, size }, index) => {
             const isFeatured = index === 0 && !activeTag
 
             return (
