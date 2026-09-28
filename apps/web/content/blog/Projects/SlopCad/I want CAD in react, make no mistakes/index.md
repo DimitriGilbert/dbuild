@@ -1,0 +1,223 @@
+---
+title: "I want CAD in react, make no mistakes !"
+date: 2026-09-27T09:35:00+01:00
+tags: ["AI"]
+summary: "Ever wanted to integrate CAD capabilities to your projects ? I do ^^ ! This is how a dumb idea became an experiment that actually yielded something"
+slug: "index"
+og-image: "/images/blog/projects/slopcad/i_want_cad_in_react_make_no_mistakes/make_no_mistakes_og.webp"
+ogImageAlt: CAD viewport showing an exploded sandwich with Swiss cheese catching oozing mayo and a guilty robot agent
+---
+
+Stats first, for the nerds ! 1 glm-5.3 conversation, 3 compaction, 607 agents, 9 billion token burn that would have cost $1.5k if paid for, and all that running for... 8 days !
+
+The results ? https://slopcad.dbuild.dev and https://github.com/DimitriGilbert/slopcad ! Enjoy !
+
+Now that we've got the "tiktok attention span" crowd out of the way, let's talk like grown ups, the following article is not about SlopCad but what made it possible.
+
+This single run is the result of me working with AI for literal years at this point and the "Make no mistakes !"...
+
+## One simply does not make no mistakes
+
+Me, You, an AI agent, nobody nor thing is error proof ! You catch them before they happen, you have the experience to recognize the patterns and act on them, you put processes in place to ensure the work you produce is up to (your) standards and sometimes you learn by failing very publicly...
+
+An AI agent does not do **any** of that. It will comply if you ask it to though... but... what do you ask for ?
+
+### Tests, tests and a bit more tests just in case
+
+I've seen the light and I mostly use typescript being very strict about types so I got that part covered, but if you don't and still use subpar languages like javascript or python, you will want to make sure you test the hell out of your functions inputs and outputs.
+Unit tests or type checking is the first slice of cheese and it is usually pretty cheap !
+
+That said, being sure you receive and emit what you expect does not mean you are in the clear, you also have to test the actual behavior of the code... I'm really pained to admit that, but i believe TDD is the way to go here !
+Tests first with an implementation that validates them.
+I've always worked solo or in smaller teams so tests in general and TDD especially, were very expensive for the return (**ON A SMALL TEAM OR SOLO**), but now that they almost take more time to run than to write, there is literally NO EXCUSE !
+
+"Are we there yet ?!" might be coming to mind, and, Nope, not quite yet ! Tight types and correct algo are none of your user concerns (at first), they do not see or even care about the code, what they care is how they interact with it, UI !
+You could set to unit test your UI, of course, i tried, and I think it is stupid ! What is not on the other hand, is E2E testing !
+Talking about expensive ! I don't know about you, but the only few times I tried in the past, it was a nightmare, taking hours and with a continuous workload if I wanted to keep them up to date...
+Do you know what does not mind the soul crushing mind obliteratingly tedious task that is E2E testing ? AI.
+
+And now that models can actually SEE their work, building the E2E tests forces them to actually use their work, catching many problems in the process. It took me months to get here and I actually regret it, this would probably have saved me weeks of work overall this year...
+
+All those tests have a pitfall though, like every engineering decision... They are expensive, not in mind space nor in token cost, they can cost a lot of time !
+Remember when i talked about test taking more time to run that to write ? Right, well... this happened on SlopCad. every E2E tests were running on a separate new playwright instance, sequentially... at its peak, it took 30 minutes to run the E2E tests.
+
+I solved it in 2 passes, first with a concurrent execution of N at a time, that reduced the time to 12 minutes (pegging my dev box CPU to 100%...), and another one that would actually mimic a user session, building in a single tab. And this brought back the E2E tests to about 5 minutes !
+
+You might want to keep that trick in mind if you intend to do this in your projects !
+
+### Coverage, DRY and a tiny CRAP
+
+Tests will help, but the slice of cheese is full of holes that slop will sip through, so we have to add more (whatever the problem, it can always be solved with more cheese !) ! and the second slop-preventing layer is metrics !
+
+How much of your code is tested ? IMO, Less than 50% might as well not be and a low cost target is above 65%.
+
+As you all know AI will gleefully redeclare types and rewrite functions/methods/functionalities in place instead of reusing existing ones or making it accessible for future use.
+This is a major source of bugs in a lot of vibe coded projects (been there, done that) and it's usually very annoying to fix while it costs basically nothing if enforced all the time when building.
+Code redundancy will help a lot to catch those instances but there is another trick i'll talk about later on.
+
+And the final boss, the god modules/functions, the 1K+ lines nightmare file full of if and switches and callbacks and anonymous function soup... we all love those ones, don't we ?
+Asking for testable (and tested) code usually takes care for a good chunk of that, but most models have a way to shoehorn complexity wherever they can...
+It's bad for you (worse if you review the code), it's bad for them when they maintain it, nobody wins ! I won't state a figure here, and i don't think you should be crazy in your CRAP target, but you should definitely have one !
+
+Any of these metrics failing and the work gets sent right back to its creator so it gets beaten into compliance (resistance is futile !) !
+
+And with those pesky considerations out of the way, let's get shtuff done shall we ?
+
+### Prepare the work
+
+Did I say 1 conversation ? Huum... I might have lied a bit about that, but, Come on, you can't expect a CAD software to be created from a single agent conversation ! Let's be serious !
+
+It was actually 3... I know, outrageous, but let me explain...
+
+the 1st conversation was with chatGPT (probably Luna, I do not have a sub) on the site (side note: OMG, the experience was horrendous ! it's so slow and laggy !), I candidly asked if there was any open source CAD thing in react, it came back with a bunch of stuff, ... nothing i wanted... 
+
+But, it told me i could roll my own using OSS CAD kernels so I asked it a bit more info and precised what i wanted: shadcn components, browser first, completely parametric, etc, etc...
+
+A couple back and forth yielded a PRD and a plan, using "grilling" and "to-spec" skills from Matt Pocock and my own "subagent-orchestration".
+
+I then switched to Zcode to use glm-5.3 to get an adversarial review and another round of grilling to get the final PRD and plan files.
+The orchestrated development plan that came out of that is [here](https://github.com/DimitriGilbert/slopcad/blob/base/slopcad%20%E2%80%94%20Orchestrated%20Development%20Plan%20(1).md) (repo still private for a bit).
+
+This is the most involved step of the process and it can take hours to get a plan that suits you, don't skip this though, as this will determine EVERYTHING going forward !
+
+Yes, a plan never survives contact with the enemy, but a well crafted one will make the difference between a well organised project and a YOLO juice...
+
+### Strong foundations
+
+One can ask an AI to bootstrap a project from scratch, this is a way to do it, but I do not think it is a valid one !
+
+Use template repos or stack builders so you get a workspace ready to go in a single command !
+
+On top of being faster, the main benefit is that you know what your projects will look like ! But this also means your AI agents are not left guessing where things go.
+
+As I've seen the light and use typescript, I turned up the brightness to 11 using https://better-t-stack.dev. Any framework and tool worth using in the typescript ecosystem is supported, whether you want a browser only SPA, a fullstack NextJS or tanstack, specific backend (with or without a DB), a native/mobile app or even a web extension... it gets everything sorted out for you and your agent so the work can start faster with more consistency !
+
+I'm not aware of things like that in python or other languages, but you could always roll out your own bootstrap script, it's not that hard with AI and if you are a serial-builder, it will save you countless hours and tokens ! (I'd be interested to know what you guys are using BTW, even in subpar languages 3:D)
+
+This is when/where you should get your agent to setup your test harness, better-t-stack does not handle that just yet unfortunately...
+
+Now armed with those dense slices of anti-slop cheese, the bootstrapped bread and the recipe, it might be time to get this sandwich started, isn't it ?
+
+## The Chef, the Cooks and the kitchen
+
+Hungry yet ^^ ? Anywhoooo
+
+So, you'd think I'd let an agent go wild with the plan now, it's well built and reviewed, split in phases and sub-phases, we have quality gates all around, we are good to go, right ?
+
+To be honest, with a recent model and a good harness, it would probably figure out to use subagents and orchestrate the thing, but why leave it to chance ? Plus it would mean Me not babbling about my subagent-orchestration skill which is actually the Piece de Resistance in this story.
+
+I came up with this skill in January and i've been using it all the time since then. It is a skill to help orchestrate subagents... shocking indeed.
+
+So how does it actually work ?
+
+### Implementer-verifier-fixer loop
+
+You might have caught that the plan is split in phases and sub-phases already, this means that, for every subphase, the orchestrator is going to dispatch an implementer agent that will carry the work from the plan.
+
+Once this agent is done, a verifier is dispatched to, yes, verify the work.
+Ideally, a different model or even a few cheap ones (with a reconciliation) could be used here, I'm broke with a great AI plan, so glm only it is for me here.
+This is the trick about the type safety and code DRYness i talked about earlier, don't leave it only on the agent doing the work, get another/others to sign off on it !
+
+If either basic quality fails or some defects are found, the work goes to a fixer (could be the implementer if your harness allows) to get stuff right.
+
+This dance runs up to 3 times (seemed like a good compromise to avoid doom loops) until you are pulled back into the loop, only happened to me once since january :)
+
+And when it's done, next sub-phase is up, until the phase is done, at which point, another phase wide validator is dispatched to look at the bigger picture.
+This might feel overkill and often is, but I caught some real defects early that way in other projects so it stays.
+
+It could be a good place to run a bigger/stronger/smarter model that would catch sloppy code and architecture...
+being a poorman with only a z.ai sub, i did not but a Fable intervention from time to time would only help the codebase, for sure !
+
+Commit (or not), stacked PR (or not), this is at the end of a main phase that i ask the agent to do the whole versioning dance... it might be not enough... I haven't had a surprise yet, but mileage may vary this is why it is left out of the skill.
+
+And you got the gist of it, split work, loop on a phase until done and tested, rinse, repeat, nothing complicated, especially cause your orchestrator is handling all that by itself :D
+
+### Proof or it did not happen
+
+That's right, browsable metrics reports and at least screenshots of the E2E tests, but these days I actually ask for the E2E session to be recorded !
+
+There is not much more to say here, I've said it before, agents lie and will tell you they are done and everything is green... it's not.
+
+The only way for me to check up until recently was to test the actual work, and then invariably rage a minute in. And then someone mentioned recording its tests and this was a revelation !
+
+You actually don't even need to watch the video every time (or at all for a while), it just forces the agent to do something by asking for proofs, this is genius (and I don't remember who it was ^^') !
+
+### "I'm done !", No you are not.
+
+All the phases are done, PRs are stacked, video proofs are in and have been validated, you would like to hear that that the next step is the publish button !
+
+XD, like, have you read anything above this point ? We've asked AI to create a plan, the code, review and test it WITH video evidence and you think we're done ? How cute...
+
+So I talked, yet again, about subagent-orchestration, but something i talk less about is my subagent-review skill which I probably use even more !
+
+Name is speaking, once again, it's a review, conducted by subagents but the first step is always a mapping phase.
+An agent will map the code and create a review plan, grouping files (usually per functionality) to be reviewed and the orchestrator then conducts the plan by waves of 5. 
+The code in those files is reviewed by itself, but the agent is also tasked with understanding it (reading extra files in the process as needed) and making sure it catches logical/security flaws as well
+
+When all reviews are in, another set of agents are launched to verify the claims (as many as exploration agents, but i should work on that now that we have models with larger context !). this came cause i went on a wild goose chase after a nonexistent bug a few months back and it has proven useful in most my reviews this year, rejecting hallucinated bugs but more often finding new ones.
+
+And then, once all this menagerie is done, a fix plan is crafted by a final agent to organise the work. then guess what ?
+
+If you said another round of subagent-orchestration to run the fix plan, you would be smart and correct (see, it's not that hard ;)) !
+
+### Please, PLEASE, tell me we are done now...
+
+Who's gonna tell 'em ? the real answer... it depends :)
+
+It's an internal tool or a side project ? it works well enough plus you can always work/improve on it ? Well then ship it, use it, break it and so on !
+You made dat sandwich you might as well get a bite !
+
+Now, if it is critical infrastructure, client work or public facing stuff... I would not leave it as is ! As much as AI do a decent job these days, the burden is still on you to validate so use it and break it until there is nothing you can find to break !
+You already have all the E2E tests out of the way so do dumb stuff the AI doesn't think about. 
+Every time it breaks, on top of getting the agent to fix it, ask it to add a test for it and why not, find other similar patterns ! Find it once, never think of it again.
+
+And if you are so inclined, this is the time where you could always add "one more feature"... :P
+
+## Watch the clock, the tokens and your wallet Burn
+
+The main drawback of working like that (on top of being fairly slow), a big costly one, is that it is an absolute token furnace... I'm using a z.ai glm coding plan (pro) and I have a legacy plan, which means i do not have weekly limits... and boy oh boy was it good...
+
+The result is an 8 days run which consumed close to 9B tokens (70% being glm-5.3 and the rest 5.3-flash) and 607 agents which would have been close to $1.5k if i were to have paid for the tokens (/uneasy swallow)
+
+You could cut on review and the whole review-validation step during the subagent-review but i don't think their costs are meaningful if you weigh the benefits, like i said earlier, engineering trade off... a bit more cost a bit less slop...
+
+Good-ish news is that the slow part has a solution : worktrees ! (bad-ish news is that it makes the first problem worse :D how fun ?)
+
+The orchestration skill has a built in concurrent path, but only if they don't touch the same files so it does not happen that often...
+
+I've been reluctant to use worktrees so far... I've been burnt before using git submodule and I was wary of git magic... but I tried for the last day and a half on SlopCad, and now i regret never diving in !
+
+Some parts of the work would have benefited dramatically early on instead of going sequential and i think the cost of reconciliation would have been minimal, meh, the more you try...
+
+### The ultimate agent workflow (*not)
+
+I'm not going to lie, I'm pretty proud of my workflow ! Like I said, I've been using and refining it for months and it suits my work style very well.
+
+It works amazingly on new projects and if you skip the whole bootstrapping part, it fits well in an existing one (just make sure to plan with access to the code, duh ^^)...
+
+Despite my self-indulged validation, I think improvements can be made !
+
+As I touched on earlier, tests should never become a burden and this needs to be encoded and enforced strictly throughout the orchestration, 30 minutes tests ran 3 times in a phase is already 20% of a work day and it is not acceptable.
+
+Worktree based phase dispatch are a must as previously said and a dedicated UI/UX process must be put in place as this is more often than not the weakest part of all the projects I've created so far.
+
+Another point i wrote on before is the multimodel pattern where we could imagine Astra/Fable as an orchestrator, GLM/sol/opus as implementers, glm-5.3-flash/lune/deepseek as subphase reviewer, etc...
+
+t3-code looks particularly well suited for that with its "orchestration-v2" thing where an agent can call another model from another harness ! I will definitely give a look at that in the future !
+
+For now, if you want to do the same thing on your project, i have created another skill i called "create-a-project" that encompasses all of what i touched here and that I used to run the SlopCad creation.
+It references skills and behaviour so that the only thing you should have to do is give an idea, load the skill and follow along ^^ you'll find it [here](https://github.com/DimitriGilbert/ai-skills/tree/main/create-a-project) and I will create a script to ensure every needed skill is installed :)
+
+### What about SlopCad ?
+
+Oh, right, the actual project ^^, well... I'm not going to touch too much on it, this post is already long enough and to be perfectly honest, i barely tried the thing ! I'm at the "it depends" fork...
+
+To start with, and before talking too much I'm gonna have a big bite out of that first, maybe drop a slice of tomato and some mayo on the floor before presenting it and boasting about what it can do :P
+
+It is open source though, so if you have any experience with 3D modeling or just want to try, I'd be happy if you broke it a bit and tell me about it ! If the repo is alive enough, I will use it as a testbed, see what it takes for an agent to babysit a repo **:WINK-WINK:** (yes, the goal is to put myself out of work, so what ?)
+
+I guess this is all I have to say about that, but I'm really curious ! What do you think ? is it a completely stupid way of working or do you want to try it ? Any improvement coming to mind ?
+
+Do you have similar workflow maybe ? Or bad experiences that steer you away from this perhaps ?
+
+These are many questions, but they are what led me to the workflow i just presented and I most probably have overlooked stuff so I'd love to hear about how you work nowadays !
