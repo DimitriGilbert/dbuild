@@ -10,11 +10,13 @@ ogImageAlt: CAD viewport showing an exploded sandwich with Swiss cheese catching
 
 Stats first, for the nerds ! 1 glm-5.3 conversation, 3 compaction, 607 agents, 9 billion token burn that would have cost $1.5k if paid for, and all that running for... 8 days !
 
-The results ? https://slopcad.dbuild.dev and https://github.com/DimitriGilbert/slopcad ! Enjoy !
+The results ? [https://slopcad.dbuild.dev](https://slopcad.dbuild.dev) and [https://github.com/DimitriGilbert/slopcad](https://github.com/DimitriGilbert/slopcad) ! Enjoy !
 
 Now that we've got the "tiktok attention span" crowd out of the way, let's talk like grown ups, the following article is not about SlopCad but what made it possible.
 
 This single run is the result of me working with AI for literal years at this point and the "Make no mistakes !"...
+
+![CAD viewport sandwich with Swiss cheese catching oozing mayo](/images/blog/projects/slopcad/i_want_cad_in_react_make_no_mistakes/make_no_mistakes_og.webp)
 
 ## One simply does not make no mistakes
 
@@ -73,7 +75,7 @@ the 1st conversation was with chatGPT (probably Luna, I do not have a sub) on th
 
 But, it told me i could roll my own using OSS CAD kernels so I asked it a bit more info and precised what i wanted: shadcn components, browser first, completely parametric, etc, etc...
 
-A couple back and forth yielded a PRD and a plan, using "grilling" and "to-spec" skills from Matt Pocock and my own "subagent-orchestration".
+A couple back and forth yielded a PRD and a plan, using ["grilling"](https://skills.sh/mattpocock/skills/grilling) and ["to-spec"](https://skills.sh/mattpocock/skills/to-spec) skills from Matt Pocock and my own ["subagent-orchestration"](https://skills.sh/DimitriGilbert/ai-skills/subagent-orchestration).
 
 I then switched to Zcode to use glm-5.3 to get an adversarial review and another round of grilling to get the final PRD and plan files.
 The orchestrated development plan that came out of that is [here](https://github.com/DimitriGilbert/slopcad/blob/base/slopcad%20%E2%80%94%20Orchestrated%20Development%20Plan%20(1).md) (repo still private for a bit).
@@ -90,7 +92,7 @@ Use template repos or stack builders so you get a workspace ready to go in a sin
 
 On top of being faster, the main benefit is that you know what your projects will look like ! But this also means your AI agents are not left guessing where things go.
 
-As I've seen the light and use typescript, I turned up the brightness to 11 using https://better-t-stack.dev. Any framework and tool worth using in the typescript ecosystem is supported, whether you want a browser only SPA, a fullstack NextJS or tanstack, specific backend (with or without a DB), a native/mobile app or even a web extension... it gets everything sorted out for you and your agent so the work can start faster with more consistency !
+As I've seen the light and use typescript, I turned up the brightness to 11 using [https://better-t-stack.dev](https://better-t-stack.dev). Any framework and tool worth using in the typescript ecosystem is supported, whether you want a browser only SPA, a fullstack NextJS or tanstack, specific backend (with or without a DB), a native/mobile app or even a web extension... it gets everything sorted out for you and your agent so the work can start faster with more consistency !
 
 I'm not aware of things like that in python or other languages, but you could always roll out your own bootstrap script, it's not that hard with AI and if you are a serial-builder, it will save you countless hours and tokens ! (I'd be interested to know what you guys are using BTW, even in subpar languages 3:D)
 
@@ -205,8 +207,8 @@ Another point i wrote on before is the multimodel pattern where we could imagine
 
 t3-code looks particularly well suited for that with its "orchestration-v2" thing where an agent can call another model from another harness ! I will definitely give a look at that in the future !
 
-For now, if you want to do the same thing on your project, i have created another skill i called "create-a-project" that encompasses all of what i touched here and that I used to run the SlopCad creation.
-It references skills and behaviour so that the only thing you should have to do is give an idea, load the skill and follow along ^^ you'll find it [here](https://github.com/DimitriGilbert/ai-skills/tree/main/create-a-project) and I will create a script to ensure every needed skill is installed :)
+For now, if you want to do the same thing on your project, i have created another skill i called ["create-a-project"](https://skills.sh/DimitriGilbert/ai-skills/create-a-project) that encompasses all of what i touched here and that I used to run the SlopCad creation.
+It references skills and behaviour so that the only thing you should have to do is give an idea, load the skill and follow along ^^ you'll find it [here](https://skills.sh/DimitriGilbert/ai-skills/create-a-project) and I will create a script to ensure every needed skill is installed :)
 
 ### What about SlopCad ?
 
