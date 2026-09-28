@@ -6,10 +6,18 @@
     <atom:link href="https://dbuild.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Dbuild.dev is a portfolio and blog showcasing projects and insights</description>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 10:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 08:35:00 GMT</lastBuildDate>
     <generator>Dbuild.dev RSS Generator</generator>
     <managingEditor>dimitri@dbuild.dev (Dimitri Gilbert)</managingEditor>
     <webMaster>dimitri@dbuild.dev (Dimitri Gilbert)</webMaster>
+  <item>
+    <title>I want CAD in react, make no mistakes !</title>
+    <link>https://dbuild.dev/blog/projects-slopcad-i-want-cad-in-react-make-no-mistakes/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/projects-slopcad-i-want-cad-in-react-make-no-mistakes/</guid>
+    <description>Ever wanted to integrate CAD capabilities to your projects ? I do ^^ ! This is how a dumb idea became an experiment that actually yielded something</description>
+    <pubDate>Sun, 27 Sep 2026 08:35:00 GMT</pubDate>
+    <category>AI</category>
+  </item>
   <item>
     <title>lmaafy — Laisse-moi demander à l&apos;IA pour toi</title>
     <link>https://dbuild.dev/blog/projects-lmaafy-fr/</link>

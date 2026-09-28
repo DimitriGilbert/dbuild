@@ -15,7 +15,7 @@ Use this file to orient AI agents. Prefer the JSON corpus index for precise URLs
 ## Corpus stats
 
 - Projects: 17
-- Articles: 34
+- Articles: 35
 - Topics: 46
 
 ## High-value project entities
@@ -31,6 +31,7 @@ Use this file to orient AI agents. Prefer the JSON corpus index for precise URLs
 
 ## Recent articles
 
+- [I want CAD in react, make no mistakes !](https://dbuild.dev/blog/projects-slopcad-i-want-cad-in-react-make-no-mistakes/): Ever wanted to integrate CAD capabilities to your projects ? I do ^^ ! This is how a dumb idea became an experiment that actually yielded something
 - [lmaafy — Laisse-moi demander à l'IA pour toi](https://dbuild.dev/blog/projects-lmaafy-fr/): Le LMGTFY de l'ère de l'IA. Un lien qui joue une animation de frappe toute satisfaisante, puis redirige vers un chatbot IA avec ton prompt déjà rempli. Mesquin ? Peut-être. Satisfaisant ? Oh que oui.
 - [mpv-web-control — your music, your phone, your LAN](https://dbuild.dev/blog/projects-mpv-web-control/): A web remote for mpv running on a Raspberry Pi. Browse your music library from your phone, control playback, manage playlists. No app, no database, no cloud — just your browser and your speakers.
 - [mpv-web-control — ta musique, ton téléphone, ton réseau local](https://dbuild.dev/blog/projects-mpv-web-control-fr/): Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d'app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes.
@@ -42,11 +43,10 @@ Use this file to orient AI agents. Prefer the JSON corpus index for precise URLs
 - [Skills are the DRY of prompt engineering, you should use them and create your own](https://dbuild.dev/blog/projects-ai-skills-skills-are-the-dry-of-prompt-engineering/): Just like I use to create my own libraries and helpers I reused in most my projects, I now create skills so i don't rewrite the same prompts over and over again
 - [Les Skills sont le DRY du prompt engineering, tu devrais les utiliser et créer les tiennes](https://dbuild.dev/blog/projects-ai-skills-les-skills-sont-le-dry-du-prompt-engineering/): Comme j'avais l'habitude de créer mes propres bibliothèques et helpers que je réutilisais dans la plupart de mes projets, je crée maintenant des skills pour ne pas réécrire les mêmes prompts encore et encore
 - [The AI Debate Is Missing the Point (And So Are You)](https://dbuild.dev/blog/black-hole-the-ai-debate-is-missing-the-point-and-so-are-you/): The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app
-- [Le débat autour de l'IA est à cote de la plaque (toi aussi)](https://dbuild.dev/blog/black-hole-le-dbat-autour-de-l-ia-est-a-cote-de-la-plaque-toi-aussi/): La bulle IA va éclater, ça arrêtera pas l'IA. Ton refus d'utiliser l'IA empêchera pas ton job d'être remplacé. ChatGPT n'est pas la killer app de l'IA
 
 ## Frequent topics
 
-- [AI](https://dbuild.dev/blog/tags/ai/) (18)
+- [AI](https://dbuild.dev/blog/tags/ai/) (19)
 - [typescript](https://dbuild.dev/blog/tags/typescript/) (8)
 - [bash](https://dbuild.dev/blog/tags/bash/) (7)
 - [parseArger](https://dbuild.dev/blog/tags/parsearger/) (7)
