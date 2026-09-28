@@ -15,7 +15,7 @@ Use this file to orient AI agents. Prefer the JSON corpus index for precise URLs
 ## Corpus stats
 
 - Projects: 17
-- Articles: 35
+- Articles: 36
 - Topics: 46
 
 ## High-value project entities
@@ -32,6 +32,7 @@ Use this file to orient AI agents. Prefer the JSON corpus index for precise URLs
 ## Recent articles
 
 - [I want CAD in react, make no mistakes !](https://dbuild.dev/blog/projects-slopcad-i-want-cad-in-react-make-no-mistakes/): Ever wanted to integrate CAD capabilities to your projects ? I do ^^ ! This is how a dumb idea became an experiment that actually yielded something
+- [Je veux du CAD en react, make no mistakes !](https://dbuild.dev/blog/projects-slopcad-je-veux-du-cad-en-react-make-no-mistakes/): T'as déjà voulu coller du CAD dans tes projets ? Moi oui ^^ ! Voilà comment une idée débile est devenue une expérience qui a vraiment donné quelque chose
 - [lmaafy — Laisse-moi demander à l'IA pour toi](https://dbuild.dev/blog/projects-lmaafy-fr/): Le LMGTFY de l'ère de l'IA. Un lien qui joue une animation de frappe toute satisfaisante, puis redirige vers un chatbot IA avec ton prompt déjà rempli. Mesquin ? Peut-être. Satisfaisant ? Oh que oui.
 - [mpv-web-control — your music, your phone, your LAN](https://dbuild.dev/blog/projects-mpv-web-control/): A web remote for mpv running on a Raspberry Pi. Browse your music library from your phone, control playback, manage playlists. No app, no database, no cloud — just your browser and your speakers.
 - [mpv-web-control — ta musique, ton téléphone, ton réseau local](https://dbuild.dev/blog/projects-mpv-web-control-fr/): Une télécommande web pour mpv qui tourne sur un Raspberry Pi. Parcours ta bibliothèque musicale depuis ton téléphone, contrôle la lecture, gère les playlists. Pas d'app, pas de base de données, pas de cloud — juste ton navigateur et tes enceintes.
@@ -42,11 +43,10 @@ Use this file to orient AI agents. Prefer the JSON corpus index for precise URLs
 - [Un an de retour dans le game](https://dbuild.dev/blog/black-hole-un-an-de-retour-dans-le-game/): Après 8 ans à me faire ballader par ma maladie, l'IA m'a aidé à retourner bosser, ça fait un an, alors qu'est-ce que j'ai appris
 - [Skills are the DRY of prompt engineering, you should use them and create your own](https://dbuild.dev/blog/projects-ai-skills-skills-are-the-dry-of-prompt-engineering/): Just like I use to create my own libraries and helpers I reused in most my projects, I now create skills so i don't rewrite the same prompts over and over again
 - [Les Skills sont le DRY du prompt engineering, tu devrais les utiliser et créer les tiennes](https://dbuild.dev/blog/projects-ai-skills-les-skills-sont-le-dry-du-prompt-engineering/): Comme j'avais l'habitude de créer mes propres bibliothèques et helpers que je réutilisais dans la plupart de mes projets, je crée maintenant des skills pour ne pas réécrire les mêmes prompts encore et encore
-- [The AI Debate Is Missing the Point (And So Are You)](https://dbuild.dev/blog/black-hole-the-ai-debate-is-missing-the-point-and-so-are-you/): The AI bubble is going to happen, it will not stop AI. Your refusal to use AI won't stop your job being replaced. ChatGPT is not the AI killer app
 
 ## Frequent topics
 
-- [AI](https://dbuild.dev/blog/tags/ai/) (19)
+- [AI](https://dbuild.dev/blog/tags/ai/) (20)
 - [typescript](https://dbuild.dev/blog/tags/typescript/) (8)
 - [bash](https://dbuild.dev/blog/tags/bash/) (7)
 - [parseArger](https://dbuild.dev/blog/tags/parsearger/) (7)

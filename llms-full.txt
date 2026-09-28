@@ -13,7 +13,7 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 ## Stats
 
 - Projects: 17
-- Articles: 35
+- Articles: 36
 - Tags: 46
 - Languages: en, fr
 
@@ -206,6 +206,18 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 - Category: General
 - Tags: AI
 - Summary: Ever wanted to integrate CAD capabilities to your projects ? I do ^^ ! This is how a dumb idea became an experiment that actually yielded something
+- Related projects: none
+- Language alternates: none
+
+### Je veux du CAD en react, make no mistakes !
+
+- URL: https://dbuild.dev/blog/projects-slopcad-je-veux-du-cad-en-react-make-no-mistakes/
+- Language: unknown
+- Published: 2026-09-27T07:00:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: AI
+- Summary: T'as déjà voulu coller du CAD dans tes projets ? Moi oui ^^ ! Voilà comment une idée débile est devenue une expérience qui a vraiment donné quelque chose
 - Related projects: none
 - Language alternates: none
 
@@ -619,7 +631,7 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 
 ## Tags
 
-- [AI](https://dbuild.dev/blog/tags/ai/) (19)
+- [AI](https://dbuild.dev/blog/tags/ai/) (20)
 - [analytics](https://dbuild.dev/blog/tags/analytics/) (2)
 - [audio](https://dbuild.dev/blog/tags/audio/) (2)
 - [bash](https://dbuild.dev/blog/tags/bash/) (7)
