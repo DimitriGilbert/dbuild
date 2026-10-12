@@ -66,7 +66,7 @@ So, to simplify, all those various costs have been foregone and only the require
 
 Now that we established a baseline, we need the other side of this comparison, the Clankers ! Like the FleshyBots, they come in many sizes so we'll base calculation on the ones used to create [SlopCad](https://slopcad.dbuild.dev), glm-5.3 and glm-5.3-flash.
 
-They are respectively ~754B and ~321B parameter MoE models (about 40B / 18B active). In FP8-class serving that's roughly 750GB+ / 300GB+ of VRAM including overhead; a dumb dense-ish local stack can ask for more, so the card count below is a pessimistic upper bound...
+They are respectively a ~754B and a ~321B parameters model meaning you would need roughly 1TB and 500GB of VRAM to run them...
 
 ### The hardware
 
@@ -74,7 +74,7 @@ In this example, I'll pick a "consumer grade" piece of hardware, the RTX Pro 600
 
 They are rated at 300W each, but i'm pretty sure they wouldn't all run at full tilt with those models, so we'll say 150W per card (that should cover the other hardware like CPU, RAM, MB, ...)
 
-This gives us 1.8kW and 0.9kW continuous draw for the two models. z.ai's real serving is almost certainly leaner per token than this garden-variety local stack, but considering their API is not the fastest, I'm pretty sure wall-clock would still be in the same ballpark or higher !
+This gives us 1.8kW and 0.9kW for the two models and considering the z.ai API is not the fastest, I'm pretty sure the output speed would be in the same ballpark or higher !
 
 I'll still prefer the full power usage for this, not to give unfair advantage to the non biological machines.
 
