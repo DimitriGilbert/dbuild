@@ -14,7 +14,7 @@ Le résultat ? [https://slopcad.dbuild.dev](https://slopcad.dbuild.dev) et [http
 
 Maintenant qu'on a dégagé la clique "attention span tiktok", on peut parler comme des grands. L'article qui suit parle pas de SlopCad, mais de ce qui l'a rendu possible.
 
-Ce run, c'est le fruit de des années à bosser avec l'IA, et du fameux "Make no mistakes !"...
+Ce run, c'est le fruit d'années à bosser avec l'IA, et du fameux "Make no mistakes !"...
 
 ![Viewport CAD sandwich avec du fromage suisse qui rattrape la mayo](/images/blog/projects/slopcad/i_want_cad_in_react_make_no_mistakes/make_no_mistakes_og.webp)
 
