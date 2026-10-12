@@ -6,10 +6,18 @@
     <atom:link href="https://dbuild.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Dbuild.dev is a portfolio and blog showcasing projects and insights</description>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Sep 2026 08:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 23:09:00 GMT</lastBuildDate>
     <generator>Dbuild.dev RSS Generator</generator>
     <managingEditor>dimitri@dbuild.dev (Dimitri Gilbert)</managingEditor>
     <webMaster>dimitri@dbuild.dev (Dimitri Gilbert)</webMaster>
+  <item>
+    <title>I&apos;m tired of the whole energy discourse around AI</title>
+    <link>https://dbuild.dev/blog/black-hole-i-am-tired-of-the-whole-energy-discourse-around-ai/</link>
+    <guid isPermaLink="true">https://dbuild.dev/blog/black-hole-i-am-tired-of-the-whole-energy-discourse-around-ai/</guid>
+    <description>AI consumes a lot of energy to run, true, but what about a Human ?</description>
+    <pubDate>Thu, 01 Oct 2026 23:09:00 GMT</pubDate>
+    <category>AI</category>
+  </item>
   <item>
     <title>I want CAD in react, make no mistakes !</title>
     <link>https://dbuild.dev/blog/projects-slopcad-i-want-cad-in-react-make-no-mistakes/</link>

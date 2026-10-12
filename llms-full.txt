@@ -13,7 +13,7 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 ## Stats
 
 - Projects: 17
-- Articles: 36
+- Articles: 37
 - Tags: 46
 - Languages: en, fr
 
@@ -196,6 +196,18 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 - Related articles: 0
 
 ## Articles
+
+### I'm tired of the whole energy discourse around AI
+
+- URL: https://dbuild.dev/blog/black-hole-i-am-tired-of-the-whole-energy-discourse-around-ai/
+- Language: unknown
+- Published: 2026-10-01T23:09:00.000Z
+- Updated: unknown
+- Category: General
+- Tags: AI
+- Summary: AI consumes a lot of energy to run, true, but what about a Human ?
+- Related projects: none
+- Language alternates: none
 
 ### I want CAD in react, make no mistakes !
 
@@ -631,7 +643,7 @@ Portfolio and blog about developer tools, AI, agents, local-first apps, and expe
 
 ## Tags
 
-- [AI](https://dbuild.dev/blog/tags/ai/) (20)
+- [AI](https://dbuild.dev/blog/tags/ai/) (21)
 - [analytics](https://dbuild.dev/blog/tags/analytics/) (2)
 - [audio](https://dbuild.dev/blog/tags/audio/) (2)
 - [bash](https://dbuild.dev/blog/tags/bash/) (7)
